@@ -29,7 +29,7 @@ Nur Python-Standardbibliothek, keine Installation nötig.
 
 - [x] Grundgerüst, Datenformat, Quellenliste, Prüfskript
 - [x] Probelauf von Hand (KW 41), Quellen auf Erreichbarkeit geprüft
-- [ ] Wöchentlicher geplanter Task
+- [x] Wöchentlicher geplanter Task (sonntags früh, Testläufe an anderen Tagen auf Branch `testlauf`)
 - [ ] GitHub Action für den Upload zum Webspace
 - [ ] Anzeige auf der Webseite
 
