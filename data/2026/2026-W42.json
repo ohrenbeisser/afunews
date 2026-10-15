@@ -1,0 +1,337 @@
+{
+  "kw": "2026-W42",
+  "zeitraum": {
+    "von": "2026-10-12",
+    "bis": "2026-10-15"
+  },
+  "erstellt": "2026-10-15T11:05:00+02:00",
+  "ueberblick": "Zwischenstand bis Donnerstag, 15. Oktober; die Woche ist noch nicht abgeschlossen. Der DARC hat die Unterlagen für seine Mitgliederversammlung veröffentlicht und das Logbuch Wavelog@DARC aktualisiert. Am Wochenende 24. und 25. Oktober steht der CQ WW DX Contest SSB an, einige DXpeditionen sind schon jetzt auf den Bändern.",
+  "ausbreitung": "Laut HF-Referat des DARC weht der Sonnenwind aus einem koronalen Loch mit rund 510 km/s, soll aber langsam nachlassen. Das Erdmagnetfeld ist ruhig bis leicht unruhig, das Risiko für größere Flares gering; für DX werden brauchbare bis gute Bedingungen erwartet.",
+  "meldungen": [
+    {
+      "id": "2026-W42-001",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "CQ WW DX Contest SSB am 24. und 25. Oktober",
+      "zusammenfassung": "Der CQ World Wide DX Contest in SSB läuft von Samstag 00:00 UTC bis Sonntag 23:59 UTC. Mehrere DXpeditionen haben ihre Teilnahme angekündigt, entsprechend voll werden die Bänder am Wochenende.",
+      "quelle": {
+        "name": "CQ WW",
+        "url": "https://www.cqww.com/rules/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 1,
+      "region": "INT",
+      "tags": [
+        "CQ WW",
+        "Contest",
+        "SSB"
+      ],
+      "termin": {
+        "beginn": "2026-10-24T00:00:00+00:00",
+        "ende": "2026-10-25T23:59:00+00:00",
+        "rufzeichen": [],
+        "baender": [
+          "160m",
+          "80m",
+          "40m",
+          "20m",
+          "15m",
+          "10m"
+        ],
+        "betriebsarten": [
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-002",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Unterlagen zur DARC-Mitgliederversammlung veröffentlicht",
+      "zusammenfassung": "Tagesordnung, Anträge und Tagungsunterlagen für die Mitgliederversammlung am 14. November in Baunatal stehen jetzt im Mitgliederbereich der DARC-Webseite. Vor der Versammlung um 11 Uhr gibt es ab 9 Uhr eine offene Diskussion zu den Anträgen.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/tagungsunterlagen-zur-darc-mitgliederversammlung-online/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Mitgliederversammlung",
+        "Anträge"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-003",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Wavelog@DARC 3.2.4 mit ADIF 3.1.8 und schnellerem eQSL-Upload",
+      "zusammenfassung": "Das DARC-Logbuch unter log.darc.de ist auf Version 3.2.4 aktualisiert. Neu sind unter anderem ADIF 3.1.8, parallele eQSL-Uploads, ein überarbeiteter Upload zum QO-100 DX Club und Erweiterungen der API v2.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/wavelogdarc-erhaelt-bugfixes-im-rahmen-der-versionspflege-7/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Wavelog",
+        "Logbuch",
+        "ADIF",
+        "QO-100"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-004",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "„Parlez vous QSO“: Funkphrasen in 17 Sprachen",
+      "zusammenfassung": "DD0UL hat die Sammlung gängiger QSO-Redewendungen von M0ECS überarbeitet; sie umfasst jetzt 17 Sprachen mit je 142 Einträgen und Lautschrift, neu sind Portugiesisch und Ukrainisch. Die PDFs und die LaTeX-Quellen liegen frei auf GitHub.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/parlez-vous-qso-verbindet-funkamateure-ueber-sprachgrenzen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Betriebstechnik",
+        "Sprachen",
+        "QSO"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-005",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "RSGB Convention 2026: Vorträge auf YouTube",
+      "zusammenfassung": "Die RSGB hat die Livestreams ihrer Convention vom 10. und 11. Oktober in Milton Keynes auf YouTube gestellt, zusammen rund 14 Stunden. Im Samstagsstream diskutieren die Präsidenten von RSGB, IRTS, DARC und IARU über die Lage des Amateurfunks; DL3MBG stellte außerdem das DARC-QSL-Büro vor.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vortraege-der-rsgb-convention-2026-auf-youtube-abrufbar/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "RSGB",
+        "Convention",
+        "YouTube",
+        "QSL-Büro"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-006",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "USKA: WhatsApp-Gruppe für blinde und sehbehinderte Funkamateure",
+      "zusammenfassung": "Die IG Blind HAMs Schweiz hat eine WhatsApp-Gruppe für blinde und sehbehinderte Funkamateure in der Schweiz eingerichtet.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/neue-whatsapp-gruppe-fuer-blinde-und-sehbehinderte-funkamateure/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "Barrierefreiheit",
+        "USKA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-007",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "Club Log App zeigt DX-World-Meldungen im Kalender",
+      "zusammenfassung": "Die Club-Log-App für Android und iOS bindet ab Version 2.2.0 die Meldungen von DX-World in ihren Kalender ein. Angekündigte DXpeditionen und aktuelle Aktivitäten erscheinen damit an einer Stelle.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/club-log-dx-world-collaboration/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Club Log",
+        "App",
+        "DX-Kalender"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-008",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Billiger WLAN-Stick als SDR für 2,4 und 5 GHz",
+      "zusammenfassung": "Ein Entwickler hat einen USB-3.0-WLAN-Stick mit MediaTek-MT7921-Chip so umgebaut, dass er rohe I/Q-Daten mit bis zu 40 Msps liefert. Der Bereich um 2,4 GHz überschneidet sich mit dem 13-cm-Band.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/birriasdr-2-4-5-ghz-sdr-discovery-on-a-mass-produced-usb3-0-wi-fi-dongle/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "WLAN",
+        "13cm"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-009",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "3DA0GY: Eswatini bis 2. November",
+      "zusammenfassung": "LA9GY funkt von Piggs Peak auf 40m bis 10m in CW und SSB und will am WAG-Contest und am CQ WW SSB teilnehmen. Seine Antenne kam bei der Anreise nicht an, der Betrieb kann sich deshalb verzögern; QSL über LoTW.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/3da0gy-eswatini/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "DXpedition",
+        "Eswatini",
+        "3DA"
+      ],
+      "termin": {
+        "beginn": "2026-10-15T00:00:00+00:00",
+        "ende": "2026-11-02T23:59:00+00:00",
+        "rufzeichen": [
+          "3DA0GY"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-010",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "KH8/AG4ZP und 5W0ZP: Amerikanisch-Samoa und Samoa",
+      "zusammenfassung": "AG4ZP ist vom 15. bis 18. Oktober als KH8/AG4ZP in QRP aktiv, überwiegend in FT8 und FT4. Anschließend ist vom 19. bis 29. Oktober Betrieb als 5W0ZP aus Samoa geplant, die Lizenz steht aber noch aus.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/kh8-ag4zp-5w0zp-american-samoa-samoa/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "DXpedition",
+        "Samoa",
+        "QRP"
+      ],
+      "termin": {
+        "beginn": "2026-10-15T00:00:00+00:00",
+        "ende": "2026-10-29T23:59:00+00:00",
+        "rufzeichen": [
+          "KH8/AG4ZP",
+          "5W0ZP"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "FT8",
+          "FT4"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-011",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "V26B: Antigua im CQ WW SSB",
+      "zusammenfassung": "Von Antigua wird V26B am 24. und 25. Oktober im CQ WW DX Contest SSB aktiv sein.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/v26b-antigua/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Antigua",
+        "Contest",
+        "V2"
+      ],
+      "termin": {
+        "beginn": "2026-10-24T00:00:00+00:00",
+        "ende": "2026-10-25T23:59:00+00:00",
+        "rufzeichen": [
+          "V26B"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-012",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "S21HRG: Bangladesch bis 20. Oktober",
+      "zusammenfassung": "Dreizehn Operatoren funken vom 16. bis 20. Oktober aus Tetulia auf 80m bis 10m in SSB, CW und FT8. QSL über Club Log OQRS, Manager ist S21RAK.",
+      "quelle": {
+        "name": "QRZ.com",
+        "url": "https://www.qrz.com/db/S21HRG",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "DXpedition",
+        "Bangladesch",
+        "S2"
+      ],
+      "termin": {
+        "beginn": "2026-10-16T00:00:00+00:00",
+        "ende": "2026-10-20T23:59:00+00:00",
+        "rufzeichen": [
+          "S21HRG"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "SSB",
+          "CW",
+          "FT8"
+        ]
+      },
+      "video": null
+    }
+  ]
+}
