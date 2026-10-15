@@ -1,4 +1,11 @@
 {
-  "aktualisiert": null,
-  "wochen": []
+  "aktualisiert": "2026-10-15T10:45:00+02:00",
+  "wochen": [
+    {
+      "kw": "2026-W41",
+      "datei": "2026/2026-W41.json",
+      "erstellt": "2026-10-15T10:45:00+02:00",
+      "anzahl_meldungen": 21
+    }
+  ]
 }

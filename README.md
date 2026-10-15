@@ -28,7 +28,7 @@ Nur Python-Standardbibliothek, keine Installation nötig.
 ## Stand
 
 - [x] Grundgerüst, Datenformat, Quellenliste, Prüfskript
-- [ ] Probelauf von Hand, Quellen auf Erreichbarkeit prüfen
+- [x] Probelauf von Hand (KW 41), Quellen auf Erreichbarkeit geprüft
 - [ ] Wöchentlicher geplanter Task
 - [ ] GitHub Action für den Upload zum Webspace
 - [ ] Anzeige auf der Webseite

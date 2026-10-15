@@ -1,0 +1,552 @@
+{
+  "kw": "2026-W41",
+  "zeitraum": {
+    "von": "2026-10-05",
+    "bis": "2026-10-11"
+  },
+  "erstellt": "2026-10-15T10:45:00+02:00",
+  "ueberblick": "Die AMSAT-DL hat ihre ersten Bochumer Satelliten im Orbit, zwei der drei ERMINAZ-2 senden bereits. Am kommenden Wochenende stehen der WAG-Contest und der Ausbildungscontest an, mehrere deutsche Teams sind dafür auf DXpedition. Der DARC hat seine Mitgliederversammlung für den 14. November angekündigt, und im Erzgebirge gibt es am Samstag ein Ersatztreffen in Scheibenberg.",
+  "ausbreitung": "Laut Funkwetter von DF5JL war die Sonne in der ersten Oktoberwoche mäßig aktiv, mit Flares der M-Klasse aus Region 4549 am 6. Oktober. Für die Tage danach waren tagsüber brauchbare bis gute Bedingungen auf den oberen Bändern angekündigt, 10m nur zeitweise offen.",
+  "meldungen": [
+    {
+      "id": "2026-W41-001",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "ERMINAZ-2: Zwei von drei Bochumer Satelliten senden",
+      "zusammenfassung": "Die drei PocketQubes ERMINAZ-2U, -2V und -2X der AMSAT-DL starteten am 1. Oktober mit SpaceX Transporter-18 und wurden schon am 2. Oktober ausgesetzt, früher als geplant. ERMINAZ-2U (435,900 MHz) und ERMINAZ-2V (145,920 MHz) melden sich mit Telemetrie, von ERMINAZ-2X (145,960 MHz) fehlt bisher jedes Signal.",
+      "quelle": {
+        "name": "AMSAT-DL",
+        "url": "https://amsat-dl.org/erminaz-2-satelliten-senden-erste-signale/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-05",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "ERMINAZ-2",
+        "AMSAT-DL",
+        "PocketQube",
+        "Bochum"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-002",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "Worked All Germany Contest am 17. und 18. Oktober",
+      "zusammenfassung": "Der WAG-Contest des DARC läuft von Samstag 15:00 UTC bis Sonntag 14:59 UTC auf 80m bis 10m in CW und SSB. Ausländische Stationen arbeiten deutsche DOKs; mehrere DXpeditionen mit deutschen Teams wollen teilnehmen.",
+      "quelle": {
+        "name": "DARC Referat Conteste",
+        "url": "https://www.darc.de/der-club/referate/conteste/wag-contest/wag/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "WAG",
+        "Contest",
+        "DOK"
+      ],
+      "termin": {
+        "beginn": "2026-10-17T15:00:00+00:00",
+        "ende": "2026-10-18T14:59:00+00:00",
+        "rufzeichen": [],
+        "baender": [
+          "80m",
+          "40m",
+          "20m",
+          "15m",
+          "10m"
+        ],
+        "betriebsarten": [
+          "CW",
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W41-003",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Mitgliederversammlung am 14. November in Baunatal",
+      "zusammenfassung": "Die Mitgliederversammlung des DARC findet am Samstag, 14. November, im Hotel Stadt Baunatal statt; ab 9 Uhr gibt es eine offene Diskussionsrunde zu den Anträgen, Beginn der Versammlung gegen 11 Uhr. Anträge und Tagungsunterlagen veröffentlicht der DARC auf seiner Webseite.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/der-club/vo-ar/ar/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-08",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Mitgliederversammlung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-004",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Vorstand beantwortet am 15. Oktober Mitgliederfragen",
+      "zusammenfassung": "Am 15. Oktober um 19:30 Uhr können DARC-Mitglieder dem Vorstand online Fragen stellen. Der Zugang läuft über den Kalendereintrag auf treff.DARC.",
+      "quelle": {
+        "name": "DARC Deutschland-Rundspruch",
+        "url": "https://treff.darc.de/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-08",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Vorstand",
+        "treff.DARC"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-005",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Chat nach Massensperrung wieder in Betrieb",
+      "zusammenfassung": "Ein Anti-Spam-Bot hatte in der Nacht zum Donnerstag viele Nutzer des DARC-Chats gesperrt, ausgelöst durch eine fehlerhafte Sperrliste aus dem Mozilla-Projekt, die fast alle Matrix-Konten traf. Freiwillige und die DARC-IT haben die Sperren aufgehoben und betroffene Räume neu aufgebaut; Nutzerdaten waren laut DARC nicht gefährdet.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/stoerung-im-darc-chat-behoben-chatbetrieb-wiederhergestellt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-10",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Chat",
+        "Matrix"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-006",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "USKA-Notfunktagung in Brütten mit rund 70 Teilnehmern",
+      "zusammenfassung": "Die Schweizer USKA hat am 10. Oktober zusammen mit der Notfunk-Gruppe Brütten eine EmComm-Tagung abgehalten. Themen waren unter anderem Winlink, das Datennetz AREDN und Kommunikation in Ausnahmelagen, dazu ein eigener Block für Führungsstäbe, Zivilschutz und Feuerwehr.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/erfolgreiche-notfunk-tagung-in-bruetten/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-10",
+      "wichtigkeit": 2,
+      "region": "DACH",
+      "tags": [
+        "Notfunk",
+        "Winlink",
+        "AREDN",
+        "USKA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-007",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Hurrikan Isaias: Hurricane Watch Net aktiv",
+      "zusammenfassung": "Wegen des Hurrikans Isaias im Golf von Mexiko war das Hurricane Watch Net der USA auf 14,325 MHz und 7,268 MHz aktiv. Funkamateure in Europa sollten diese Frequenzen während solcher Einsätze freihalten.",
+      "quelle": {
+        "name": "ARRL",
+        "url": "https://www.arrl.org/news/radio-amateurs-prepare-for-hurricane-isaias",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-07",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Notfunk",
+        "Hurricane Watch Net",
+        "USA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-008",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "Transporter-18 brachte drei weitere Amateurfunksatelliten ins All",
+      "zusammenfassung": "Neben ERMINAZ-2 flogen am 1. Oktober UNNE-1B (HADES-E2) und HADES-L der AMSAT-EA sowie SanoSat-2 aus Nepal mit. HADES-L hat einen Uplink auf 29,472 MHz USB und sendet in FM auf 436,665 MHz, SanoSat-2 sendet auf 436,650 MHz.",
+      "quelle": {
+        "name": "AMSAT News Service",
+        "url": "https://www.amsat.org/ans-284-amsat-news-service-weekly-bulletins/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-11",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "Transporter-18",
+        "AMSAT-EA",
+        "HADES",
+        "SanoSat-2"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-009",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "AMSAT Space Symposium in Jacksonville, Vorstand bestätigt",
+      "zusammenfassung": "Vom 8. bis 11. Oktober tagte das 44. AMSAT Space Symposium in Jacksonville (Florida); die Vorträge wurden auf dem YouTube-Kanal der AMSAT-NA übertragen. Der Vorstand bestätigte Drew Glasbrenner, KO4MA, als Präsidenten für 2027.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/amsat-symposium-2026-startet-in-jacksonville-usa/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-07",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "AMSAT-NA",
+        "Symposium"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-010",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "ESP32-S3 als SDR-Empfänger und 13-cm-Sender",
+      "zusammenfassung": "DA2JH hat mit esp32-sdr-trx ein Projekt veröffentlicht, das ein einzelnes ESP32-S3-Board als rtl_tcp-Empfänger für SDR++ nutzt und im 13-cm-Band in Schmalband-FM oder SSB sendet. Die Sendeleistung ist nicht kalibriert und Oberwellen wurden nicht gemessen; Senden ist nur mit Amateurfunkzulassung erlaubt.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/esp32-sdr-trx-use-an-esp32-s3-as-a-receiver-for-sdr-and-as-an-fm-ssb-voice-transmitter-on-13cm/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-07",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "ESP32",
+        "SDR",
+        "13cm",
+        "Selbstbau"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-011",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Kostenloser Log-Analyzer von F4HRG",
+      "zusammenfassung": "F4HRG bietet ein kostenloses, mehrsprachiges Werkzeug zur Auswertung von Logs an, das ADIF, ADX, Cabrillo und CSV liest. Es zeigt unter anderem QSO-Raten, Aufteilung nach Band, DXCC und Kontinent sowie Betriebs- und Pausenzeiten und vergleicht Conteste über mehrere Jahre.",
+      "quelle": {
+        "name": "ÖVSV",
+        "url": "https://www.oevsv.at/oevsv/aktuelles/Ein-interessanter-Log-Analyzer/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-10",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Log",
+        "ADIF",
+        "Cabrillo",
+        "Software"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-012",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "SAQ sendet am 24. Oktober auf 17,2 kHz",
+      "zusammenfassung": "Der historische Maschinensender SAQ in Grimeton (Schweden) geht zum Tag der Vereinten Nationen wieder in Betrieb, mit Nachrichten um 12:45 UTC und 13:00 UTC. Testsendungen sind für den 23. Oktober von 11:00 bis 14:00 UTC angekündigt; die Clubstation SK6SAQ ist am Aktionstag in CW und SSB QRV.",
+      "quelle": {
+        "name": "DARC Deutschland-Rundspruch",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-402026-41-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-08",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "SAQ",
+        "Grimeton",
+        "Längstwelle",
+        "SK6SAQ"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-013",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "Dortmunder Amateurfunkmarkt am 25. Oktober in Kamen",
+      "zusammenfassung": "Der 53. Dortmunder Amateurfunkmarkt findet am 25. Oktober in der Stadthalle Kamen statt. Einlass für Besucher ist ab 11 Uhr.",
+      "quelle": {
+        "name": "Amateurfunkmarkt Dortmund",
+        "url": "https://amateurfunkmarkt.de/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-08",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Flohmarkt",
+        "Kamen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-014",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "Online-AfuBarcamp am 21. November",
+      "zusammenfassung": "Das nächste Online-AfuBarcamp läuft am 21. November von 15 bis 22 Uhr mit einer Pause am frühen Abend. Eine Anmeldung ist nicht nötig, Zugang und Ablauf stehen auf der Webseite.",
+      "quelle": {
+        "name": "AfuBarcamp",
+        "url": "https://afubarcamp.de/afubarcamp-2026-11",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-08",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Barcamp",
+        "online"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-015",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "47. GHz-Tagung in Dorsten sucht Vorträge",
+      "zusammenfassung": "Die 47. GHz-Tagung findet am 13. Februar 2027 in Dorsten statt. Die Veranstalter suchen noch Vorträge und Beiträge für den Tagungsband, vom Fachvortrag bis zum Contestbericht.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/am-13-februar-2027-wird-die-naechste-ghz-tagung-in-dorsten-stattfinden/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-08",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "GHz-Tagung",
+        "Mikrowelle",
+        "Dorsten"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-016",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "Erzgebirgstreffen in Scheibenberg am 17. Oktober",
+      "zusammenfassung": "Als Ersatz für das abgesagte Treffen Amateurfunk Erzgebirge laden die Funkamateure am 17. Oktober ab 10 Uhr in den Berggasthof Scheibenberg ein. Um Anmeldung per E-Mail bei DL6JF wird gebeten.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/erzgebirgstreffen-scheibenberg-update/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-09-24",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "Erzgebirge",
+        "Treffen",
+        "Scheibenberg"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W41-017",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "16. DARC-Ausbildungscontest am 17. Oktober",
+      "zusammenfassung": "Der Ausbildungscontest läuft am 17. Oktober von 12:00 bis 14:29 UTC auf 80m und 40m in CW und SSB, mit langsamem CW für Einsteiger. Gewertet wird getrennt nach Einsteigern mit Ausbildungsrufzeichen, übrigen deutschen Stationen und Ausland; Logs bis 25. November.",
+      "quelle": {
+        "name": "DARC Referat Conteste",
+        "url": "https://www.darc.de/der-club/referate/conteste/ausbildungscontest/ac-ausschreibung/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-08",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Ausbildung",
+        "Contest",
+        "Einsteiger"
+      ],
+      "termin": {
+        "beginn": "2026-10-17T12:00:00+00:00",
+        "ende": "2026-10-17T14:29:00+00:00",
+        "rufzeichen": [],
+        "baender": [
+          "80m",
+          "40m"
+        ],
+        "betriebsarten": [
+          "CW",
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W41-018",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "7P8GE: Deutsches Team in Lesotho",
+      "zusammenfassung": "Fünf deutsche Funkamateure, darunter DL7UFR und DL6SAK, funken vom 16. bis 29. Oktober aus Lesotho auf 80m bis 10m mit bis zu fünf Stationen gleichzeitig. QSL über DL7UFR direkt oder über das Büro, Log später in LoTW.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/7P8GE_16-29-Oktober.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-11",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "DXpedition",
+        "Lesotho",
+        "7P8"
+      ],
+      "termin": {
+        "beginn": "2026-10-16T00:00:00+00:00",
+        "ende": "2026-10-29T23:59:00+00:00",
+        "rufzeichen": [
+          "7P8GE"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "Digital"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W41-019",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "VP2MAW: Deutsches Team auf Montserrat bis 20. Oktober",
+      "zusammenfassung": "Sechs deutsche Funkamateure, unter anderem DK8YY und DL8AKI, sind von Montserrat aktiv, bisher vor allem in CW und FT8. Das Team nimmt auch am WAG-Contest teil.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/VP2MAW.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "DXpedition",
+        "Montserrat",
+        "VP2M",
+        "WAG"
+      ],
+      "termin": {
+        "beginn": "2026-10-10T00:00:00+00:00",
+        "ende": "2026-10-20T23:59:00+00:00",
+        "rufzeichen": [
+          "VP2MAW"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W41-020",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "H49A: Salomonen bis 21. Oktober",
+      "zusammenfassung": "Sechs Operatoren funken von Guadalcanal auf Kurzwelle und 6m in CW, SSB und FT8. QSL über DK8ZZ.",
+      "quelle": {
+        "name": "Solomon 2026",
+        "url": "https://solomon2026.com/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "DXpedition",
+        "Salomonen",
+        "H4"
+      ],
+      "termin": {
+        "beginn": "2026-10-07T00:00:00+00:00",
+        "ende": "2026-10-21T23:59:00+00:00",
+        "rufzeichen": [
+          "H49A"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W41-021",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "S9R: São Tomé und Príncipe ab 17. Oktober",
+      "zusammenfassung": "Sechs Operatoren sind vom 17. bis 31. Oktober von 160m bis 6m einschließlich 60m in CW, SSB, RTTY und FT8 aktiv. Der QSL-Weg wird noch bekanntgegeben.",
+      "quelle": {
+        "name": "NG3K Announced DX Operations",
+        "url": "http://www.ng3k.com/Misc/adxo.html",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "DXpedition",
+        "São Tomé",
+        "S9"
+      ],
+      "termin": {
+        "beginn": "2026-10-17T00:00:00+00:00",
+        "ende": "2026-10-31T23:59:00+00:00",
+        "rufzeichen": [
+          "S9R"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "RTTY",
+          "FT8"
+        ]
+      },
+      "video": null
+    }
+  ]
+}
