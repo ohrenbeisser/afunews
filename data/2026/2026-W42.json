@@ -1,0 +1,441 @@
+{
+  "kw": "2026-W42",
+  "zeitraum": {
+    "von": "2026-10-12",
+    "bis": "2026-10-15"
+  },
+  "erstellt": "2026-10-15T12:20:00+02:00",
+  "ueberblick": "Am 24. und 25. Oktober läuft der CQ WW DX Contest in SSB. Die DXpedition 9T0MD aus der DR Kongo ist mit über 90.000 Verbindungen beendet, aus Somalia funkt noch bis 25. Oktober 6O2M. Der DARC hat sein Online-Logbuch auf Version 3.2.4 gebracht, die Bundesnetzagentur ihre Prüfungstermine aktualisiert. Schulen können sich noch bis 23. Oktober bei ARISS Europa um einen ISS-Kontakt im Jahr 2027 bewerben.",
+  "ausbreitung": "Laut FunkWX des DARC vom 14. Oktober war die Flare-Aktivität gering, geomagnetisch ruhig bis unruhig mit aktiven Phasen durch schnellen Sonnenwind aus einem koronalen Loch; die DX-Bedingungen galten als brauchbar bis gut. Am 15. Oktober lag der Solarflux bei 123, der Kp-Index bei 2.",
+  "meldungen": [
+    {
+      "id": "2026-W42-001",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "CQ WW DX Contest SSB am 24. und 25. Oktober",
+      "zusammenfassung": "Der CQ World Wide DX Contest in SSB läuft von Samstag 00:00 UTC bis Sonntag 23:59 UTC auf 160m, 80m, 40m, 20m, 15m und 10m, die WARC-Bänder sind ausgenommen. Ausgetauscht werden Rapport und CQ-Zone. Logs müssen bis 27. Oktober, 23:59 UTC, als Cabrillo-Datei über cqww.com hochgeladen werden.",
+      "quelle": {
+        "name": "CQ WW DX Contest",
+        "url": "https://cqww.com/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 1,
+      "region": "INT",
+      "tags": [
+        "CQ WW",
+        "Contest",
+        "SSB"
+      ],
+      "termin": {
+        "beginn": "2026-10-24T00:00:00+00:00",
+        "ende": "2026-10-25T23:59:59+00:00",
+        "rufzeichen": [],
+        "baender": [
+          "160m",
+          "80m",
+          "40m",
+          "20m",
+          "15m",
+          "10m"
+        ],
+        "betriebsarten": [
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-002",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "ARISS Europa nimmt bis 23. Oktober Bewerbungen für Schulkontakte 2027 an",
+      "zusammenfassung": "Schulen und Bildungseinrichtungen können sich noch bis zum 23. Oktober 2026 bei ARISS Europa um einen Funkkontakt mit der ISS bewerben. Die Auswahl fällt im Dezember 2026, die Kontakte sind für Juli bis Dezember 2027 vorgesehen. Für die kommende Woche ist kein ISS-Schulkontakt in Deutschland, Österreich oder der Schweiz angekündigt.",
+      "quelle": {
+        "name": "ARISS Europa",
+        "url": "https://www.ariss-eu.org/index.php/school-contacts/announcement",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "EU",
+      "tags": [
+        "ARISS",
+        "ISS",
+        "Schulkontakt"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-003",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "DARC-Logbuch Wavelog@DARC auf Version 3.2.4 aktualisiert",
+      "zusammenfassung": "Das Online-Logbuch des DARC unter log.darc.de läuft jetzt mit Version 3.2.4. Neu sind unter anderem Unterstützung für ADIF 3.1.8, ein schnellerer eQSL-Upload, ein überarbeiteter Upload zum QO-100 DX Club und Erweiterungen der API. Bei Problemen empfiehlt der DARC, den Browser-Cache zu leeren.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/wavelogdarc-erhaelt-bugfixes-im-rahmen-der-versionspflege-7/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Wavelog",
+        "Logbuch",
+        "ADIF",
+        "QO-100"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-004",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "QSO-Phrasensammlung von DD0UL umfasst jetzt 17 Sprachen",
+      "zusammenfassung": "Michael Renner, DD0UL, hat seine Sammlung gängiger QSO-Redewendungen überarbeitet; Portugiesisch und Ukrainisch sind neu hinzugekommen. Eine zusätzliche Spalte gibt die Aussprache in IPA-Lautschrift an. Die Sammlung steht als PDF und als bearbeitbare LaTeX-Dateien auf GitHub.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/parlez-vous-qso-verbindet-funkamateure-ueber-sprachgrenzen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "QSO",
+        "Sprachen",
+        "DD0UL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-005",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Vorträge der RSGB Convention 2026 als Aufzeichnung abrufbar",
+      "zusammenfassung": "Die RSGB hat die Livestreams ihrer Convention vom Oktoberwochenende in Milton Keynes auf YouTube veröffentlicht. Im Sonntagsteil stellt Steve Nichols, G0KYA, die Ergebnisse des Experiments zur Sonnenfinsternis vom 12. August 2026 und ihrer Wirkung auf die Ausbreitung vor. Der DARC-Vorsitzende Christian Entsfellner, DL3MBG, sprach dort über das DARC-QSL-Büro.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/RSGB-Convention-2026.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-12",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "RSGB",
+        "Convention",
+        "Sonnenfinsternis",
+        "YouTube"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-006",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "Bundesnetzagentur aktualisiert Termine für Amateurfunkprüfungen",
+      "zusammenfassung": "Die Bundesnetzagentur hat ihre Übersicht der Prüfungstermine mit Stand 13. Oktober 2026 neu veröffentlicht. Sie nennt Termine an mehreren Standorten bis Ende November. Morseprüfungen werden bis auf Weiteres nur in Dortmund, Hamburg und Reutlingen abgenommen.",
+      "quelle": {
+        "name": "Bundesnetzagentur",
+        "url": "https://www.bundesnetzagentur.de/amateurfunk-termine.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Bundesnetzagentur",
+        "Prüfung",
+        "Morseprüfung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-007",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "ÖVSV startet CW-Seminar mit 37 Anmeldungen",
+      "zusammenfassung": "Das CW-Seminar des ÖVSV hat in Wien und per Zoom begonnen, die 37 Anmeldungen kommen aus allen neun Bundesländern. Den ersten Abend gestaltete OE3VBU, CW-Referent ist OE1IAH. Weiter geht es voraussichtlich dienstags um 19:00 Uhr Ortszeit über Teamspeak.",
+      "quelle": {
+        "name": "ÖVSV",
+        "url": "https://www.oevsv.at/oevsv/aktuelles/CW-Seminar-KickOff/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "ÖVSV",
+        "CW",
+        "Ausbildung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-008",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "USKA berichtet von ihrer EMV-Videokonferenz",
+      "zusammenfassung": "In der 7. EMV-Videokonferenz der USKA am 29. September ging es um die IARU-Konferenz in Wien, zwei gelieferte ENAMS-2.0-Messgeräte, den USKA-Peiler und ein Merkblatt des BAKOM zu Wärmepumpen. Eines der ENAMS-Geräte wird derzeit in Rüschlikon getestet. Die nächste Konferenz ist für den 27. Oktober angesetzt.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/en/brief-report-7th-emc-level-1-video-conference-2026/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "USKA",
+        "EMV",
+        "Störungen",
+        "BAKOM"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-009",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "USKA-Gruppe für blinde und sehbehinderte Funkamateure gegründet",
+      "zusammenfassung": "Die Interessengruppe Blind HAMs Switzerland der USKA hat eine WhatsApp-Gruppe eingerichtet, die von HB9TZS und HB9CCS betreut wird. Auch sehende Funkamateure können beitreten. Die Aufnahme läuft per E-Mail an die Administratoren.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/en/new-whatsapp-group-for-blind-and-visually-impaired-radio-amateurs/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "USKA",
+        "Barrierefreiheit"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-010",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "9T0MD aus der DR Kongo mit über 90.000 Verbindungen beendet",
+      "zusammenfassung": "Die DXpedition des Mediterraneo DX Club in Kinshasa lief vom 30. September bis etwa 13. Oktober. Stromausfälle und Spannungsspitzen kosteten den ersten Tag und mehrere Sicherungen; das Ziel von 100.000 QSOs wurde verfehlt. Im Log stehen über 90.000 Verbindungen, darunter mehr als 100 über EME.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/9t0md-democratic-republic-of-the-congo/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "9T0MD",
+        "DXpedition",
+        "Kongo",
+        "EME"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-011",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "6O2M: Funkbetrieb aus Somalia bis 25. Oktober",
+      "zusammenfassung": "OG2M ist bis zum 25. Oktober in seiner Freizeit aus Puntland in Somalia aktiv, der genaue Standort wird aus Sicherheitsgründen nicht genannt. Angekündigt sind CW und SSB, gestartet hat er auf 21,240 MHz in SSB. QSL über LoTW.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/6o2m-somalia/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-12",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "6O2M",
+        "Somalia",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-10-05T00:00:00+00:00",
+        "ende": "2026-10-25T23:59:00+00:00",
+        "rufzeichen": [
+          "6O2M"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-012",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "3D2HM: DK2HM funkt bis 22. Oktober von Fidschi",
+      "zusammenfassung": "Hans-Martin, DK2HM, ist seit dem 10. Oktober als 3D2HM aus Nadi aktiv, zeitweise auch von Wayasewa Island (OC-156). Geplant sind SSB und FT8 auf Kurzwelle, bisher lief FT8 auf 40m, 20m und 10m. QSL über LoTW, Club Log OQRS oder das Heimatrufzeichen.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/3d2hm-fiji/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-15",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "3D2HM",
+        "Fidschi",
+        "OC-156"
+      ],
+      "termin": {
+        "beginn": "2026-10-10T00:00:00+00:00",
+        "ende": "2026-10-22T23:59:00+00:00",
+        "rufzeichen": [
+          "3D2HM"
+        ],
+        "baender": [
+          "40m",
+          "20m",
+          "10m"
+        ],
+        "betriebsarten": [
+          "SSB",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-013",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "3DA0GY: LA9GY bis 2. November in Eswatini",
+      "zusammenfassung": "Morten, LA9GY, will vom 15. Oktober bis 2. November als 3DA0GY aus Piggs Peak funken. Zum WAG-Contest und zum CQ WW SSB ist SSB vorgesehen, sonst überwiegend CW.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/3da0gy-eswatini/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "3DA0GY",
+        "Eswatini"
+      ],
+      "termin": {
+        "beginn": "2026-10-15T00:00:00+00:00",
+        "ende": "2026-11-02T23:59:00+00:00",
+        "rufzeichen": [
+          "3DA0GY"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-014",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "KC4/W1WCN bis März 2027 aus der Antarktis",
+      "zusammenfassung": "Joe, W1WCN, ist bis März 2027 auf der McMurdo-Station (AN-011) stationiert und will in seiner Freizeit funken. Geplant sind 20m, 15m und 10m in SSB, CW und FT8, feste Zeiten gibt es noch nicht. QSL über LoTW und eQSL.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/kc4-w1wcn-antarctica/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "KC4/W1WCN",
+        "Antarktis",
+        "AN-011"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-015",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "Club-Log-App zeigt DXpeditionen aus DX-World",
+      "zusammenfassung": "Die Meldungen von DX-World erscheinen nun im Kalender der Club-Log-App ab Version 2.2.0. Dort lassen sich angekündigte DXpeditionen und laufende Aktivitäten abrufen. Die App gibt es für Android und iOS.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/club-log-dx-world-collaboration/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Club Log",
+        "DX-World",
+        "App"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-016",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "Sonderstation DA125RH zum 125. Geburtstag von Rudolf Hell",
+      "zusammenfassung": "Zum 125. Geburtstag des Hellschreiber-Erfinders Rudolf Hell ist die Sonderstation DA125RH vom 1. Oktober bis 31. Dezember 2026 aktiv. Der Distrikt Sachsen weist auf die Aktivität hin.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/da125rh-125-geburtstag-von-rudolf-hell/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-09-28",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "DA125RH",
+        "Rudolf Hell",
+        "Sonderstation"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-017",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "DUR-GHz-Aktivitätscontest am 18. Oktober",
+      "zusammenfassung": "Die Dresdner UKW-Runde veranstaltet ihren GHz-Aktivitätscontest an jedem dritten Sonntag im Monat von 08:00 bis 12:00 UTC, parallel zum tschechischen OK-Contest. Der nächste Durchgang fällt auf den 18. Oktober, der folgende auf den 15. November.",
+      "quelle": {
+        "name": "Dresdner UKW-Runde",
+        "url": "https://dl0tud.tu-dresden.de/wordpress/index.php/dur/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "DUR",
+        "GHz",
+        "Aktivitätscontest",
+        "Dresden"
+      ],
+      "termin": null,
+      "video": null
+    }
+  ]
+}
