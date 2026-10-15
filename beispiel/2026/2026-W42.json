@@ -1,0 +1,57 @@
+{
+  "kw": "2026-W42",
+  "zeitraum": { "von": "2026-10-12", "bis": "2026-10-18" },
+  "erstellt": "2026-10-19T07:12:00+02:00",
+  "ueberblick": "Beispieldatei mit erfundenen Inhalten. Sie zeigt nur das Format und dient zum Testen des Prüfskripts.",
+  "ausbreitung": null,
+  "meldungen": [
+    {
+      "id": "2026-W42-001",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "Beispiel: Neue Regelung für Klubstationen",
+      "zusammenfassung": "Zwei bis drei Sätze in eigenen Worten. Was passiert ist, wer betroffen ist und ab wann es gilt.",
+      "quelle": { "name": "Beispielquelle", "url": "https://example.org/meldung-1", "sprache": "de" },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": ["Klubstation"],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-002",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "Beispiel: Großer Contest am Wochenende",
+      "zusammenfassung": "Kurze Beschreibung des Contests mit Bändern und Betriebsarten.",
+      "quelle": { "name": "Beispielkalender", "url": "https://example.org/contest", "sprache": "en" },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": ["Contest"],
+      "termin": {
+        "beginn": "2026-10-24T00:00:00+00:00",
+        "ende": "2026-10-25T23:59:00+00:00",
+        "rufzeichen": [],
+        "baender": ["160m", "80m", "40m", "20m", "15m", "10m"],
+        "betriebsarten": ["SSB"]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-003",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Beispiel: Video über den Bau einer Magnetloop",
+      "zusammenfassung": "Laut Videobeschreibung zeigt der Kanal den Aufbau einer Magnetloop für 40m bis 10m.",
+      "quelle": { "name": "Beispielkanal", "url": "https://www.youtube.com/watch?v=XXXXXXXXXXX", "sprache": "en" },
+      "veroeffentlicht": "2026-10-15",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": ["Antenne", "Magnetloop"],
+      "termin": null,
+      "video": { "kanal": "Beispielkanal", "video_id": "XXXXXXXXXXX", "dauer": null, "nur_beschreibung": true }
+    }
+  ]
+}
