@@ -1,0 +1,478 @@
+{
+  "kw": "2026-W42",
+  "zeitraum": {
+    "von": "2026-10-12",
+    "bis": "2026-10-18"
+  },
+  "erstellt": "2026-10-18T06:27:00+02:00",
+  "ueberblick": "Die Generalkonferenz für Maß und Gewicht schafft die Schaltsekunde ab, UTC läuft ab dem 20. Mai 2027 durch. Für die DARC-Mitgliederversammlung am 14. November liegen die Unterlagen vor, und Wavelog@DARC ist auf Version 3.2.4 aktualisiert. Am kommenden Wochenende steht der CQ WW DX Contest SSB an; DL4XT funkt ab 23. Oktober als 9N7XT aus Nepal. Von der ISS kommen vom 22. bis 25. Oktober SSTV-Bilder auf 437,550 MHz.",
+  "ausbreitung": "Laut Funkwetter von DF5JL brachte die Woche bis 14. Oktober Sonnenwind über 750 km/s und kurzzeitig Kp 7 mit Polarlicht bis in die Schweiz. Zum Wochenende war die Geomagnetik ruhig bis leicht unruhig, der Flux lag bei etwa 130; erwartet werden gute DX-Bedingungen auf 20m bis 15m, 10m wechselhaft.",
+  "meldungen": [
+    {
+      "id": "2026-W42-001",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Schaltsekunde entfällt ab Mai 2027",
+      "zusammenfassung": "Die Generalkonferenz für Maß und Gewicht (CGPM) hat beschlossen, dass UTC ab dem 20. Mai 2027 ohne Schaltsekunden fortläuft. Hintergrund ist auch, dass wegen der zeitweise schneller drehenden Erde erstmals eine negative Schaltsekunde nötig werden könnte. Für Digimodes wie FT8 und WSPR ändert sich praktisch nichts, der DARC empfiehlt als Zeitquellen die PTB-Server ptbtime1.ptb.de und ptbtime2.ptb.de sowie den deutschen NTP-Pool.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/schaltsekunde-wird-abgeschafft/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-16",
+      "wichtigkeit": 1,
+      "region": "INT",
+      "tags": [
+        "UTC",
+        "Schaltsekunde",
+        "CGPM",
+        "NTP",
+        "PTB"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-002",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Unterlagen zur DARC-Mitgliederversammlung abrufbar",
+      "zusammenfassung": "Für die Mitgliederversammlung am 14. November in Baunatal stehen Tagesordnung und Anträge im Mitgliederbereich bereit. Vormittags ist eine offene Aussprache für Mitglieder vorgesehen, die eigentliche Sitzung läuft bis etwa 18 Uhr.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/tagungsunterlagen-zur-darc-mitgliederversammlung-online/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Mitgliederversammlung",
+        "Baunatal"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-003",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Wavelog@DARC auf Version 3.2.4 aktualisiert",
+      "zusammenfassung": "Das DARC-Logbuch unter log.darc.de läuft jetzt mit Wavelog 3.2.4. Neu sind unter anderem ADIF 3.1.8, parallele eQSL-Uploads, ein überarbeiteter Upload zum QO-100-DX-Club und eine erweiterte API v2. Bei Problemen soll zuerst der Browser-Cache geleert werden.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/wavelogdarc-erhaelt-bugfixes-im-rahmen-der-versionspflege-7/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Wavelog",
+        "Logbuch",
+        "DARC"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-004",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "QSO-Phrasensammlung „Parlez vous QSO“ in 17 Sprachen",
+      "zusammenfassung": "DD0UL hat die 2005 von M0ECS begonnene Sammlung gängiger QSO-Phrasen überarbeitet und um Portugiesisch und Ukrainisch ergänzt. Die 142 Einträge je Sprache enthalten eine Spalte mit Lautschrift; LaTeX-Quellen und PDFs liegen frei auf GitHub.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/parlez-vous-qso-verbindet-funkamateure-ueber-sprachgrenzen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "Sprachen",
+        "QSO",
+        "DD0UL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-005",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Vorträge der RSGB Convention 2026 als Aufzeichnung online",
+      "zusammenfassung": "Die RSGB hat zwei Livestreams von ihrer Convention vom 9. bis 11. Oktober in Milton Keynes veröffentlicht. DARC-Vorsitzender DL3MBG stellte dort das DARC-QSL-Büro vor und saß in einer Gesprächsrunde mit den Präsidenten von RSGB, IRTS und IARU.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/vortraege-der-rsgb-convention-2026-auf-youtube-abrufbar/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-13",
+      "wichtigkeit": 2,
+      "region": "EU",
+      "tags": [
+        "RSGB",
+        "Convention",
+        "QSL-Büro",
+        "DL3MBG"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-006",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "44Net Connect: Statische IP-Adressen für Funkamateure per WireGuard",
+      "zusammenfassung": "Die ARDC vergibt über 44Net Connect statische Adressen aus dem 44Net, die per WireGuard-VPN auch hinter Carrier-Grade-NAT erreichbar sind. Nötig sind ein Konto im 44Net-Portal und die Prüfung des Rufzeichens; laut ARRL kommen zu den Zugangspunkten Frankfurt, Toronto und Dallas weitere in Chicago, Los Angeles und Sydney hinzu.",
+      "quelle": {
+        "name": "DARC Deutschland-Rundspruch 41/2026",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/deutschland-rundspruch-412026-42-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-15",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "44Net",
+        "ARDC",
+        "WireGuard",
+        "AMPRNet"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-007",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "3D-Druckvorlagen für Amateurfunk bei 3DSearch",
+      "zusammenfassung": "Die Suchmaschine 3DSearch.net führt eine eigene Kategorie für Amateurfunk, etwa für Tasten, Paddles, Antennenteile und Rufzeichenschilder. Der DARC hat dort eine Sammlung mit Objekten rund um den Club angelegt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/druckmodelle-fuer-amateurfunk-bei-3dsearch/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-16",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "3D-Druck",
+        "Selbstbau"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-008",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "Bundesnetzagentur aktualisiert Liste der Prüfungstermine",
+      "zusammenfassung": "Auf der Amateurfunkseite der Bundesnetzagentur steht eine neue Fassung der Termine für Amateurfunkprüfungen mit Stand 15. Oktober 2026. Welche Termine hinzugekommen oder entfallen sind, geht aus der Seite nicht hervor.",
+      "quelle": {
+        "name": "Bundesnetzagentur",
+        "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/SpezielleAnwendungen/Amateurfunk/start.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-15",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Bundesnetzagentur",
+        "Prüfung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-009",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "eBay schränkt Funkgeräte-Angebote ein, reine Amateurfunkgeräte ausgenommen",
+      "zusammenfassung": "Wegen neuer FCC-Regeln, die seit dem 13. Oktober gelten, verlangt eBay für Sendegeräte eine FCC-ID. Auf Nachfrage der ARRL nimmt eBay Geräte aus, die nur auf Amateurfunkfrequenzen senden; VHF/UHF-Handfunkgeräte, die auch außerhalb der Bänder senden können, brauchen weiter eine Zulassung.",
+      "quelle": {
+        "name": "ARRL",
+        "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-15",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "eBay",
+        "FCC",
+        "Gebrauchtgeräte"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-010",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "AMSAT-NA plant Missionen jenseits der niedrigen Erdumlaufbahn",
+      "zusammenfassung": "Auf dem AMSAT-Symposium in Jacksonville kündigte Präsident KO4MA ein neues High Orbit Committee an, das Konzepte für Missionen über die niedrige Erdumlaufbahn hinaus erarbeiten soll. Außerdem gelangten am 13. Oktober die studentischen CubeSats PROVES-Maia und PROVES-Taygeta mit einem Versorgungsflug zur ISS.",
+      "quelle": {
+        "name": "AMSAT-NA",
+        "url": "https://www.amsat.org/ans-291-amsat-news-service-weekly-bulletins/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-18",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "AMSAT",
+        "Symposium",
+        "CubeSat",
+        "PROVES"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-011",
+      "typ": "termin",
+      "rubrik": "satellit",
+      "titel": "SSTV-Bilder von der ISS vom 22. bis 25. Oktober",
+      "zusammenfassung": "ARISS sendet die SSTV-Serie 34 zum Thema „ARISS Hardware“ auf 437,550 MHz in Robot 36. Die genauen Sende- und Endzeiten stehen noch nicht fest; empfangene Bilder können in die ARISS-SSTV-Galerie hochgeladen werden.",
+      "quelle": {
+        "name": "ARISS",
+        "url": "https://www.ariss.org/upcoming-sstv-events.html",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "ISS",
+        "SSTV",
+        "ARISS"
+      ],
+      "termin": {
+        "beginn": "2026-10-22T00:00:00+00:00",
+        "ende": "2026-10-25T23:59:00+00:00",
+        "rufzeichen": [],
+        "baender": [],
+        "betriebsarten": [
+          "SSTV"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-012",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "CQ World Wide DX Contest SSB am 24. und 25. Oktober",
+      "zusammenfassung": "Der CQ WW SSB läuft von Samstag 00:00 UTC bis Sonntag 23:59 UTC auf 160m, 80m, 40m, 20m, 15m und 10m. Ausgetauscht werden Rapport und CQ-Zone; viele DXpeditionen planen ihre Aktivität um den Contest herum.",
+      "quelle": {
+        "name": "CQ WW",
+        "url": "https://cqww.com/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 1,
+      "region": "INT",
+      "tags": [
+        "CQ WW",
+        "Contest",
+        "SSB"
+      ],
+      "termin": {
+        "beginn": "2026-10-24T00:00:00+00:00",
+        "ende": "2026-10-25T23:59:00+00:00",
+        "rufzeichen": [],
+        "baender": [
+          "160m",
+          "80m",
+          "40m",
+          "20m",
+          "15m",
+          "10m"
+        ],
+        "betriebsarten": [
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-013",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "9N7XT: DL4XT funkt aus Nepal",
+      "zusammenfassung": "Jan, DL4XT, ist vom 23. bis 31. Oktober bei Kathmandu als 9N7XT in CW, SSB und FT8 aktiv. Geplant sind 80m bis 10m, wobei die Antenne für 80m noch offen ist; die Lizenz ist bestätigt.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/9n7xt-nepal/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-16",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "Nepal",
+        "9N",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-10-23T00:00:00+00:00",
+        "ende": "2026-10-31T23:59:00+00:00",
+        "rufzeichen": [
+          "9N7XT"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-014",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "3DA0GY: LA9GY in Eswatini bis 2. November",
+      "zusammenfassung": "Morten, LA9GY, ist bis zum 2. November als 3DA0GY in Piggs Peak, Eswatini, aktiv. Schwerpunkt ist diesmal SSB, auch im CQ WW SSB.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/3da0gy-eswatini/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-16",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Eswatini",
+        "3DA",
+        "CQ WW"
+      ],
+      "termin": {
+        "beginn": "2026-10-15T00:00:00+00:00",
+        "ende": "2026-11-02T23:59:00+00:00",
+        "rufzeichen": [
+          "3DA0GY"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W42-015",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "USKA: WhatsApp-Gruppe für blinde und sehbehinderte Funkamateure",
+      "zusammenfassung": "Die IG Blind HAMs Switzerland hat eine WhatsApp-Gruppe eingerichtet, in der sich blinde und sehbehinderte Funkamateure austauschen können.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/en/new-whatsapp-group-for-blind-and-visually-impaired-radio-amateurs/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "USKA",
+        "Barrierefreiheit"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-016",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "SDR-App Demod dekodiert FT8 und spricht OpenWebRX",
+      "zusammenfassung": "Die SDR-Client-App Demod für iOS und iPadOS kann jetzt OpenWebRX-Empfänger nutzen und FT8, CW und RTTY direkt auf dem Gerät dekodieren. Außerdem gibt es eine Android-Version.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/demod-updates-adds-support-for-openwebrx-ft8-decoding-carplay-and-an-android-version/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-16",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "FT8",
+        "OpenWebRX",
+        "App"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-017",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "USB-WLAN-Stick als SDR für 2,4 und 5 GHz",
+      "zusammenfassung": "Ein Entwickler hat einen günstigen USB-3.0-WLAN-Stick mit MediaTek-MT7921-Chip so angepasst, dass er I/Q-Daten mit bis zu 40 MS/s ausgibt. Die Unterstützung steckt in CyberEther, der Empfang ist auf die WLAN-Bereiche bei 2,4 GHz und 5 GHz beschränkt.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/birriasdr-2-4-5-ghz-sdr-discovery-on-a-mass-produced-usb3-0-wi-fi-dongle/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "BirriaSDR",
+        "WLAN"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-018",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "Sonderstation DA125RH zum 125. Geburtstag von Rudolf Hell",
+      "zusammenfassung": "Bis zum 31. Dezember ist die Sonderstation DA125RH mit dem Sonder-DOK 125RH auf mehreren Bändern und in verschiedenen Betriebsarten aktiv, auch in Hellschreiben.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/da125rh-125-geburtstag-von-rudolf-hell/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-09-28",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "DA125RH",
+        "Sonder-DOK",
+        "Hell",
+        "Sonderstation"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W42-019",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "Funkwetter: Gute DX-Aussichten auf 20m bis 15m",
+      "zusammenfassung": "Laut FunkWX vom 17. Oktober ist der Sonnenwind leicht erhöht, die Geomagnetik ruhig bis leicht unruhig und der solare Flux liegt bei etwa 130 mit fallender Tendenz. Erwartet werden stabile DX-Öffnungen auf 20m, 17m und 15m.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/funkwx-am-wochenende-13/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-17",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Funkwetter",
+        "FunkWX"
+      ],
+      "termin": null,
+      "video": null
+    }
+  ]
+}
