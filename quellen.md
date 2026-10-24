@@ -11,6 +11,7 @@ Status nach dem Probelauf am 15.10.2026 (KW 41). YouTube-Kanäle sind noch nicht
 | DL-Rundspruch (DARC) | im DARC-Archiv als Meldung „Deutschland-Rundspruch NN/JJJJ“ | verband, regulatorik, dx, contest | de | ok: Ausgabenseite nur mit Login, Text im Archiv frei lesbar |
 | DARC Nachrichten | https://www.darc.de/nachrichten/meldungen/archiv-liste/archiv/2026/october/ (Monat anpassen; Seite 2 mit `?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=2`) | verband, regulatorik | de | ok |
 | DARC Distrikt Sachsen (S) | https://www.darc.de/der-club/distrikte/s/ | regional, veranstaltung | de | ok |
+| Funkamateur Nachrichten | https://www.funkamateur.de/nachrichtenarchiv.html?month=202610 (Monat anpassen, Format `JJJJMM`; am Monatsanfang auch den Vormonat) | technik, verband, dx, satellit, veranstaltung | de | ok (geprüft 24.10.2026): Monatsarchiv listet alle Meldungen mit Datum auf einer Seite; die Startseite zeigt nur die letzten Tage. Rabattaktionen und Händlermeldungen auslassen |
 | Southgate Amateur Radio News | https://www.southgatearc.org/ | alle | en | gesperrt: Abruf per robots.txt untersagt |
 | DX-World | https://www.dx-world.net/ | dx | en | ok, Startseite zeigt nur die letzten Tage |
 | NG3K Announced DX Operations | http://www.ng3k.com/adxo.xml | dx (termin) | en | ok über RSS; die HTML-Seite liefert keine Daten |
@@ -22,7 +23,6 @@ Status nach dem Probelauf am 15.10.2026 (KW 41). YouTube-Kanäle sind noch nicht
 | Quelle | Adresse | Rubriken | Sprache | Status |
 |---|---|---|---|---|
 | Bundesnetzagentur Amateurfunk | https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/SpezielleAnwendungen/Amateurfunk/start.html | regulatorik | de | ok, keine Meldungsliste; nur Änderungen an Dokumenten erkennbar |
-| Funkamateur Aktuell | https://www.funkamateur.de/ | technik, verband, dx | de | ok |
 | AMSAT-DL | https://amsat-dl.org/ | satellit | de | ok |
 | ÖVSV | https://www.oevsv.at/ | verband, regulatorik | de | ok |
 | USKA | https://www.uska.ch/ | verband, regulatorik | de | ok |
