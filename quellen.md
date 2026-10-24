@@ -2,7 +2,7 @@
 
 Der Agent arbeitet diese Liste von oben nach unten ab. Kernquellen werden jede Woche geprüft, Zusatzquellen nur, wenn Zeit bleibt oder eine Rubrik sonst leer bliebe.
 
-Status nach dem Probelauf am 15.10.2026 (KW 41). YouTube-Kanäle sind noch nicht eingerichtet.
+Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026. YouTube-Kanäle sind eingetragen, aber derzeit nicht abrufbar.
 
 ## Kernquellen
 
@@ -25,7 +25,7 @@ Status nach dem Probelauf am 15.10.2026 (KW 41). YouTube-Kanäle sind noch nicht
 | Bundesnetzagentur Amateurfunk | https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/SpezielleAnwendungen/Amateurfunk/start.html | regulatorik | de | ok, keine Meldungsliste; nur Änderungen an Dokumenten erkennbar |
 | AMSAT-DL | https://amsat-dl.org/ | satellit | de | ok |
 | ÖVSV | https://www.oevsv.at/ | verband, regulatorik | de | ok |
-| USKA | https://www.uska.ch/ | verband, regulatorik | de | ok |
+| USKA | https://uska.ch/de/news/ | verband, regulatorik | de | ok (geprüft 24.10.2026): deutsche Newsübersicht mit Datum je Meldung |
 | IARU | https://www.iaru.org/ | regulatorik | en | nicht geprüft |
 | IARU Region 1 | https://www.iaru-r1.org/ | regulatorik | en | eingeschränkt: Startseite ohne Datumsangaben |
 | ARRL News | https://www.arrl.org/news | verband, technik | en | ok |
@@ -39,18 +39,28 @@ Status nach dem Probelauf am 15.10.2026 (KW 41). YouTube-Kanäle sind noch nicht
 | DK0WCY | https://www.dk0wcy.de/ | ausbreitung | de | nicht geprüft |
 | Hackaday, Radio | https://hackaday.com/category/radio-hacks/ | technik | en | ok, selten Amateurfunk |
 | RTL-SDR Blog | https://www.rtl-sdr.com/ | technik | en | ok |
+| AmateurRadio.com | https://www.amateurradio.com/ (RSS: https://www.amateurradio.com/feed) | technik, verband | en | ok (geprüft 24.10.2026): Sammelblog aus Beiträgen und Podcasts vieler Autoren; Feed enthält Doppelungen. Podcast-Folgen nur mit konkretem Nachrichtenwert |
+| This Week in Amateur Radio (TWIAR) | https://twiar.net/ (RSS: https://twiar.net/?feed=rss2) | alle | en | ok (geprüft 24.10.2026): Sammeldienst, Einträge verweisen auf twiar.net statt auf das Original. Nur als Hinweisgeber nutzen, verlinkt wird die Originalquelle |
 
 ## YouTube-Kanäle
 
-Die Kanäle werden über ihren RSS-Feed abgefragt (`https://www.youtube.com/feeds/videos.xml?channel_id=…`). Die Kanal-IDs werden beim Probelauf ergänzt.
+Gedacht ist die Abfrage über den RSS-Feed des Kanals (`https://www.youtube.com/feeds/videos.xml?channel_id=…`).
 
-| Kanal | Kanal-ID | Sprache | Status |
-|---|---|---|---|
-| DARC e.V. | offen | de | offen |
-| Ham Radio Crash Course | offen | en | offen |
-| Ham Radio 2.0 | offen | en | offen |
-| Dave Casler KE0OG | offen | en | offen |
-| *deutschsprachige Kanäle nach Wahl von DL6LG* | | de | offen |
+Stand der Prüfung am 24.10.2026: Die Kanalseiten sind erreichbar und liefern die Kanal-ID, aber keine Videoliste. Die RSS-Feeds sind per robots.txt gesperrt, einzelne Videoseiten lassen sich nicht abrufen. Neue Videos sind damit nicht zuverlässig feststellbar, deshalb stehen alle Kanäle auf „gesperrt“ und werden im Lauf ausgelassen. Die Kanal-IDs sind eingetragen, damit die Kanäle sofort nutzbar sind, sobald sich der Zugang ändert.
+
+| Kanal | Adresse | Kanal-ID | Sprache | Status |
+|---|---|---|---|---|
+| DARC e.V. (DARCHAMRADIO) | https://www.youtube.com/@DARCHAMRADIO | UCQrHHXcFmJkeCdO1UQ-DzAA | de | gesperrt: Feed per robots.txt untersagt |
+| DL2YMR | https://www.youtube.com/@DL2YMR | UCPRdlnpaE9HA5sM3ffvnK7Q | de | gesperrt: Feed per robots.txt untersagt |
+| Funkwelle | https://www.youtube.com/@Funkwelle | UCQu_laGfjCpn_7IUe6yAKwA | de | gesperrt: Feed per robots.txt untersagt |
+| AlpineRadioWaves (AH6UN/OE4JHW) | https://www.youtube.com/@AH6UN_OE4JHW | UCYQ6jw5qyBF73aB8K57-AKw | de | gesperrt: Feed per robots.txt untersagt |
+| DG2YCB | https://www.youtube.com/@dg2ycb | UCIoS4-DT0mmj79wlFOqqqkQ | de | gesperrt: Feed per robots.txt untersagt |
+| DL2MAN | https://www.youtube.com/@dl2man | UCqabnQWUjwH4K3FJtxbmrlA | de | gesperrt: Feed per robots.txt untersagt |
+| F74 Amateurfunk | https://www.youtube.com/@foxtrot74 | UCK5FG97UJEvGfSQv_QErtOQ | de | gesperrt: Feed per robots.txt untersagt |
+| FUNKFIEBER | https://www.youtube.com/@FUNKFIEBER | UC_dDiEsZNbDYbrPDL-fkMxA | de | gesperrt: Feed per robots.txt untersagt |
+| Ham Radio Crash Course | | offen | en | offen |
+| Ham Radio 2.0 | | offen | en | offen |
+| Dave Casler KE0OG | | offen | en | offen |
 
 ## Nicht verwenden
 
