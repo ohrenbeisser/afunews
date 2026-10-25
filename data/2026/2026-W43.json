@@ -4,7 +4,7 @@
     "von": "2026-10-19",
     "bis": "2026-10-25"
   },
-  "erstellt": "2026-10-25T09:50:00+01:00",
+  "erstellt": "2026-10-25T10:10:00+01:00",
   "ueberblick": "Die Bochumer Kleinsatelliten ERMINAZ-2U und -2V haben die OSCAR-Nummern AO-129 und AO-130 erhalten. Der DARC hat seine Solarförderung abgeschlossen: Rund 75 Relais- und Hamnet-Standorte erhielten insgesamt 50.000 Euro für eine netzunabhängige Stromversorgung. Kritische PHP-Lücken hat der DARC innerhalb eines Tages geschlossen, FUNKAMATEUR warnt vor Phishing-Mails an Kleinanzeigen-Inserenten. Über das Radioteleskop Dwingeloo gelang eine Funkverbindung per Venus-Echo. Ab 30. Oktober funkt ein deutsches Team als KH8A von Amerikanisch-Samoa.",
   "ausbreitung": "Laut DF5JL war die Sonne vom 14. bis 21. Oktober ruhig bis mäßig aktiv, der Flux sank von etwa 140 auf knapp über 120, die Bedingungen auf 15m und 12m waren gut bis sehr gut. Bis 28. Oktober werden Flux 105 bis 120 und Kp 2 bis 3 erwartet; ein koronales Loch kann am Wochenende kurzzeitig Kp 4 bis 5 bringen.",
   "meldungen": [
@@ -405,6 +405,34 @@
     },
     {
       "id": "2026-W43-018",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Kurze Störimpulse mit dem Impulsbreiten-Trigger finden",
+      "zusammenfassung": "Laut Videobeschreibung zeigt DL2YMR am Siglent SDS1204X HD, wie sich ein einzelner zu kurzer Impuls in einer Folge von 30 Impulsen gezielt einfangen und vermessen lässt. Ein Signalgenerator erzeugt dafür 29 Impulse von etwa 200 µs und einen von etwa 40 µs, der mit normaler Flankentriggerung kaum auffällt.",
+      "quelle": {
+        "name": "DL2YMR",
+        "url": "https://www.youtube.com/watch?v=6CXmDJTk5AM",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-23",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Oszilloskop",
+        "Messtechnik",
+        "Trigger",
+        "DL2YMR"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "DL2YMR",
+        "video_id": "6CXmDJTk5AM",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W43-019",
       "typ": "artikel",
       "rubrik": "contest",
       "titel": "USKA stellt Logprogramm für den Swiss Emergency Contest bereit",
@@ -427,7 +455,7 @@
       "video": null
     },
     {
-      "id": "2026-W43-019",
+      "id": "2026-W43-020",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "KH8A: Deutsches Team ab 30. Oktober auf Amerikanisch-Samoa",
@@ -462,7 +490,7 @@
       "video": null
     },
     {
-      "id": "2026-W43-020",
+      "id": "2026-W43-021",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "6W/I2YSB: Italienisches Team in Senegal",
@@ -498,7 +526,7 @@
       "video": null
     },
     {
-      "id": "2026-W43-021",
+      "id": "2026-W43-022",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "7P8EA: HB9CCS ab 26. Oktober in Lesotho",
@@ -531,7 +559,7 @@
       "video": null
     },
     {
-      "id": "2026-W43-022",
+      "id": "2026-W43-023",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "XR0Z: Alejandro Selkirk ab 1. November geplant",
