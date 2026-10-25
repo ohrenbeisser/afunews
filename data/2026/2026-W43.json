@@ -1,0 +1,449 @@
+{
+  "kw": "2026-W43",
+  "zeitraum": {
+    "von": "2026-10-19",
+    "bis": "2026-10-25"
+  },
+  "erstellt": "2026-10-25T06:30:00+01:00",
+  "ueberblick": "Die Bochumer Kleinsatelliten ERMINAZ-2U und -2V haben die OSCAR-Nummern AO-129 und AO-130 erhalten. Der DARC hat seine Solarförderung abgeschlossen: Rund 75 Relais- und Hamnet-Standorte erhielten insgesamt 50.000 Euro für eine netzunabhängige Stromversorgung. Kritische PHP-Lücken hat der DARC innerhalb eines Tages geschlossen, FUNKAMATEUR warnt vor Phishing-Mails an Kleinanzeigen-Inserenten. Der WAG Contest brachte über 463.000 QSOs, und ab 30. Oktober funkt ein deutsches Team als KH8A von Amerikanisch-Samoa.",
+  "ausbreitung": "Laut DF5JL war die Sonne vom 14. bis 21. Oktober ruhig bis mäßig aktiv, der Flux sank von etwa 140 auf knapp über 120, die Bedingungen auf 15m und 12m waren gut bis sehr gut. Bis 28. Oktober werden Flux 105 bis 120 und Kp 2 bis 3 erwartet; ein koronales Loch kann am Wochenende kurzzeitig Kp 4 bis 5 bringen.",
+  "meldungen": [
+    {
+      "id": "2026-W43-001",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "ERMINAZ-2U und -2V erhalten die Bezeichnungen AO-129 und AO-130",
+      "zusammenfassung": "Die AMSAT hat den beiden funktionierenden Bochumer PocketQubes ERMINAZ-2U und ERMINAZ-2V auf Antrag der AMSAT-DL die OSCAR-Nummern AO-129 und AO-130 zugeteilt. Beide Satelliten tragen SSDV- und Digipeater-Nutzlasten. Vom dritten Satelliten ERMINAZ-2X, der am 1. Oktober mit derselben Falcon 9 startete, wurde bisher kein Signal empfangen.",
+      "quelle": {
+        "name": "AMSAT-DL",
+        "url": "https://amsat-dl.org/en/erminaz-2u-and-2v-receive-oscar-numbers/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-24",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "ERMINAZ",
+        "AO-129",
+        "AO-130",
+        "PocketQube",
+        "Bochum"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-002",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Solarförderung für Relais und Hamnet abgeschlossen",
+      "zusammenfassung": "Der DARC hat sein Förderprogramm für autarke Stromversorgung beendet: Mit insgesamt 50.000 Euro wurden bundesweit rund 75 Projekte unterstützt, bei denen Relaisfunkstellen und Hamnet-Standorte Solarmodule und Batteriespeicher erhielten. Die Anlagen sollen bei einem Ausfall des öffentlichen Netzes mehrere Stunden, teils Tage weiterlaufen. Der Fördertopf ist ausgeschöpft, ein ausführlicher Bericht erscheint in der CQ DL 12/2026.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/darc-solarfoerderung-fuer-autarke-stromversorgung-abgeschlossen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-23",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "Notfunk",
+        "Relais",
+        "Hamnet",
+        "Solar",
+        "Förderung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-003",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC schließt kritische PHP-Lücken in seinen Webdiensten",
+      "zusammenfassung": "Nachdem das PHP-Projekt am 21. Oktober Notfallupdates gegen die Lücken CVE-2026-109618 und CVE-2026-109619 (PHP2Shell) veröffentlicht hatte, hat der DARC seine Dienste innerhalb eines Tages abgesichert. Betroffen waren unter anderem WaveLog, Treff, mein.DARC und die Website. Handlungsbedarf für Mitglieder nennt die Meldung nicht.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/sicherheitsupdate-der-darc-it-systeme/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-22",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "IT-Sicherheit",
+        "PHP",
+        "Wavelog",
+        "mein.DARC"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-004",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "FUNKAMATEUR warnt vor Phishing-Mails an Kleinanzeigen-Inserenten",
+      "zusammenfassung": "Inserenten des Portals fa-Kleinanzeigen erhielten E-Mails, die eine angeblich vorgeschriebene Identitätsprüfung verlangen, auf eine gefälschte Seite verlinken und nach Bankdaten fragen. Der Verlag stellt klar, dass die Mails nicht von ihm stammen, und hat das Portal vorübergehend abgeschaltet.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/warnung-spear-phishing.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-22",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Phishing",
+        "IT-Sicherheit",
+        "Kleinanzeigen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-005",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Russland baut Überhorizontradar bei Kaliningrad",
+      "zusammenfassung": "Laut einem FAZ-Bericht, der Satellitenbilder auswertet, entsteht östlich von Gvardeysk in der Exklave Kaliningrad ein großes Überhorizontradar (OTHR) mit Antennenfeldern von jeweils mehr als 500 m Länge. Das HF-Referat des DARC erinnert an den sowjetischen „Woodpecker“, der in den 1970er-Jahren weite Teile der Kurzwelle störte. Frequenzen der neuen Anlage sind nicht bekannt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/neues-othr-system-im-raum-kaliningrad/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-22",
+      "wichtigkeit": 2,
+      "region": "EU",
+      "tags": [
+        "OTHR",
+        "Radar",
+        "Bandwacht",
+        "Störungen",
+        "Kaliningrad"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-006",
+      "typ": "artikel",
+      "rubrik": "contest",
+      "titel": "WAG Contest 2026 mit 1849 Logs und über 463.000 QSOs",
+      "zusammenfassung": "Bis zum Tag nach dem Worked All Germany Contest gingen 1849 Logs aus 82 Ländern mit 463.678 QSOs ein, davon 941 aus DL; die meisten deutschen Logs kamen aus den Distrikten N, F und P. Auf 10m waren DX-Verbindungen möglich. Einsendeschluss für Logs ist der 25. Oktober.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/wag-contest-mit-rund-463-000-qsos-beendet/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-20",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "WAG",
+        "Contest",
+        "Logs"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-007",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "44Net Connect ist kein Zugang ins Hamnet",
+      "zusammenfassung": "Der Deutschland-Rundspruch stellt klar: Der ARDC-Dienst 44Net Connect vergibt per WireGuard öffentliche IPv4-Adressen aus 44.0.0.0/9, etwa für OpenWebRX hinter CGNAT, bietet aber keinen Hamnet-Zugang. Der Hamnet-VPN-Zugang nutzt 44.128.0.0/10 und wird von der IP-Koordination DL und der RWTH Aachen betrieben.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/deutschland-rundspruch-422026-43-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-22",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "44Net",
+        "Hamnet",
+        "VPN",
+        "WireGuard"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-008",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "HST-Weltmeisterschaft in Sousse: Medaillen für HB9DHG",
+      "zusammenfassung": "Bei der 22. IARU-HST-Weltmeisterschaft vom 8. bis 12. Oktober in Sousse (Tunesien) traten 68 Teilnehmer in neun Kategorien an, Gesamtsieger wurde Belarus. Aus der Schweiz holte HB9DHG laut USKA eine Silber- und eine Bronzemedaille in RufzXP und Morse Runner. OE3VBU, einziger österreichischer Teilnehmer, belegte in seiner Altersklasse Platz 7 und in der Disziplin Geben Platz 4.",
+      "quelle": {
+        "name": "ÖVSV",
+        "url": "https://www.oevsv.at/oevsv/aktuelles/22.-IARU-HST-World-Championship/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-21",
+      "wichtigkeit": 2,
+      "region": "DACH",
+      "tags": [
+        "HST",
+        "CW",
+        "Telegrafie",
+        "Weltmeisterschaft"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-009",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "ÖVSV stellt Anmeldung zur Mitgliederdatenbank auf Single Sign-on um",
+      "zusammenfassung": "Die Anmeldung zur ÖVSV-Mitgliederdatenbank WebDB läuft jetzt über ein zentrales Single Sign-on, das auch Wiki, ARENA sowie die UKW- und Mikrowellenauswertung abdeckt. Mitglieder müssen ihr Passwort einmalig über das Selfservice-Portal id.oevsv.at zurücksetzen und melden sich danach mit Rufzeichen oder ÖVSV-Adresse an.",
+      "quelle": {
+        "name": "ÖVSV",
+        "url": "https://www.oevsv.at/oevsv/aktuelles/Mitgliederdatenbank-auf-SSO-umgestellt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-20",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "ÖVSV",
+        "Mitgliederdatenbank",
+        "SSO"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-010",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Decoder-Plugins für FT8, WSPR, CW und RTTY in SDR++ und SDR#",
+      "zusammenfassung": "Der Entwickler ReLLL bietet zwei Plugins an: Kondor dekodiert FT8, FT4, WSPR, FST4, FST4W, JS8 und Q65, Maverick die Textbetriebsarten CW, RTTY, JS8, Olivia, PSK31 und PSK63. Sie laufen in SDR++ und SDR++Brown auf Apple-Silicon-Macs ab macOS 15, für SDR# gibt es eine Vorschauversion für Windows.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/sdr-and-sdr-plugins-for-ft8-ft4-wspr-fst4-fst4w-js8-q65-cw-rtty-js8-olivia-psk31-and-psk63/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-20",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "SDR++",
+        "SDR#",
+        "FT8",
+        "WSPR",
+        "CW",
+        "Plugin"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-011",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "Amateurfunktagung München 2027 sucht Vorträge",
+      "zusammenfassung": "Die Amateurfunktagung München findet am 13. März 2027 an der Hochschule München in der Lothstraße 64 statt, erwartet werden rund 1000 Besucher. Vortragsvorschläge für etwa 40-minütige Beiträge nimmt das Organisationsteam des Distrikts Oberbayern bis 30. November unter df2nu(at)darc.de entgegen; die Skripte für Tagungsband und E-Book sind bis 31. Dezember fällig.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/amateurfunktagung-muenchen-2027-call-for-papers/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-20",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Amateurfunktagung",
+        "München",
+        "Call for Papers"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-012",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "Maker Faire Luxembourg mit Amateurfunkständen",
+      "zusammenfassung": "Am 24. und 25. Oktober findet in Rosport (Luxemburg) die Maker Faire Luxembourg statt. Mit dabei waren Amateurfunkgruppen von RL, AATiS und DARC, der Eintritt ist frei.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/maker-faire-luxembourg-2026-am-24-und-25102026-mit-amateurfunkbeteiligung/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-23",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "Maker Faire",
+        "Luxemburg",
+        "AATiS"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-013",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "Funkwetter: ruhige Sonne, Unruhe durch koronales Loch möglich",
+      "zusammenfassung": "Das HF-Referat erwartet für das Wochenende Kp 3 bis 4, am Sonntag mit geringer Sicherheit kurzzeitig Kp 5, weil ein koronales Loch schnelleren Sonnenwind bringen kann. 20m bleibt das verlässlichste DX-Band, 17m und 15m öffnen tagsüber, 40m und 80m bieten abends und nachts gute Bedingungen; 10m bringt nur gelegentlich DX.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/funkwx-am-wochenende-14/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-24",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Funkwetter",
+        "Ausbreitung",
+        "Kp"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-014",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "Scheibenbergtreffen mit 74 Funkamateuren aus vier Distrikten",
+      "zusammenfassung": "Beim Treffen am 17. Oktober im Berggasthof Scheibenberg, das als Ersatz für die ausgefallene TAE stattfand, kamen 74 Funkamateure aus vier Distrikten zusammen. Acht Referenten hielten Vorträge, Spenden von 115 Euro gingen an die Jugendarbeit.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/grosser-erfolg-beim-scheibenbergtreffen-am-171026/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-19",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "Scheibenberg",
+        "Erzgebirge",
+        "Treffen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-015",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "KH8A: Deutsches Team ab 30. Oktober auf Amerikanisch-Samoa",
+      "zusammenfassung": "Neun Funkamateure aus Deutschland, darunter DJ9KH, DL4SVA und DL7JOM, funken vom 30. Oktober bis 12. November als KH8A von Amerikanisch-Samoa. Geplant sind vier Stationen mit Endstufen auf 160m bis 6m in CW, SSB, FT8 und RTTY. QSL über Club Log OQRS, DL4SVA und LoTW.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/kh8a-american-samoa/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-02",
+      "wichtigkeit": 1,
+      "region": "INT",
+      "tags": [
+        "KH8A",
+        "Amerikanisch-Samoa",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-10-30T00:00:00Z",
+        "ende": "2026-11-12T23:59:00Z",
+        "rufzeichen": [
+          "KH8A"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "FT8",
+          "RTTY"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W43-016",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "6W/I2YSB: Italienisches Team in Senegal",
+      "zusammenfassung": "Das Italian DXpedition Team funkt vom 28. Oktober bis 9. November aus Senegal, als 6W/I2YSB in CW, SSB und RTTY und als 6W/IK2HKT in FT8. Bis zu fünf Stationen sind gleichzeitig in Betrieb, die Antennen decken 160m bis 6m ab. QSL direkt über I2YSB oder OQRS.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/6w-senegal-dxpedition/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-21",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "6W",
+        "Senegal",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-10-28T00:00:00Z",
+        "ende": "2026-11-09T23:59:00Z",
+        "rufzeichen": [
+          "6W/I2YSB",
+          "6W/IK2HKT"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "RTTY",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W43-017",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "XR0Z: Alejandro Selkirk ab 1. November geplant",
+      "zusammenfassung": "CE3VTZ und XQ7I wollen im November als XR0Z von der Insel Alejandro Selkirk (Juan-Fernández-Inseln, IOTA SA-101) funken; die Daten 1. bis 30. November gelten nach dem letzten Stand als vorläufig. Angekündigt sind CW, SSB, FM und FT8, QSL über M0UXR und LoTW.",
+      "quelle": {
+        "name": "XR0Z",
+        "url": "https://www.xr0z.net/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "XR0Z",
+        "Juan Fernández",
+        "CE0Z",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-11-01T00:00:00Z",
+        "ende": "2026-11-30T23:59:00Z",
+        "rufzeichen": [
+          "XR0Z"
+        ],
+        "baender": [
+          "160m",
+          "80m",
+          "60m",
+          "40m",
+          "30m",
+          "20m",
+          "15m",
+          "10m",
+          "6m"
+        ],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "FM",
+          "FT8"
+        ]
+      },
+      "video": null
+    }
+  ]
+}
