@@ -265,50 +265,6 @@
     {
       "id": "2026-W43-012",
       "typ": "artikel",
-      "rubrik": "veranstaltung",
-      "titel": "Maker Faire Luxembourg mit Amateurfunkständen",
-      "zusammenfassung": "Am 24. und 25. Oktober findet in Rosport (Luxemburg) die Maker Faire Luxembourg statt. Mit dabei waren Amateurfunkgruppen von RL, AATiS und DARC, der Eintritt ist frei.",
-      "quelle": {
-        "name": "DARC",
-        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/maker-faire-luxembourg-2026-am-24-und-25102026-mit-amateurfunkbeteiligung/",
-        "sprache": "de"
-      },
-      "veroeffentlicht": "2026-10-23",
-      "wichtigkeit": 3,
-      "region": "EU",
-      "tags": [
-        "Maker Faire",
-        "Luxemburg",
-        "AATiS"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W43-013",
-      "typ": "artikel",
-      "rubrik": "ausbreitung",
-      "titel": "Funkwetter: ruhige Sonne, Unruhe durch koronales Loch möglich",
-      "zusammenfassung": "Das HF-Referat erwartet für das Wochenende Kp 3 bis 4, am Sonntag mit geringer Sicherheit kurzzeitig Kp 5, weil ein koronales Loch schnelleren Sonnenwind bringen kann. 20m bleibt das verlässlichste DX-Band, 17m und 15m öffnen tagsüber, 40m und 80m bieten abends und nachts gute Bedingungen; 10m bringt nur gelegentlich DX.",
-      "quelle": {
-        "name": "DARC",
-        "url": "https://www.darc.de/nachrichten/meldungen/aktuelles-details/news/funkwx-am-wochenende-14/",
-        "sprache": "de"
-      },
-      "veroeffentlicht": "2026-10-24",
-      "wichtigkeit": 3,
-      "region": "DL",
-      "tags": [
-        "Funkwetter",
-        "Ausbreitung",
-        "Kp"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W43-014",
-      "typ": "artikel",
       "rubrik": "regional",
       "titel": "Scheibenbergtreffen mit 74 Funkamateuren aus vier Distrikten",
       "zusammenfassung": "Beim Treffen am 17. Oktober im Berggasthof Scheibenberg, das als Ersatz für die ausgefallene TAE stattfand, kamen 74 Funkamateure aus vier Distrikten zusammen. Acht Referenten hielten Vorträge, Spenden von 115 Euro gingen an die Jugendarbeit.",
@@ -329,7 +285,125 @@
       "video": null
     },
     {
+      "id": "2026-W43-013",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "US-Hausbesitzerverbände machen gegen Antennengesetz mobil",
+      "zusammenfassung": "Das Community Associations Institute (CAI), Lobbyverband der US-Eigentümergemeinschaften, hat sich bei Treffen im Kongress gegen den Amateur Radio Emergency Preparedness Act (H.R. 1094 / S. 459) ausgesprochen. Das Gesetz würde es Eigentümergemeinschaften erschweren, Antennen von Funkamateuren genehmigungspflichtig zu machen; die ARRL wirbt mit einer Kampagne für die Verabschiedung.",
+      "quelle": {
+        "name": "Amateur Radio Daily",
+        "url": "https://daily.hamweekly.com/2026/10/hoa-group-community-associations-institute-oppose-amateur-radio-emergency-preparedness-act/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-24",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "USA",
+        "Antennen",
+        "HOA",
+        "ARRL",
+        "Gesetzgebung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-014",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Mobile-Whip: Aktive Kurzwellenantenne für Handfunkgeräte und SDRs",
+      "zusammenfassung": "Das offene Projekt Mobile-Whip des GitHub-Nutzers skuep ist eine kompakte, batteriebetriebene Aktivantenne nach dem Vorbild der Mini-Whip von PA0RDT für 100 kHz bis 30 MHz. Sie läuft mit einer 18650-Zelle, über USB oder einen Bias-Tee und nimmt etwa 20 mA auf; bestückte Platinen kosten laut Artikel rund 25 Euro. Einen Schutz gegen Sendeleistung gibt es noch nicht, Senden mit angeschlossener Antenne kann sie zerstören.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/mobile-whip-a-compact-battery-powered-mini-whip-style-active-hf-antenna-for-handhelds-and-sdrs/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-23",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "Aktivantenne",
+        "Mini-Whip",
+        "SDR",
+        "Selbstbau",
+        "Open Hardware"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
       "id": "2026-W43-015",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Browser-Empfänger BrowSDR steuert mehrere SDRs gleichzeitig",
+      "zusammenfassung": "Die quelloffene Software BrowSDR greift per WebUSB direkt aus dem Browser auf SDR-Hardware zu und kann nun mehrere Geräte parallel betreiben, darunter neu LimeSDR-USB. Hinzugekommen sind Decoder für ADS-B, AIS, ACARS, RS41-Radiosonden, rtl_433 und DMR-Sprache; P25, NXDN und D-STAR gelten noch als experimentell.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/browsdr-update-multi-sdr-support-limesdr-and-decoders-for-ads-b-ais-acars-rs41-rtl_433-ble-and-dmr/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-19",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "Browser",
+        "D-STAR",
+        "DMR",
+        "Open Source"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-016",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Meshtastic-Verkehr mit HackRF unter DragonOS mitlesen",
+      "zusammenfassung": "Ein in C geschriebenes Programm für die Linux-Distribution DragonOS überwacht mit einem HackRF das Meshtastic-Band und dekodiert Nachrichten, wenn der Kanalschlüssel bekannt ist. Die Empfangsbandbreite reicht nicht für alle Meshtastic-Frequenzen gleichzeitig.",
+      "quelle": {
+        "name": "Hackaday",
+        "url": "https://hackaday.com/2026/10/19/meshtastic-sniffer-for-dragonos/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-19",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Meshtastic",
+        "HackRF",
+        "DragonOS",
+        "LoRa"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-017",
+      "typ": "artikel",
+      "rubrik": "contest",
+      "titel": "USKA stellt Logprogramm für den Swiss Emergency Contest bereit",
+      "zusammenfassung": "Für den Swiss Emergency Contest der USKA am Samstag, 7. November, steht die Logsoftware zum Download bereit. Gefunkt wird in SSB auf Kurzwelle sowie UKW, zusätzlich nehmen CB-Funkstationen teil; die Betriebszeiten sind 09:00 bis 12:00 und 14:00 bis 17:00 Uhr Schweizer Zeit (08:00 bis 11:00 und 13:00 bis 16:00 UTC).",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/en/sec-2026-logging-software-ready-for-download/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-24",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "Notfunk",
+        "SEC",
+        "USKA",
+        "Contest"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W43-018",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "KH8A: Deutsches Team ab 30. Oktober auf Amerikanisch-Samoa",
@@ -364,7 +438,7 @@
       "video": null
     },
     {
-      "id": "2026-W43-016",
+      "id": "2026-W43-019",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "6W/I2YSB: Italienisches Team in Senegal",
@@ -400,7 +474,40 @@
       "video": null
     },
     {
-      "id": "2026-W43-017",
+      "id": "2026-W43-020",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "7P8EA: HB9CCS ab 26. Oktober in Lesotho",
+      "zusammenfassung": "HB9CCS funkt vom 26. Oktober bis 25. November als 7P8EA aus Thaba-Tseka in Lesotho, auf 20m bis 10m in CW und SSB. QSL über HB9CCS.",
+      "quelle": {
+        "name": "NG3K",
+        "url": "https://www.ng3k.com/Misc/adxoplain.html",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-21",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "7P8EA",
+        "Lesotho",
+        "HB9CCS"
+      ],
+      "termin": {
+        "beginn": "2026-10-26T00:00:00Z",
+        "ende": "2026-11-25T23:59:00Z",
+        "rufzeichen": [
+          "7P8EA"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W43-021",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "XR0Z: Alejandro Selkirk ab 1. November geplant",

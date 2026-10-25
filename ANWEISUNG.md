@@ -17,7 +17,7 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 
 1. **Woche bestimmen.** Bearbeitet wird die Kalenderwoche, in die das Laufdatum fällt. `zeitraum.von` ist deren Montag, `zeitraum.bis` das Laufdatum. Gibt es `data/JJJJ/JJJJ-Www.json` auf dem Arbeitsbranch schon, brich ab und melde das, statt sie zu überschreiben.
 2. **Bekannte Links laden.** Lies die Wochendateien der letzten vier Wochen und sammle alle `quelle.url`. Was dort schon steht, wird nicht noch einmal aufgenommen, auch nicht als Termin.
-3. **Quellen abarbeiten.** Gehe `quellen.md` durch, zuerst alle Kernquellen, dann Zusatzquellen und YouTube-Feeds. Quellen mit Status „gesperrt“ oder „unbrauchbar“ auslassen. Ist eine Quelle nicht erreichbar, notiere das im Abschlussbericht und mach weiter. Hinweise zum Abruf:
+3. **Quellen abarbeiten.** Gehe `quellen.md` durch, zuerst alle Kernquellen, dann Zusatzquellen und YouTube-Feeds. Die Zusatzquellen werden in jedem Lauf geprüft, nicht nur bei Zeitmangel in anderen Rubriken. Quellen mit Status „gesperrt“ oder „unbrauchbar“ auslassen. Ist eine Quelle nicht erreichbar, notiere das im Abschlussbericht und mach weiter. Hinweise zum Abruf:
    - DARC-Nachrichten über das Monatsarchiv lesen, auch Seite 2. Am Monatsanfang zusätzlich den Vormonat.
    - Den Deutschland-Rundspruch der Woche im DARC-Archiv öffnen; er erscheint donnerstags und bündelt viele Meldungen.
    - Conteste aus der DARC-Meldung „Aktuelle Conteste KW NN/JJJJ“ der *kommenden* Woche nehmen, falls sie schon erschienen ist; sonst die Seiten der großen Conteste direkt.
@@ -34,7 +34,8 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 
 ## Umfang
 
-- Ziel: 10 bis 25 Meldungen pro Woche.
+- Ziel: 18 bis 25 Meldungen pro Woche.
+- Quellenmischung: Höchstens ein Drittel der Meldungen aus derselben Quelle. DARC-Nachrichten, Deutschland-Rundspruch, FunkWX und DARC-Distrikte zählen dabei zusammen als DARC; die Pflichtmeldungen aus Sachsen und dem Vogtland dürfen die Grenze überschreiten. Wird die Grenze sonst überschritten, zuerst weitere Zusatzquellen abarbeiten und Randmeldungen der stärksten Quelle weglassen.
 - Höchstens 3 Meldungen mit `wichtigkeit: 1`.
 - Höchstens 5 Videos.
 - Lieber weniger und gesichert als viele und fragwürdig.

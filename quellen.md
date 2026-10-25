@@ -1,6 +1,6 @@
 # Quellen
 
-Der Agent arbeitet diese Liste von oben nach unten ab. Kernquellen werden jede Woche geprüft, Zusatzquellen nur, wenn Zeit bleibt oder eine Rubrik sonst leer bliebe.
+Der Agent arbeitet diese Liste von oben nach unten ab. Kern- und Zusatzquellen werden jede Woche geprüft, die Kernquellen zuerst.
 
 Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026. YouTube-Kanäle sind eingetragen, aber derzeit nicht abrufbar.
 
