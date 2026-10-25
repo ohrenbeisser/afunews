@@ -22,6 +22,7 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
    - Den Deutschland-Rundspruch der Woche im DARC-Archiv öffnen; er erscheint donnerstags und bündelt viele Meldungen.
    - Conteste aus der DARC-Meldung „Aktuelle Conteste KW NN/JJJJ“ der *kommenden* Woche nehmen, falls sie schon erschienen ist; sonst die Seiten der großen Conteste direkt.
    - DXpeditionen über den RSS-Feed von NG3K und die Startseite von DX-World.
+   - YouTube-Videos nicht direkt abrufen, sondern `data/youtube.json` lesen. Die Datei legt die GitHub Action „YouTube-Feeds abrufen“ sonntags vor dem Lauf an (Skript `scripts/youtube_feeds.py`). Ist `abgerufen` älter als zwei Tage, fehlt die Datei oder steht bei einem Kanal `ok: false`, das im Bericht vermerken. Beim Testlauf an anderen Wochentagen kann die Datei älter sein; dann nur Videos aus dem Zeitraum der Woche nehmen und das Alter im Bericht nennen.
 4. **Auswählen.** Aufnehmen, was im Zeitraum veröffentlicht wurde und für Funkamateure in Deutschland von Belang ist. Weglassen: Werbung, Rabattaktionen, Produktankündigungen ohne Neuigkeitswert, Nachrufe auf unbekannte Personen außerhalb DL, reine Meinungsbeiträge.
 5. **Doppelungen zusammenführen.** Berichten mehrere Quellen über dasselbe, wird es eine Meldung. Verlinkt wird die Originalquelle, also etwa die Behörde oder der Veranstalter, nicht der Sammeldienst. Jede `quelle.url` darf in einer Woche nur einmal vorkommen.
 6. **Schreiben.** Titel und Zusammenfassung nach den Regeln unten.
@@ -48,6 +49,7 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 - Keine Wertungen, keine Werbesprache, keine Floskeln wie „spannend“ oder „ein Meilenstein“.
 - Rufzeichen in Großbuchstaben, Frequenzen mit Einheit (`7,074 MHz`), Bänder als `40m`, Zeiten in UTC.
 - Bei Videos steht am Anfang der Zusammenfassung „Laut Videobeschreibung …“.
+- Videos: Aufnehmen nur, was laut Titel und Beschreibung einen Nachrichten- oder Sachwert hat (Berichte, Anleitungen, Tests, Veranstaltungen). Keine Shorts (`ist_short: true`), keine Livestream-Ankündigungen ohne Inhalt, keine reinen Werbe- oder Unboxing-Videos. `quelle.url` ist die Video-URL, `quelle.name` der Kanalname, `video.video_id` aus der Datei, `video.dauer` ist `null`, weil der Feed keine Länge liefert, `video.nur_beschreibung` ist `true`. Ein Video gilt bei der Quellenmischung als eigene Quelle je Kanal.
 - Nichts erfinden. Ist ein Datum, ein Band oder eine Zahl unklar, das Feld leer lassen oder `null` setzen. Bandlisten nur mit ausdrücklich genannten Bändern füllen, keine Bereiche auffüllen.
 
 ## Grenzen

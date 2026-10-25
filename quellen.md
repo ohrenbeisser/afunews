@@ -44,20 +44,18 @@ Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026. YouTube
 
 ## YouTube-Kanäle
 
-Gedacht ist die Abfrage über den RSS-Feed des Kanals (`https://www.youtube.com/feeds/videos.xml?channel_id=…`).
-
-Stand der Prüfung am 24.10.2026: Die Kanalseiten sind erreichbar und liefern die Kanal-ID, aber keine Videoliste. Die RSS-Feeds sind per robots.txt gesperrt, einzelne Videoseiten lassen sich nicht abrufen. Neue Videos sind damit nicht zuverlässig feststellbar, deshalb stehen alle Kanäle auf „gesperrt“ und werden im Lauf ausgelassen. Die Kanal-IDs sind eingetragen, damit die Kanäle sofort nutzbar sind, sobald sich der Zugang ändert.
+Die RSS-Feeds (`https://www.youtube.com/feeds/videos.xml?channel_id=…`) holt die GitHub Action „YouTube-Feeds abrufen“ (`.github/workflows/youtube.yml`, Skript `scripts/youtube_feeds.py`) sonntags um 03:30 UTC und schreibt die Videos der letzten acht Tage nach `data/youtube.json`. Der Agent liest nur diese Datei. Das Skript nimmt jeden Kanal dieser Tabelle mit gültiger Kanal-ID (beginnt mit `UC`); Kanäle ohne ID werden übersprungen. Neue Kanäle also hier mit Kanal-ID eintragen.
 
 | Kanal | Adresse | Kanal-ID | Sprache | Status |
 |---|---|---|---|---|
-| DARC e.V. (DARCHAMRADIO) | https://www.youtube.com/@DARCHAMRADIO | UCQrHHXcFmJkeCdO1UQ-DzAA | de | gesperrt: Feed per robots.txt untersagt |
-| DL2YMR | https://www.youtube.com/@DL2YMR | UCPRdlnpaE9HA5sM3ffvnK7Q | de | gesperrt: Feed per robots.txt untersagt |
-| Funkwelle | https://www.youtube.com/@Funkwelle | UCQu_laGfjCpn_7IUe6yAKwA | de | gesperrt: Feed per robots.txt untersagt |
-| AlpineRadioWaves (AH6UN/OE4JHW) | https://www.youtube.com/@AH6UN_OE4JHW | UCYQ6jw5qyBF73aB8K57-AKw | de | gesperrt: Feed per robots.txt untersagt |
-| DG2YCB | https://www.youtube.com/@dg2ycb | UCIoS4-DT0mmj79wlFOqqqkQ | de | gesperrt: Feed per robots.txt untersagt |
-| DL2MAN | https://www.youtube.com/@dl2man | UCqabnQWUjwH4K3FJtxbmrlA | de | gesperrt: Feed per robots.txt untersagt |
-| F74 Amateurfunk | https://www.youtube.com/@foxtrot74 | UCK5FG97UJEvGfSQv_QErtOQ | de | gesperrt: Feed per robots.txt untersagt |
-| FUNKFIEBER | https://www.youtube.com/@FUNKFIEBER | UC_dDiEsZNbDYbrPDL-fkMxA | de | gesperrt: Feed per robots.txt untersagt |
+| DARC e.V. (DARCHAMRADIO) | https://www.youtube.com/@DARCHAMRADIO | UCQrHHXcFmJkeCdO1UQ-DzAA | de | ok über Workflow |
+| DL2YMR | https://www.youtube.com/@DL2YMR | UCPRdlnpaE9HA5sM3ffvnK7Q | de | ok über Workflow |
+| Funkwelle | https://www.youtube.com/@Funkwelle | UCQu_laGfjCpn_7IUe6yAKwA | de | ok über Workflow |
+| AlpineRadioWaves (AH6UN/OE4JHW) | https://www.youtube.com/@AH6UN_OE4JHW | UCYQ6jw5qyBF73aB8K57-AKw | de | ok über Workflow |
+| DG2YCB | https://www.youtube.com/@dg2ycb | UCIoS4-DT0mmj79wlFOqqqkQ | de | ok über Workflow |
+| DL2MAN | https://www.youtube.com/@dl2man | UCqabnQWUjwH4K3FJtxbmrlA | de | ok über Workflow |
+| F74 Amateurfunk | https://www.youtube.com/@foxtrot74 | UCK5FG97UJEvGfSQv_QErtOQ | de | ok über Workflow |
+| FUNKFIEBER | https://www.youtube.com/@FUNKFIEBER | UC_dDiEsZNbDYbrPDL-fkMxA | de | ok über Workflow |
 | Ham Radio Crash Course | | offen | en | offen |
 | Ham Radio 2.0 | | offen | en | offen |
 | Dave Casler KE0OG | | offen | en | offen |
