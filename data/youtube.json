@@ -1,0 +1,122 @@
+{
+  "abgerufen": "2026-10-25T09:05:20Z",
+  "zeitraum": {
+    "von": "2026-10-17T09:05:20Z",
+    "bis": "2026-10-25T09:05:20Z"
+  },
+  "kanaele": [
+    {
+      "name": "DARC e.V. (DARCHAMRADIO)",
+      "channel_id": "UCQrHHXcFmJkeCdO1UQ-DzAA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "DL2YMR",
+      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 3
+    },
+    {
+      "name": "Funkwelle",
+      "channel_id": "UCQu_laGfjCpn_7IUe6yAKwA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 2
+    },
+    {
+      "name": "DG2YCB",
+      "channel_id": "UCIoS4-DT0mmj79wlFOqqqkQ",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "DL2MAN",
+      "channel_id": "UCqabnQWUjwH4K3FJtxbmrlA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "F74 Amateurfunk",
+      "channel_id": "UCK5FG97UJEvGfSQv_QErtOQ",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "FUNKFIEBER",
+      "channel_id": "UC_dDiEsZNbDYbrPDL-fkMxA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    }
+  ],
+  "videos": [
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "RP0mDyVxG_g",
+      "titel": "ROCAM CR1030DAB portables FM/DAB+ Radio mit Bluetooth, Notfallradio mit Solar, Kurbel und 12 Ah Akku",
+      "veroeffentlicht": "2026-10-24T14:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=RP0mDyVxG_g",
+      "ist_short": false,
+      "beschreibung": "👍 Von der Lautstärke und Klangqualität bin ich überrascht. Ich dachte nicht, das ein so günstiges Radio so gut klingen kann. 👍\n\nAFFILIATED LINKS *:\n🛒 ROCAM FM/DAB+ Radio mit Bluetooth ➜ https://link.amazon/B0enOUdDC\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n☕  https://buymeacoffee.com/alpineradiowaves ☕\n\n73 und Danke für's zusehen!\n73 and thanks for watching!\n\nJuergen OE4JHW / AH6UN\n\n*AFFILIATED LINKS / ADVERTISING NOTICE\nWhen you click on links to merchants posted in this description and make a purchase, this can result in me earning a commission."
+    },
+    {
+      "kanal": "DL2YMR",
+      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
+      "sprache": "de",
+      "video_id": "6CXmDJTk5AM",
+      "titel": "Dieser Fehler ist kaum zu sehen – Siglent SDS1204X HD im Praxistest",
+      "veroeffentlicht": "2026-10-23T14:00:28+00:00",
+      "url": "https://www.youtube.com/watch?v=6CXmDJTk5AM",
+      "ist_short": false,
+      "beschreibung": "Mit dem Siglent SDS1204X HD einen fehlerhaften Impuls gezielt finden, festhalten und vermessen: In einer Folge von dreißig Impulsen ist einer viel zu kurz. Ich zeige euch, wie man ihn mit dem Impulsbreiten-Trigger zuverlässig einfängt.\n\nEin Multimeter zeigt einen Spannungswert, ein Oszilloskop zeigt den zeitlichen Verlauf. Genau das macht den Unterschied, wenn eine Spannung nur kurz einbricht oder ein Steuersignal gelegentlich zu kurz ist. Für den Versuch erzeugt mein Siglent SDG3162X Signalgenerator dreißig Impulse. Neunundzwanzig sind etwa 200 Mikrosekunden lang, einer nur etwa 40 Mikrosekunden.\n\nMit einer normalen Flankentriggerung fällt der kurze Impuls kaum auf. Deshalb stellen wir das Oszilloskop auf einen Impulsbreiten-Trigger ein: Es soll nur bei einem positiven Impuls auslösen, der kürzer als 100 Mikrosekunden ist. In der Einzelaufnahme wartet das Gerät genau auf dieses Ereignis. Danach vermessen wir den Impuls mit Zoom und Messcursorn.\n\nAußerdem schauen wir auf den Sequence-Modus und die History-Funktion, mit denen man mehrere Ereignisse nacheinander erfassen und vergleichen kann. Ich ordne auch die technischen Daten des SDS1204X HD ein: vier Kanäle, 200 MHz Bandbreite, bis zu 2 GSa/s, 12 Bit Auflösung und ein 10,1-Zoll-Touchscreen. Und ich erkläre, warum es bei der Fehlersuche oft mehr auf die passende Triggerfunktion ankommt als auf die Zahlen im Datenblatt.\n\nZum Schluss geht es darum, für wen sich ein Oszilloskop am Funkplatz lohnt und was man bei massebezogenen "
+    },
+    {
+      "kanal": "DL2YMR",
+      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
+      "sprache": "de",
+      "video_id": "UcCK4oSzlI0",
+      "titel": "4 Watt CB-Funk und über 1000 km weit?",
+      "veroeffentlicht": "2026-10-23T11:03:04+00:00",
+      "url": "https://www.youtube.com/shorts/UcCK4oSzlI0",
+      "ist_short": true,
+      "beschreibung": "CB-Funk über den Atlantik mit nur 4 Watt? Das habt ihr mir geschrieben, und ihr habt recht, zumindest zum Teil. In diesem Short erkläre ich euch, warum Funkverbindungen über so große Entfernungen manchmal plötzlich möglich sind.\n\nIm Sommer bilden sich in etwa 100 Kilometern Höhe gelegentlich stark ionisierte Wolken, die sogenannte Sporadic-E. Sie lenken das Signal zur Erde zurück, und auf einmal sind auf dem 11-m-Band und dem benachbarten 10-m-Band Verbindungen über 1000 bis 2000 Kilometer drin. Bei guter Sonnenaktivität trägt die F2-Schicht das Signal sogar in mehreren Sprüngen bis nach Amerika.\n\nDas klappt aber nur, wenn die Natur mitspielt. Genau das macht für viele CB-Funker und Funkamateure den Reiz von DX aus: Man weiß nie genau, wann sich das Band öffnet.\n\nUnterstützt den Kanal\nWenn euch meine Videos beim Funken, Messen oder Bauen weiterhelfen, könnt ihr DL2YMR als Kanalmitglied unterstützen. Damit tragt ihr direkt dazu bei, dass weiterhin gründlich recherchierte Videos, echte Messungen und neue Projekte aus dem Shack entstehen. Schon eine kleine Mitgliedschaft macht einen spürbaren Unterschied. Vielen Dank an alle, die bereits dabei sind.\nKanalmitglied werden https://www.youtube.com/@DL2YMR/join\n\nAffiliate Links:\nWerbung: Die mit * gekennzeichneten Links sind Affiliate-Links. Kauft ihr darüber ein, bekomme ich eine kleine Provision. Für euch ändert sich am Preis nichts.\nAls Amazon-Partner verdiene ich an qualifizierten Verkäufen.\n\nPassend zu diesem Video\n\n* Bandöffnun"
+    },
+    {
+      "kanal": "DL2YMR",
+      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
+      "sprache": "de",
+      "video_id": "x72kg8Jh3Jo",
+      "titel": "CB Funk vs. Amateurfunk",
+      "veroeffentlicht": "2026-10-20T18:21:11+00:00",
+      "url": "https://www.youtube.com/shorts/x72kg8Jh3Jo",
+      "ist_short": true,
+      "beschreibung": "CB-Funk oder Amateurfunk? \n\nBeim CB-Funk legst du ohne Prüfung sofort los, im Amateurfunk brauchst du eine Lizenz – dafür darfst du mehr Bänder nutzen und sogar selbst bauen und experimentieren.\n\nDen ganzen Vergleich mit Kosten, Möglichkeiten und meiner Empfehlung findest du hier:\n\nCB-Funk vs. Amateurfunk: https://www.youtube.com/watch?v=Rmr0vnmPWTI\n\nDu willst die Lizenz machen? Hier auf dem Kanal gibt es einen kostenlosen Videokurs zur Klasse N:\nLektion 01: https://www.youtube.com/watch?v=WnOBk1UogjM\n\nGanze Playlist: https://www.youtube.com/playlist?list=PLDpWnjHk5ERbcgpLPUaU0iTsD-wrmfENk\n\n73 de Michael, DL2YMR\n#shorts #amateurfunk #cbfunk #dl2ymr"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "lp5wENwyl_M",
+      "titel": "DSD TECH SH-B30 BT 2.0 to RS232 Adapter - Connect wirelessly to your old devices",
+      "veroeffentlicht": "2026-10-19T03:00:32+00:00",
+      "url": "https://www.youtube.com/watch?v=lp5wENwyl_M",
+      "ist_short": false,
+      "beschreibung": "This allows you to (CAT) control your old Pactor modems, TNCs, radios, etc., wirelessly. Any RF interference from the radio into the cable is now a thing of the past.\n\nAFFILIATED LINKS *:\n🛒 DSD TECH SH-B23A Bluetooth 2.0 to RS232 Adapter ➜ https://link.amazon/B0iIOafGL\n🛒 MY AMAZON SHOP ➜ https://www.amazon.de/shop/alpineradiowaves\n\n👍 Like,  🤡 Comment, ❤️ Subscribe \n☕  https://buymeacoffee.com/alpineradiowaves ☕\n\n73 und Danke für's zusehen!\n73 and thanks for watching!\n\nJuergen OE4JHW / AH6UN\n\n*AFFILIATED LINKS / ADVERTISING NOTICE\nWhen you click on links to merchants posted in this description and make a purchase, this can result in me earning a commission."
+    }
+  ]
+}
