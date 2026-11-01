@@ -497,10 +497,10 @@ def _variante(q, v, tag, von, bekannt, hinweise):
         ist_sonder = any(x.lower() in listentitel.lower() for x in sonder)
         if geholt >= v.get("max_detail", 15) and not ist_sonder:
             continue
-        lm = v.get("datum_aus_liste", "beide")
-        d_liste = None if lm == "aus" else (datum_aus_text(l.get("davor", "")) or
-                                           (datum_aus_text(l.get("danach", "")) if lm == "beide" else None))
-        if (d_liste and d_liste < von and not ist_sonder and not v.get("ohne_datumsfilter")):
+        d_liste = datum_aus_text(l.get("davor", "")) or datum_aus_text(l.get("danach", ""))
+        if (d_liste and d_liste < von and not ist_sonder and not v.get("ohne_datumsfilter")
+                and v.get("liste_zum_ueberspringen", True)):
+            alte.append(f"{d_liste.isoformat()} (liste) {listentitel[:50]}")
             alt_in_folge += 1
             if alt_in_folge >= v.get("stopp_nach_alt", 3):
                 break
@@ -519,15 +519,21 @@ def _variante(q, v, tag, von, bekannt, hinweise):
         tp.feed(seite)
         text = tp.text()
         titel = waehle_titel(listentitel, seite)
-        titel = re.sub(r"^Weiterlesen\s*…?\s*", "", titel)
+        titel = ABSCHNITT.sub("", titel)
         i = text.find(titel) if len(titel) >= 8 else -1
         if i >= 0:                                # Menüreste vor der Überschrift abschneiden
             text = text[i + len(titel):].lstrip(" -–|:")
-        d, herkunft = meta_datum(seite), "meta"
-        if d is None and d_liste:
-            d, herkunft = d_liste, "liste"
-        if d is None:
-            d, herkunft = datum_aus_text(text[:600]), "text"
+        d, herkunft = None, "unbekannt"
+        for quelle_des_datums in v.get("datum_reihenfolge", ["meta", "liste", "text"]):
+            if quelle_des_datums == "meta":
+                d = meta_datum(seite)
+            elif quelle_des_datums == "liste":
+                d = d_liste
+            else:
+                d = datum_aus_text(text[:600])
+            if d:
+                herkunft = quelle_des_datums
+                break
         ist_sonder = ist_sonder or any(x.lower() in titel.lower() for x in sonder)
         if d is not None and d < von and not ist_sonder and not v.get("ohne_datumsfilter"):
             alte.append(f"{d.isoformat()} ({herkunft}) {titel[:50]}")
@@ -542,11 +548,14 @@ def _variante(q, v, tag, von, bekannt, hinweise):
     return ergebnis
 
 
+ABSCHNITT = re.compile(r"^(Weiterlesen|Read more|Continue reading|Mehr lesen)\s*…?\s*", re.I)
+
+
 def waehle_titel(listentitel, seite):
     """Linktext der Übersicht, sonst Überschrift der Detailseite."""
     if len(listentitel) >= 12 and listentitel.lower() not in GENERISCH:
-        return re.sub(r"^Weiterlesen\s*…?\s*", "", listentitel)
-    for t in (seitentitel(seite), re.sub(r"^Weiterlesen\s*…?\s*", "", listentitel), listentitel):
+        return ABSCHNITT.sub("", listentitel)
+    for t in (seitentitel(seite), ABSCHNITT.sub("", listentitel), listentitel):
         if t and t.lower() not in GENERISCH:
             return t
     return listentitel

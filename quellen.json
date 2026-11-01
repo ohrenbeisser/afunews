@@ -230,7 +230,11 @@
           "link_muster": "^https://uska\\.ch/(de|en)/[a-z0-9-]{15,}/$",
           "max_detail": 15,
           "stopp_nach_alt": 6,
-          "datum_aus_liste": "aus"
+          "datum_reihenfolge": [
+            "text",
+            "liste"
+          ],
+          "liste_zum_ueberspringen": false
         }
       ]
     },
