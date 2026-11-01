@@ -228,8 +228,8 @@
           "typ": "html",
           "url": "https://uska.ch/de/news/",
           "link_muster": "^https://uska\\.ch/(de|en)/[a-z0-9-]{15,}/$",
-          "max_detail": 10,
-          "stopp_nach_alt": 3,
+          "max_detail": 15,
+          "stopp_nach_alt": 6,
           "datum_aus_liste": "aus"
         }
       ]

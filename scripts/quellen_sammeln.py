@@ -491,7 +491,7 @@ def _variante(q, v, tag, von, bekannt, hinweise):
     neu_kand = [l for l in kandidaten if l["href"] not in bekannt]
     hinweise.append("%s: %d Kandidaten, %d davon schon bekannt"
                     % (v["url"][:60], len(kandidaten), len(kandidaten) - len(neu_kand)))
-    alt_in_folge, geholt = 0, 0
+    alt_in_folge, geholt, alte = 0, 0, []
     for l in neu_kand:
         href, listentitel = l["href"], l["text"]
         ist_sonder = any(x.lower() in listentitel.lower() for x in sonder)
@@ -530,12 +530,15 @@ def _variante(q, v, tag, von, bekannt, hinweise):
             d, herkunft = datum_aus_text(text[:600]), "text"
         ist_sonder = ist_sonder or any(x.lower() in titel.lower() for x in sonder)
         if d is not None and d < von and not ist_sonder and not v.get("ohne_datumsfilter"):
+            alte.append(f"{d.isoformat()} ({herkunft}) {titel[:50]}")
             alt_in_folge += 1
             if alt_in_folge >= v.get("stopp_nach_alt", 3):
                 break
             continue
         alt_in_folge = 0
         ergebnis.append(_eintrag(q, titel, href, d, herkunft if d else "unbekannt", text))
+    if alte and not ergebnis:
+        hinweise.append("Nur ältere Meldungen gefunden, z. B.: " + "; ".join(alte[:4]))
     return ergebnis
 
 
