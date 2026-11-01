@@ -31,7 +31,7 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 6. **Schreiben.** Titel und Zusammenfassung nach den Regeln unten.
 7. **Termine.** Ereignisse der *kommenden* Woche als `typ: termin` aufnehmen. Nur die wichtigsten: große Conteste, DXpeditionen auf gesuchte Gebiete, ISS-Kontakte mit Schulen in DACH. Regionale Termine aus Sachsen und dem Vogtland werden immer aufgenommen, auch wenn die Ankündigung schon älter ist; dann als `typ: artikel` mit Rubrik `regional`.
 8. **Kopf schreiben.** `ueberblick` mit drei bis fünf Sätzen zu den wichtigsten Themen; `ausbreitung` mit einer kurzen Notiz, wenn es Daten gibt (z. B. FunkWX des DARC-HF-Referats).
-9. **Speichern.** Wochendatei schreiben, `data/index.json` aktualisieren (`aktualisiert`, neuer Eintrag in `wochen`, absteigend sortiert).
+9. **Speichern.** Zeitstempel (`erstellt`, `aktualisiert`) nicht schätzen, sondern mit `TZ=Europe/Berlin date +%Y-%m-%dT%H:%M:%S%:z` bestimmen. Wochendatei schreiben, `data/index.json` aktualisieren (`aktualisiert`, neuer Eintrag in `wochen`, absteigend sortiert).
 10. **Prüfen.** `python3 scripts/pruefen.py` ausführen. Fehler beheben, bis die Prüfung ohne Fehler durchläuft.
     Danach die Rohdaten der Woche entfernen: `git rm -r data/rohdaten`. Sie werden nur für diesen Lauf gebraucht und sollen das Repository nicht aufblähen. Die Löschung gehört in denselben Commit wie die Wochendatei.
 11. **Committen.** Autor `ohrenbeisser <ohrenbeisser@gmail.com>`. Commit-Nachricht: `KW 42/2026: 18 Meldungen`, beim Testlauf mit dem Zusatz `(Testlauf)`. Pushen wie oben beschrieben. Der Commit enthält die Wochendatei, `data/index.json` und die Löschung von `data/rohdaten/`.
