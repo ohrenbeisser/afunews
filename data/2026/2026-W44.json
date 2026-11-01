@@ -4,16 +4,85 @@
     "von": "2026-10-26",
     "bis": "2026-11-01"
   },
-  "erstellt": "2026-11-01T06:30:00+01:00",
-  "ueberblick": "Die AMSAT-OSCAR-Statusseite zieht am 4. November auf status.amsat.org um, am 5. November folgt der letzte iROSA-Solargenerator der ISS. Der Deutschland-Rundspruch meldet 5.000 Nutzer bei Wavelog@DARC und ruft zum Log-Upload für die DX-Wertung auf; die DARC-Mitgliederversammlung ist am 14. November in Baunatal. Das HF-Referat weist auf drohende Leiterplatten-Engpässe in Europa und die neue EIBI-Liste für den Kurzwellen-Winter hin. Bei den DXpeditionen laufen KH8A, FW3GT, V26JJ und 6W, Aurora stört dabei zeitweise den Betrieb.",
-  "ausbreitung": "Laut DF5JL (28. Oktober) fiel der Sonnenfluss vom 21. bis 28. Oktober von etwa 115 auf 90, bis 4. November werden 80 bis 90 erwartet. Zum Wochenende rechnet das HF-Referat mit Kp 5 bis 6 durch einen Hochgeschwindigkeitsstrom; 20m, 30m und 40m bleiben überwiegend brauchbar, 15m ist die beständigste DX-Bande.",
+  "erstellt": "2026-11-01T12:27:00+01:00",
+  "ueberblick": "Das Funkwetter bestimmt das Wochenende: Ein Hochgeschwindigkeitsstrom bringt Kp 5 bis 6, die MUF sank am 1. November auf etwa 13 MHz. Die AMSAT-OSCAR-Statusseite zieht am 4. November um, am 5. November folgt der letzte iROSA-Solargenerator an der ISS. Der Deutschland-Rundspruch meldet 5.000 Wavelog-Nutzer, ruft zum Log-Upload für die DX-Wertung auf und kündigt die DARC-Mitgliederversammlung für den 14. November an. Bei den DXpeditionen laufen KH8A, FW3GT, V26JJ und 6W, Aurora stört den Betrieb zeitweise. Für den FOSDEM-DevRoom im Januar werden bis 23. November Vorträge gesucht.",
+  "ausbreitung": "Laut DF5JL (28. Oktober) fiel der Sonnenfluss vom 21. bis 28. Oktober von etwa 115 auf 90, bis 4. November werden 80 bis 90 erwartet. Am 31. Oktober und 1. November drückt schneller Sonnenwind von rund 500 km/s die nutzbaren Frequenzen; zum Wochenende rechnet das HF-Referat mit Kp 5 bis 6. 20m, 30m und 40m bleiben überwiegend brauchbar, 15m und 10m öffnen gelegentlich.",
   "meldungen": [
     {
       "id": "2026-W44-001",
       "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Wavelog@DARC zählt 5.000 Nutzer, DX-Wertung sucht Logs, Mitgliederversammlung am 14. November",
+      "zusammenfassung": "Laut Deutschland-Rundspruch 43/2026 hat Wavelog@DARC am 26. Oktober den 5.000. Nutzer erreicht. Das DX-Referat ruft dazu auf, ADIF-Logs für 2026 bis Mitte Januar hochzuladen; sie dienen der DX-Wertung, der Most-Wanted-Liste und der Förderung von DXpeditionen durch die German DX Foundation. Die DARC-Mitgliederversammlung findet am 14. November in Baunatal statt, am 4. November folgt ein Online-Vortrag zu PASAN auf dem Treff.DARC.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-432026-44-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "Rundspruch",
+        "Wavelog",
+        "DX-Wertung",
+        "GDXF",
+        "Mitgliederversammlung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-002",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "FunkWX: Hochgeschwindigkeitsstrom bringt Kp 5 bis 6, DX auf 20m bis 40m bleibt möglich",
+      "zusammenfassung": "Nach einer Verdichtungszone mit Kp 4 bis 5 in der Nacht zum 31. Oktober erwartet das HF-Referat durch einen Hochgeschwindigkeitsstrom aus einem koronalen Loch Kp 5 bis 6 (G1/G2). Die Aktivität soll zum Wochenbeginn nachlassen, die Sonne ist ruhig. Auf 20m, 30m und 40m bleiben die DX-Bedingungen überwiegend brauchbar, 15m und 10m öffnen gelegentlich.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/funkwx-am-wochenende-cir-kuendet-hss-an/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "FunkWX",
+        "Kp-Index",
+        "Sonnenwind"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-003",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "Schneller Sonnenwind senkt die MUF: 13 MHz statt 20 MHz",
+      "zusammenfassung": "Das HF-Referat berichtet, dass der Sonnenwind mit rund 500 km/s die nutzbaren Frequenzen senkt. Die MUF für 3000 km Sprungdistanz lag am Standort Dourbes in Belgien am 31. Oktober um 07:05 UTC bei etwa 20 MHz, am 1. November zur gleichen Zeit bei etwa 13 MHz. Der Beitrag erklärt außerdem den Unterschied zwischen foF2 und MUF.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/fof2-und-muf-was-ist-der-unterschied/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "MUF",
+        "foF2",
+        "Sonnenwind",
+        "Ausbreitung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-004",
+      "typ": "artikel",
       "rubrik": "satellit",
       "titel": "AMSAT-Statusseite zieht um, ISS-Außeneinsatz am 5. November",
-      "zusammenfassung": "Die AMSAT-OSCAR-Statusseite wechselt am 4. November ab 14:00 UTC auf status.amsat.org; die Migration dauert laut IT-Team bis zu zwei Stunden, die alte Adresse leitet danach weiter. Am 5. November installieren Astronauten den achten und letzten iROSA-Solargenerator der ISS (NASA-Übertragung ab 11:45 UTC), während Außeneinsätzen sind die ARISS-Funkgeräte abgeschaltet. Die ARISS-SSTV-Serie 34 ist beendet, APRS läuft wieder auf 437,825 MHz.",
+      "zusammenfassung": "Die AMSAT-OSCAR-Statusseite wechselt am 4. November ab 14:00 UTC auf status.amsat.org, die alte Adresse leitet danach weiter. Am 5. November soll der achte und letzte iROSA-Solargenerator der ISS angebracht werden; während Außeneinsätzen bleiben die ARISS-Funkgeräte aus. Die ARISS-SSTV-Serie 34 ist beendet, APRS läuft wieder auf 437,825 MHz.",
       "quelle": {
         "name": "AMSAT-NA (ANS-305)",
         "url": "https://www.amsat.org/ans-305-amsat-news-service-weekly-bulletins/",
@@ -26,63 +95,18 @@
         "AMSAT",
         "ARISS",
         "ISS",
-        "Statusseite"
+        "Statusseite",
+        "APRS"
       ],
       "termin": null,
       "video": null
     },
     {
-      "id": "2026-W44-002",
-      "typ": "artikel",
-      "rubrik": "verband",
-      "titel": "Wavelog@DARC zählt 5.000 Nutzer, Logs für DX-Wertung gesucht",
-      "zusammenfassung": "Laut Deutschland-Rundspruch 43/2026 hat Wavelog@DARC am 26. Oktober den 5.000. Nutzer registriert. Das DX-Referat ruft dazu auf, die ADIF-Logs 2026 bis Mitte Januar für die DX-Wertung und die Most-Wanted-Liste hochzuladen (toplist.darc.de); die Liste dient der German DX Foundation als Grundlage für die Förderung von DXpeditionen. Die DARC-Mitgliederversammlung findet am 14. November in Baunatal statt.",
-      "quelle": {
-        "name": "DARC",
-        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-432026-44-kw/",
-        "sprache": "de"
-      },
-      "veroeffentlicht": "2026-10-29",
-      "wichtigkeit": 2,
-      "region": "DL",
-      "tags": [
-        "Wavelog",
-        "DX-Wertung",
-        "GDXF",
-        "Mitgliederversammlung",
-        "Rundspruch"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W44-003",
-      "typ": "artikel",
-      "rubrik": "ausbreitung",
-      "titel": "FunkWX: Hochgeschwindigkeitsstrom bringt geomagnetische Unruhe",
-      "zusammenfassung": "Nach einer Verdichtungszone mit Kp 4 bis 5 in der Nacht zum 31. Oktober erwartet das HF-Referat durch einen Hochgeschwindigkeitsstrom aus einem koronalen Loch Kp 5 bis 6 (G1/G2); die Aktivität soll zum Wochenbeginn nachlassen. Die Sonne ist ruhig. Auf 20m, 30m und 40m bleiben die DX-Bedingungen überwiegend brauchbar, 15m und 10m öffnen gelegentlich.",
-      "quelle": {
-        "name": "DARC",
-        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/funkwx-am-wochenende-cir-kuendet-hss-an/",
-        "sprache": "de"
-      },
-      "veroeffentlicht": "2026-10-31",
-      "wichtigkeit": 2,
-      "region": "DL",
-      "tags": [
-        "FunkWX",
-        "Kp-Index",
-        "Ausbreitung"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W44-004",
+      "id": "2026-W44-005",
       "typ": "artikel",
       "rubrik": "technik",
       "titel": "DARC warnt vor knapper werdenden Leiterplatten in Europa",
-      "zusammenfassung": "Das HF-Referat verweist auf einen Bericht von heise.de, nach dem in Europa Lieferengpässe bei Leiterplatten drohen. Genannt werden die Abhängigkeit von asiatischen Herstellern, die durch den KI-Boom ausgelastet sind, sowie knappe Materialien und Probleme in den Lieferketten. Konkrete Folgen für Funkamateure nennt die Meldung nicht.",
+      "zusammenfassung": "Das HF-Referat verweist auf einen Bericht von heise.de, nach dem in Europa Lieferengpässe bei Leiterplatten drohen. Als Gründe nennt er die Abhängigkeit von asiatischen Herstellern, die durch den KI-Boom ausgelastet sind, knappe Materialien und Probleme in den Lieferketten. Konkrete Folgen für Funkamateure nennt die Meldung nicht.",
       "quelle": {
         "name": "DARC",
         "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/leiterplatten-werden-knapp/",
@@ -100,34 +124,11 @@
       "video": null
     },
     {
-      "id": "2026-W44-005",
-      "typ": "artikel",
-      "rubrik": "veranstaltung",
-      "titel": "FOSDEM 2027: Vorträge für den Amateurfunk-DevRoom bis 23. November einreichen",
-      "zusammenfassung": "Der Amateurfunk-DevRoom der FOSDEM findet am Sonntag, 31. Januar 2027, vormittags in Brüssel statt. Gesucht werden technische Vorträge von 25 Minuten zu freier Funksoftware und Open Hardware, Einreichungen laufen über pretalx.fosdem.org bis 23. November; die Benachrichtigung folgt am 1. Dezember.",
-      "quelle": {
-        "name": "DARC",
-        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vortraege-fuer-die-fosdem-2027-gesucht/",
-        "sprache": "de"
-      },
-      "veroeffentlicht": "2026-10-27",
-      "wichtigkeit": 3,
-      "region": "EU",
-      "tags": [
-        "FOSDEM",
-        "Call for Papers",
-        "IARU Region 1",
-        "Open Source"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
       "id": "2026-W44-006",
       "typ": "artikel",
       "rubrik": "technik",
-      "titel": "EIBI-Liste für den Kurzwellen-Winterfahrplan 2026/2027 erschienen",
-      "zusammenfassung": "Die EIBI-Frequenzliste für Rundfunk-, Utility- und weitere Aussendungen auf Kurzwelle liegt für den Winter 2026/2027 vor. Sie nennt Frequenz, UTC-Sendezeiten, Wochentage, Sprache, Zielgebiet und Senderstandort und hilft, unbekannte Signale zu bestimmen. Gepflegt wird sie von Eike Bierwirth, viele Empfängerprogramme und SDR-Anwendungen nutzen sie.",
+      "titel": "EIBI-Liste für den Kurzwellen-Winter 2026/2027 ist erschienen",
+      "zusammenfassung": "Die von Eike Bierwirth gepflegte EIBI-Frequenzliste liegt seit dem 31. Oktober für den Winter 2026/2027 vor. Sie erfasst Rundfunk-, Utility- und weitere Aussendungen mit Frequenz, UTC-Sendezeiten, Sprache, Zielgebiet und Senderstandort und dient vielen Empfängerprogrammen und SDR-Anwendungen als Grundlage.",
       "quelle": {
         "name": "DARC",
         "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/die-eibi-liste-winterfahrplan-fuer-kurzwelle/",
@@ -146,6 +147,50 @@
     },
     {
       "id": "2026-W44-007",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "FOSDEM 2027: Vorträge für den Amateurfunk-DevRoom bis 23. November einreichen",
+      "zusammenfassung": "Der Amateurfunk-DevRoom der FOSDEM findet am Sonntag, 31. Januar 2027, vormittags in Brüssel statt. Gesucht werden technische Vorträge von 25 Minuten zu freier Funksoftware und Open Hardware. Einreichungen laufen über pretalx.fosdem.org bis 23. November, die Benachrichtigung folgt am 1. Dezember.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vortraege-fuer-die-fosdem-2027-gesucht/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "FOSDEM",
+        "Call for Papers",
+        "IARU Region 1"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-008",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "53. Dortmunder Amateurfunkmarkt in Kamen mit über 1.000 Besuchern",
+      "zusammenfassung": "Der Dortmunder Amateurfunkmarkt wurde zum ersten Mal in Kamen ausgerichtet. Nach Angaben des DARC kamen über 1.000 Besucher, das Vortragsprogramm war gut besucht und der Funkmarkt vielfältig bestückt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/ein-voller-erfolg-der-53-dortmunder-amateurfunkmarkt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-26",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Funkmarkt",
+        "Dortmund",
+        "Kamen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-009",
       "typ": "artikel",
       "rubrik": "regional",
       "titel": "OV Annaberg erweitert Hamnet-Knoten DB0ANA für den Notfunk",
@@ -168,11 +213,56 @@
       "video": null
     },
     {
-      "id": "2026-W44-008",
+      "id": "2026-W44-010",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "KH8A: Deutsches Team ist auf Amerikanisch-Samoa gelandet",
+      "zusammenfassung": "Das deutsche DXpeditionsteam hat Amerikanisch-Samoa erreicht und baut die Stationen auf. Aktiv ist es vom 30. Oktober bis 12. November 2026 als KH8A von 160m bis 6m; laut NG3K in CW, SSB, FT8 und RTTY.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/KH8A.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "KH8A",
+        "Amerikanisch-Samoa",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-011",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "6W Senegal: gute Bedingungen auf 10m und 12m, Empfangsprobleme auf den tiefen Bändern",
+      "zusammenfassung": "Das italienische Team meldet aus Senegal gute Bedingungen auf 10m und 12m. Der Empfang auf 80m und 160m bereitet Probleme, außerdem schwankt die Netzspannung zwischen etwa 200 bis 210 Volt tagsüber und 180 Volt am Abend. Aktiv ist es bis 9. November als 6W/I2YSB und 6W/IK2HKT.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/6w-i2ysb-6w-ik2hkt-senegal/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "6W",
+        "Senegal",
+        "I2YSB",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-012",
       "typ": "artikel",
       "rubrik": "dx",
       "titel": "FW3GT auf Wallis und Futuna: Aurora stört den Betrieb",
-      "zusammenfassung": "Das FW3GT-Team auf Wallis und Futuna meldet über 2.000 QSOs im Log. Nachts erschwert Aurora den Betrieb, Signale nach Europa zeigen starkes Flattern. Die Aktivität läuft laut NG3K bis 14. November, überwiegend auf 80m und 60m in CW und FT8.",
+      "zusammenfassung": "Der Operator von FW3GT meldet über 2.000 QSOs im Log. Nachts erschwert Aurora den Betrieb, Signale nach Europa zeigen starkes Flattern. Die Aktivität läuft laut NG3K bis 14. November, überwiegend auf 80m und 60m in CW und FT8.",
       "quelle": {
         "name": "DX-World",
         "url": "https://www.dx-world.net/fw3gt-wallis-futuna/",
@@ -184,13 +274,14 @@
       "tags": [
         "FW3GT",
         "Wallis und Futuna",
-        "DXpedition"
+        "DXpedition",
+        "Aurora"
       ],
       "termin": null,
       "video": null
     },
     {
-      "id": "2026-W44-009",
+      "id": "2026-W44-013",
       "typ": "artikel",
       "rubrik": "dx",
       "titel": "9X5KM aus Ruanda kann zunächst nicht QRV werden",
@@ -212,7 +303,7 @@
       "video": null
     },
     {
-      "id": "2026-W44-010",
+      "id": "2026-W44-014",
       "typ": "termin",
       "rubrik": "dx",
       "titel": "V26JJ: Japanisches Team funkt bis 6. November von Antigua",
@@ -246,51 +337,140 @@
       "video": null
     },
     {
-      "id": "2026-W44-011",
+      "id": "2026-W44-015",
       "typ": "artikel",
       "rubrik": "dx",
-      "titel": "5R8IC von Sainte-Marie in Madagaskar bis Mitte Dezember",
-      "zusammenfassung": "Eric, F6ICX, ist bis Mitte Dezember von Sainte-Marie (AF-090) als 5R8IC aktiv, hauptsächlich in CW, teils FT8 und SSB auf 40m bis 10m. QSL über LoTW und direkt.",
+      "titel": "3X4U Guinea: Team aus Belgien und den Niederlanden bereitet die Abreise vor",
+      "zusammenfassung": "Das 3X4U-Team hat die Ausrüstung für fünf Stationen verpackt und zum Versand vorbereitet. Laut NG3K funken zehn Operatoren aus Belgien und den Niederlanden vom 10. bis 24. November vom Lac de Koba auf 160m bis 6m in CW, SSB, FT8 und RTTY.",
       "quelle": {
         "name": "DX-World",
-        "url": "https://www.dx-world.net/5r8ic-saint-marie-isl-madagascar/",
+        "url": "https://www.dx-world.net/3x4u-guinea-dxpedition-2026/",
         "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "3X4U",
+        "Guinea",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-016",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "ZD7WP und ZD7VJ funken ab 22. November von St. Helena",
+      "zusammenfassung": "Fred, G4BWP, und Andy, 5Z4VJ, sind vom 22. November bis 5. Dezember als ZD7WP und ZD7VJ von St. Helena aktiv. Andy nimmt am CQWW CW teil und funkt davor und danach auf weiteren Bändern; Fred plant QO-100 und 60m neben CW und SSB.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/zd7vj-zd7wp-saint-helena/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "ZD7",
+        "St. Helena",
+        "CQWW CW"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-017",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "EUDXF-Aktivitätsmonat im November mit Sonderrufzeichen",
+      "zusammenfassung": "Der November ist erneut der Aktivitätsmonat der EUDXF. Mit Sonderrufzeichen wie DL40EUDXF und PB40EUDXF sind insgesamt 14 Stationen aus DXCC-Gebieten wie DL, DU, HA, ON, PA und VK im Äther und vergeben Punkte für das Sonderdiplom 2026.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/EUDXF-40-Aktivitaet.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "EUDXF",
+        "Sonderrufzeichen",
+        "Diplom"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-018",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "Zweiter Meshcore-Workshop am 21. November in Hilden",
+      "zusammenfassung": "Die DARC-Ortsverbände Dormagen (G21) und Hilden (R04) laden zu einem zweiten Meshcore-Workshop am 21. November von 9:30 Uhr bis etwa 17 Uhr in Hilden ein. Teilnehmen können alle ab zwölf Jahren; die Anmeldung per E-Mail war bis 31. Oktober vorgesehen. Der erste Workshop fand im September in Dormagen statt.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/meshcore-workshop-2.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-26",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Meshcore",
+        "Workshop",
+        "Hilden"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-019",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "USKA: Super Party 2026 in Zofingen mit hunderten Besuchern",
+      "zusammenfassung": "Die Super Party der USKA am 31. Oktober in Zofingen wurde laut Bericht ein großer Erfolg. Schon kurz nach der Türöffnung waren in der Mehrzweckhalle hunderte Funkamateure unterwegs.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/feilschen-fachsimpeln-freunde-treffen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "USKA",
+        "Flohmarkt",
+        "Zofingen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-020",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "USKA: Störung durch Rasenmäher und Ladegerät mit zwei Peilgeräten gefunden",
+      "zusammenfassung": "Bei der achten EMC-Level-1-Videokonferenz am 27. Oktober berichtete Richard, HB9ERB, wie er die Störung eines Rasenmähers der Marke Husqvarna und seines Ladegeräts mit zwei verschiedenen Peilgeräten eingrenzte.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/kurzbericht-8-emc-level-1-videokonferenz-2026/",
+        "sprache": "de"
       },
       "veroeffentlicht": "2026-10-30",
       "wichtigkeit": 3,
-      "region": "INT",
+      "region": "DACH",
       "tags": [
-        "5R8IC",
-        "Madagaskar",
-        "IOTA"
+        "EMV",
+        "Störungssuche",
+        "Peilung",
+        "USKA"
       ],
       "termin": null,
       "video": null
     },
     {
-      "id": "2026-W44-012",
-      "typ": "artikel",
-      "rubrik": "dx",
-      "titel": "VP2VBB und VP2V/GU4YOX: Aktivität von den Britischen Jungferninseln im November",
-      "zusammenfassung": "Bob, GU4YOX, reist im November nach Tortola und ist vor dem CQWW CW (28. und 29. November) als VP2V/GU4YOX aktiv. Während des Contests nutzt er das Sonderrufzeichen VP2VBB.",
-      "quelle": {
-        "name": "DX-World",
-        "url": "https://www.dx-world.net/vp2vbb-vp2v-gu4yox-b-v-i/",
-        "sprache": "en"
-      },
-      "veroeffentlicht": "2026-10-31",
-      "wichtigkeit": 3,
-      "region": "INT",
-      "tags": [
-        "VP2VBB",
-        "CQWW CW",
-        "Britische Jungferninseln"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W44-013",
+      "id": "2026-W44-021",
       "typ": "artikel",
       "rubrik": "technik",
       "titel": "OrbitNight: Satellitenpässe im Browser mit Rotorsteuerung",
@@ -312,7 +492,7 @@
       "video": null
     },
     {
-      "id": "2026-W44-014",
+      "id": "2026-W44-022",
       "typ": "artikel",
       "rubrik": "technik",
       "titel": "FalconSDR: Open-Source-Scanner mit automatischer Whisper-Transkription",
@@ -329,73 +509,6 @@
         "SDR",
         "RTL-SDR",
         "Scanner"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W44-015",
-      "typ": "artikel",
-      "rubrik": "technik",
-      "titel": "OrcSDR 0.5.0: SSTV, ACARS und Offline-Karten für ESP32-P4",
-      "zusammenfassung": "Die Beta-Version 0.5.0 der Firmware, die einen RTL-SDR auf einem ESP32-P4-Tablet betreibt, bringt SSTV-Empfang, ein ACARS-Dashboard und Offline-Karten. Die Software steht unter AGPL-3.0.",
-      "quelle": {
-        "name": "RTL-SDR Blog",
-        "url": "https://www.rtl-sdr.com/orcsdr-update-sstv-acars-and-offline-maps-come-to-the-standalone-esp32-p4-rtl-sdr-app/",
-        "sprache": "en"
-      },
-      "veroeffentlicht": "2026-10-29",
-      "wichtigkeit": 3,
-      "region": "INT",
-      "tags": [
-        "SDR",
-        "SSTV",
-        "ESP32"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W44-016",
-      "typ": "artikel",
-      "rubrik": "technik",
-      "titel": "SimTX: Mehrspieler-Kurzwellensimulator mit rtl_tcp-Anbindung",
-      "zusammenfassung": "SimTX simuliert ein gemeinsames Kurzwellenband, auf dem Nutzer senden und empfangen; die Ausbreitung beruht auf Ionosphärenmodellen. Über eine lokale rtl_tcp-Brücke kann SDR++ das simulierte Band empfangen. Die Software ist nicht Open Source.",
-      "quelle": {
-        "name": "RTL-SDR Blog",
-        "url": "https://www.rtl-sdr.com/simtx-a-multiplayer-shortwave-radio-simulator-with-realistic-propagation-and-rtl_tcp-support/",
-        "sprache": "en"
-      },
-      "veroeffentlicht": "2026-10-29",
-      "wichtigkeit": 3,
-      "region": "INT",
-      "tags": [
-        "Simulator",
-        "Kurzwelle",
-        "SDR"
-      ],
-      "termin": null,
-      "video": null
-    },
-    {
-      "id": "2026-W44-017",
-      "typ": "artikel",
-      "rubrik": "technik",
-      "titel": "USKA: Störungssuche mit zwei Peilgeräten bei der EMC-Level-1-Videokonferenz",
-      "zusammenfassung": "Bei der achten EMC-Level-1-Videokonferenz am 27. Oktober berichtete Richard, HB9ERB, wie er einer Störung mit zwei verschiedenen Peilgeräten nachging. Der Kurzbericht der USKA fasst den Vortrag zusammen.",
-      "quelle": {
-        "name": "USKA",
-        "url": "https://uska.ch/de/kurzbericht-8-emc-level-1-videokonferenz-2026/",
-        "sprache": "de"
-      },
-      "veroeffentlicht": "2026-10-30",
-      "wichtigkeit": 3,
-      "region": "DACH",
-      "tags": [
-        "EMV",
-        "Störungssuche",
-        "Peilung",
-        "USKA"
       ],
       "termin": null,
       "video": null
