@@ -99,3 +99,40 @@ Zeiten in UTC. Felder, die nicht bekannt sind, bleiben leere Listen.
 | `ausbreitung` | Ausbreitung |
 | `regional` | Sachsen und Vogtland |
 | `veranstaltung` | Treffen, Messen, Fieldday |
+
+## Rohdaten
+
+Die GitHub Action „Quellen sammeln“ legt pro Woche `data/rohdaten/JJJJ-Www.json` an. Die Datei ist nur Arbeitsmaterial für den Agenten: Er löscht sie nach dem Erstellen der Wochendatei im selben Commit, und das Skript entfernt beim nächsten Lauf alle Rohdaten früherer Wochen. Sie wird nicht veröffentlicht und nicht von `scripts/pruefen.py` geprüft.
+
+```json
+{
+  "kw": "2026-W44",
+  "zeitraum": { "von": "2026-10-26", "bis": "2026-11-01" },
+  "abgerufen": "2026-11-01T03:47:12Z",
+  "bekannte_links_uebersprungen": 63,
+  "quellen": [
+    {
+      "id": "darc",
+      "name": "DARC Nachrichten",
+      "sprache": "de",
+      "rubriken": ["verband", "regulatorik"],
+      "kern": true,
+      "nur_hinweis": false,
+      "status": "ok",
+      "anzahl": 12,
+      "hinweise": [],
+      "eintraege": [
+        {
+          "titel": "Titel laut Quelle",
+          "url": "https://…",
+          "datum": "2026-10-30",
+          "datum_herkunft": "meta",
+          "auszug": "Gekürzter Text der Meldung …"
+        }
+      ]
+    }
+  ]
+}
+```
+
+`status` ist `ok` (Einträge gefunden), `leer` (Quelle erreichbar, nichts Neues) oder `fehler` (nicht erreichbar, Text in `fehler`). `datum_herkunft` ist `meta`, `feed`, `text` (aus dem Text geschätzt), `unbekannt` oder `keins`. Links, die in den letzten vier Wochendateien schon als `quelle.url` stehen, fehlen in den Rohdaten.

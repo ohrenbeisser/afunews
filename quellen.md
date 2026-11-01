@@ -1,6 +1,6 @@
 # Quellen
 
-Der Agent arbeitet diese Liste von oben nach unten ab. Kern- und Zusatzquellen werden jede Woche geprüft, die Kernquellen zuerst.
+Diese Liste beschreibt die Quellen für Menschen. Abgerufen werden sie nicht vom Agenten, sondern von der GitHub Action „Quellen sammeln“ (`.github/workflows/quellen.yml`, Skript `scripts/quellen_sammeln.py`) sonntags um 03:45 UTC. Welche Adressen das Skript liest, steht maschinenlesbar in `quellen.json`; das Ergebnis liegt in `data/rohdaten/JJJJ-Www.json`, und der Agent liest nur diese Datei. Neue Quellen müssen also in `quellen.json` eingetragen werden, hier genügt die Beschreibung. Quellen ohne Eintrag in `quellen.json` (z. B. Bundesnetzagentur, IARU, ARISS, DK0WCY, Amateur Radio Newsline, 425 DX News) werden derzeit nicht gesammelt. Das Skript beachtet die robots.txt der Seiten.
 
 Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026. YouTube-Kanäle sind eingetragen, aber derzeit nicht abrufbar.
 

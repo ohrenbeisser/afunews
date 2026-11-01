@@ -2,7 +2,7 @@
 
 News aus dem Bereich des Amateurfunks, einmal pro Woche gesammelt, auf Deutsch zusammengefasst und als JSON abgelegt.
 
-Ein Agent (Claude, als geplanter Task) läuft wöchentlich, arbeitet die Quellenliste ab und schreibt eine Datei pro Kalenderwoche nach `data/`. Eine Webseite liest diese Dateien und zeigt sie an.
+GitHub Actions holen sonntags früh die Quellen und YouTube-Feeds. Ein Agent (Claude, als geplanter Task) läuft danach wöchentlich, liest diese Rohdaten und schreibt eine Datei pro Kalenderwoche nach `data/`. Eine Webseite liest diese Dateien und zeigt sie an.
 
 ## Inhalt
 
@@ -13,6 +13,9 @@ Ein Agent (Claude, als geplanter Task) läuft wöchentlich, arbeitet die Quellen
 | `schema.md` | Datenformat aller JSON-Dateien |
 | `data/index.json` | Übersicht aller Wochen |
 | `data/JJJJ/JJJJ-Www.json` | eine Datei pro Kalenderwoche |
+| `quellen.json` | maschinenlesbare Quellenliste für das Sammel-Skript |
+| `scripts/quellen_sammeln.py` | holt die Quellen (GitHub Action, sonntags) und legt Rohdaten in `data/rohdaten/` ab |
+| `scripts/youtube_feeds.py` | holt die YouTube-Feeds nach `data/youtube.json` |
 | `scripts/pruefen.py` | prüft alle Dateien gegen das Format |
 | `beispiel/` | Beispieldatei mit erfundenen Inhalten, nur zur Ansicht |
 
