@@ -1,8 +1,8 @@
 {
-  "abgerufen": "2026-10-25T09:05:20Z",
+  "abgerufen": "2026-11-01T10:41:42Z",
   "zeitraum": {
-    "von": "2026-10-17T09:05:20Z",
-    "bis": "2026-10-25T09:05:20Z"
+    "von": "2026-10-24T10:41:42Z",
+    "bis": "2026-11-01T10:41:42Z"
   },
   "kanaele": [
     {
@@ -17,7 +17,7 @@
       "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
       "ok": true,
       "videos_im_feed": 15,
-      "videos_im_zeitraum": 3
+      "videos_im_zeitraum": 2
     },
     {
       "name": "Funkwelle",
@@ -31,7 +31,7 @@
       "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
       "ok": true,
       "videos_im_feed": 15,
-      "videos_im_zeitraum": 2
+      "videos_im_zeitraum": 3
     },
     {
       "name": "DG2YCB",
@@ -59,10 +59,65 @@
       "channel_id": "UC_dDiEsZNbDYbrPDL-fkMxA",
       "ok": true,
       "videos_im_feed": 15,
-      "videos_im_zeitraum": 0
+      "videos_im_zeitraum": 1
     }
   ],
   "videos": [
+    {
+      "kanal": "FUNKFIEBER",
+      "channel_id": "UC_dDiEsZNbDYbrPDL-fkMxA",
+      "sprache": "de",
+      "video_id": "_-9cgGSPnew",
+      "titel": "Eiserne Reserve im Rucksack!? Diese Notfallriegel nutze ich!  NRG-5, CONVAR-7 & MSR-500",
+      "veroeffentlicht": "2026-11-01T08:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=_-9cgGSPnew",
+      "ist_short": false,
+      "beschreibung": "*Convar-7 Mix Pack: https://link.amazon/B08OttIrr\n*MSR-500: https://link.amazon/B0cOIUc2Y\n*NRG-5: https://link.amazon/B07Enz0bM\n*NRG-5 ZERO: https://link.amazon/B03H76Uyc\n\n#outdoor #krisenvorsorge #emergencyfood #notnahrung #treckingfood #trecking \n~~~~\n🛒 Mein Amazon-Shop\nEntdecke meine persönlich genutzte Technik & Ausrüstung:\n👉 https://www.amazon.de/shop/funkfieber\n\n💰 Unterstütze den Kanal\nMit einer kleinen Spende hilfst du, zukünftige Videos zu realisieren:\n👉 https://www.paypal.com/donate?hosted_button_id=4RAE2E8J9CPEA\n\n🧰 Bausätze & Zubehör\nFunkfieber-Bausätze exklusiv bei Alex' RadioShop:\n👉 https://alexsradioshop.de/product_brand/funkfieber/\n\n🎧 Rabatt bei TIDRADIO\nSpare mit dem Rabattcode FUNKFIEBER auf deinen Einkauf:\n👉 https://tidradio.com/?ref=9wo6m7cc\n\n👕 FUNKFIEBER Fanartikel\nZeig deine Unterstützung mit coolen Shirts, Tassen und mehr:\n👉 https://funkfieber.myspreadshop.de/\n\n🎥 Mein Video- & Aufnahme-Equipment (mit Affiliate-Links)\n– Sony ZV-1 Kamera: https://amzn.to/4cBPtmO\n– Insta360 GO 3: https://amzn.to/4czp212\n– K&F Concept Carbon-Stativ: https://amzn.to/4dTbSgO\n– K&F Concept XXL-Stativ: https://amzn.to/46W4e2P\n– AnkerWork M650 Funkmikros: https://amzn.to/40ZL1fu\n– Synco G2 A2 Funkmikros: https://amzn.to/4dsA1L6\n– RØDE Video-Richtmikrofon: https://amzn.to/4fSZoXZ\n\n⚠️ Hinweis: Bei mit * gekennzeichneten Links handelt es sich um Affiliate-Links. Wenn du darüber einkaufst, unterstützt du mich mit einer kleinen Provision – ohne Mehrkosten für dich. Vielen Dank!\n📢 Diese"
+    },
+    {
+      "kanal": "DL2YMR",
+      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
+      "sprache": "de",
+      "video_id": "01W-4ufp10s",
+      "titel": "Amateurfunk News - November 2026",
+      "veroeffentlicht": "2026-10-31T08:10:16+00:00",
+      "url": "https://www.youtube.com/watch?v=01W-4ufp10s",
+      "ist_short": false,
+      "beschreibung": "Amateurfunk News - November 2026\n\nDie Amateurfunk News für November 2026: Funkamateure haben ein Signal an der Venus reflektiert und aus dem Echo die Nachricht „VENUS ECHO“ gelesen. Dazu das neue Übertragungsverfahren JTTY aus dem WSJT-X-Team, ein Update für Wavelog, zwei Satelliten aus Bochum mit OSCAR-Nummer, das Funkwetter, die Jugend-DXpedition VK9XY und eine Phishing-Warnung.\n\nAlle Angaben nach Stand 29. Oktober 2026 und ohne Gewähr. Links zu den Originalquellen findet ihr unten.\n\n00:00 - Start\n01:15 - Venus-Echo\n03:13 - JTTY\n05:53 - Wavelog 3.2.4\n06:51 - AO-129 und AO-130\n08:45 - Funkwetter\n10:00 - VK9XY\n12:07 - Phishing-Warnung\n13:07 - Fazit\n\nWerbung in eigener Sache: Unterstützt den Kanal\nWenn euch meine Videos beim Funken, Messen oder Bauen weiterhelfen, könnt ihr DL2YMR als Kanalmitglied unterstützen. Damit tragt ihr dazu bei, dass weiterhin gründlich recherchierte Videos, echte Messungen und neue Projekte aus dem Shack entstehen. Den Preis zeigt euch YouTube vor dem Abschluss an. Vielen Dank an alle, die bereits dabei sind.\nKanalmitglied werden https://www.youtube.com/@DL2YMR/join\n\nLinks:\nCAMRAS: Earth-Venus-Earth 2026 https://www.camras.nl/en/blog/2026/earth-venus-earth-2026/\nWSJT-X Releases (JTTY) https://github.com/WSJTX/wsjtx/releases\nWSJT-X Projektseite https://wsjtx.github.io/wsjtx/about.html\nWavelog 3.2.4 https://github.com/wavelog/wavelog/releases/tag/3.2.4\nAMSAT-DL: AO-129 und AO-130 https://amsat-dl.org/erminaz-2u-und-2v-erhalten-oscar-nummern/\nAMSAT-DL: "
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "jW93zOqvXnc",
+      "titel": "RADDY RF780 wideband MW / SW / CB / Airband / VHF / UHF / Weather channel - AM / FM / SSB Reiceiver",
+      "veroeffentlicht": "2026-10-30T20:23:16+00:00",
+      "url": "https://www.youtube.com/watch?v=jW93zOqvXnc",
+      "ist_short": false,
+      "beschreibung": "A broadcast receiver with Bluetooth, App control, Micro SD card recording and external MW antenna. Very well suited as a receiver for use in emergencies and disaster situations.\n\n🛒 RADDY RF780 receiver ➜ https://www.radioddity.com/products/raddy-rf780\n\nI would be very happy if you bought me a coffee!\n☕  https://buymeacoffee.com/alpineradiowaves ☕\n\n👍 Like,  🤡 Comment, ❤️ Subscribe - 73 and thanks for watching!\n\nJuergen OE4JHW / AH6UN"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "bMsdhRaQ7pM",
+      "titel": "Refurbishing an old CRT SS 7900 CB & Ham radio AM/FM/SSB tranceiver.",
+      "veroeffentlicht": "2026-10-27T21:54:56+00:00",
+      "url": "https://www.youtube.com/watch?v=bMsdhRaQ7pM",
+      "ist_short": false,
+      "beschreibung": "In this video, I take a look at an old CB and amateur radio transceiver that I acquired from the estate of Walter, OE3RAS (SK) - RIP.\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 und Danke für's zusehen!\n73 and thanks for watching!\n\nJürgen OE4JHW / AH6UN"
+    },
+    {
+      "kanal": "DL2YMR",
+      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
+      "sprache": "de",
+      "video_id": "NSgrxg5DhWw",
+      "titel": "Amateurfunkmarkt Dortmund in Kamen: 1000 Besucher und Flohmarkt",
+      "veroeffentlicht": "2026-10-25T19:00:12+00:00",
+      "url": "https://www.youtube.com/watch?v=NSgrxg5DhWw",
+      "ist_short": false,
+      "beschreibung": "Der Amateurfunkmarkt Dortmund fand 2026 zum 53. Mal statt, diesmal in der Stadthalle Kamen, und ich war spontan mit der Kamera dabei. Kommt mit auf einen Rundgang über den Dortmunder Amateurfunkmarkt und den Amateurfunk-Flohmarkt.\n\n\n\n\nWerbung in eigener Sache: \nUnterstützt den Kanal\nWenn euch meine Videos beim Funken, Messen oder Bauen weiterhelfen, könnt ihr DL2YMR als Kanalmitglied unterstützen. Damit tragt ihr dazu bei, dass weiterhin gründlich recherchierte Videos, echte Messungen und neue Projekte aus dem Shack entstehen. Den Preis zeigt euch YouTube vor dem Abschluss an. Vielen Dank an alle, die bereits dabei sind.\n\nKanalmitglied werden https://www.youtube.com/@DL2YMR/join\n\nAffiliate Links:\n\nWerbung: Die mit * gekennzeichneten Links sind Affiliate-Links. Kauft ihr darüber ein, bekomme ich eine kleine Provision. Für euch ändert sich am Preis nichts.\n\nAls Amazon-Partner verdiene ich an qualifizierten Verkäufen.\nPassend zu diesem Video (Werbung, Affiliate-Links)\n\n* Flohmarktfunde wieder flottmachen: Pinecil Lötkolben https://www.amazon.de/dp/B096X6SG13?tag=dl2ymr07-21\n\n* Neue Stecker ans Koaxkabel: Koax-Crimpzangen-Set https://www.amazon.de/dp/B07KDRP36R?tag=dl2ymr07-21\n\n* Passende Übergänge für gebrauchte Geräte: SMA auf PL259/SO239 Adapter-Set https://www.amazon.de/dp/B07K2WRCRC?tag=dl2ymr07-21\n\n* Amateurfunk – Das umfassende Handbuch https://www.amazon.de/dp/3367115312?tag=dl2ymr07-21\n\n\nMeine Messgeräte im Shack (Werbung, Affiliate-Links)\n\n* TinySA Ultra Spektrumanalysa"
+    },
     {
       "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
       "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
@@ -73,50 +128,6 @@
       "url": "https://www.youtube.com/watch?v=RP0mDyVxG_g",
       "ist_short": false,
       "beschreibung": "👍 Von der Lautstärke und Klangqualität bin ich überrascht. Ich dachte nicht, das ein so günstiges Radio so gut klingen kann. 👍\n\nAFFILIATED LINKS *:\n🛒 ROCAM FM/DAB+ Radio mit Bluetooth ➜ https://link.amazon/B0enOUdDC\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n☕  https://buymeacoffee.com/alpineradiowaves ☕\n\n73 und Danke für's zusehen!\n73 and thanks for watching!\n\nJuergen OE4JHW / AH6UN\n\n*AFFILIATED LINKS / ADVERTISING NOTICE\nWhen you click on links to merchants posted in this description and make a purchase, this can result in me earning a commission."
-    },
-    {
-      "kanal": "DL2YMR",
-      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
-      "sprache": "de",
-      "video_id": "6CXmDJTk5AM",
-      "titel": "Dieser Fehler ist kaum zu sehen – Siglent SDS1204X HD im Praxistest",
-      "veroeffentlicht": "2026-10-23T14:00:28+00:00",
-      "url": "https://www.youtube.com/watch?v=6CXmDJTk5AM",
-      "ist_short": false,
-      "beschreibung": "Mit dem Siglent SDS1204X HD einen fehlerhaften Impuls gezielt finden, festhalten und vermessen: In einer Folge von dreißig Impulsen ist einer viel zu kurz. Ich zeige euch, wie man ihn mit dem Impulsbreiten-Trigger zuverlässig einfängt.\n\nEin Multimeter zeigt einen Spannungswert, ein Oszilloskop zeigt den zeitlichen Verlauf. Genau das macht den Unterschied, wenn eine Spannung nur kurz einbricht oder ein Steuersignal gelegentlich zu kurz ist. Für den Versuch erzeugt mein Siglent SDG3162X Signalgenerator dreißig Impulse. Neunundzwanzig sind etwa 200 Mikrosekunden lang, einer nur etwa 40 Mikrosekunden.\n\nMit einer normalen Flankentriggerung fällt der kurze Impuls kaum auf. Deshalb stellen wir das Oszilloskop auf einen Impulsbreiten-Trigger ein: Es soll nur bei einem positiven Impuls auslösen, der kürzer als 100 Mikrosekunden ist. In der Einzelaufnahme wartet das Gerät genau auf dieses Ereignis. Danach vermessen wir den Impuls mit Zoom und Messcursorn.\n\nAußerdem schauen wir auf den Sequence-Modus und die History-Funktion, mit denen man mehrere Ereignisse nacheinander erfassen und vergleichen kann. Ich ordne auch die technischen Daten des SDS1204X HD ein: vier Kanäle, 200 MHz Bandbreite, bis zu 2 GSa/s, 12 Bit Auflösung und ein 10,1-Zoll-Touchscreen. Und ich erkläre, warum es bei der Fehlersuche oft mehr auf die passende Triggerfunktion ankommt als auf die Zahlen im Datenblatt.\n\nZum Schluss geht es darum, für wen sich ein Oszilloskop am Funkplatz lohnt und was man bei massebezogenen "
-    },
-    {
-      "kanal": "DL2YMR",
-      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
-      "sprache": "de",
-      "video_id": "UcCK4oSzlI0",
-      "titel": "4 Watt CB-Funk und über 1000 km weit?",
-      "veroeffentlicht": "2026-10-23T11:03:04+00:00",
-      "url": "https://www.youtube.com/shorts/UcCK4oSzlI0",
-      "ist_short": true,
-      "beschreibung": "CB-Funk über den Atlantik mit nur 4 Watt? Das habt ihr mir geschrieben, und ihr habt recht, zumindest zum Teil. In diesem Short erkläre ich euch, warum Funkverbindungen über so große Entfernungen manchmal plötzlich möglich sind.\n\nIm Sommer bilden sich in etwa 100 Kilometern Höhe gelegentlich stark ionisierte Wolken, die sogenannte Sporadic-E. Sie lenken das Signal zur Erde zurück, und auf einmal sind auf dem 11-m-Band und dem benachbarten 10-m-Band Verbindungen über 1000 bis 2000 Kilometer drin. Bei guter Sonnenaktivität trägt die F2-Schicht das Signal sogar in mehreren Sprüngen bis nach Amerika.\n\nDas klappt aber nur, wenn die Natur mitspielt. Genau das macht für viele CB-Funker und Funkamateure den Reiz von DX aus: Man weiß nie genau, wann sich das Band öffnet.\n\nUnterstützt den Kanal\nWenn euch meine Videos beim Funken, Messen oder Bauen weiterhelfen, könnt ihr DL2YMR als Kanalmitglied unterstützen. Damit tragt ihr direkt dazu bei, dass weiterhin gründlich recherchierte Videos, echte Messungen und neue Projekte aus dem Shack entstehen. Schon eine kleine Mitgliedschaft macht einen spürbaren Unterschied. Vielen Dank an alle, die bereits dabei sind.\nKanalmitglied werden https://www.youtube.com/@DL2YMR/join\n\nAffiliate Links:\nWerbung: Die mit * gekennzeichneten Links sind Affiliate-Links. Kauft ihr darüber ein, bekomme ich eine kleine Provision. Für euch ändert sich am Preis nichts.\nAls Amazon-Partner verdiene ich an qualifizierten Verkäufen.\n\nPassend zu diesem Video\n\n* Bandöffnun"
-    },
-    {
-      "kanal": "DL2YMR",
-      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
-      "sprache": "de",
-      "video_id": "x72kg8Jh3Jo",
-      "titel": "CB Funk vs. Amateurfunk",
-      "veroeffentlicht": "2026-10-20T18:21:11+00:00",
-      "url": "https://www.youtube.com/shorts/x72kg8Jh3Jo",
-      "ist_short": true,
-      "beschreibung": "CB-Funk oder Amateurfunk? \n\nBeim CB-Funk legst du ohne Prüfung sofort los, im Amateurfunk brauchst du eine Lizenz – dafür darfst du mehr Bänder nutzen und sogar selbst bauen und experimentieren.\n\nDen ganzen Vergleich mit Kosten, Möglichkeiten und meiner Empfehlung findest du hier:\n\nCB-Funk vs. Amateurfunk: https://www.youtube.com/watch?v=Rmr0vnmPWTI\n\nDu willst die Lizenz machen? Hier auf dem Kanal gibt es einen kostenlosen Videokurs zur Klasse N:\nLektion 01: https://www.youtube.com/watch?v=WnOBk1UogjM\n\nGanze Playlist: https://www.youtube.com/playlist?list=PLDpWnjHk5ERbcgpLPUaU0iTsD-wrmfENk\n\n73 de Michael, DL2YMR\n#shorts #amateurfunk #cbfunk #dl2ymr"
-    },
-    {
-      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
-      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
-      "sprache": "de",
-      "video_id": "lp5wENwyl_M",
-      "titel": "DSD TECH SH-B30 BT 2.0 to RS232 Adapter - Connect wirelessly to your old devices",
-      "veroeffentlicht": "2026-10-19T03:00:32+00:00",
-      "url": "https://www.youtube.com/watch?v=lp5wENwyl_M",
-      "ist_short": false,
-      "beschreibung": "This allows you to (CAT) control your old Pactor modems, TNCs, radios, etc., wirelessly. Any RF interference from the radio into the cable is now a thing of the past.\n\nAFFILIATED LINKS *:\n🛒 DSD TECH SH-B23A Bluetooth 2.0 to RS232 Adapter ➜ https://link.amazon/B0iIOafGL\n🛒 MY AMAZON SHOP ➜ https://www.amazon.de/shop/alpineradiowaves\n\n👍 Like,  🤡 Comment, ❤️ Subscribe \n☕  https://buymeacoffee.com/alpineradiowaves ☕\n\n73 und Danke für's zusehen!\n73 and thanks for watching!\n\nJuergen OE4JHW / AH6UN\n\n*AFFILIATED LINKS / ADVERTISING NOTICE\nWhen you click on links to merchants posted in this description and make a purchase, this can result in me earning a commission."
     }
   ]
 }
