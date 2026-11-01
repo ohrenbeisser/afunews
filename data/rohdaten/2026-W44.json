@@ -4,9 +4,9 @@
   "von": "2026-10-26",
   "bis": "2026-11-01"
  },
- "abgerufen": "2026-11-01T10:44:32Z",
+ "abgerufen": "2026-11-01T10:49:49Z",
  "hinweis": "Rohdaten für den Wochen-Agenten. Datum aus 'meta' ist verlässlich, aus 'text' eine Schätzung. Der Agent löscht die Datei nach dem Erstellen der Wochendatei.",
- "bekannte_links_uebersprungen": 80,
+ "bekannte_links_uebersprungen": 63,
  "quellen": [
   {
    "id": "darc",
@@ -23,85 +23,122 @@
    "kern": true,
    "nur_hinweis": false,
    "status": "ok",
-   "anzahl": 11,
-   "hinweise": [],
+   "anzahl": 16,
+   "hinweise": [
+    "https://www.darc.de/nachrichten/meldungen/archiv-liste/archi: 22 Kandidaten, 0 davon schon bekannt"
+   ],
    "eintraege": [
     {
      "titel": "200 Jahre Ohmsches Gesetz",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/200-jahre-ohmsches-gesetz/",
      "datum": "2026-11-01",
      "datum_herkunft": "meta",
-     "auszug": "News: 200 Jahre Ohmsches Gesetz - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht 200 Jahre Ohmsches Gesetz 01.11.2026 Erstellt von HF-Referat In diesem Jahr jährt sich die Entdeckung des nach Georg Simon Ohm benannten Zusammenhangs zwischen Strom, Spannung und Widerstand zum 200. Mal. Bereits 1826 veröffentlichte Ohm die grundlegenden Ergebnisse seiner Untersuchungen, die er 1827 in seinem Hauptwerk 'Die galvanische Kette, mathematisch bearbeitet' ausführlich darlegte. Das heute nach ihm benannte Ohmsche Gesetz beschreibt die Beziehung …"
+     "auszug": "News: 200 Jahre Ohmsches Gesetz - DARC In diesem Jahr jährt sich die Entdeckung des nach Georg Simon Ohm benannten Zusammenhangs zwischen Strom, Spannung und Widerstand zum 200. Mal. Bereits 1826 veröffentlichte Ohm die grundlegenden Ergebnisse seiner Untersuchungen, die er 1827 in seinem Hauptwerk 'Die galvanische Kette, mathematisch bearbeitet' ausführlich darlegte. Das heute nach ihm benannte Ohmsche Gesetz beschreibt die Beziehung dieser Größen mit der bekannten Formel U = R · I und zählt zu den wichtigsten Naturgesetzen der Elektrotechnik. ▶️ Was heute in wenigen Sekunden vermittelt …"
     },
     {
      "titel": "foF2 und MUF - was ist der Unterschied?",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/fof2-und-muf-was-ist-der-unterschied/",
      "datum": "2026-11-01",
      "datum_herkunft": "meta",
-     "auszug": "News: foF2 und MUF - was ist der Unterschied? - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht foF2 und MUF - was ist der Unterschied? 01.11.2026 Erstellt von HF-Referat / Tom DF5JL Aktuell drückt der schnelle Sonnenwind von rund 500 km/s die maximal nutzbaren Frequenzen deutlich nach unten: Lag die MUF für eine Sprungdistanz von 3000 km am Standort Dourbes in Belgien gestern Morgen um 0705 UTC noch bei etwa 20 MHz, wurden heute zur gleichen Zeit nur noch rund 13 MHz gemessen. Doch was genau steckt hinter den häufig verwendeten Begriffen …"
+     "auszug": "News: foF2 und MUF - was ist der Unterschied? - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht foF2 und MUF - was ist der Unterschied? 01.11.2026 Erstellt von HF-Referat / Tom DF5JL Aktuell drückt der schnelle Sonnenwind von rund 500 km/s die maximal nutzbaren Frequenzen deutlich nach unten: Lag die MUF für eine Sprungdistanz von 3000 km am Standort Dourbes in Belgien gestern Morgen um 0705 UTC noch bei etwa 20 MHz, wurden heute zur gleichen Zeit nur noch rund 13 MHz gemessen. Doch was genau steckt hinter den häufig verwendeten Begriffen foF2 und MUF? Worin unterscheiden sich …"
+    },
+    {
+     "titel": "Die \"EIBI-Liste\" - Winterfahrplan für Kurzwelle",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/die-eibi-liste-winterfahrplan-fuer-kurzwelle/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "meta",
+     "auszug": "News: Die \"EIBI-Liste\" - Winterfahrplan für Kurzwelle - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Die \"EIBI-Liste\" - Winterfahrplan für Kurzwelle 31.10.2026 Erstellt von HF-Referat Seit heute ist die EIBI-Liste für den Winter 2026/2027 veröffentlicht, eine von dem deutschen Kurzwellen-Enthusiasten Eike Bierwirth gepflegte Frequenzdatenbank, die weltweit von Kurzwellenhörern, DXern und Funkamateuren genutzt wird. Sie enthält aktuelle Informationen über Rundfunksender, Utility-Dienste und andere Aussendungen im Kurzwellenbereich und wird regelmäßig an die jeweiligen …"
+    },
+    {
+     "titel": "FunkWX am Wochenende - CIR kündet HSS an",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/funkwx-am-wochenende-cir-kuendet-hss-an/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "meta",
+     "auszug": "News: FunkWX am Wochenende - CIR kündet HSS an - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht FunkWX am Wochenende - CIR kündet HSS an 31.10.2026 Erstellt von HF-Referat Noch ist die Sonnenwindgeschwindigkeit langsam, jedoch führte eine Verdichtungszone (CIR) in der Nacht zu geomagnetisch aktiven bis leicht stürmischen Phasen (Kp 4-5). Diese CIRs entstehen, wenn schneller auf langsamen Sonnenwind stößt. Daher wird das Eintreffen eines Hochgeschwindigkeitsstroms (HSS) innerhalb der nächsten 3 bis 6 Stunden erwartet. Er stammt aus einem koronalen Loch und wird die geomagnetische Aktivität voraussichtlich auf G1/G2 (Kp 5-6) anheben. In Sachen Sonnenaktivität bleibt's ruhig (M01% X01%). ▶️ Für die kommenden Tage erwarten die Vorhersagezentren weiterhin eine ruhige Sonne. Die Wahrscheinlichkeit für M- oder X-Flares bleibt sehr gering. Die geomagnetische Aktivität dürfte an diesem Wochenende durch den Einfluss des Hochgeschwindigkeitsstroms erhöht bleiben und mit Wochenbeginn wieder auf ruhige bis leicht unruhige Werte zurückgehen. Für die Kurzwelle bedeutet dies wechselhafte Bedingungen mit zeitweiligen Dämpfungen auf transpolaren Strecken, ansonsten aber überwiegend brauchbaren Ausbreitungsverhältnissen auf den klassischen DX-Bändern 20, 30 und 40 Meter. Die oberen Bänder 15 und 10 Meter werden vor allem tagsüber und auf südlichen Pfaden weiterhin gelegentliche Öffnungen zeigen. Allen Kurzwellenfreunden wünsche ich einen störungsfreien Empfang. 73 de Tom, DF5JL, …"
     },
     {
      "titel": "Halloween-Stürme 2003",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/halloween-stuerme-2003/",
      "datum": "2026-10-30",
      "datum_herkunft": "meta",
-     "auszug": "News: Halloween-Stürme 2003 - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht Halloween-Stürme 2003 30.10.2026 Erstellt von HF-Referat Die Halloween-Stürme des Jahres 2003 wird einigen Funkamateuren bis heute in Erinnerung geblieben sein. Weltraumwetter-Forscher betrachten sie als das bedeutendste Sonnensturmereignis der Satellitenära und als eines der stärksten seit dem berühmten Carrington-Ereignis von 1859. ▶️ Ende Oktober 2003 sorgte eine außergewöhnlich aktive Sonnenregion für eine Serie gewaltiger Sonneneruptionen und koronaler …"
+     "auszug": "News: Halloween-Stürme 2003 - DARC Die Halloween-Stürme des Jahres 2003 wird einigen Funkamateuren bis heute in Erinnerung geblieben sein. Weltraumwetter-Forscher betrachten sie als das bedeutendste Sonnensturmereignis der Satellitenära und als eines der stärksten seit dem berühmten Carrington-Ereignis von 1859. ▶️ Ende Oktober 2003 sorgte eine außergewöhnlich aktive Sonnenregion für eine Serie gewaltiger Sonneneruptionen und koronaler Massenauswürfe. Innerhalb weniger Tage wurden enorme Mengen elektrisch geladener Teilchen ins All geschleudert. Diese trafen die Erde und verursachten …"
     },
     {
      "titel": "DARC-Seminarzentrum gewährt Einblicke in eine Erfolgsgeschichte",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/darc-seminarzentrum-gewaehrt-einblicke-in-eine-erfolgsgeschichte/",
      "datum": "2026-10-30",
      "datum_herkunft": "meta",
-     "auszug": "News: DARC-Seminarzentrum gewährt Einblicke in eine Erfolgsgeschichte - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht DARC-Seminarzentrum gewährt Einblicke in eine Erfolgsgeschichte 30.10.2026 Erstellt von Redaktion Rund 40 interessierte Funkamateure aus dem gesamten Bundesgebiet nehmen vom 30. Oktober bis zum 1. November an einem Funktionsträgerseminar des DARC e. V. im Amateurfunkzentrum teil. Die Veranstaltung bildet den Abschluss des diesjährigen Seminarprogramms des Amateurfunkverbands mit hunderten Teilnehmern. Das …"
+     "auszug": "News: DARC-Seminarzentrum gewährt Einblicke in eine Erfolgsgeschichte - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht DARC-Seminarzentrum gewährt Einblicke in eine Erfolgsgeschichte 30.10.2026 Erstellt von Redaktion Rund 40 interessierte Funkamateure aus dem gesamten Bundesgebiet nehmen vom 30. Oktober bis zum 1. November an einem Funktionsträgerseminar des DARC e. V. im Amateurfunkzentrum teil. Die Veranstaltung bildet den Abschluss des diesjährigen Seminarprogramms des Amateurfunkverbands mit hunderten Teilnehmern. Das DARC-Seminarzentrum in der Baunataler Lindenallee ist …"
+    },
+    {
+     "titel": "Leiterplatten werden knapp",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/leiterplatten-werden-knapp/",
+     "datum": "2026-10-30",
+     "datum_herkunft": "meta",
+     "auszug": "News: Leiterplatten werden knapp - DARC Europa könnte vor einem neuen Flaschenhals in der Elektronikindustrie stehen, weil Leiterplatten knapp werden. Darüber berichtet heise.de. Hauptgrund ist die starke Abhängigkeit von asiatischen Produzenten, die gleichzeitig durch den KI-Boom immer stärker ausgelastet sind. Zusätzlichen Druck verursachen Engpässe bei wichtigen Materialien sowie Probleme in internationalen Lieferketten. Branchenverbände warnen vor ähnlichen Versorgungsproblemen wie während der Chipkrise 2020/2021. (Foto: Markus Erichsen / Pexels) | Zurück X"
     },
     {
      "titel": "Wissenschaftliche Community würdigt Lebensleistung von Ulrich L. Rohde, DJ2LR/N1UL",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/wissenschaftliche-community-wuerdigt-lebensleistung-von-ulrich-l-rohde-dj2lrn1ul/",
      "datum": "2026-10-29",
      "datum_herkunft": "meta",
-     "auszug": "News: Wissenschaftliche Community würdigt Lebensleistung von Ulrich L. Rohde, DJ2LR/N1UL - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht Wissenschaftliche Community würdigt Lebensleistung von Ulrich L. Rohde, DJ2LR/N1UL 29.10.2026 Erstellt von Redaktion Zwei aktuelle Auszeichnung würdigen die herausragenden wissenschaftlichen Leistungen des Forschers und Unternehmers Prof. Dr.-Ing. habil. Dr. h. c. mult. Ulrich L. Rohde, DJ2LR/N1UL: die Medaille Bene merenti der Bayerischen Akademie der Wissenschaften sowie die Distinguished Affiliate …"
+     "auszug": "News: Wissenschaftliche Community würdigt Lebensleistung von Ulrich L. Rohde, DJ2LR/N1UL - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Wissenschaftliche Community würdigt Lebensleistung von Ulrich L. Rohde, DJ2LR/N1UL 29.10.2026 Erstellt von Redaktion Zwei aktuelle Auszeichnung würdigen die herausragenden wissenschaftlichen Leistungen des Forschers und Unternehmers Prof. Dr.-Ing. habil. Dr. h. c. mult. Ulrich L. Rohde, DJ2LR/N1UL: die Medaille Bene merenti der Bayerischen Akademie der Wissenschaften sowie die Distinguished Affiliate Professorship der Technischen Universität …"
+    },
+    {
+     "titel": "Deutschland-Rundspruch 43/2026, 44. KW",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-432026-44-kw/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "meta",
+     "auszug": "News: Deutschland-Rundspruch 43/2026, 44. KW - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Deutschland-Rundspruch 43/2026, 44. KW 29.10.2026 Erstellt von Redaktion DARC e.V., Lindenallee 4, 34225 Baunatal, Telefon 0561 949880 Deutschland-Rundspruch 43/2026, 44. KW Redaktionsschluss: Mittwoch 10 Uhr, freigegeben für Rundspruchsendungen ab Donnerstag, den 22. Oktober 2026, 17:30 UTC. Die aktuelle Audiofassung gibt es auch als RSS-Feed unter www.nord-ostsee-rundspruch.de/category/deutschland-rundspruch und als mp3 unter www.darc.de/uploads/media/dlrs.mp3. Die aktuelle PDF-Datei finden Sie im eingeloggten Zustand unter www.darc.de/nachrichten/deutschland-rundspruch/. (An die Rundspruchsprecher: Internet-Linkverweise nicht vorlesen, z.B. [X]; lediglich für die Schriftfassung werden diese am Ende des Rundspruches aufgelistet.) Hallo liebe SWLs, YLs und OMs, Sie hören den Deutschland-Rundspruch Nummer 43 des Deutschen Amateur-Radio-Clubs für die 44. Kalenderwoche 2026. Diesmal haben wir Meldungen zu folgenden Themen: - ERMINAZ-2U und -2V erhalten OSCAR-Nummern - Weiteres Erde-Venus-Erde-Experiment geglückt - 5000. Benutzeranmeldung im Wavelog@DARC - DX-Wertung und Most-Wanted 2026 - Aufruf zum Logupload - Technikvorträge auf dem DARC.Treff - DARC-Mitgliederversammlung am 14. November - Funkbetriebliches - Aktuelle Conteste und - Was gibt es Neues vom Funkwetter? Hier die Meldungen: ERMINAZ-2U und -2V erhalten OSCAR-Nummern Am 1. Oktober 2026 wurden die drei von der AMSAT-DL entwickelten PocketQube-Satelliten ERMINAZ-2U, ERMINAZ-2V und ERMINAZ-2X von der Vandenberg Space Force Base in Kalifornien gestartet. ERMINAZ-2U und -2V sind erfolgreich in Betrieb und verfügen unter anderem über SSDV- und Digipeater-Nutzlasten. ERMINAZ-2X konnte dagegen bislang nicht empfangen werden. Auf Antrag der AMSAT-DL erhielten die beiden aktiven Satelliten nun die OSCAR-Bezeichnungen AMSAT-OSCAR 129 (AO-129) für ERMINAZ-2U und AMSAT-OSCAR 130 (AO-130) für ERMINAZ-2V. Die Abkürzung OSCAR steht für \"Orbiting Satellite Carrying Amateur Radio\". Diese Bezeichnung hat im Amateurfunk eine lange Tradition: Der erste Amateurfunksatellit OSCAR 1 wurde bereits am 12. Dezember 1961 gestartet. Seitdem ist es üblich, Amateurfunksatelliten nach erfolgreichem Erreichen des Orbits eine OSCAR-Bezeichnung zu verleihen. Die Vergabe und Nummerierung wird heute von der AMSAT verwaltet. Mit AO-129 und AO-130 wird damit eine Tradition fortgeführt, die bis in die Anfangsjahre der Raumfahrt zurückreicht und erfolgreiche Amateurfunksatelliten aus aller Welt unter dem gemeinsamen Namen OSCAR verbindet. Weiteres Erde-Venus-Erde-Experiment geglückt Am 17. und 18. Oktober sendete das Radioteleskop von Dwingeloo Signale in Richtung des Planeten Venus. Die von der Venus reflektierten Signale wurden vom Astropeiler Stockert empfangen. Die Signale legten von Dwingeloo zur Venus etwa 42 Millionen Kilometer zurück und etwa die gleiche Strecke zurück nach Stockert - eine Hin- und Rückreise von fast fünf Minuten. Aus den Echos konnte erfolgreich die zehnstellige Nachricht \"VENUS ECHO\" entschlüsselt werden. Das Senden eines Signals zur Venus und der Empfang des Echos wurde zuvor nur zweimal von Funkamateuren vorgenommen: 2009 von AMSAT-DL und 2025 von demselben Team wie in diesem Jahr. Im Vergleich zu 2025 wurde mehr als nur ein CW-Ton gesendet. Die erfolgreich empfangene Nachricht wurde in Zusammenarbeit mit dem Open Research Institute (ORI) in einer speziell entwickelten Wellenform (M-FSK) moduliert. Zu ihrer Decodierung war eine Mittelwertbildung über etwa 40 Minuten der empfangenen Echos erforderlich. Zu den weiteren gesendeten Signalen gehörten Slow-CW und Zadoff-Chu-Sequenzen. Ihre Echos konnten aus den Aufzeichnungen nicht wiederhergestellt werden. Ein erfolgreiches EVE-Experiment kann nur um die untere Konjunktion der Venus herum stattfinden, wenn sie der Erde am nächsten ist. 5000. Benutzeranmeldung im Wavelog@DARC \"Am Montag, den 26. Oktober haben wir die 5000er Benutzermarke in Wavelog@DARC überschritten\", freut sich DARC-Vorstandsmitglied Ronny Jerke, DG2RON, über die anhaltend große Resonanz. \"Die zehnjährige Laura, DN9YLL, die am letzten Schultag vor den Sommerferien erfolgreich die Prüfung abgelegt hatte, hat sich heute bei Wavelog angemeldet. Die Wahl fiel ihr leicht, da Papa Daniel, DJ2DD, seit über einem Jahr Wavelog benutzt und sehr begeistert ist\", berichtet DG2RON. DN9YLL freut sich besonders über die Tatsache, dass es in der DARC-Mitgliedschaft inklusive ist, die einfache Bedienung, tolle Übersichten - Zitat \"am Besten gefällt mir die Globus-Ansicht\" -, weiterhin schnell erstellte Diplom-Auswertungen und den integrierten Contest-Kalender, der einem das Suchen auf externen Webseiten erspart. Es sei das \"das Schweizer Taschenmesser zum Loggen\", zitiert DG2RON Laura und ihren Papa. Darüber berichtet Ronny Jerke, DG2RON und bedankt sich beim Wavelog-Entwicklerteam, im einzelnen DF2ET, DJ7NT, HB9HIL und LA8AJA, sowie dem Support- und Betriebsteam für Wavelog@DARC, bestehend aus DO8MKR, DG0TM und DG9VH. DX-Wertung und Most-Wanted 2026 - Aufruf zum Logupload Das DARC-DX-Referat arbeitet in der laufenden DX-Wertung und Most-Wanted-Liste erneut eng mit der German DX Foundation (GDXF) zusammen. Beide Organisationen pflegen seit vielen Jahren eine bewährte Kooperation zur Erfassung und Auswertung der Länderstände deutscher Funkamateure. Alle Funkamateure können ihre ADIF-Logs für das Jahr 2026 bequem bis Mitte Januar hochladen. Dies soll die Erstellung einer noch präziseren, auf Deutschland zentrierten Länderstandsauswertung ermöglichen. Die GDXF nutzt die daraus entstehende Liste als Grundlage für ihre weltweite Fördervergabe an DXpeditionen - eine echte Win-Win-Situation für die gesamte deutsche DX-Community. Die German DX Foundation (GDXF) wurde 1996 gegründet, um Kurzwellen-DX-Aktivitäten auf allen Bändern und in allen Sendearten zu unterstützen. Diese Förderung erfolgt durch finanzielle, personelle, instrumentale und logistische Hilfen. Weitere Infos gibt es online [1]. Darüber berichten das DARC-Vorstandsmitglied Ronny Jerke, DG2RON, und Philipp Springer, DK6SP, Präsident der German DX Foundation. Technikvorträge auf dem DARC.Treff Am Mittwoch, den 4. November findet um 19 Uhr der Online-Vortrag \"Antennen anpassen mit PASAN: Smith-Diagramm anschaulich nutzen\" auf dem Treff.DARC statt [2]. Im Vortrag wird die kostenlose, frei im Internet verfügbare Software PASAN live von Wolfgang, DK2FQ, vorgestellt. Sie ist einfach zu bedienen und eignet sich gut, um Zusammenhänge verständlich zu demonstrieren. Am 9. November schließt sich der Vortrag \"Stehwelle - ein Gütekriterium\" um 19:30 Uhr an. Wer Antennen selber baut, häufig seinen Standort wechselt oder nur einmal seinen Antennenaufbau kontrollieren will, kommt um eine Kontrolle der Stehwelle nicht vorbei. Doch welche Aussage kann man aus der Stehwelle ableiten? Ist es ein Gütekriterium? Oder nur Augenwischerei? Wobei kann mir die Messung der Stehwelle …"
     },
     {
      "titel": "ERMINAZ-2U und -2V erhalten OSCAR-Nummern",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/erminaz-2u-und-2v-erhalten-oscar-nummern/",
      "datum": "2026-10-28",
      "datum_herkunft": "meta",
-     "auszug": "News: ERMINAZ-2U und -2V erhalten OSCAR-Nummern - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht ERMINAZ-2U und -2V erhalten OSCAR-Nummern 28.10.2026 Erstellt von Redaktion Am 1. Oktober 2026 wurden die drei von der AMSAT-DL entwickelten PocketQube-Satelliten ERMINAZ-2U, ERMINAZ-2V und ERMINAZ-2X von der Vandenberg Space Force Base in Kalifornien gestartet. ERMINAZ-2U und -2V sind erfolgreich in Betrieb und verfügen unter anderem über SSDV- und Digipeater-Nutzlasten. ERMINAZ-2X konnte dagegen bislang nicht empfangen werden. Auf Antrag der …"
+     "auszug": "News: ERMINAZ-2U und -2V erhalten OSCAR-Nummern - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht ERMINAZ-2U und -2V erhalten OSCAR-Nummern 28.10.2026 Erstellt von Redaktion Am 1. Oktober 2026 wurden die drei von der AMSAT-DL entwickelten PocketQube-Satelliten ERMINAZ-2U, ERMINAZ-2V und ERMINAZ-2X von der Vandenberg Space Force Base in Kalifornien gestartet. ERMINAZ-2U und -2V sind erfolgreich in Betrieb und verfügen unter anderem über SSDV- und Digipeater-Nutzlasten. ERMINAZ-2X konnte dagegen bislang nicht empfangen werden. Auf Antrag der AMSAT-DL erhielten die beiden aktiven …"
     },
     {
      "titel": "Vortrag: Antennensimulation mit 4nec2",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vortrag-antennensimulation-mit-4nec2/",
      "datum": "2026-10-27",
      "datum_herkunft": "meta",
-     "auszug": "News: Vortrag: Antennensimulation mit 4nec2 - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht Vortrag: Antennensimulation mit 4nec2 27.10.2026 Erstellt von Redaktion Am 29. Oktober findet auf dem Treff.DARC der Vortrag „Antennensimulation mit 4nec2“ statt. Beginn ist um 19.30 Uhr. Weitere Informationen nebst dem Teilnahmelink finden Sie auf treff.darc.de . Der Inhalt umfasst Download und Installation von 4nec2, erste Schritte am Beispiel Dipol, Ergebnisauswertung, Modellierung und Simulation weiterer Antennentypen. Abschließend werden von …"
+     "auszug": "News: Vortrag: Antennensimulation mit 4nec2 - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Vortrag: Antennensimulation mit 4nec2 27.10.2026 Erstellt von Redaktion Am 29. Oktober findet auf dem Treff.DARC der Vortrag „Antennensimulation mit 4nec2“ statt. Beginn ist um 19.30 Uhr. Weitere Informationen nebst dem Teilnahmelink finden Sie auf treff.darc.de . Der Inhalt umfasst Download und Installation von 4nec2, erste Schritte am Beispiel Dipol, Ergebnisauswertung, Modellierung und Simulation weiterer Antennentypen. Abschließend werden von Hubert, DK3RU, verlustbehaftete …"
+    },
+    {
+     "titel": "Vorträge für die FOSDEM 2027 gesucht",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vortraege-fuer-die-fosdem-2027-gesucht/",
+     "datum": "2026-10-27",
+     "datum_herkunft": "meta",
+     "auszug": "News: Vorträge für die FOSDEM 2027 gesucht - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Vorträge für die FOSDEM 2027 gesucht 27.10.2026 Erstellt von Redaktion Der Amateurfunk-DevRoom auf der FOSDEM 2027 in Brüssel bringt Menschen zusammen, die freie und quelloffene Funksoftware und -hardware entwickeln, nutzen und analysieren: SDR-Entwickler, Funkamateure und Satellitenforscher. Wenn Sie etwas gebaut, gemessen oder Reverse Engineering betrieben haben, das mit dem Medium Funk zu tun hat, möchten die Veranstalter davon erfahren. Gesucht werden Vorträge, die die „Black Box“ …"
     },
     {
      "titel": "5000. Benutzeranmeldung im Wavelog@DARC",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/5000-benutzeranmeldung-im-wavelogdarc/",
      "datum": "2026-10-27",
      "datum_herkunft": "meta",
-     "auszug": "News: 5000. Benutzeranmeldung im Wavelog@DARC - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht 5000. Benutzeranmeldung im Wavelog@DARC 27.10.2026 Erstellt von DG2RON Am Montag den 26.10.2026 haben wir die 5000er Benutzermarke in Wavelog@DARC überschritten. DARC Vorstandsmitglied Ronny Jerke, DG2RON, zeigt sich sehr erfreut über die anhaltend große Resonanz. Normalerweise berichten wir an dieser Stelle über Neuerungen und Verbesserungen, welche regelmäßig eingespielt werden und Wavelog noch besser machen. Heute nutzen wir die Gelegenheit, um …"
+     "auszug": "News: 5000. Benutzeranmeldung im Wavelog@DARC - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht 5000. Benutzeranmeldung im Wavelog@DARC 27.10.2026 Erstellt von DG2RON Am Montag den 26.10.2026 haben wir die 5000er Benutzermarke in Wavelog@DARC überschritten. DARC Vorstandsmitglied Ronny Jerke, DG2RON, zeigt sich sehr erfreut über die anhaltend große Resonanz. Normalerweise berichten wir an dieser Stelle über Neuerungen und Verbesserungen, welche regelmäßig eingespielt werden und Wavelog noch besser machen. Heute nutzen wir die Gelegenheit, um über die 5000. Anmeldung zu …"
     },
     {
      "titel": "Ein voller Erfolg: der 53. Dortmunder Amateurfunkmarkt",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/ein-voller-erfolg-der-53-dortmunder-amateurfunkmarkt/",
      "datum": "2026-10-26",
      "datum_herkunft": "meta",
-     "auszug": "News: Ein voller Erfolg: der 53. Dortmunder Amateurfunkmarkt - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht Ein voller Erfolg: der 53. Dortmunder Amateurfunkmarkt 26.10.2026 Erstellt von Redaktion Mit über 1.000 Besuchern, einer stets gut gefüllten Halle, einem bestens angenommenen Vortragsprogramm und einem vielfältig sortierten Funkmarkt fällt die Bilanz sehr positiv aus: Der 53. Dortmunder Amateurfunkmarkt – erstmals in Kamen ausgerichtet – war ein rundum gelungener Veranstaltungstag, der sowohl bei den Besuchern als auch bei den …"
+     "auszug": "News: Ein voller Erfolg: der 53. Dortmunder Amateurfunkmarkt - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Ein voller Erfolg: der 53. Dortmunder Amateurfunkmarkt 26.10.2026 Erstellt von Redaktion Mit über 1.000 Besuchern, einer stets gut gefüllten Halle, einem bestens angenommenen Vortragsprogramm und einem vielfältig sortierten Funkmarkt fällt die Bilanz sehr positiv aus: Der 53. Dortmunder Amateurfunkmarkt – erstmals in Kamen ausgerichtet – war ein rundum gelungener Veranstaltungstag, der sowohl bei den Besuchern als auch bei den ideellen und kommerziellen Ausstellern für …"
     },
     {
      "titel": "Weiteres Erde–Venus–Erde Experiment geglückt",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/weiteres-erde-venus-erde-experiment-geglueckt/",
      "datum": "2026-10-26",
      "datum_herkunft": "meta",
-     "auszug": "News: Weiteres Erde–Venus–Erde Experiment geglückt - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht Weiteres Erde–Venus–Erde Experiment geglückt 26.10.2026 Erstellt von Redaktion Am 17. und 18. Oktober 2026 sendete das Radioteleskop von Dwingeloo Signale in Richtung des Planeten Venus. Die von der Venus reflektierten Signale wurden vom Astropeiler Stockert empfangen. Die Signale legten von Dwingeloo zur Venus etwa 42 Millionen Kilometer zurück und etwa die gleiche Strecke zurück nach Stockert – eine Hin- und Rückreise von fast fünf Minuten. …"
+     "auszug": "News: Weiteres Erde–Venus–Erde Experiment geglückt - DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Weiteres Erde–Venus–Erde Experiment geglückt 26.10.2026 Erstellt von Redaktion Am 17. und 18. Oktober 2026 sendete das Radioteleskop von Dwingeloo Signale in Richtung des Planeten Venus. Die von der Venus reflektierten Signale wurden vom Astropeiler Stockert empfangen. Die Signale legten von Dwingeloo zur Venus etwa 42 Millionen Kilometer zurück und etwa die gleiche Strecke zurück nach Stockert – eine Hin- und Rückreise von fast fünf Minuten. Aus den Echos konnte erfolgreich eine …"
     },
     {
      "titel": "Aktuelle Conteste KW 44/2026",
      "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/aktuelle-conteste-kw-442026-1/",
      "datum": "2026-10-26",
      "datum_herkunft": "meta",
-     "auszug": "News: Aktuelle Conteste KW 44/2026 - DARC Direkt zur AnmeldungDirekt zum Inhalt Archiv-Details Archiv Detailansicht Archiv Detailansicht Aktuelle Conteste KW 44/2026 26.10.2026 Erstellt von Referat Conteste / DF4ZL Conteste in der Kalenderwoche 44/2026 - 26.10.26 bis 01.11.26 ► Mo 26.10.26Di 27.10.26Mi 28.10.26Do 29.10.26Fr 30.10.26Sa 31.10.26So 01.11.26 16:30 - 17:29 OK1WC Memorial [CW] [80/40m]18:00 - 22:00 NRAU Activity [alle][µW]19:00 - 20:00 CWT Mini Contest [CW] [160 - 10m]07:00 - 08:00 CWT Mini Contest [CW] [160 - 10m] 12:00 < Russian Multimode Contest> 11:59 [alle] [160-10m] 20:00 - 22:00 RSGB FT4 Contest [FT4][80 - 10m]17:00 - 21:00 SP Activity [CW/SSB/FM] [µW] 12:00 < UKEI DX Contest > 12:00 [SSB] [80 - 10m] 19:30 - 22:30 RSGB Activity [alle] [µW] 06:00 - 08:59 SK Memorial [CW] [80/40m] 19:30 - 20:29 TTC-SPCWC [CW] [80/40m] 07:00 - 12:00 Holzhammer CT [alle][80/2/70] xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx14:00 - 17:00 HSC-CW Contest [80m - 10m] 15:00 - 15:30 Sunday Race [CW] [80m] xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Zurück Diese Website nutzt ausschließlich technisch erforderliche Cookies. Wir benutzen keine Cookies, die eine Einwilligung erfordern würden. Weitere Informationen finden Sie in unserer Datenschutzerklärung. X"
+     "auszug": "News: Aktuelle Conteste KW 44/2026 - DARC Erstellt von Referat Conteste / DF4ZL Conteste in der Kalenderwoche 44/2026 - 26.10.26 bis 01.11.26 ► Mo 26.10.26Di 27.10.26Mi 28.10.26Do 29.10.26Fr 30.10.26Sa 31.10.26So 01.11.26 [CW] [160 - 10m] 12:00 < Russian Multimode Contest> 11:59 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx14:00 - 17:00 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Zurück X"
     }
    ]
   },
@@ -115,12 +152,70 @@
    ],
    "kern": true,
    "nur_hinweis": false,
-   "status": "leer",
-   "anzahl": 0,
+   "status": "ok",
+   "anzahl": 8,
    "hinweise": [
-    "Übersicht gelesen, aber kein Link passt zu link_muster"
+    "Übersicht gelesen (99 Links), aber kein Link passt zu link_muster; Beispiele: https://www.darc.de/sie-sind-nicht-angemeldet/?redirect_url=%2Fder-club%2Fdistrikte%2Fs%2Faktuell%2F, https://www.darc.de/home, https://www.darc.de/der-club/, https://www.darc.de/der-club/distrikte/, https://www.darc.de/der-club/vo-ar/, https://www.darc.de/der-club/vo-ar/datenschutz/, https://www.darc.de/der-club/vo-ar/ar/, https://www.darc.de/der-club/vo-ar/vorstand/, https://www.darc.de/der-club/referate/, https://www.darc.de/der-club/referate/hf/, https://www.darc.de/der-club/referate/iaru/, https://www.darc.de/der-club/referate/intruder-monitoring/",
+    "https://www.darc.de/der-club/distrikte/s/: 10 Kandidaten, 2 davon schon bekannt"
    ],
-   "eintraege": []
+   "eintraege": [
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/ov-annaberg-staerkt-seine-notfunkfaehigkeiten/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "meta",
+     "auszug": "News: OV Annaberg stärkt seine Notfunkfähigkeiten - DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht OV Annaberg stärkt seine Notfunkfähigkeiten 31.10.2026 Erstellt von Michael, DL1JHR Der OV Annaberg hat seinen Hamnetknoten DB0ANA weiter ausgebaut und erweitert damit seine Fähigkeiten für den Notfunk. Zusätzlich zum bereits vorhandenen Web-Server, werden nun weitere Dienste im Hamnet angeboten. Dazu zählen eine Telefonanlage für Audio- und Videotelefonate, ein Dateiserver und Wikipedia. Alles komplett unabhängig vom Internet und damit auch nach einem Ausfall öffentlicher Kommunikationsnetze verfügbar. Weiterhin wurde eine autarke Stromversorgung für den Hamnetknoten auf dem Pöhlberg installiert. Der Distrikt Sachsen hat dafür einen 18Ah LiFePO4-Akku gesponsort, …"
+    },
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/distrikt-sachsen-auf-der-areb-2026/",
+     "datum": "2026-10-11",
+     "datum_herkunft": "meta",
+     "auszug": "News: Distrikt Sachsen auf der AREB 2026 - DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Distrikt Sachsen auf der AREB 2026 11.10.2026 Erstellt von Wolf-Eckart Grüning, DL6JZ Die Amateurfunk-, Rundfunk- und Elektronikbörse AREB in Dresden hat sich in den mehr als 20 Jahren ihres Bestehens zu einer festen Institution entwickelt. Es überwiegt der Flohmarktcharakter, zunehmend kommen auch kommerzielle Aussteller wie Funktechnik-Dathe und Bonito Hamradio. Auch viele Funkamateure aus dem Dresdner Raum sowie von weiter her nutzen dieses Event als Treffpunkt zum Erfahrungs- und Meinungsaustausch. Nach Jahren der Abstinenz fasste unser Distriktsvorstand den Beschluss, mit einem kleinen Stand den DARC zu präsentieren. Motto: \"Der Distrikt Sachsen zum Anfassen\". Die …"
+    },
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/s44-auf-der-blaulichtmeile/",
+     "datum": "2026-10-11",
+     "datum_herkunft": "meta",
+     "auszug": "News: S44 auf der \"Blaulichtmeile\" - DARC Am 19. September feierte die Freiwillige Feuerwehr Hainichen ihr 160 jähriges Bestehen unter anderem mit einer großen Blaulichtmeile. Unter allerlei roten, weißen, blauen und grünen Fahrzeugen waren auch wir vom DARC OV Mittweida mit Stand vertreten. Es waren unsere Stationen für Kurzwelle, UKW und auch eine Station für Betrieb über QO-100 zu sehen. Als zentrales Thema bot sich hier natürlich der Not- und Katastrophenfunk an. Daher haben wir die Möglichkeit genutzt und unser MeshCOM Projekt vorgestellt, dass aktuell in Hainichen in Pilotphase durch die OMs Thomas DB6KT, Matthias DD6MS und Karsten DL1RUN aufgebaut wurde. Der von DB6KT ausgestellte, völlig autark versorgte Repeater stand symbolisch für die im Hainichener Stadtgebiet verteilten …"
+    },
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/der-zweite-lauf-zum-sachsenpokal/",
+     "datum": "2026-10-07",
+     "datum_herkunft": "meta",
+     "auszug": "News: Der zweite Lauf zum Sachsenpokal - DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Der zweite Lauf zum Sachsenpokal 07.10.2026 Erstellt von Anja Am 3. Oktober fand in der Dresdner Heide der zweite Lauf zum Sachsenpokal im Amateurfunkpeilen statt. Es nahmen insgesamt 39 Wettkämpfer aus den Distrikten D, L, S, Y und Z sowie aus OK teil. Bei bestem Spätsommerwetter waren je vier bis fünf Sender vormittags auf UKW und nachmittags auf Kurzwelle zu suchen. Im relativ flachen Gelände waren dabei je nach Altersklasse Laufstrecken von 4,1 bis 5,2 km Luftlinie zu absolvieren. Alle Informationen hier Anja Hilbert, DGØYS Zurück X"
+    },
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/jaehrlicher-familien-fieldday-des-ov-s44-mittweida/",
+     "datum": "2026-05-22",
+     "datum_herkunft": "meta",
+     "auszug": "News: Jährlicher Familien Fieldday des OV S44 Mittweida - DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Jährlicher Familien Fieldday des OV S44 Mittweida 22.05.2026 Am Wochenende um den 6. Juni 2026 begeht der OV S44 Mittweida seinen jährlichen Familien Fieldday. Veranstaltungsort ist das Gelände des Schützenvereins in Seifersbach (50.970410, 13.045299) Folgendes wird es zu sehen geben: Vorführung Lichtfunk Vorstellung Wavelog LoRa Experimente Natürlich wird die ganze Zeit Funkbetrieb auf KW und UKW möglich sein. Außerdem steht bei Bedarf ein Funkmessplatz zur Verfügung. Interessierte Gäste sind gern wilkommen. Robert Klemm, DO6BRT OVV S44 Mittweida Zurück X"
+    },
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/aktion-50-jahre-deutsche-antarktisforschung-50ant/",
+     "datum": "2026-05-13",
+     "datum_herkunft": "meta",
+     "auszug": "News: Aktion \"50 Jahre deutsche Antarktisforschung\" - 50ANT - DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Aktion \"50 Jahre deutsche Antarktisforschung\" - 50ANT 13.05.2026 Wie zu den früheren „Funkevent(s) und Historie“ (beispielsweise 90 Jahre Junkers Tante Ju1 und Deutsches Funk-Kartell 100FK2 reihte sich im Jahr 2026 auch dieses Projekt 50ANT ein. Uwe, DL2SWR, hat dazu eine umfangreiche und sehr interessante Zusammenfassung erstellt. >Zusammenfassung Zurück X"
+    },
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/wavelog-schulung/",
+     "datum": "2026-03-08",
+     "datum_herkunft": "meta",
+     "auszug": "News: Wavelog - Schulung - DARC Wavelog ist ein leistungsstarkes plattformunabhängiges Programm und eignet sich herforragend für die individuelle Anwendung und insbesondere auch gemeinsame Aktionen. Gegenwärtig läuft noch bis Ende April 2026 die Aktion \"50 Jahre Deutsche Antarkisforschung\" https://50ant.hamaward.de/de/deutsche-antarktisforschung Bei allen SES-Rufzeichen dieser Aktion arbeiten die OP´s dabei erfolgreich mit Wavelog. Das komfortable Logging, automatische uploads auf den Diplomserver, zu eQSL ins DCL oder Clublog haben sich bestens bewährt. Hervorzuheben auch die unkomplizierte Verknüpfung mit anderen Anwendungen, z.B. WSJT oder JTDX, ebenso UCXlog usw. Nicht zu vergessen die tollen Analysemöglichkeiten oder die QSL-Verwaltung. Auch bei zukünftigen ähnlichen Aktionen wird …"
+    },
+    {
+     "titel": "Link zu dieser Meldung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/ardf-saison-2026/",
+     "datum": "2026-02-10",
+     "datum_herkunft": "meta",
+     "auszug": "News: ARDF - Saison 2026 - DARC Die neue ARDF-Saison wirft ihre Schatten voraus. Es geht los mit unserem traditionellen Training in der Dresdner Heide am Saonnabend, dem 21.03.26. Die neue ARDF-Saison wirft ihre Schatten voraus. Es geht los mit unserem traditionellen Training in der Dresdner Heide am Sa, 21.03.26. Einladung anbei. Neu (!): Diesmal wird 2m im Vordergrund stehen, da hier der größere Übungsbedarf besteht. Also 5 Füchse. Für die Einsteiger sind zusätzlich 3 80m-Füchse geplant. Treff wie üblich 10:00 am Parkplatz Heidemühle. Auch absolute Anfänger, Kinder, Jugendliche und Neugierige aller Altersklassen sind herzlich willkommen. Leihpeiler auf Anfrage verfügbar. Am darauffolgenden Wochenende 28./29.03. ist ein Ranglistenlauf 2m/80m bei Jena geplant. Infos dazu bitte bei …"
+    }
+   ]
   },
   {
    "id": "funkamateur",
@@ -136,183 +231,94 @@
    "kern": true,
    "nur_hinweis": false,
    "status": "ok",
-   "anzahl": 25,
-   "hinweise": [],
+   "anzahl": 12,
+   "hinweise": [
+    "https://www.funkamateur.de/nachrichtenarchiv.html?month={JJJ: 48 Kandidaten, 3 davon schon bekannt"
+   ],
    "eintraege": [
     {
-     "titel": "Zur Erinnerung: EUDXF-Aktivitätsmonat",
+     "titel": "Weiterlesen … Zur Erinnerung: EUDXF-Aktivitätsmonat",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/EUDXF-40-Aktivitaet.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
+     "datum": "2026-11-01",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Zur Erinnerung: EUDXF-Aktivitätsmonat 2026-11-01 Sonderdiplom 2026 Wie bereits in 7/2026 auf S. 572 mitgeteilt, ist dieser November erneut der Aktivitätsmonat der EUDXF — deren Logo sehen Sie rechts oben. Mit Sonderrufzeichen wie DL40EUDXF oder PB40EUDXF werden insgesamt 14 Stationen aus DXCC-Gebeiten wie DL, DU, HA, ON, PA und VK im Äther sein und Punkte für das Sonderdiplom 2026 verteilen. Auf der Webseite eudxf.eu finden sich weitere Einzelheiten zum Aktivitätsmonat. Darüber hinaus gibt es dort regelmäßig …"
     },
     {
-     "titel": "Heute: Halloween auf Mittel- & Kurzwelle",
+     "titel": "Weiterlesen … Heute: Halloween auf Mittel- & Kurzwelle",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/BC-Halloween-2026.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
+     "datum": "2026-10-31",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Heute: Halloween auf Mittel- & Kurzwelle 2026-10-31 Texas Radio Shortwave und Radio Northern Europe International Texas Radio Shortwave sendet heute ein Sonderprogramm über die deutsche Kurzwellenstation Shortwave Radio Gold: Von 1500 UTC bis 1600 UTC auf 6160 kHz und von 1900 UTC bis 2100 UTC auf 3975 kHz. Empfangsberichte über das Musikprogramm an reports [@] trswradio.com bestätigt Texas Radio Shortwave umgehend mit einer passend zur Sendung gestalteten elektronischen QSL-Karte. Mit Radio Northern Europe …"
     },
     {
-     "titel": "70 Jahre Sender Gaisberg",
+     "titel": "Weiterlesen … 70 Jahre Sender Gaisberg",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/id-70-jahre-sender-gaisberg.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
+     "datum": "2026-10-31",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Zum Vergrößern anklicken! ARD, ZDF und das Dritte: So sah der typische Fernsehempfang in Westdeutschland aus. Mancherorts gab es noch ein viertes und fünftes Programm — in Oberbayern waren das ORF 1 und ORF 2 vom Gaisberg, dem Salzburger Hausberg. Dort liefen die Spielfilme von Leo Kirch, die dem ZDF zu teuer waren — ORF 2 war sehr beliebt, wenn auch oft empfangsschwach. Aber immerhin. Auf demselben Weg fanden auch die Popwelle Ö3 und andere Radioprogramme des ORF ihren Weg nach Bayern. Zumindest solange, bis …"
     },
     {
-     "titel": "Deutsche DXpedition KH8A in Amerikanisch Samoa",
+     "titel": "Weiterlesen … Deutsche DXpedition KH8A in Amerikanisch Samoa",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/KH8A.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
+     "datum": "2026-10-30",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Deutsche DXpedition KH8A in Amerikanisch Samoa 2026-10-30 Das Team ist gelandet und richtet sich nun ein Vom 30. Oktober bis 12. November 2026 aktiviert ein deutsches DXpeditionsteam die auf den Bändern eher seltene DXCC-Einheit Amerikanisch Samoa, Präfix KH8. Unter dem Rufzeichen KH8A ist das Team von 160 m bis 6 m aktiv. Nach der anstrengenden Anreise läuft derzeit noch der Antennenbau, doch ist in den kommenden Stunden mit ersten Signalen aus dem fernen Pazifik zu rechnen. Zum erfahrenen Team gehören Werner, …"
     },
     {
-     "titel": "Kasachische Schüler lassen Minisatellit fliegen",
+     "titel": "Weiterlesen … Kasachische Schüler lassen Minisatellit fliegen",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/Minisatellit-Astana.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
+     "datum": "2026-10-30",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Kasachische Schüler lassen Minisatellit fliegen 2026-10-30 Anfang Oktober startete von der Vandenberg Space Force Base in Kalifornien eine SpaceX-Rakete mit einer Satelliten-Nutzlast an Bord. Diese wurde am nächsten Tag in den Weltraum ausgesetzt. Dazu gehört ein aus Griechenland stammender Satellit, der lediglich 5 x 5 x 5 cm³ misst. Damit ist er etwa so groß wie der bekannte Zauberwürfel — auch als Rubik’s Cube bekannt. Entwickelt und gebaut wurde der Minisatellit in Athen von Programmierern und Ingenieuren …"
     },
     {
-     "titel": "Umzug der \"AMSAT Live OSCAR Satellite Status Page\"",
+     "titel": "Weiterlesen … Umzug der \"AMSAT Live OSCAR Satellite Status Page\"",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/oscar_status_page.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
+     "datum": "2026-10-29",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Umzug der \"AMSAT Live OSCAR Satellite Status Page\" 2026-10-29 Seit vielen Jahren bietet diese Statusseite den Nutzern des Amateurfunkdienstes über Satelliten einen zentralen, weltweit verfügbaren Bezugspunkt. Der aktuelle Status sämtlicher aktiver Amateurfunk-Satelliten wird dort zeitnah abgebildet. Wie auf der Statusseite angekündigt, wird diese Website am Mittwoch, den 4. November 2026, um 1400 UTC zu https://status.amsat.org wechseln. Dabei kann es zu Ausfallzeiten bis zu mehreren Stunden kommen. Sobald die …"
     },
     {
-     "titel": "Vor 90 Jahren: Fernsehturm auf dem Brocken",
+     "titel": "Weiterlesen … Vor 90 Jahren: Fernsehturm auf dem Brocken",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/vor-90-jahren-fernsehturm-auf-dem-brocken.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
+     "datum": "2026-10-29",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Vor 90 Jahren: Fernsehturm auf dem Brocken 2026-10-29 Zum Vergrößern anklicken! Beim ersten Fernsehturm der Welt denkt man an den im Jahr 1956 eingeweihten Stuttgarter Fernsehturm. Doch schon 20 Jahre früher wurde im August 1936 mit dem Bau eines Fernsehturms auf dem Brocken begonnen. Zunächst mit einem mobilen Sender in 15 LKW und einer Art Hochhaus von 52 m mit 14 Stockwerken, in dem in den oberen fünf Stockwerken und dem Holzdach die Antennen untergebracht waren und der Fernsehsender schließlich im 7. …"
     },
     {
-     "titel": "Heute letzter Tag von 7P8GE",
+     "titel": "Weiterlesen … Heute letzter Tag von 7P8GE",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/7P8GE_29-Oktober.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
+     "datum": "2026-10-28",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Heute ist der letzte Aktivitätstag der Lesotho-DXpedition des DL7DF-Teams, wir berichteten zu Beginn. Morgen erfolgt die Rückreise. DL7UFR hat uns netterweise ein Foto geschickt, das wir unserer verehrten Leserschaft nicht vorenthalten möchten. Es zeigt v. l. n. r. Frank — DL7UFR, Annette — DL6SAK, Tom — DL7BO, Manfred — DK1BT und Wolf — DL4WK. Sigi, DL7DF, ist nicht mit dabei, sondern betreut die Aktion von daheim aus. Der FUNKAMATEUR wünscht der Gruppe noch interessante QSOs und eine stressarme Rückreise! …"
     },
     {
-     "titel": "Inventar der Erdfunkstelle Raisting abzugeben",
+     "titel": "Weiterlesen … Inventar der Erdfunkstelle Raisting abzugeben",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/inventar-der-erdfunkstelle-raisting-abzugeben.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
+     "datum": "2026-10-27",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Inventar der Erdfunkstelle Raisting abzugeben 2026-10-27 Die Antenne 1 der Erdfunkstelle Raisting, genauer: Spiegel, Radom und Gebäude, konnte zwar vor der Verschrottung bewahrt werden und ist nun als Kulturdenkmal geschützt. Das Radom wurde dabei bereits zweimal erneuert; zuletzt hatte ein Orkan es niedergerissen. Leider ist die Antenne seitdem nicht mehr drehbar. Allerdings durfte die dort verbaute Technik, die nach den Plänen des Fördervereins Industriedenkmal Radom Raisting e.V. mit zum Denkmal gehört …"
     },
     {
-     "titel": "OX3LX bis Ende Oktober aktiv",
+     "titel": "Weiterlesen … OX3LX bis Ende Oktober aktiv",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/OX3LX-Okt2026.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
+     "datum": "2026-10-26",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Bo, OZ1DJJ, ist noch bis voraussichtlich 29. Oktober 2026 aus Grönland unter OX3LX zu erreichen. Er ist allerdings beruflich dort und kann nur in seiner wenigen Freizeit funken. Es handelt sich also um keine DXpedition im engeren Sinne; zudem bedient Bo nicht alle Bänder, wie u. a. bei DX-Summit zu sehen. Der genaue Standort ist die Insel Christian IV, NA-151, QTH-Locator GP80KB. Die Insel gehört zur Kommune Kujalleq an der Südspitze Grönlands, wie hier nachzulesen. Der Namensgeber der Insel war von 1588 bis …"
     },
     {
-     "titel": "Meshcore-Workshop",
+     "titel": "Weiterlesen … Meshcore-Workshop",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/meshcore-workshop-2.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
+     "datum": "2026-10-26",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Die Ortsverbände im DARC e. V. Dormagen G21 und Hilden R04 bieten eine zweiten Termin für den Workshop Meshcore – Vernetzung und Kommunikation ohne zentrale Infrastruktur an. Der erste Meshcore-Workshop fand bereits im September in Dormagen statt. Der zweite wird am 21. November, von 9.30 Uhr bis etwa 17 Uhr im QQTec, Forststrasse 73, in 40721 Hilden abgehalten. Hierfür sollte eine Anmeldung per E-Mail an dd3ji@darc.de bis zum 31. Oktober erfolgen. Am Workshop können alle Interessierten ab einem Alter von zwölf …"
     },
     {
-     "titel": "Zwei ERMINAZ-2-Satelliten erhalten OSCAR-Nummern",
+     "titel": "Weiterlesen … Zwei ERMINAZ-2-Satelliten erhalten OSCAR-Nummern",
      "url": "https://www.funkamateur.de/nachrichtendetails/items/erminaz-2u_ao-129_erminaz-2v_ao-130.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
-    },
-    {
-     "titel": "28.10.26: Temopolis Zukunftsforum zu SDR",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/id-281026-temopolis-zukunftsforum-zu-sdr.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
-    },
-    {
-     "titel": "Samstag: SAQ sendet am Tag der Vereinten Nationen",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/SAQ-UN-Tag-2026b.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
-    },
-    {
-     "titel": "Samstag: KBC Radio mit weiterem Test auf Kurzwelle",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/KBC-Test-7425.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
-    },
-    {
-     "titel": "Im BR-TV: Bericht über den Moritzberg",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/br-tv_berghuetten_23oktober2026.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
-    },
-    {
-     "titel": "Einfamilienhaus wegen angeblichen Funkmasts zerstört",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/einfamilienhaus-wegen-angeblichen-funkmasts-zerstoert.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
-    },
-    {
-     "titel": "Neuigkeiten vom Berlin-Diplom",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/berlin-diplom.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
-    },
-    {
-     "titel": "SSTV auf der ISS vom 22. bis 26. Oktober 2026",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/sstv_iss_oktober_2026.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
-    },
-    {
-     "titel": "Woher stammen die Mars-Monde?",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/woher-stammen-die-mars-monde.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
-    },
-    {
-     "titel": "CubeSats für Open-Source-Radio und Intersatellitenkommunikation gestartet",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/cubesats_pleiades_proves.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
-    },
-    {
-     "titel": "ARISS-Kontakt am 19. Oktober 2026 ab 1051 UTC (12.51 Uhr)",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/ariss_19oktober2026.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
-    },
-    {
-     "titel": "USA beschränken Import von Funkgeräten",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/FCC-Funkgeraete.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
-    },
-    {
-     "titel": "Der Betrug beim WRTC",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/der-betrug-beim-wrtc.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Maas FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless Komplettbausatz …"
-    },
-    {
-     "titel": "JOTA, WAG und Ausbildungscontest an diesem Wochenende",
-     "url": "https://www.funkamateur.de/nachrichtendetails/items/JOTA-WAG-2026.html",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "UKW-Berichte FUNKAMATEUR > Aktuelles > Nachrichtendetails Sonntag, 01. November 2026 Navigation überspringen Startseite Aktuelles Nachrichtenarchiv Conteste Veranstaltungen Aktuelle Ausgabe Abo und Probeheft FUNKAMATEUR e-Paper Amateurfunkpraxis/DX Kleinanzeigen-Portal Inserieren Downloads/Archiv Über uns Kontakt Schreiben für uns Online-Shop PDF-Download-Shop QSL-Shop Links Videos Online-Shop-Bestseller LBE-1420 GPS-stabilisierter Oszillator Praxisbuch Antennenbau 6. Auflage ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator KW-Superhet Stressless …"
+     "datum": "2026-10-26",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Zwei ERMINAZ-2-Satelliten erhalten OSCAR-Nummern 2026-10-26 Am 1. Oktober 2026 gelangten drei PocketQubes, die von der AMSAT-DL entwickelt und gebaut wurden mit einer Falcon-9 Rakete von SpaceX von der Vandenberg Space Force Base in Kalifornien in eine Erdumlaufbahn (wir berichteten). Diese Satelliten tragen Digipeater-Nutzlasten und gespeicherte SSTV-Bilder. Aufgrund eines technischen Problems wurden die PocketQubes unerwartet und vorzeitig am 2. Oktober vom Raumschlepper OSSIE-D der spanischen Firma UARX …"
     }
    ]
   },
@@ -325,109 +331,11 @@
    ],
    "kern": true,
    "nur_hinweis": false,
-   "status": "ok",
-   "anzahl": 14,
+   "status": "fehler",
+   "anzahl": 0,
+   "fehler": "RuntimeError: https://www.dx-world.net/feed/: ParseError: not well-formed (invalid token): line 1, column 119",
    "hinweise": [],
-   "eintraege": [
-    {
-     "titel": "DXpedition Timeline – NOVEMBER",
-     "url": "https://www.dx-world.net/dxpedition-timeline-noveber-2026/",
-     "datum": "2026-11-01",
-     "datum_herkunft": "feed",
-     "auszug": "The Featured DXpedition Timeline is now updated and available for November – right side top. Note 1: This is already a second copy and will continue to be updated and changed often during the new month. Note 2: XR0Z has tentative dates. Click to enlarge. The post DXpedition Timeline – NOVEMBER first appeared on DX-World ."
-    },
-    {
-     "titel": "6W/I2YSB & 6W/IK2HKT Senegal",
-     "url": "https://www.dx-world.net/6w-i2ysb-6w-ik2hkt-senegal/",
-     "datum": "2026-11-01",
-     "datum_herkunft": "feed",
-     "auszug": "[NEWS UPDATE] – We have received some news from the team. All is going well with good conditions on 10 & 12m. The only problem so far is 80 & 160 rx. They hope to overcome this. During daylight hours they can use 200-210 volts but in the evening must reduce to 180v, so power […] The post 6W/I2YSB & 6W/IK2HKT Senegal first appeared on DX-World ."
-    },
-    {
-     "titel": "T8KT – Palau",
-     "url": "https://www.dx-world.net/t8kt-palau/",
-     "datum": "2026-11-01",
-     "datum_herkunft": "feed",
-     "auszug": "[UPDATE] – Japanese team consisting of 7K4TKB (T88YL), JA6FWJ (T88FW), JF3LGC (T88CC), JF3PLF (T88IL), JH3FHR (T88UJ), JH3QNH (T88QN), JH3TXR (T88XR), JI3NST (T88ES), JI6DUE (T88DU), JN3JBC (T88KL), JN3RAZ (T88AM) and JR3FOS (T88TC) will be active from Palau as T8KT during February 10-18, 2027. QRV on 160-6m; SSB, CW and Digi. This activity is to commemorate JARL […] The post T8KT – Palau first appeared on DX-World ."
-    },
-    {
-     "titel": "3X4U – Guinea DXpedition 2026",
-     "url": "https://www.dx-world.net/3x4u-guinea-dxpedition-2026/",
-     "datum": "2026-11-01",
-     "datum_herkunft": "feed",
-     "auszug": "[UPDATE] – by team. Today was the final day of packing all our equipment for the 3X4U DXpedition. Every suitcase was weighed and prepared for shipment. All PCs were reset to ensure that no QSOs remained in DXlog, and the MSHV logs were also cleared. Afterwards, the complete setup of our five stations was dismantled […] The post 3X4U – Guinea DXpedition 2026 first appeared on DX-World ."
-    },
-    {
-     "titel": "V5/G0RIB – Namibia",
-     "url": "https://www.dx-world.net/v5-g0rib-namibia/",
-     "datum": "2026-10-31",
-     "datum_herkunft": "feed",
-     "auszug": "[INFO] by Allan, G0RIB. Until early December 2026, I shall be in Namibia supporting an exciting motoring event with my colleague Richard G8SVC. We will be located at Walvis Bay and in our spare time plan to operate an HF station running SSB, FT8. We will also have WSPR. We have shipped an FT1000, an […] The post V5/G0RIB – Namibia first appeared on DX-World ."
-    },
-    {
-     "titel": "Club Log & DX-World collaboration",
-     "url": "https://www.dx-world.net/club-log-dx-world-collaboration/",
-     "datum": "2026-10-31",
-     "datum_herkunft": "feed",
-     "auszug": "[INFO] by Michael, G7VJR. DX-World is the first place to look for information about upcoming DXpeditions, while the new Club Log mobile app gives DXers visibility of what’s on the air now. With DX-World news integrated directly into the calendar tool of the app, it’s possible to see and study both in one place, making […] The post Club Log & DX-World collaboration first appeared on DX-World ."
-    },
-    {
-     "titel": "C21GD – Nauru",
-     "url": "https://www.dx-world.net/c21gd-nauru/",
-     "datum": "2026-10-31",
-     "datum_herkunft": "feed",
-     "auszug": "Shinji, JM1GDA will be active from Nauru as C21GD during December 10-16,2026. QRV on 80-6m; CW, SSB, FT8. Also activity on LEO RS-44 (FT4 & CW). Grid: RI39LL. QSL via LoTW, Club Log OQRS. The post C21GD – Nauru first appeared on DX-World ."
-    },
-    {
-     "titel": "E51A – Cook Islands",
-     "url": "https://www.dx-world.net/e51a-cook-islands/",
-     "datum": "2026-10-30",
-     "datum_herkunft": "feed",
-     "auszug": "Hrane, YT5A (ex-YT1AD) will visit Rarotonga, Cook Islands during November 14-22, 2026. QRV as E51A holiday-style; CW and FT8. The goal of this activity is to prepare for a DXpedition to North Cook Islands (Manihiki) in the period September 25 to October 10, 2027. If anyone would like to join this activity, then contact Hrane […] The post E51A – Cook Islands first appeared on DX-World ."
-    },
-    {
-     "titel": "S9R – Sao Tome & Principe",
-     "url": "https://www.dx-world.net/s9r-sao-tome-principe/",
-     "datum": "2026-10-30",
-     "datum_herkunft": "feed",
-     "auszug": "[GOING QRT] – QO-100 operations have been QRT since yesterday. A big thank you to everyone who worked us. We logged over 2,000 QSOs with 32 DXCC entities. Part of the team left today to return to Angola, and the remaining team will cease operations tomorrow. [OCTOBER 24] – Logs up to approximately 05:00 UTC […] The post S9R – Sao Tome & Principe first appeared on DX-World ."
-    },
-    {
-     "titel": "3Y0L – Peter 1 Island DXpedition",
-     "url": "https://www.dx-world.net/peter-1-island-dxpedition-2027/",
-     "datum": "2026-10-30",
-     "datum_herkunft": "feed",
-     "auszug": "[CALL FOR DONATIONS] – The planning of the Peter I DXpedition started in 2023, and now three years later we are just a few months away from the DXpedition start. In 2023 we signed a financial contract that would secure the funding of an expedition to Peter I Island. Together with the large participation fee […] The post 3Y0L – Peter 1 Island DXpedition first appeared on DX-World ."
-    },
-    {
-     "titel": "VP2V/K6TOP – B.V.I",
-     "url": "https://www.dx-world.net/vp2v-k6top-british-virgin-islands/",
-     "datum": "2026-10-29",
-     "datum_herkunft": "feed",
-     "auszug": "Kevin K6TOP is again active from Tortola, B.V.I as VP2V/K6TOP. He operates from the British Virgin Islands several times a year while vacationing there. QRV on 40-10m CW, spare time using an EFHW antenna. QSL via EA5GL, LoTW. The post VP2V/K6TOP – B.V.I first appeared on DX-World ."
-    },
-    {
-     "titel": "9T0MD – Democratic Republic of Congo",
-     "url": "https://www.dx-world.net/9t0md-democratic-republic-of-the-congo/",
-     "datum": "2026-10-29",
-     "datum_herkunft": "feed",
-     "auszug": "[PRESENTATION / LIVE STREAMING] – It’s with great pleasure we announce the 9T0MD presentation where we’ll be sharing anecdotes, connections, and reliving the DXpedition’s history with you. The evening of November 3, 2026, starting at 2100Z, will be held within the ARI Ferrara IQ4FA section, in front of an audience in attendance; access is free […] The post 9T0MD – Democratic Republic of Congo first appeared on DX-World ."
-    },
-    {
-     "titel": "ZD7VJ & ZD7WP – Saint Helena",
-     "url": "https://www.dx-world.net/zd7vj-zd7wp-saint-helena/",
-     "datum": "2026-10-29",
-     "datum_herkunft": "feed",
-     "auszug": "Fred, G4BWP and Andy, 5Z4VJ will be active from Saint Helena as ZD7WP & ZD7VJ during November 22 to December 5, 2026. Andy will run the CQWW CW contest (category tbc) as well as other bands/modes before and after the contest. Fred plans to QRV on QO100 and 60m, along with other bands; CW, SSB […] The post ZD7VJ & ZD7WP – Saint Helena first appeared on DX-World ."
-    },
-    {
-     "titel": "DX-WORLD Weekly Bulletin",
-     "url": "https://www.dx-world.net/dx-world-weekly-bulletin-191/",
-     "datum": "2026-10-29",
-     "datum_herkunft": "feed",
-     "auszug": "[#686] The latest FREE NON-SUBSCRIPTION DX-World Weekly Bulletin written by Bjorn ON9CFG is available to download. Click below to get the newest edition which this week runs to 20 pages. Previous bulletins can all be found here. Please contact Bjorn with any updates or errors. DOWNLOAD THE LATEST BULLETIN ﻿﻿ The post DX-WORLD Weekly Bulletin first appeared on DX-World ."
-    }
-   ]
+   "eintraege": []
   },
   {
    "id": "ng3k",
@@ -440,7 +348,9 @@
    "nur_hinweis": false,
    "status": "ok",
    "anzahl": 42,
-   "hinweise": [],
+   "hinweise": [
+    "http://www.ng3k.com/adxo.xml: 72 Einträge im Feed, 72 im Zeitraum"
+   ],
    "eintraege": [
     {
      "titel": "Gambia: Oct 1-Nov 4, 2026 -- C5R -- QSL via: YU5R Direct",
@@ -748,57 +658,17 @@
    "kern": false,
    "nur_hinweis": false,
    "status": "ok",
-   "anzahl": 7,
-   "hinweise": [],
+   "anzahl": 1,
+   "hinweise": [
+    "https://www.amsat.org/feed/: 10 Einträge im Feed, 1 im Zeitraum"
+   ],
    "eintraege": [
     {
-     "titel": "Cart",
-     "url": "https://www.amsat.org/cart/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Skip to content Your cart is currently empty. Return to shop"
-    },
-    {
-     "titel": "Cart",
-     "url": "https://www.amsat.org/checkout/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Skip to content Your cart is currently empty. Return to shop"
-    },
-    {
-     "titel": "My Store Account",
-     "url": "https://www.amsat.org/my-account/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Skip to content Login Register"
-    },
-    {
-     "titel": "Contact",
-     "url": "https://www.amsat.org/contact-amsat-2/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "AMSAT Office Staff The AMSAT office in Kensington, Maryland is permanently closed. To communicate with AMSAT, please use our online AMSAT contact form. If you really need to send something via mail, please also use the online contact form to let us know since our mail box is not routinely checked. Radio Amateur Satellite Corporation (AMSAT) 712 H Street NE, Ste 1653 Washington DC 20002 Webmaster For questions about the web site, or corrections, only, please contact the webmaster."
-    },
-    {
-     "titel": "Welcome to AMSAT from the President",
-     "url": "https://www.amsat.org/welcome-to-amsat-from-the-president/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "From the first reception of Sputnik, hams have looked to the stars and dreamed of amateur radio in space. Project OSCAR brought that dream to life, and, from their pioneering efforts, AMSAT was born. Over the past 50 plus years, AMSAT has kept its promise to keep amateur radio in space and, in the process, shared that journey with the rest of the world. From its humble beginnings of finding a launch for AO-5, through a series of Phase II and Phase III satellites, and then spearheading the SmallSat movement, AMSAT has been directly involved with 25 amateur radio satellite projects, 19 of which were successfully placed in orbit. In addition, AMSAT’s success has paved the way for other organizations, universities, and groups to realize their own dreams of space. While we are certainly proud …"
-    },
-    {
-     "titel": "About AMSAT",
-     "url": "https://www.amsat.org/about-amsat/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "OSCAR 1, the first amateur radio satellite. The Radio Amateur Satellite Corporation (as AMSAT is officially known) was first formed in the District of Columbia in 1969 as an educational organization. Its goal was to foster Amateur Radio’s participation in space research and communication. AMSAT was founded to continue the efforts, begun in 1961, by Project OSCAR, a west coast USA-based group which built and launched the very first Amateur Radio satellite, OSCAR, on December 12, 1961, barely four years after the launch of Russia’s first Sputnik. Today, the “home-brew” flavor of these early Amateur Radio satellites lives on, as most of the hardware and software now flying on even the most advanced AMSAT satellites is still largely the product of volunteer effort and donated resources. …"
-    },
-    {
-     "titel": "AMSAT Officers and Board Members",
-     "url": "https://www.amsat.org/amsat-officers-and-board-members/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "Senior Officers President: Drew Glasbrenner, KO4MA Executive Vice President: Paul Stoetzer, N8HM Vice President – Operations: Mark Hammond, N8MH Vice President – Engineering: Jerry Buxton, N0JY Treasurer: Steve Belter, N9IP Secretary: Doug Tabor, N6UA Vice President – Educational Relations: Alan Johnston, KU2Y Vice President – Development: Frank Karnauskas, N1UW Board of Directors Jerry Buxton, N0JY (2027) Drew Glasbrenner, KO4MA (2027) Rich Gopstein, KD2CQ (2028) Mark Hammond, N8MH (2028) Frank Karnauskas, N1UW (2027) Paul Stoetzer, N8HM (2028) Douglas Tabor, N6UA (2027) First Alternate: Bruce Paige, KK5DO (2027) Other Senior Leaders Information Technology Team Lead: Matthew Alberti, KM4EXS The AMSAT Journal Editor-in-Chief: Joe Kornowski, KB6IGK AMSAT News Service Senior Editor: Mark …"
+     "titel": "ANS-305 AMSAT News Service Weekly Bulletins",
+     "url": "https://www.amsat.org/ans-305-amsat-news-service-weekly-bulletins/",
+     "datum": "2026-11-01",
+     "datum_herkunft": "feed",
+     "auszug": "AMSAT News Service ANS-305 November 1, 2026 In this edition: AMSAT OSCAR Satellite Status Page – New URL Spacewalkers Install Seventh Roll-Out Solar Array; Final Installation Set for November 5 ARISS SSTV Series 34 Concludes UNNE-1B Heard Around the World as AMSAT-EA Commissions Its Newest PocketQubes IARU Coordinates HADES-L and PVDX; Three Requests Declined, Four New Applications Filed Polish Student CubeSat PUCHACZ Seeks IARU Frequency Coordination UMKA-1 Sends Telescope Images by SSTV ARISS Opens New U.S. School Contact Proposal Window FO-29 Full-Sunlight Season Enters Its Final Weeks FO-126 Conducting 5.84 GHz High-Speed Tests NASA Details Accelerated Artemis Plan: Earth-Orbit Lander Test in 2027, Lunar Landings in 2028 HOA Lobbying Group Makes Blocking Amateur Radio Antenna Bill a Top Priority Changes to AMSAT TLE Distribution for October 30, 2026 ARISS News AMSAT Ambassador Activities Satellite Shorts From All Over The AMSAT® News Service bulletins are a free, weekly news and information service of AMSAT, The Radio Amateur Satellite Corporation. ANS publishes news related to Amateur Radio in Space including reports on the activities of a worldwide group of Amateur Radio operators who share an active interest in designing, building, launching and communicating through analog and digital Amateur Radio satellites. The news feed on https://www.amsat.org publishes news of Amateur Radio in Space as soon as our volunteers can post it. Please send any amateur satellite news or reports to: ans-editor [at] amsat.org You can sign up for free e-mail delivery of the AMSAT News Service Bulletins via the ANS List; to join this list see: https://mailman.amsat.org/postorius/lists/ans.amsat.org/ AMSAT OSCAR Satellite Status Page – New URL The AMSAT IT Team and community volunteers have been working for a number of months to upgrade the AMSAT Status Page. This effort brings new features, a more modern technical implementation, and enables open-source development. One of the biggest changes is coming up on Wednesday, November 4th. The URL will switch to https://status.amsat.org . The API will be reachable at https://status.amsat.org/api/v1 [Overview]. Notification banners have been placed on both sites. The site migration will commence at 1400 UTC on November 4th. The IT Team expects up to two hours before all historical and current data is migrated to the new site. Once the migration is completed, the old site will automatically redirect users to the new one. The AMSAT community, and others, are welcome and encouraged to engage in the ongoing development activity. Problems/Issues/Questions/Requests/Suggestions should be submitted (as an issue) to the Github project repo here. You can also reach out in the AMSAT Discord server in the #open-source-dev channel. You may also contact the IT team via e-mail at IT at amsat.org. [ ANS thanks Matthew Alberti, KM4EXS, AMSAT IT Team Lead, for the above information] LIMITED TIME OFFER!!! AMSAT is offering a limited-time promotion for new and renewing members that includes a free digital copy of Getting Started with Amateur Satellites . The promotion is being offered as AMSAT begins the 2026 membership year. Anyone who joins or renews their AMSAT membership during the promotional period will receive a download link for the latest edition of Getting Started with Amateur Satellites in their membership confirmation email. JOIN TODAY at https://launch.amsat.org/ (Remember! Students join for FREE!) Spacewalkers Install Seventh Roll-Out Solar Array; Final Installation Set for November 5 NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk, KJ5BFU, completed a 7-hour, 11-minute spacewalk on Thursday, October 29, installing and deploying the seventh of eight International Space Station Roll-Out Solar Arrays (iROSAs) on the station’s port truss. NASA reported the following day that the new array is generating power. The pair are scheduled to go back outside on Thursday, November 5, to install the eighth and final array, completing a power upgrade campaign that began in June 2021. The spacewalk officially began at 7:57 a.m. EDT (1157 UTC) when the two astronauts switched their suits to battery power inside the Quest airlock. Menon exited first, followed six minutes later by Kutryk, who with that step became the fifth Canadian to walk in space. After reaching the iROSA carrier pallet on the truss, Menon climbed into a foot restraint on the end of the Canadarm2 robotic arm while Kutryk released the bolts holding the folded array in place. Menon, riding the arm, carried the 750-pound (340-kilogram) package to the P4 truss, where the two soft-docked it onto the mounting bracket in front of the station’s original 2A power-channel array at 10:40 a.m. EDT. Three of the four main power connectors were mated before the crew paused for an orbital day pass, since the connections must be made in darkness when the arrays are not generating power. Roll-out began at 12:21 p.m. EDT …"
     }
    ]
   },
@@ -812,22 +682,32 @@
    "kern": false,
    "nur_hinweis": false,
    "status": "ok",
-   "anzahl": 2,
-   "hinweise": [],
+   "anzahl": 3,
+   "hinweise": [
+    "https://amsat-dl.org/feed/: 10 Einträge im Feed, 0 im Zeitraum",
+    "https://amsat-dl.org/: 34 Kandidaten, 1 davon schon bekannt"
+   ],
    "eintraege": [
     {
      "titel": "QO-100 NB Transponder Bandplan und Betriebsrichtlinien",
      "url": "https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "QO-100 NB Transponder Bandplan und Betriebsrichtlinien Oktober 19, 2018 Aus Von Peter Gülzow Vorwort Von allen Freizeitaktivitäten haben nur lizenzierte Funkamateure das wertvolle Privileg der experimentellen Nutzung von Frequenzen. Der Amateurfunkdienst hat neben seinen Rechten zur Nutzung von Frequenzbändern auch das Privileg und die Pflicht (zur „Selbstregulierung“), die bestimmungsgemäße Nutzung der zugewiesenen Bereiche mit Funkanwendungen (Betriebsarten und Bandpläne) selbständig zu gestalten. Dazu gehört auch die Koordination von Funkbetriebseinrichtungen wie Baken, Relais und Satelliten. AMSAT ist in der Tat nicht in der Lage, „Polizei“ zu spielen, wir können nur Empfehlungen und Ratschläge geben. Jeder Funkamateur sollte jedoch ermutigt werden, anderen, denen es an technischer …"
+     "auszug": "QO-100 NB Transponder Bandplan und Betriebsrichtlinien Von allen Freizeitaktivitäten haben nur lizenzierte Funkamateure das wertvolle Privileg der experimentellen Nutzung von Frequenzen. Der Amateurfunkdienst hat neben seinen Rechten zur Nutzung von Frequenzbändern auch das Privileg und die Pflicht (zur „Selbstregulierung“), die bestimmungsgemäße Nutzung der zugewiesenen Bereiche mit Funkanwendungen (Betriebsarten und Bandpläne) selbständig zu gestalten. Dazu gehört auch die Koordination von Funkbetriebseinrichtungen wie Baken, Relais und Satelliten. AMSAT ist in der Tat nicht in der Lage, „Polizei“ zu spielen, wir können nur Empfehlungen und Ratschläge geben. Jeder Funkamateur sollte jedoch ermutigt werden, anderen, denen es an technischer Erfahrung mangelt, mit Rat und Tat zur Seite zu …"
     },
     {
      "titel": "International QO-100 Emergency Frequency",
      "url": "https://amsat-dl.org/international-qo-100-emergency-frequency/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "International QO-100 Emergency Frequency März 22, 2020 Aus Von Peter Gülzow Zur Koordinierung potenzieller Notfallkommunikation während der aktuellen oder einer anderen Krise wird mit sofortiger Wirkung die folgende Frequenz als internationale Notfallfrequenz auf dem QO-100 NB-Transponder zugewiesen. QO-100 International Emergency Frequency Downlink: 10489.860 MHz Uplink: 2400.360 MHz SSB channel: max. 2.7kHz bandwidth Alle Benutzer von QO-100 sind aufgefordert, diese Frequenz zu überwachen, aber halten Sie sie für den Notfallverkehr frei! QO-100 Bandplan QO-100 / Es’hail-2 Footprint Seite teilen mit: KategorieQO-100 (P4-A) Schlagwörteremergency frequency Es'hail-2 QO-100 DP0GVN QSL-Karten LunART (Luna Amateur Radio Transponder) Über den Autor Peter Gülzow President AMSAT-DL"
+     "auszug": "International QO-100 Emergency Frequency Zur Koordinierung potenzieller Notfallkommunikation während der aktuellen oder einer anderen Krise wird mit sofortiger Wirkung die folgende Frequenz als internationale Notfallfrequenz auf dem QO-100 NB-Transponder zugewiesen. QO-100 International Emergency Frequency Downlink: 10489.860 MHz Uplink: 2400.360 MHz SSB channel: max. 2.7kHz bandwidth Alle Benutzer von QO-100 sind aufgefordert, diese Frequenz zu überwachen, aber halten Sie sie für den Notfallverkehr frei! QO-100 Bandplan QO-100 / Es’hail-2 Footprint Seite teilen mit: KategorieQO-100 (P4-A) Schlagwörteremergency frequency Es'hail-2 QO-100 DP0GVN QSL-Karten LunART (Luna Amateur Radio Transponder) Über den Autor Peter Gülzow President AMSAT-DL"
+    },
+    {
+     "titel": "Wie wird die Antarktis auf QO-100 QRV?",
+     "url": "https://amsat-dl.org/wie-wird-die-antarktis-auf-qo-100-qrv/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Wie wird die Antarktis auf QO-100 QRV? AMSAT-DL baut eine QO-100 Amateurfunk-Bodenstation für die Antarktis. Von der Idee bis zur Realisierung Schon während der Konstruktion und noch vor dem Start von Qatar-OSCAR 100 (P4-A) haben wir von spektakulären DX-Verbindungen zu seltenen Orten auf der Erde geträumt. Natürlich haben wir auch daran gedacht wie es wäre, wenn Schüler über Amateurfunk mit der Antarktis einen Kontakt herstellen könnten: So wie dies auch öfters mit ARISS und der internationalen Raumstation ISS an Schulen praktiziert wird. Nur mit dem Unterschied, dass man nicht von den Überflugzeiten der ISS abhängig ist und nicht unter Zeitdruck steht! Wie wäre es, wenn man neben Sprechfunk (SSB) auch qualitativ hochwertige Live-Übertragungen (DATV) im DVB-S2 Format realisieren könnte? …"
     }
    ]
   },
@@ -842,36 +722,31 @@
    "kern": false,
    "nur_hinweis": false,
    "status": "ok",
-   "anzahl": 4,
-   "hinweise": [],
+   "anzahl": 3,
+   "hinweise": [
+    "https://www.oevsv.at/: 5 Kandidaten, 1 davon schon bekannt"
+   ],
    "eintraege": [
     {
-     "titel": "Sitemap",
+     "titel": "IBT M17 Aktuell",
      "url": "https://www.oevsv.at/oevsv/aktuelles/IBT-M17-Aktuell/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ÖVSV - LANDESVERBÄNDE OE1 Wien OE2 Salzburg OE3 Niederösterreich OE4 Burgenland OE5 Oberösterreich OE6 Steiermark OE7 Tirol OE8 Kärnten OE9 Vorarlberg AMRS Dachverband Login Toggle navigation Home ÖVSV Der ÖVSV ÖVSV Landesverbände Geschichte des ÖVSV: DokuFunk Termine - Veranstaltungen Aktuelles Jugend Referate QSL Vermittlung Rundspruch QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Diplome des ÖVSV ÖVSV Webshop ÖVSV Mitgliederdatenbank English Content Amateurfunk Was ist Amateurfunk? Wie werde ich Funkamateur? Informationen / Kursanmeldung Funkbetrieb Rechtliche …"
+     "auszug": "QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Was ist Amateurfunk? Wie werde ich Funkamateur? UKW-Referat (Bandpläne, Relais etc.) VHF/UHF/SHF Aktivitätscontests IBT Digitale Sprachen Aktuell M17 Für alle interessierten Zuhörer eine Aktualisierung der \"Digitalen Sprachbetriebsarten\" in Östrerreich. Die Betriebsarten M17 ist bei diesem Vortrag im Vordergrund gestanden. Der Vortrag soll die \"Kenner\" von M17 wieder näher an diese Technik bringen und ein wichtiger Teil dieses Vortrags wird die zahlreichen Newcomer an diese Betriebsarten heranfürhren. Vortragsthemen …"
     },
     {
-     "titel": "Sitemap",
+     "titel": "Mitgliederdatenbank auf SSO umgestellt",
      "url": "https://www.oevsv.at/oevsv/aktuelles/OeVSV-Mitgliederdatenbank-Mitgliederdatenbank-auf-SSO-umgestellt/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ÖVSV - LANDESVERBÄNDE OE1 Wien OE2 Salzburg OE3 Niederösterreich OE4 Burgenland OE5 Oberösterreich OE6 Steiermark OE7 Tirol OE8 Kärnten OE9 Vorarlberg AMRS Dachverband Login Toggle navigation Home ÖVSV Der ÖVSV ÖVSV Landesverbände Geschichte des ÖVSV: DokuFunk Termine - Veranstaltungen Aktuelles Jugend Referate QSL Vermittlung Rundspruch QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Diplome des ÖVSV ÖVSV Webshop ÖVSV Mitgliederdatenbank English Content Amateurfunk Was ist Amateurfunk? Wie werde ich Funkamateur? Informationen / Kursanmeldung Funkbetrieb Rechtliche …"
+     "auszug": "QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Was ist Amateurfunk? Wie werde ich Funkamateur? UKW-Referat (Bandpläne, Relais etc.) VHF/UHF/SHF Aktivitätscontests Mitgliederdatenbank auf SSO umgestellt Die Anmeldung zur ÖVSV Mitgliederdatenbank ist jetzt auf ein sogenanntes Single-Sign-on-Systems (SSO) System umgestellt worden. Damit können zukünftig diverse Online-Dienste des Vereins über einen zentrallen Login erreicht werden. Derzeit werden unterstützt: Mikrowellen-Auswertung sowie 🔗UKW-Auswertung Gleichzeitig dient die WebDB als zentrale Datenquelle für alle …"
     },
     {
-     "titel": "Sitemap",
+     "titel": "Videos und Pressespiegel",
      "url": "https://www.oevsv.at/oevsv/aktuelles/Videos-und-Pressespiegel-00001/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ÖVSV - LANDESVERBÄNDE OE1 Wien OE2 Salzburg OE3 Niederösterreich OE4 Burgenland OE5 Oberösterreich OE6 Steiermark OE7 Tirol OE8 Kärnten OE9 Vorarlberg AMRS Dachverband Login Toggle navigation Home ÖVSV Der ÖVSV ÖVSV Landesverbände Geschichte des ÖVSV: DokuFunk Termine - Veranstaltungen Aktuelles Jugend Referate QSL Vermittlung Rundspruch QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Diplome des ÖVSV ÖVSV Webshop ÖVSV Mitgliederdatenbank English Content Amateurfunk Was ist Amateurfunk? Wie werde ich Funkamateur? Informationen / Kursanmeldung Funkbetrieb Rechtliche …"
-    },
-    {
-     "titel": "Sitemap",
-     "url": "https://www.oevsv.at/oevsv/aktuelles/Amateurfunk-Schnuppertag-am-BG-BRG-Wieselburg-00001/",
-     "datum": null,
-     "datum_herkunft": "unbekannt",
-     "auszug": "ÖVSV - LANDESVERBÄNDE OE1 Wien OE2 Salzburg OE3 Niederösterreich OE4 Burgenland OE5 Oberösterreich OE6 Steiermark OE7 Tirol OE8 Kärnten OE9 Vorarlberg AMRS Dachverband Login Toggle navigation Home ÖVSV Der ÖVSV ÖVSV Landesverbände Geschichte des ÖVSV: DokuFunk Termine - Veranstaltungen Aktuelles Jugend Referate QSL Vermittlung Rundspruch QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Diplome des ÖVSV ÖVSV Webshop ÖVSV Mitgliederdatenbank English Content Amateurfunk Was ist Amateurfunk? Wie werde ich Funkamateur? Informationen / Kursanmeldung Funkbetrieb Rechtliche …"
+     "auszug": "QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Was ist Amateurfunk? Wie werde ich Funkamateur? UKW-Referat (Bandpläne, Relais etc.) VHF/UHF/SHF Aktivitätscontests 18.10. SOTA Erstaktivierung auf Kreta - dks Joe, OE5JFE ♦ 07.10. Bericht der Ischler Woche über die Jahreshauptversammlung des ADL504 - dks Ingo, OE2IKN ♦ 07.10. Presseaussendungen des ÖVSV zum 100-jährigen Bestehen - dks Michael OE1MCU ♦ 02.08. \"Alpe Adria VHF und SOTA\" - Youtube Video - dks Joe OE5JFE ♦ 28.07. \"DX Camp Döbriach\" - Radio Agora Spezial - dks Manfred OE5MBP ♦ 28.07. \"Jugendliche funken von …"
     }
    ]
   },
@@ -888,7 +763,9 @@
    "nur_hinweis": false,
    "status": "leer",
    "anzahl": 0,
-   "hinweise": [],
+   "hinweise": [
+    "https://uska.ch/de/news/: 20 Kandidaten, 1 davon schon bekannt"
+   ],
    "eintraege": []
   },
   {
@@ -903,49 +780,51 @@
    "nur_hinweis": false,
    "status": "ok",
    "anzahl": 6,
-   "hinweise": [],
+   "hinweise": [
+    "https://www.arrl.org/news: 8 Kandidaten, 1 davon schon bekannt"
+   ],
    "eintraege": [
     {
-     "titel": "ARRL",
+     "titel": "The ARRL Solar Update",
      "url": "https://www.arrl.org/news/the-arrl-solar-update-48",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ARRL Login Register Account Login Help Home On The Air Licensing, Education & Training Membership Regulatory & Advocacy Public Service Technology Get Involved ARRL Store About ARRL News & Features News The ARRL Solar Update 10/23/2026 The active sunspot region that has been giving us improved propagation over the past several days will be rotating away from Earth’s view today, but conditions on most of the HF amateur bands should remain pretty decent in the days ahead, as the 10.7-centimeter radio flux remains right around 100. However, NOAA’s Space Weather Prediction Center (SWPC) says the …"
+     "auszug": "Licensing, Education & Training The active sunspot region that has been giving us improved propagation over the past several days will be rotating away from Earth’s view today, but conditions on most of the HF amateur bands should remain pretty decent in the days ahead, as the 10.7-centimeter radio flux remains right around 100. However, NOAA’s Space Weather Prediction Center (SWPC) says the geomagnetic field could become unsettled to active heading into the weekend as a negative polarity coronal hole high-speed stream (CHHSS) heads toward Earth. The Australian Space Weather Forecasting …"
     },
     {
-     "titel": "ARRL",
+     "titel": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
      "url": "https://www.arrl.org/news/ebay-restricts-listings-of-radio-equipment-but-exempts-ham-band-only-gear",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ARRL Login Register Account Login Help Home On The Air Licensing, Education & Training Membership Regulatory & Advocacy Public Service Technology Get Involved ARRL Store About ARRL News & Features News eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear 10/16/2026 ImageOnline marketplace eBay has imposed new restrictions on listings of radio transmitting equipment in response to new FCC rules that took effect this week, but responded to ARRL The National Association for Amateur Radio® that its new policy will not apply to gear that operates exclusively on amateur radio …"
+     "auszug": "Licensing, Education & Training eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear 10/16/2026 ImageOnline marketplace eBay has imposed new restrictions on listings of radio transmitting equipment in response to new FCC rules that took effect this week, but responded to ARRL The National Association for Amateur Radio® that its new policy will not apply to gear that operates exclusively on amateur radio frequencies. The FCC’s rules are intended to use its equipment authorization program to protect against “national security threats to the communications supply chain” and …"
     },
     {
-     "titel": "ARRL",
+     "titel": "Florida Hams Provide Communications Support During Hurricane Isaias",
      "url": "https://www.arrl.org/news/florida-hams-provide-communications-support-during-hurricane-isaias",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ARRL Login Register Account Login Help Home On The Air Licensing, Education & Training Membership Regulatory & Advocacy Public Service Technology Get Involved ARRL Store About ARRL News & Features News Florida Hams Provide Communications Support During Hurricane Isaias 10/16/2026 Amateur radio operators from Florida’s Santa Rosa, Nassau, Lake, Pinellas, and Leon Counties played an important role in supporting emergency communications efforts during and following Hurricane Isaias, helping ensure that critical communication capabilities remained available throughout the storm. In Santa Rosa …"
+     "auszug": "Licensing, Education & Training Florida Hams Provide Communications Support During Hurricane Isaias 10/16/2026 Amateur radio operators from Florida’s Santa Rosa, Nassau, Lake, Pinellas, and Leon Counties played an important role in supporting emergency communications efforts during and following Hurricane Isaias, helping ensure that critical communication capabilities remained available throughout the storm. In Santa Rosa County, volunteer amateur radio operators staffed the Emergency Operations Center (EOC) and the evacuation shelter at the Milton Community Center. These volunteers provided …"
     },
     {
-     "titel": "ARRL",
+     "titel": "The ARRL Solar Update",
      "url": "https://www.arrl.org/news/the-arrl-solar-update-47",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ARRL Login Register Account Login Help Home On The Air Licensing, Education & Training Membership Regulatory & Advocacy Public Service Technology Get Involved ARRL Store About ARRL News & Features News The ARRL Solar Update 10/16/2026 Look for improved propagation on the upper HF bands, as both the sunspot numbers and 10.7-centimeter radio flux remain near or above 100. According to NOAA's Space Weather Prediction Center (SWPC), the increase in activity is being fueled primarily by sunspot Region 4551, which is described as the largest and most complex of six sunspot regions currently visible …"
+     "auszug": "Licensing, Education & Training Look for improved propagation on the upper HF bands, as both the sunspot numbers and 10.7-centimeter radio flux remain near or above 100. According to NOAA's Space Weather Prediction Center (SWPC), the increase in activity is being fueled primarily by sunspot Region 4551, which is described as the largest and most complex of six sunspot regions currently visible on the surface of the Sun. Mostly quiet geomagnetic conditions are expected as well, with some disturbances possible late next week. The Australian Space Weather Forecasting Centre predicts mostly …"
     },
     {
-     "titel": "ARRL",
+     "titel": "The 2026 ARRL Online Auction Is Now Open",
      "url": "https://www.arrl.org/news/the-2026-arrl-online-auction-is-now-open",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ARRL Login Register Account Login Help Home On The Air Licensing, Education & Training Membership Regulatory & Advocacy Public Service Technology Get Involved ARRL Store About ARRL News & Features News The 2026 ARRL Online Auction Is Now Open 10/14/2026 The 21st annual ARRL Online Auction, sponsored by GigaParts, is open now through October 22. Browse more than 200 items and place your bids! This year’s selection includes gear from QST “Product Review” articles, vintage books, pre-owned equipment, signed original sketches by Salty Walt Hudson, K4OGO, from Salty Walt’s Portable Antenna …"
+     "auszug": "Licensing, Education & Training The 2026 ARRL Online Auction Is Now Open 10/14/2026 The 21st annual ARRL Online Auction, sponsored by GigaParts, is open now through October 22. Browse more than 200 items and place your bids! This year’s selection includes gear from QST “Product Review” articles, vintage books, pre-owned equipment, signed original sketches by Salty Walt Hudson, K4OGO, from Salty Walt’s Portable Antenna Sketchbook, and four popular mystery boxes contributed by the ARRL Lab team. Featured equipment includes the Icom IC-PW2 solid-state amplifier, Alinco DR-CS10HT 2-meter FM …"
     },
     {
-     "titel": "ARRL",
+     "titel": "Watching the Gulf",
      "url": "https://www.arrl.org/news/watching-the-gulf",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "ARRL Login Register Account Login Help Home On The Air Licensing, Education & Training Membership Regulatory & Advocacy Public Service Technology Get Involved ARRL Store About ARRL News & Features News Watching the Gulf 10/06/2026 The Hurricane Watch Net (HWN) is closely monitoring Invest 92L, which is expected to become Tropical Storm Isaias in the next 24 hours. According to HWN Manager Bobby Graves, KB5HAV, the potential area of concern for this storm is a wide swath of the Gulf coast, extending from Louisiana to Florida. Graves says there is no HWN activation at this time, but the net …"
+     "auszug": "Licensing, Education & Training The Hurricane Watch Net (HWN) is closely monitoring Invest 92L, which is expected to become Tropical Storm Isaias in the next 24 hours. According to HWN Manager Bobby Graves, KB5HAV, the potential area of concern for this storm is a wide swath of the Gulf coast, extending from Louisiana to Florida. Graves says there is no HWN activation at this time, but the net will go into operation if official hurricane watches or warnings are issued, “or should conditions otherwise warrant activation under HWN policy.” If activated, the net meets on 14.325 MHz USB during …"
     }
    ]
   },
@@ -959,8 +838,10 @@
    "kern": false,
    "nur_hinweis": false,
    "status": "ok",
-   "anzahl": 4,
-   "hinweise": [],
+   "anzahl": 8,
+   "hinweise": [
+    "https://www.rtl-sdr.com/feed/: 8 Einträge im Feed, 8 im Zeitraum"
+   ],
    "eintraege": [
     {
      "titel": "SPECTER: Leaking Data from Air-Gapped Computers by Toggling USB Power States",
@@ -968,6 +849,13 @@
      "datum": "2026-10-29",
      "datum_herkunft": "feed",
      "auszug": "This October, researchers Hyeongjun Choi, Ji Hyuk Jung and Ji Won Yoon from Korea University and 78ResearchLab in Seoul have published a paper describing \"SPECTER\" , a covert channel that leaks data from air-gapped computers by repeatedly switching the power state of attached USB devices. This first requires installing malware with root or administrator privileges, which then controls power via the operating system's suspend or disable/enable controls. No modification to the peripheral's …"
+    },
+    {
+     "titel": "SimTX: A Multiplayer Shortwave Radio Simulator with Realistic Propagation and rtl_tcp Support",
+     "url": "https://www.rtl-sdr.com/simtx-a-multiplayer-shortwave-radio-simulator-with-realistic-propagation-and-rtl_tcp-support/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "feed",
+     "auszug": "Recently, we came across SimTX , an open-beta multiplayer shortwave radio simulator. Everyone shares the same simulated band, so whatever one user transmits from their virtual station can be picked up by anyone else, simulated propagation permitting. The website suggests running a pirate station, making your own numbers station, or just tuning around and listening. For realism, the ionosphere is based on IRI-2020 climatology with live ionosonde data assimilated on top, groundwave and noise …"
     },
     {
      "titel": "Thermal Noise Communication: Sending Data Without a Carrier Signal, with an RTL-SDR as the Receiver",
@@ -982,6 +870,27 @@
      "datum": "2026-10-29",
      "datum_herkunft": "feed",
      "auszug": "Thank you to BG7BAG for writing in and sharing a free user guide for SDRconnect , SDRplay's multi-platform software for their RSP series of SDRs, which we've covered several times before. SDRplay only provides a \"Quick Start\" guide and a few application notes for SDRconnect, so BG7BAG wrote a full manual from scratch, based on daily use with an RSPdx-R2. The guide is written side by side in English and Chinese, with a shared glossary of SDRconnect's interface terms, so it may be most useful to …"
+    },
+    {
+     "titel": "FalconSDR: An Open-Source RTL-SDR Scanner and Recorder with Automatic Whisper Transcription",
+     "url": "https://www.rtl-sdr.com/falconsdr-an-open-source-rtl-sdr-scanner-and-recorder-with-automatic-whisper-transcription/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "feed",
+     "auszug": "Thank you to Rafał for writing in and sharing his open-source project FalconSDR , a free scanning and recording program he's been working on over the last few months. Rafał notes that after getting into RTL-SDR listening, he found that popular SDR programs didn't have the scanning and recording features he wanted. FalconSDR can scan multiple bands or channels, even when they are far apart, with separate settings for each band and a blacklist for skipping birdies and unwanted channels. A …"
+    },
+    {
+     "titel": "OrcSDR Update: SSTV, ACARS and Offline Maps Come to the Standalone ESP32-P4 RTL-SDR App",
+     "url": "https://www.rtl-sdr.com/orcsdr-update-sstv-acars-and-offline-maps-come-to-the-standalone-esp32-p4-rtl-sdr-app/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "feed",
+     "auszug": "Back in September, we posted about OrcSDR, open-source firmware that runs an RTL-SDR directly on the ESP32-P4 microcontroller-based M5Stack Tab5 tablet, with no PC or Raspberry Pi needed. Erik Elfstrom has now written in again to share that OrcSDR v0.5.0-beta.1 ( release notes ) is out, with several new features and a lot of stability work. The main additions are SSTV reception and a dedicated ACARS dashboard . SSTV images are drawn directly on the touchscreen and saved to the SD card, and the …"
+    },
+    {
+     "titel": "OrbitNight: A Free Browser-Based Satellite Pass Viewer with Antenna Rotator Control via Web Serial",
+     "url": "https://www.rtl-sdr.com/orbitnight-a-free-browser-based-satellite-pass-viewer-with-antenna-rotator-control-via-web-serial/",
+     "datum": "2026-10-28",
+     "datum_herkunft": "feed",
+     "auszug": "Thank you to the OrbitNight team for writing in and sharing their \" OrbitNight satellite radar \", a free browser-based pass viewer for any satellite in the catalog. It can also point an antenna rotator straight from the browser over USB using Web Serial, so you don't need to install anything. The radar page shows a polar plot of the pass track, live azimuth and elevation readouts, and an AOS/LOS countdown. A radio tab lists downlink and uplink frequencies taken from SatNOGS. For rotator …"
     },
     {
      "titel": "sdrtop Update: Wi-Fi Airtime Tools, POCSAG Pager Decoder and Native Airspy R2 Support",
@@ -1003,7 +912,9 @@
    "nur_hinweis": false,
    "status": "ok",
    "anzahl": 2,
-   "hinweise": [],
+   "hinweise": [
+    "https://hackaday.com/category/radio-hacks/feed/: 7 Einträge im Feed, 2 im Zeitraum"
+   ],
    "eintraege": [
     {
      "titel": "Building an ADS-B Receiver For Less Than You Think",
@@ -1033,7 +944,9 @@
    "nur_hinweis": false,
    "status": "ok",
    "anzahl": 6,
-   "hinweise": [],
+   "hinweise": [
+    "https://www.amateurradio.com/feed: 25 Einträge im Feed, 6 im Zeitraum"
+   ],
    "eintraege": [
     {
      "titel": "ICQPodcast Episode 496 – AI Advancements for Ham Radio",
@@ -1093,7 +1006,9 @@
    "nur_hinweis": true,
    "status": "ok",
    "anzahl": 10,
-   "hinweise": [],
+   "hinweise": [
+    "https://twiar.net/?feed=rss2: 30 Einträge im Feed, 21 im Zeitraum"
+   ],
    "eintraege": [
     {
      "titel": "via Hackaday: NASA Batteries Survive Extreme Cold and Heat",
