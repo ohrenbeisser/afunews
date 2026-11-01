@@ -1,0 +1,811 @@
+{
+  "kw": "2026-W44",
+  "zeitraum": {
+    "von": "2026-10-26",
+    "bis": "2026-11-01"
+  },
+  "erstellt": "2026-11-01T13:30:00+01:00",
+  "ueberblick": "Der Deutschland-Rundspruch meldet die DARC-Mitgliederversammlung am 14. November in Baunatal und den Aufruf, ADIF-Logs für die DX-Wertung bis Mitte Januar hochzuladen. Wavelog@DARC hat 5000 Nutzer. Ein Hochgeschwindigkeitsstrom im Sonnenwind belastet am Wochenende die Kurzwellenbedingungen. Auf der DX-Seite sind H44MS und E51MWA aktiv, für den 10. November ist die DXpedition 3X4U nach Guinea angekündigt. Die AMSAT-Statusseite wechselt am 4. November auf eine neue Adresse.",
+  "ausbreitung": "Laut DF5JL lag der solare Flux zuletzt bei etwa 90, die Bedingungen waren brauchbar bis günstig. In der Nacht zum 31. Oktober sorgte eine Verdichtungszone für Kp 4 bis 5; ein Hochgeschwindigkeitsstrom soll am Wochenende G1/G2 (Kp 5 bis 6) bringen, danach wird Beruhigung erwartet. Am 1. November lag die MUF für 3000 km in Dourbes morgens bei rund 13 MHz, am Vortag bei etwa 20 MHz.",
+  "meldungen": [
+    {
+      "id": "2026-W44-001",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "Hochgeschwindigkeitsstrom drückt am Wochenende die Kurzwellenbedingungen",
+      "zusammenfassung": "Laut HF-Referat des DARC löste eine Verdichtungszone im Sonnenwind in der Nacht zum 31. Oktober geomagnetisch aktive Phasen (Kp 4 bis 5) aus. Ein Hochgeschwindigkeitsstrom soll die Aktivität auf G1/G2 anheben, zu Wochenbeginn wird Beruhigung erwartet. Auf 20m, 30m und 40m bleiben die Bedingungen überwiegend brauchbar, 15m und 10m öffnen nur gelegentlich.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/funkwx-am-wochenende-cir-kuendet-hss-an/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "FunkWX",
+        "Sonnenwind",
+        "Kp-Index",
+        "HF-Referat"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-002",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "foF2 und MUF: Unterschied der beiden Kenngrößen",
+      "zusammenfassung": "Das HF-Referat erklärt, was foF2 und MUF angeben und wie aussagekräftig sie sind. Anlass ist ein schneller Sonnenwind: In Dourbes (Belgien) fiel die MUF für 3000 km Sprungdistanz von etwa 20 MHz am Vortag auf rund 13 MHz zur selben Morgenzeit.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/fof2-und-muf-was-ist-der-unterschied/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "MUF",
+        "foF2",
+        "Ionosphäre",
+        "HF-Referat"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-003",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "EIBI-Liste für den Winter 2026/2027 erschienen",
+      "zusammenfassung": "Seit dem 31. Oktober liegt die EIBI-Liste für die Wintersaison vor. Die von Eike Bierwirth gepflegte Frequenzdatenbank enthält Rundfunksender, Utility-Dienste und weitere Aussendungen im Kurzwellenbereich und wird zu den Sommer- und Winterflugplänen angepasst.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/die-eibi-liste-winterfahrplan-fuer-kurzwelle/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "EIBI",
+        "Kurzwelle",
+        "Frequenzliste",
+        "SWL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-004",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Wavelog@DARC überschreitet 5000 Nutzer",
+      "zusammenfassung": "Am 26. Oktober wurde bei Wavelog@DARC die Marke von 5000 Benutzern überschritten. Die 5000. Anmeldung kam von der zehnjährigen DN9YLL. Wavelog ist in der DARC-Mitgliedschaft enthalten und bietet unter anderem Diplomauswertung und Contest-Kalender.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/5000-benutzeranmeldung-im-wavelogdarc/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Wavelog",
+        "Logbuch",
+        "DARC"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-005",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Mitgliederversammlung am 14. November, zwei Online-Vorträge auf Treff.DARC",
+      "zusammenfassung": "Die Mitgliederversammlung des DARC findet am 14. November im Hotel Stadt Baunatal statt: um 9 Uhr offene Diskussionsrunde, ab 11 Uhr die Versammlung bis etwa 18 Uhr. Auf Treff.DARC laufen am 4. November um 19 Uhr ein Vortrag zu PASAN und dem Smith-Diagramm sowie am 9. November um 19:30 Uhr ein Vortrag zur Stehwelle.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-432026-44-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Mitgliederversammlung",
+        "Baunatal",
+        "Treff.DARC",
+        "Vortrag"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-006",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "DX-Wertung 2026: ADIF-Logs bis Mitte Januar hochladen",
+      "zusammenfassung": "Das DARC-DX-Referat führt DX-Wertung und Most-Wanted-Liste 2026 gemeinsam mit der German DX Foundation durch. ADIF-Logs für 2026 können bis Mitte Januar hochgeladen werden. Die GDXF nutzt die Auswertung als Grundlage für die Förderung von DXpeditionen.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://toplist.darc.de",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DX-Wertung",
+        "Most Wanted",
+        "GDXF",
+        "ADIF"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-007",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "53. Dortmunder Amateurfunkmarkt erstmals in Kamen",
+      "zusammenfassung": "Der 53. Dortmunder Amateurfunkmarkt fand erstmals in Kamen statt. Nach Angaben des DARC kamen über 1.000 Besucher, es gab ein Vortragsprogramm und einen Funkmarkt mit ideellen und kommerziellen Ausstellern.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/ein-voller-erfolg-der-53-dortmunder-amateurfunkmarkt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-26",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Funkflohmarkt",
+        "Dortmund",
+        "Kamen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-008",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "FOSDEM 2027: Amateurfunk-DevRoom sucht Vorträge",
+      "zusammenfassung": "Der Amateurfunk-DevRoom der FOSDEM 2027 in Brüssel sucht Beiträge zu freier Funksoftware und -hardware, etwa von SDR-Entwicklern, Funkamateuren und Satellitenforschern. Gefragt sind Vorträge, die zeigen, wie eine Wellenform funktioniert oder wie etwas gemessen oder analysiert wurde.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vortraege-fuer-die-fosdem-2027-gesucht/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "FOSDEM",
+        "SDR",
+        "Call for Papers"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-009",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Ulrich L. Rohde, DJ2LR/N1UL, mit Medaille und Professur geehrt",
+      "zusammenfassung": "Ulrich L. Rohde, DJ2LR/N1UL, erhielt die Medaille Bene merenti der Bayerischen Akademie der Wissenschaften und eine Distinguished Affiliate Professorship der TU München. Der 86-Jährige wird damit für sein wissenschaftliches Lebenswerk gewürdigt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/wissenschaftliche-community-wuerdigt-lebensleistung-von-ulrich-l-rohde-dj2lrn1ul/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Rohde",
+        "Auszeichnung",
+        "DJ2LR"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-010",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "Contest-Wochenende 7./8. November: Marconi Contest VHF, IPA Radio Club Contest, FIRAC",
+      "zusammenfassung": "Laut Deutschland-Rundspruch stehen in der kommenden Woche am 7. November der 50. IPA Radio Club Contest, vom 7. bis 8. November der IARU-Region-1-Marconi-Contest VHF sowie am 8. November der FIRAC HF-Contest an. Die Ausschreibungen liegen beim DARC-Contestreferat.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/der-club/referate/conteste/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 2,
+      "region": "EU",
+      "tags": [
+        "Marconi Contest",
+        "IPA",
+        "FIRAC",
+        "Contest"
+      ],
+      "termin": {
+        "beginn": "2026-11-07T00:00:00Z",
+        "ende": "2026-11-08T23:59:00Z",
+        "rufzeichen": [],
+        "baender": [],
+        "betriebsarten": []
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W44-011",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "OV Annaberg baut Hamnet-Knoten DB0ANA für den Notfunk aus",
+      "zusammenfassung": "Der OV Annaberg hat den Hamnet-Knoten DB0ANA auf dem Pöhlberg um Telefonanlage, Dateiserver und Wikipedia-Server erweitert, die ohne Internet laufen. Eine autarke Stromversorgung mit einem vom Distrikt Sachsen gesponserten 18-Ah-LiFePO4-Akku wurde installiert.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/ov-annaberg-staerkt-seine-notfunkfaehigkeiten/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "Hamnet",
+        "Notfunk",
+        "Annaberg",
+        "Pöhlberg"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-012",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "EUDXF-Aktivitätsmonat im November",
+      "zusammenfassung": "Im November ist der EUDXF-Aktivitätsmonat. Mit Sonderrufzeichen wie DL40EUDXF oder PB40EUDXF sind 14 Stationen aus Gebieten wie DL, DU, HA, ON, PA und VK aktiv und vergeben Punkte für das Sonderdiplom 2026.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/EUDXF-40-Aktivitaet.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "EUDXF",
+        "Diplom",
+        "Sonderrufzeichen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-013",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "Kasachische Schüler schicken Minisatelliten ins All",
+      "zusammenfassung": "Beim Start Anfang Oktober von der Vandenberg Space Force Base wurde auch ein 5-cm-Würfelsatellit der Libre Space Foundation aus Athen ausgesetzt. Die Aktion geht auf Schüler in Astana (Kasachstan) zurück. Die Meldung beruft sich auf den AMSAT News Service vom 25. Oktober.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/Minisatellit-Astana.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Minisatellit",
+        "Libre Space Foundation",
+        "Schüler"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-014",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "AMSAT-Statusseite zieht am 4. November auf status.amsat.org um",
+      "zusammenfassung": "Die AMSAT Live OSCAR Satellite Status Page wechselt am 4. November um 1400 UTC auf status.amsat.org, mit Ausfällen von bis zu mehreren Stunden ist zu rechnen. Danach leitet die alte Adresse weiter. API-Nutzer sollen die neue Basis-URL status.amsat.org/api/v1 eintragen.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/oscar_status_page.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "AMSAT",
+        "OSCAR",
+        "Statusseite"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-015",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "Lesotho-DXpedition 7P8GE des DL7DF-Teams beendet",
+      "zusammenfassung": "Am 28. Oktober war der letzte Aktivitätstag der Lesotho-DXpedition 7P8GE des Teams um DL7DF; am Folgetag begann die Rückreise. Aktiv waren DL7UFR, DL6SAK, DL7BO, DK1BT und DL4WK, DL7DF betreute die Aktion von zu Hause.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/7P8GE_29-Oktober.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-28",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "7P8GE",
+        "Lesotho",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-016",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Technikinventar der Erdfunkstelle Raisting wird abgegeben",
+      "zusammenfassung": "Der Förderverein Industriedenkmal Radom Raisting muss die eingelagerte Technik der Antenne 1 bis Jahresende verteilen oder verschrotten lassen. Interessenten finden Details und Kontaktmöglichkeiten im Radiobastlerforum.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/inventar-der-erdfunkstelle-raisting-abzugeben.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Raisting",
+        "Erdfunkstelle",
+        "Denkmal"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-017",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "Zweiter Meshcore-Workshop am 21. November in Hilden",
+      "zusammenfassung": "Der zweite Meshcore-Workshop findet am 21. November von 9:30 bis etwa 17 Uhr im QQTec in Hilden statt. Teilnehmer ab zwölf Jahren, auch ohne Genehmigung, bauen ein Meshcom-Endgerät und einen Repeater auf. Die Anmeldung per E-Mail war bis 31. Oktober vorgesehen.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/meshcore-workshop-2.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-26",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Meshcore",
+        "Meshcom",
+        "Workshop",
+        "Hilden"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-018",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "S9R beendet QO-100-Betrieb aus São Tomé mit über 2000 QSOs",
+      "zusammenfassung": "Die DXpedition S9R aus São Tomé und Príncipe hat den Betrieb über QO-100 beendet. Laut Team standen über 2000 QSOs mit 32 DXCC-Gebieten im Log. Ein Teil der Mannschaft reiste am 30. Oktober ab, der Rest stellte den Betrieb am Folgetag ein.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/s9r-sao-tome-principe/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "S9R",
+        "QO-100",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-019",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "3Y0L Peter I: Spendenaufruf für die Februar-Expedition",
+      "zusammenfassung": "Das Team der DXpedition 3Y0L nach Peter I ruft zu Spenden auf. Die Planung begann 2023, der Start ist in wenigen Monaten. Laut NG3K sind 19 Operateure für zwei Wochen im Februar 2027 vorgesehen.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/peter-1-island-dxpedition-2027/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "3Y0L",
+        "Peter I",
+        "DXpedition",
+        "Spenden"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-020",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "9T0MD-Vortrag am 3. November in Ferrara mit Livestream",
+      "zusammenfassung": "Das Team der DXpedition 9T0MD aus der Demokratischen Republik Kongo berichtet am 3. November ab 2100 UTC bei ARI Ferrara über seine Expedition. Der Eintritt ist frei, die Veranstaltung wird per Livestream übertragen.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/9t0md-democratic-republic-of-the-congo/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "9T0MD",
+        "Kongo",
+        "Vortrag"
+      ],
+      "termin": {
+        "beginn": "2026-11-03T21:00:00Z",
+        "ende": "2026-11-03T23:59:00Z",
+        "rufzeichen": [
+          "9T0MD"
+        ],
+        "baender": [],
+        "betriebsarten": []
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W44-021",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "H44MS: DL2GAC aktiv von den Salomonen",
+      "zusammenfassung": "DL2GAC ist noch bis 20. November als H44MS von den Salomonen aktiv. Genannt sind 80m bis 10m, vor allem FT8, dazu etwas SSB. QSL über LoTW oder DL2GAC.",
+      "quelle": {
+        "name": "NG3K",
+        "url": "https://www.qrz.com/db/H44MS",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "H44MS",
+        "Salomonen",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-10-03T00:00:00Z",
+        "ende": "2026-11-20T23:59:00Z",
+        "rufzeichen": [
+          "H44MS"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "FT8",
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W44-022",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "E51MWA: N7QT funkt von Manihiki auf den Nord-Cook-Inseln",
+      "zusammenfassung": "N7QT ist bis 16. November von Manihiki (IOTA OC014) als E51MWA aktiv, überwiegend in CW. Einige Verbindungen werden per Fernbetrieb von N9ADG, N7JP und WA7CPA gefahren. QSL über M0URX und LoTW.",
+      "quelle": {
+        "name": "NG3K",
+        "url": "https://www.qrz.com/db/E51MWA",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "E51MWA",
+        "Manihiki",
+        "Nord-Cook",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-10-21T00:00:00Z",
+        "ende": "2026-11-16T23:59:00Z",
+        "rufzeichen": [
+          "E51MWA"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W44-023",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "3X4U: Zehnköpfiges Team plant Guinea-DXpedition ab 10. November",
+      "zusammenfassung": "Das Team der DXpedition 3X4U hat die Ausrüstung für den Versand verpackt. Laut NG3K sind zehn Operateure aus Belgien und den Niederlanden vom 10. bis 24. November am Lac de Koba mit fünf Stationen auf 160m bis 6m in CW, SSB, FT8 und RTTY geplant.",
+      "quelle": {
+        "name": "NG3K",
+        "url": "https://rockall.be/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "3X4U",
+        "Guinea",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-024",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "ANS-305: ISS-Außeneinsatz, Statusseite, ARISS und neue PocketQubes",
+      "zusammenfassung": "Der AMSAT News Service nennt für die Woche unter anderem den Außeneinsatz vom 29. Oktober, bei dem das siebte von acht ISS-Solarsegeln installiert wurde; der letzte Einbau ist für den 5. November vorgesehen. Weitere Themen sind das Ende der ARISS-SSTV-Serie 34, ein neues Antragsfenster für ARISS-Kontakte mit US-Schulen und IARU-Frequenzkoordination für mehrere Satelliten.",
+      "quelle": {
+        "name": "AMSAT-NA",
+        "url": "https://www.amsat.org/ans-305-amsat-news-service-weekly-bulletins/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "ANS",
+        "ISS",
+        "ARISS",
+        "IARU"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-025",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "SUPER PARTY 2026 in Zofingen",
+      "zusammenfassung": "Die SUPER PARTY, der größte Amateurfunk-Flohmarkt der Schweiz, fand am 31. Oktober in der Mehrzweckhalle Zofingen statt. Laut USKA war die Halle kurz nach Türöffnung um 9 Uhr bereits stark besucht.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/feilschen-fachsimpeln-freunde-treffen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "Flohmarkt",
+        "Zofingen",
+        "USKA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-026",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "Swiss Emergency Contest am 7. November, Log-Software online",
+      "zusammenfassung": "Die USKA hat die Log-Software für den Swiss Emergency Contest am 7. November bereitgestellt. Der jährliche Notfunk-Wettbewerb läuft in SSB auf Kurzwelle und VHF/UHF, ergänzt durch CB-Funk. Die Software gibt es für Amateur- und CB-Funk.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/sec-2026-log-software-bereit-zum-download/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "SEC",
+        "Notfunk",
+        "Contest",
+        "USKA"
+      ],
+      "termin": {
+        "beginn": "2026-11-07T00:00:00Z",
+        "ende": "2026-11-07T23:59:00Z",
+        "rufzeichen": [],
+        "baender": [],
+        "betriebsarten": [
+          "SSB"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W44-027",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "JTTY: Neuer Digimode im WSJT-X 3.2.0-rc1",
+      "zusammenfassung": "Das WSJT-X-Team hat mit Version 3.2.0-rc1 den Digimode JTTY eingeführt, der RTTY-Tastaturbetrieb mit Schwachsignal-Codierung verbindet. Laut USKA-Bericht von HB9HGH ist die Installation schnell erledigt; bei einer älteren Installation muss die Frequenztabelle über die Reset-Funktion aktualisiert werden.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/jtty-neuer-digimode-von-joe-taylor-im-praxistest/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "JTTY",
+        "WSJT-X",
+        "Digimode"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-028",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "OrbitNight: Satelliten-Passvorhersage im Browser mit Rotorsteuerung",
+      "zusammenfassung": "OrbitNight ist ein kostenloser Passbetrachter im Browser mit Polardiagramm, Azimut und Elevation in Echtzeit sowie AOS/LOS-Countdown. Downlink- und Uplink-Frequenzen stammen aus SatNOGS; ein Antennenrotor lässt sich über Web Serial per USB steuern.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/orbitnight-a-free-browser-based-satellite-pass-viewer-with-antenna-rotator-control-via-web-serial/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-28",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "OrbitNight",
+        "SatNOGS",
+        "Rotor",
+        "Web Serial"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-029",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Thermisches Rauschen als Datenkanal ohne Trägersignal",
+      "zusammenfassung": "Ein Stanford-Team um Zerina Kapetanovic hat die Datenübertragung über thermisches Rauschen untersucht. Der Sender schaltet seine Antenne zwischen zwei Lasten, etwa Dummy Load und offenem Ende, der Empfänger sieht das als wärmeres oder kälteres Rauschen. RTL-SDR Blog nennt einen RTL-SDR als Empfänger.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/thermal-noise-communication-sending-data-without-a-carrier-signal-with-an-rtl-sdr-as-the-receiver/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Rauschen",
+        "Stanford",
+        "RTL-SDR"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-030",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "OrcSDR 0.5.0-beta.1 empfängt SSTV und ACARS auf dem M5Stack Tab5",
+      "zusammenfassung": "Die Firmware OrcSDR für den RTL-SDR auf dem M5Stack Tab5 (ESP32-P4) hat in Version 0.5.0-beta.1 SSTV-Empfang und ein ACARS-Dashboard erhalten. SSTV-Bilder erscheinen auf dem Touchscreen und werden auf der SD-Karte gespeichert; es braucht keinen PC.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/orcsdr-update-sstv-acars-and-offline-maps-come-to-the-standalone-esp32-p4-rtl-sdr-app/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "OrcSDR",
+        "SSTV",
+        "ACARS",
+        "ESP32"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-031",
+      "typ": "video",
+      "rubrik": "verband",
+      "titel": "Amateurfunk-News November 2026 im Videoüberblick",
+      "zusammenfassung": "Laut Videobeschreibung fasst DL2YMR die Amateurfunk-News vom 29. Oktober zusammen: das Venus-Echo, den neuen Modus JTTY, Wavelog 3.2.4, die Satelliten AO-129 und AO-130, das Funkwetter, die Jugend-DXpedition VK9XY und eine Phishing-Warnung.",
+      "quelle": {
+        "name": "DL2YMR",
+        "url": "https://www.youtube.com/watch?v=01W-4ufp10s",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "News",
+        "JTTY",
+        "Wavelog",
+        "VK9XY"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "DL2YMR",
+        "video_id": "01W-4ufp10s",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W44-032",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Test des Weitbandempfängers Raddy RF780",
+      "zusammenfassung": "Laut Videobeschreibung stellt OE4JHW den Raddy RF780 vor, einen Empfänger für MW, KW, CB, Flugfunk, VHF, UHF und Wetterkanäle in AM, FM und SSB. Er hat Bluetooth, App-Steuerung, Aufnahme auf Micro-SD und einen Anschluss für eine externe MW-Antenne.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=jW93zOqvXnc",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Empfänger",
+        "Raddy RF780",
+        "Test"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "jW93zOqvXnc",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W44-033",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Instandsetzung eines alten CB- und Amateurfunk-Transceivers SS 7900",
+      "zusammenfassung": "Laut Videobeschreibung zeigt OE4JHW einen alten AM/FM/SSB-Transceiver SS 7900 für CB- und Amateurfunk aus dem Nachlass von OE3RAS (SK) und beschreibt die Instandsetzung.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=bMsdhRaQ7pM",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Transceiver",
+        "Restaurierung",
+        "SS 7900"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "bMsdhRaQ7pM",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    }
+  ]
+}
