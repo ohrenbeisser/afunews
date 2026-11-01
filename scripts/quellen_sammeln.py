@@ -41,6 +41,8 @@ MAX_BYTES = 3_000_000
 BERLIN = ZoneInfo("Europe/Berlin")
 MONATE_EN = ["january", "february", "march", "april", "may", "june", "july",
              "august", "september", "october", "november", "december"]
+MONATE_DE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August",
+            "September", "Oktober", "November", "Dezember"]
 MONATE_EN_KURZ = {m[:3]: i + 1 for i, m in enumerate(MONATE_EN)}
 ATOM = "{http://www.w3.org/2005/Atom}"
 CONTENT = "{http://purl.org/rss/1.0/modules/content/}"
@@ -119,12 +121,14 @@ def kuerze(s, n):
 
 
 class LinkParser(HTMLParser):
-    """Sammelt alle Links (absolut) mit Linktext."""
+    """Sammelt alle Links (absolut) mit Linktext und dem Text davor/danach
+    (dort steht auf Übersichtsseiten oft das Datum)."""
 
     def __init__(self, basis):
         super().__init__(convert_charrefs=True)
         self.basis = basis
-        self.links = []
+        self.teile = []          # ("t", Text) oder ("a", Index in self.links)
+        self.links = []          # Dicts: href, text, davor, danach
         self._href = None
         self._text = []
 
@@ -141,11 +145,41 @@ class LinkParser(HTMLParser):
     def handle_data(self, data):
         if self._href is not None:
             self._text.append(data)
+        else:
+            self.teile.append(("t", data))
 
     def handle_endtag(self, tag):
         if tag == "a" and self._href is not None:
-            self.links.append((self._href.split("#")[0], bereinige(" ".join(self._text))))
+            self.links.append({"href": self._href.split("#")[0],
+                               "text": bereinige(" ".join(self._text))})
+            self.teile.append(("a", len(self.links) - 1))
             self._href = None
+
+    def ergebnis(self):
+        """Links mit Kontext; je Adresse nur einmal, mit dem längsten Linktext."""
+        for i, (art, wert) in enumerate(self.teile):
+            if art != "a":
+                continue
+            davor, j = [], i - 1
+            while j >= 0 and self.teile[j][0] == "t":
+                davor.insert(0, self.teile[j][1])
+                j -= 1
+            danach, j = [], i + 1
+            while j < len(self.teile) and self.teile[j][0] == "t":
+                danach.append(self.teile[j][1])
+                j += 1
+            self.links[wert]["davor"] = bereinige(" ".join(davor))[-80:]
+            self.links[wert]["danach"] = bereinige(" ".join(danach))[:80]
+        beste = {}
+        for l in self.links:
+            alt = beste.get(l["href"])
+            if alt is None:
+                beste[l["href"]] = l
+            elif len(l["text"]) > len(alt["text"]):
+                alt["text"] = l["text"]
+            if alt is not None and not alt.get("davor") and l.get("davor"):
+                alt["davor"], alt["danach"] = l["davor"], l["danach"]
+        return list(beste.values())
 
 
 class TextParser(HTMLParser):
@@ -195,12 +229,34 @@ class TextParser(HTMLParser):
             self.artikel.append(s)
 
     def text(self):
-        def formen(teile):
-            t = "".join(teile)
-            zeilen = [bereinige(z) for z in t.split("\n")]
-            return " ".join(z for z in zeilen if z)
-        a = formen(self.artikel)
-        return a if len(a) > 200 else formen(self.alles)
+        def zeilen(teile):
+            roh = "".join(teile)
+            return [z for z in (bereinige(x) for x in roh.split("\n")) if z]
+        z = zeilen(self.artikel)
+        if len(" ".join(z)) <= 200:
+            z = zeilen(self.alles)
+        return " ".join(entferne_menues(z))
+
+
+JUNK = re.compile(r"cookie|navigation überspringen|direkt zum inhalt|datenschutzerkl|^zurück$| > ", re.I)
+
+
+def entferne_menues(zeilen):
+    """Wirft Menü- und Fußzeilen heraus: Folgen von mindestens vier kurzen
+    Zeilen ohne Satzzeichen am Ende sowie Cookie-Hinweise und Brotkrumen."""
+    def kurz(z):
+        return len(z) < 30 and not z.endswith((".", "!", "?", ":", ";"))
+    ergebnis, lauf = [], []
+    for z in zeilen + [None]:
+        if z is not None and kurz(z):
+            lauf.append(z)
+            continue
+        if len(lauf) < 4:
+            ergebnis.extend(lauf)
+        lauf = []
+        if z is not None and not JUNK.search(z):
+            ergebnis.append(z)
+    return ergebnis
 
 
 def meta_datum(roh):
@@ -227,6 +283,9 @@ def datum_aus_text(s):
     m = re.search(r"\b(\d{1,2})\.\s?(\d{1,2})\.\s?(20\d\d)\b", s)
     if m:
         return _d(m.group(3), m.group(2), m.group(1))
+    m = re.search(r"\b(\d{1,2})\.?\s+(Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d\d)\b", s)
+    if m:
+        return _d(m.group(3), MONATE_DE.index(m.group(2).replace("Maerz", "März")) + 1, m.group(1))
     m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,9})\.?,?\s+(20\d\d)\b", s)
     if m and m.group(2)[:3].lower() in MONATE_EN_KURZ:
         return _d(m.group(3), MONATE_EN_KURZ[m.group(2)[:3].lower()], m.group(1))
@@ -350,7 +409,11 @@ def _variante(q, v, tag, von, bekannt, hinweise):
     ergebnis = []
     if v["typ"] == "rss":
         text, _ = hole(v["url"])
-        for e in lies_feed(text)[: v.get("max", 40)]:
+        feed = lies_feed(text)
+        imfenster = [e for e in feed if v.get("ohne_datumsfilter") or not e["datum"] or e["datum"] >= von]
+        hinweise.append("%s: %d Einträge im Feed, %d im Zeitraum"
+                        % (v["url"][:60], len(feed), len(imfenster)))
+        for e in feed[: v.get("max", 40)]:
             if not e["url"] or e["url"] in bekannt:
                 continue
             if not v.get("ohne_datumsfilter") and e["datum"] and e["datum"] < von:
@@ -360,7 +423,7 @@ def _variante(q, v, tag, von, bekannt, hinweise):
 
     # html: Übersichtsseiten -> Kandidaten -> Detailseiten
     muster = re.compile(v["link_muster"])
-    kandidaten, gesehen, gelesen, probleme = [], set(), 0, []
+    kandidaten, gesehen, gelesen, probleme, links_gesamt = [], set(), 0, [], 0
     for u in _urls_der_variante(v, tag, von):
         try:
             seite, endadresse = hole(u)
@@ -370,26 +433,38 @@ def _variante(q, v, tag, von, bekannt, hinweise):
         gelesen += 1
         p = LinkParser(endadresse)
         p.feed(seite)
-        for href, titel in p.links:
-            if href in gesehen or not muster.search(href):
+        alle = p.ergebnis()
+        links_gesamt += len(alle)
+        for l in alle:
+            if l["href"] in gesehen or not muster.search(l["href"]):
                 continue
-            gesehen.add(href)
-            kandidaten.append((href, titel))
+            gesehen.add(l["href"])
+            kandidaten.append(l)
     hinweise.extend(probleme)
     if not gelesen:
         raise RuntimeError("; ".join(probleme))
     if not kandidaten:
-        hinweise.append("Übersicht gelesen, aber kein Link passt zu link_muster")
+        proben = [l for l in alle][:12] if gelesen else []
+        hinweise.append("Übersicht gelesen (%d Links), aber kein Link passt zu link_muster; Beispiele: %s"
+                        % (links_gesamt, ", ".join(l["href"] for l in proben)))
         return []
+    neu_kand = [l for l in kandidaten if l["href"] not in bekannt]
+    hinweise.append("%s: %d Kandidaten, %d davon schon bekannt"
+                    % (v["url"][:60], len(kandidaten), len(kandidaten) - len(neu_kand)))
     alt_in_folge, geholt = 0, 0
-    for href, listentitel in kandidaten:
-        if href in bekannt:
-            continue
-        ist_sonder = any(s.lower() in listentitel.lower() for s in sonder)
+    for l in neu_kand:
+        href, listentitel = l["href"], l["text"]
+        ist_sonder = any(x.lower() in listentitel.lower() for x in sonder)
         if geholt >= v.get("max_detail", 15) and not ist_sonder:
             continue
+        d_liste = datum_aus_text(l.get("davor", "")) or datum_aus_text(l.get("danach", ""))
+        if (d_liste and d_liste < von and not ist_sonder and not v.get("ohne_datumsfilter")):
+            alt_in_folge += 1
+            if alt_in_folge >= v.get("stopp_nach_alt", 3):
+                break
+            continue
         if v.get("ohne_detail"):
-            ergebnis.append(_eintrag(q, listentitel, href, None, "keins", ""))
+            ergebnis.append(_eintrag(q, listentitel, href, d_liste, "liste" if d_liste else "keins", ""))
             geholt += 1
             continue
         try:
@@ -398,15 +473,16 @@ def _variante(q, v, tag, von, bekannt, hinweise):
             hinweise.append(f"Detailseite nicht lesbar: {href}: {type(e).__name__}: {e}")
             continue
         geholt += 1
-        d, herkunft = meta_datum(seite), "meta"
         tp = TextParser()
         tp.feed(seite)
         text = tp.text()
+        d, herkunft = meta_datum(seite), "meta"
+        if d is None and d_liste:
+            d, herkunft = d_liste, "liste"
         if d is None:
             d, herkunft = datum_aus_text(text[:600]), "text"
-        titel = listentitel if len(listentitel) > 8 else seitentitel(seite)
-        titel = titel or seitentitel(seite)
-        ist_sonder = ist_sonder or any(s.lower() in titel.lower() for s in sonder)
+        titel = waehle_titel(listentitel, seite)
+        ist_sonder = ist_sonder or any(x.lower() in titel.lower() for x in sonder)
         if d is not None and d < von and not ist_sonder and not v.get("ohne_datumsfilter"):
             alt_in_folge += 1
             if alt_in_folge >= v.get("stopp_nach_alt", 3):
@@ -415,6 +491,20 @@ def _variante(q, v, tag, von, bekannt, hinweise):
         alt_in_folge = 0
         ergebnis.append(_eintrag(q, titel, href, d, herkunft if d else "unbekannt", text))
     return ergebnis
+
+
+GENERISCH = {"sitemap", "arrl", "cart", "home", "start", "startseite", "mehr", "weiterlesen",
+             "read more", "more", "menu", "menü", "details", "mehr erfahren"}
+
+
+def waehle_titel(listentitel, seite):
+    """Linktext der Übersicht, sonst Überschrift der Detailseite."""
+    if len(listentitel) >= 12 and listentitel.lower() not in GENERISCH:
+        return listentitel
+    for t in (seitentitel(seite), listentitel):
+        if t and t.lower() not in GENERISCH:
+            return t
+    return listentitel
 
 
 def _eintrag(q, titel, url, d, datum_herkunft, text):
@@ -428,10 +518,13 @@ def _eintrag(q, titel, url, d, datum_herkunft, text):
     }
 
 
-def bekannte_links(tag, wochen=4):
-    """Alle quelle.url der letzten Wochendateien (nicht noch einmal aufnehmen)."""
+def bekannte_links(kw, wochen=4):
+    """Alle quelle.url der letzten Wochendateien (nicht noch einmal aufnehmen).
+    Die Datei der laufenden Woche zählt nicht mit, sonst bliebe bei einem
+    zweiten Lauf nichts übrig."""
     urls = set()
-    for datei in sorted(DATA.glob("20*/20*-W*.json"), reverse=True)[:wochen]:
+    dateien = [d for d in sorted(DATA.glob("20*/20*-W*.json"), reverse=True) if d.stem != kw]
+    for datei in dateien[:wochen]:
         try:
             w = json.loads(datei.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
@@ -460,7 +553,7 @@ def main():
     ziel = Path(args.ziel) if args.ziel else ROHDATEN / f"{kw}.json"
 
     konfig = json.loads(KONFIG.read_text(encoding="utf-8"))
-    bekannt = bekannte_links(tag)
+    bekannt = bekannte_links(kw)
 
     ergebnisse, ok = [], 0
     for q in konfig["quellen"]:
