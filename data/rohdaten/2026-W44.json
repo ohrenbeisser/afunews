@@ -4,7 +4,7 @@
   "von": "2026-10-26",
   "bis": "2026-11-01"
  },
- "abgerufen": "2026-11-01T10:54:21Z",
+ "abgerufen": "2026-11-01T10:58:00Z",
  "hinweis": "Rohdaten für den Wochen-Agenten. Datum aus 'meta' ist verlässlich, aus 'text' eine Schätzung. Der Agent löscht die Datei nach dem Erstellen der Wochendatei.",
  "bekannte_links_uebersprungen": 63,
  "quellen": [
@@ -876,7 +876,8 @@
    "status": "leer",
    "anzahl": 0,
    "hinweise": [
-    "https://uska.ch/de/news/: 20 Kandidaten, 1 davon schon bekannt"
+    "https://uska.ch/de/news/: 20 Kandidaten, 1 davon schon bekannt",
+    "Nur ältere Meldungen gefunden, z. B.: 2026-06-02 (meta) Read More Feilschen, fachsimpeln, Freunde treffen ; 2026-08-26 (meta) Read More Kurzbericht 8. EMC-Level 1 Videokonferen; 2026-10-03 (meta) Read More SEC 2026 – Log-Software bereit zum Downl; 2026-06-18 (meta) Read More Zwei Medaillen für HB9DHG Continue"
    ],
    "eintraege": []
   },
