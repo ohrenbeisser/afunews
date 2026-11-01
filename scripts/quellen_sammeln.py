@@ -47,6 +47,11 @@ MONATE_EN_KURZ = {m[:3]: i + 1 for i, m in enumerate(MONATE_EN)}
 ATOM = "{http://www.w3.org/2005/Atom}"
 CONTENT = "{http://purl.org/rss/1.0/modules/content/}"
 
+GENERISCH = {"sitemap", "arrl", "cart", "home", "start", "startseite", "mehr", "weiterlesen",
+             "weiterlesen …", "read more", "more", "menu", "menü", "details", "mehr erfahren",
+             "link zu dieser meldung", "zurück", "zurück zur übersicht", "nachrichten detailansicht",
+             "detailansicht", "news", "nachrichten", "aktuelles"}
+
 _letzter_abruf = [0.0]
 _robots = {}
 
@@ -174,11 +179,14 @@ class LinkParser(HTMLParser):
         for l in self.links:
             alt = beste.get(l["href"])
             if alt is None:
-                beste[l["href"]] = l
-            elif len(l["text"]) > len(alt["text"]):
-                alt["text"] = l["text"]
-            if alt is not None and not alt.get("davor") and l.get("davor"):
+                beste[l["href"]] = alt = dict(l)
+                alt["texte"] = []
+            alt["texte"].append(l["text"])
+            if not alt.get("davor") and l.get("davor"):
                 alt["davor"], alt["danach"] = l["davor"], l["danach"]
+        for alt in beste.values():
+            gut = [t for t in alt["texte"] if t.lower() not in GENERISCH]
+            alt["text"] = max(gut or alt["texte"], key=len)
         return list(beste.values())
 
 
@@ -283,6 +291,9 @@ def datum_aus_text(s):
     m = re.search(r"\b(\d{1,2})\.\s?(\d{1,2})\.\s?(20\d\d)\b", s)
     if m:
         return _d(m.group(3), m.group(2), m.group(1))
+    m = re.search(r"(?<![\d/])(\d{1,2})/(\d{1,2})/(20\d\d)(?!\d)", s)  # US: Monat/Tag/Jahr
+    if m:
+        return _d(m.group(3), m.group(1), m.group(2))
     m = re.search(r"\b(\d{1,2})\.?\s+(Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d\d)\b", s)
     if m:
         return _d(m.group(3), MONATE_DE.index(m.group(2).replace("Maerz", "März")) + 1, m.group(1))
@@ -303,13 +314,15 @@ def _d(j, m, t):
 
 
 def seitentitel(roh):
-    for m in (r"<h1[^>]*>(.*?)</h1>",
-              r'<meta[^>]+property=["\']og:title["\'][^>]*content=["\']([^"\']+)',
+    for m in (r'<meta[^>]+property=["\']og:title["\'][^>]*content=["\']([^"\']+)',
+              r"<h1[^>]*>(.*?)</h1>",
               r"<title[^>]*>(.*?)</title>"):
         f = re.search(m, roh, re.I | re.S)
         if f:
             t = ohne_tags(f.group(1))
-            if t:
+            t = re.sub(r"^News:\s*", "", t)
+            t = re.sub(r"\s+[-–|]\s+DARC.*$", "", t)
+            if t and t.lower() not in GENERISCH:
                 return t
     return ""
 
@@ -318,7 +331,10 @@ def seitentitel(roh):
 
 def lies_feed(xml_text):
     """RSS oder Atom -> Liste von Einträgen (Titel, URL, Datum, Text)."""
-    wurzel = ET.fromstring(xml_text.encode("utf-8"))
+    try:
+        wurzel = ET.fromstring(xml_text.encode("utf-8"))
+    except ET.ParseError:
+        return lies_feed_locker(xml_text)
     eintraege = []
     for e in wurzel.iter():
         tag = e.tag.split("}")[-1]
@@ -341,6 +357,30 @@ def lies_feed(xml_text):
         text = (e.findtext(CONTENT + "encoded") or e.findtext("description")
                 or e.findtext(ATOM + "content") or e.findtext(ATOM + "summary") or "")
         eintraege.append({"titel": titel, "url": link, "datum": d, "text": ohne_tags(text)})
+    return eintraege
+
+
+def lies_feed_locker(xml_text):
+    """Notlösung für Feeds mit fehlerhaftem XML: Felder per Muster holen."""
+    def feld(block, name):
+        f = re.search(r"<%s[^>]*>(.*?)</%s>" % (name, name), block, re.S | re.I)
+        if not f:
+            return ""
+        w = f.group(1).strip()
+        c = re.match(r"<!\[CDATA\[(.*)\]\]>$", w, re.S)
+        return c.group(1) if c else w
+    eintraege = []
+    for blk in re.findall(r"<item[ >].*?</item>", xml_text, re.S | re.I):
+        roh_datum = feld(blk, "pubDate")
+        try:
+            d = email.utils.parsedate_to_datetime(roh_datum).astimezone(BERLIN).date()
+        except (TypeError, ValueError):
+            d = datum_aus_text(roh_datum)
+        text = feld(blk, "content:encoded") or feld(blk, "description")
+        eintraege.append({"titel": bereinige(feld(blk, "title")), "url": bereinige(feld(blk, "link")),
+                          "datum": d, "text": ohne_tags(text)})
+    if not eintraege:
+        raise ET.ParseError("Feed nicht lesbar")
     return eintraege
 
 
@@ -457,7 +497,9 @@ def _variante(q, v, tag, von, bekannt, hinweise):
         ist_sonder = any(x.lower() in listentitel.lower() for x in sonder)
         if geholt >= v.get("max_detail", 15) and not ist_sonder:
             continue
-        d_liste = datum_aus_text(l.get("davor", "")) or datum_aus_text(l.get("danach", ""))
+        lm = v.get("datum_aus_liste", "beide")
+        d_liste = None if lm == "aus" else (datum_aus_text(l.get("davor", "")) or
+                                           (datum_aus_text(l.get("danach", "")) if lm == "beide" else None))
         if (d_liste and d_liste < von and not ist_sonder and not v.get("ohne_datumsfilter")):
             alt_in_folge += 1
             if alt_in_folge >= v.get("stopp_nach_alt", 3):
@@ -476,12 +518,16 @@ def _variante(q, v, tag, von, bekannt, hinweise):
         tp = TextParser()
         tp.feed(seite)
         text = tp.text()
+        titel = waehle_titel(listentitel, seite)
+        titel = re.sub(r"^Weiterlesen\s*…?\s*", "", titel)
+        i = text.find(titel) if len(titel) >= 8 else -1
+        if i >= 0:                                # Menüreste vor der Überschrift abschneiden
+            text = text[i + len(titel):].lstrip(" -–|:")
         d, herkunft = meta_datum(seite), "meta"
         if d is None and d_liste:
             d, herkunft = d_liste, "liste"
         if d is None:
             d, herkunft = datum_aus_text(text[:600]), "text"
-        titel = waehle_titel(listentitel, seite)
         ist_sonder = ist_sonder or any(x.lower() in titel.lower() for x in sonder)
         if d is not None and d < von and not ist_sonder and not v.get("ohne_datumsfilter"):
             alt_in_folge += 1
@@ -493,15 +539,11 @@ def _variante(q, v, tag, von, bekannt, hinweise):
     return ergebnis
 
 
-GENERISCH = {"sitemap", "arrl", "cart", "home", "start", "startseite", "mehr", "weiterlesen",
-             "read more", "more", "menu", "menü", "details", "mehr erfahren"}
-
-
 def waehle_titel(listentitel, seite):
     """Linktext der Übersicht, sonst Überschrift der Detailseite."""
     if len(listentitel) >= 12 and listentitel.lower() not in GENERISCH:
-        return listentitel
-    for t in (seitentitel(seite), listentitel):
+        return re.sub(r"^Weiterlesen\s*…?\s*", "", listentitel)
+    for t in (seitentitel(seite), re.sub(r"^Weiterlesen\s*…?\s*", "", listentitel), listentitel):
         if t and t.lower() not in GENERISCH:
             return t
     return listentitel

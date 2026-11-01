@@ -167,7 +167,8 @@
           "max_detail": 3,
           "stopp_nach_alt": 3
         }
-      ]
+      ],
+      "weiter_bei_leer": false
     },
     {
       "id": "amsat-dl",
@@ -190,7 +191,8 @@
           "max_detail": 8,
           "stopp_nach_alt": 3
         }
-      ]
+      ],
+      "weiter_bei_leer": false
     },
     {
       "id": "oevsv",
@@ -227,7 +229,8 @@
           "url": "https://uska.ch/de/news/",
           "link_muster": "^https://uska\\.ch/(de|en)/[a-z0-9-]{15,}/$",
           "max_detail": 10,
-          "stopp_nach_alt": 3
+          "stopp_nach_alt": 3,
+          "datum_aus_liste": "aus"
         }
       ]
     },
