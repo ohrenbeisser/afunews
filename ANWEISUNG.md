@@ -15,14 +15,17 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 
 ## Ablauf
 
-1. **Woche bestimmen.** Bearbeitet wird die Kalenderwoche, in die das Laufdatum fällt. `zeitraum.von` ist deren Montag, `zeitraum.bis` das Laufdatum. Gibt es `data/JJJJ/JJJJ-Www.json` auf dem Arbeitsbranch schon, brich ab und melde das, statt sie zu überschreiben.
+1. **Woche bestimmen.** Bearbeitet wird die Kalenderwoche, in die das Laufdatum fällt. `zeitraum.von` ist deren Montag, `zeitraum.bis` das Laufdatum. Gibt es `data/JJJJ/JJJJ-Www.json` auf dem Arbeitsbranch schon, brich ab und melde das, statt sie zu überschreiben; die Rohdaten bleiben dann unberührt.
 2. **Bekannte Links laden.** Lies die Wochendateien der letzten vier Wochen und sammle alle `quelle.url`. Was dort schon steht, wird nicht noch einmal aufgenommen, auch nicht als Termin.
-3. **Quellen abarbeiten.** Gehe `quellen.md` durch, zuerst alle Kernquellen, dann Zusatzquellen und YouTube-Feeds. Die Zusatzquellen werden in jedem Lauf geprüft, nicht nur bei Zeitmangel in anderen Rubriken. Quellen mit Status „gesperrt“ oder „unbrauchbar“ auslassen. Ist eine Quelle nicht erreichbar, notiere das im Abschlussbericht und mach weiter. Hinweise zum Abruf:
-   - DARC-Nachrichten über das Monatsarchiv lesen, auch Seite 2. Am Monatsanfang zusätzlich den Vormonat.
-   - Den Deutschland-Rundspruch der Woche im DARC-Archiv öffnen; er erscheint donnerstags und bündelt viele Meldungen.
-   - Conteste aus der DARC-Meldung „Aktuelle Conteste KW NN/JJJJ“ der *kommenden* Woche nehmen, falls sie schon erschienen ist; sonst die Seiten der großen Conteste direkt.
-   - DXpeditionen über den RSS-Feed von NG3K und die Startseite von DX-World.
-   - YouTube-Videos nicht direkt abrufen, sondern `data/youtube.json` lesen. Die Datei legt die GitHub Action „YouTube-Feeds abrufen“ sonntags vor dem Lauf an (Skript `scripts/youtube_feeds.py`). Ist `abgerufen` älter als zwei Tage, fehlt die Datei oder steht bei einem Kanal `ok: false`, das im Bericht vermerken. Beim Testlauf an anderen Wochentagen kann die Datei älter sein; dann nur Videos aus dem Zeitraum der Woche nehmen und das Alter im Bericht nennen.
+3. **Rohdaten lesen.** Rufe keine Quellenseiten selbst ab. Die GitHub Action „Quellen sammeln“ (Skript `scripts/quellen_sammeln.py`, Quellenliste `quellen.json`) legt sonntags um 03:45 UTC die Datei `data/rohdaten/JJJJ-Www.json` der Woche an. Lies sie vollständig. Sie enthält je Quelle `status` (`ok`, `leer`, `fehler`) und `eintraege` mit `titel`, `url`, `datum`, `datum_herkunft` und `auszug`. Dazu gilt:
+   - Fehlt die Datei oder ist `abgerufen` älter als zwei Tage, brich ab und melde das per Benachrichtigung. Beim Testlauf an anderen Wochentagen darf die Datei älter sein; dann nur das Alter im Bericht nennen.
+   - Quellen mit Status `fehler` oder `leer` und die `hinweise` der Quellen kommen in den Abschlussbericht.
+   - `datum_herkunft` `meta` und `feed` ist verlässlich, `text` eine Schätzung, `unbekannt` heißt: Datum nicht ermittelt. Im Zweifel `veroeffentlicht: null` setzen.
+   - Quellen mit `nur_hinweis: true` (TWIAR) dienen nur als Hinweisgeber; verlinkt wird die Originalquelle, die der Auszug nennt. Findest du sie nicht, lass die Meldung weg.
+   - Auszüge sind gekürzt. Reicht ein Auszug für eine Meldung nicht, darfst du einzelne Seiten mit WebFetch nachladen. Scheitert der Abruf, arbeite nur mit dem Auszug oder lass die Meldung weg.
+   - Der Deutschland-Rundspruch der Woche (DARC, Titel enthält „Rundspruch“) steht mit langem Auszug in der Datei und bündelt viele Meldungen. Die Conteste der *kommenden* Woche stehen in der DARC-Meldung „Aktuelle Conteste KW NN/JJJJ“, falls sie schon erschienen ist. DXpeditionen liefern NG3K und DX-World.
+   - Videos: nicht abrufen, sondern `data/youtube.json` lesen. Die Datei legt die GitHub Action „YouTube-Feeds abrufen“ sonntags vor dem Lauf an (Skript `scripts/youtube_feeds.py`). Ist `abgerufen` älter als zwei Tage, fehlt die Datei oder steht bei einem Kanal `ok: false`, das im Bericht vermerken. Beim Testlauf an anderen Wochentagen kann die Datei älter sein; dann nur Videos aus dem Zeitraum der Woche nehmen und das Alter im Bericht nennen.
+   - Quellen mit Status „gesperrt“ oder „unbrauchbar“ in `quellen.md` sind nicht in der Rohdatei und bleiben außen vor.
 4. **Auswählen.** Aufnehmen, was im Zeitraum veröffentlicht wurde und für Funkamateure in Deutschland von Belang ist. Weglassen: Werbung, Rabattaktionen, Produktankündigungen ohne Neuigkeitswert, Nachrufe auf unbekannte Personen außerhalb DL, reine Meinungsbeiträge.
 5. **Doppelungen zusammenführen.** Berichten mehrere Quellen über dasselbe, wird es eine Meldung. Verlinkt wird die Originalquelle, also etwa die Behörde oder der Veranstalter, nicht der Sammeldienst. Jede `quelle.url` darf in einer Woche nur einmal vorkommen.
 6. **Schreiben.** Titel und Zusammenfassung nach den Regeln unten.
@@ -30,7 +33,8 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 8. **Kopf schreiben.** `ueberblick` mit drei bis fünf Sätzen zu den wichtigsten Themen; `ausbreitung` mit einer kurzen Notiz, wenn es Daten gibt (z. B. FunkWX des DARC-HF-Referats).
 9. **Speichern.** Wochendatei schreiben, `data/index.json` aktualisieren (`aktualisiert`, neuer Eintrag in `wochen`, absteigend sortiert).
 10. **Prüfen.** `python3 scripts/pruefen.py` ausführen. Fehler beheben, bis die Prüfung ohne Fehler durchläuft.
-11. **Committen.** Autor `ohrenbeisser <ohrenbeisser@gmail.com>`. Commit-Nachricht: `KW 42/2026: 18 Meldungen`, beim Testlauf mit dem Zusatz `(Testlauf)`. Pushen wie oben beschrieben.
+    Danach die Rohdaten der Woche entfernen: `git rm -r data/rohdaten`. Sie werden nur für diesen Lauf gebraucht und sollen das Repository nicht aufblähen. Die Löschung gehört in denselben Commit wie die Wochendatei.
+11. **Committen.** Autor `ohrenbeisser <ohrenbeisser@gmail.com>`. Commit-Nachricht: `KW 42/2026: 18 Meldungen`, beim Testlauf mit dem Zusatz `(Testlauf)`. Pushen wie oben beschrieben. Der Commit enthält die Wochendatei, `data/index.json` und die Löschung von `data/rohdaten/`.
 12. **Bericht.** Kurz melden: Laufart, Woche, Anzahl Meldungen je Rubrik, nicht erreichbare Quellen, Auffälligkeiten.
 
 ## Umfang
@@ -56,4 +60,5 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 
 - Keine Inhalte hinter Login oder Bezahlschranke.
 - Keine Seiten aus „Nicht verwenden“ in `quellen.md`.
+- Quellenseiten nicht selbst durchsuchen oder abrufen, außer zum gezielten Nachladen nach Schritt 3.
 - Keine Dateien außerhalb von `data/` ändern. Änderungen an Anweisung, Quellen oder Schema nur auf ausdrücklichen Wunsch von DL6LG.

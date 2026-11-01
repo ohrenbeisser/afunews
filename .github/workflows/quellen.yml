@@ -1,0 +1,50 @@
+name: Quellen sammeln
+
+# Läuft sonntags nach dem YouTube-Abruf und vor dem Wochen-Agenten und legt
+# die Rohdaten der Woche unter data/rohdaten/ ab. Der Agent ruft keine
+# Webseiten mehr selbst ab, sondern liest nur diese Datei.
+# 03:45 UTC = 04:45 MEZ bzw. 05:45 MESZ.
+on:
+  schedule:
+    - cron: "45 3 * * 0"
+  workflow_dispatch:
+  # Nur für die Testphase auf dem Entwicklungsbranch; vor dem Zusammenführen
+  # mit main entfernen.
+  push:
+    branches: [quellen-skript]
+    paths:
+      - scripts/quellen_sammeln.py
+      - quellen.json
+      - .github/workflows/quellen.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quellen-sammeln
+  cancel-in-progress: false
+
+jobs:
+  sammeln:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Quellen abrufen
+        run: python3 scripts/quellen_sammeln.py
+
+      - name: Prüfung
+        run: python3 scripts/pruefen.py
+
+      - name: Committen und pushen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/rohdaten
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+            exit 0
+          fi
+          git commit -m "Rohdaten der Quellen vom $(date -u +%Y-%m-%d)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -196,6 +196,8 @@ def pruefe_index():
         if inhalt and w.get("anzahl_meldungen") != len(inhalt.get("meldungen", [])):
             f(ort, f"{w.get('kw')}: 'anzahl_meldungen' stimmt nicht")
     for datei in sorted(DATA.glob("*/*.json")):
+        if datei.parent.name == "rohdaten":
+            continue  # Rohdaten der Quellen-Action, keine Wochendatei
         if datei.resolve() not in gelistet:
             f(ort, f"nicht im Index: {datei.relative_to(DATA)}")
 

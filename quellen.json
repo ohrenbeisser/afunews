@@ -1,0 +1,218 @@
+{
+  "hinweis": "Maschinenlesbare Quellenliste für scripts/quellen_sammeln.py. Die Beschreibung der Quellen steht in quellen.md. Platzhalter in Adressen: {JJJJ}, {MM}, {JJJJMM}, {MONAT_EN}.",
+  "quellen": [
+    {
+      "id": "darc",
+      "name": "DARC Nachrichten",
+      "sprache": "de",
+      "rubriken": ["verband", "regulatorik", "dx", "contest", "ausbreitung", "technik"],
+      "kern": true,
+      "auszug": 600,
+      "auszug_sonder": [
+        {"titel_enthaelt": "Rundspruch", "zeichen": 7000},
+        {"titel_enthaelt": "Aktuelle Conteste", "zeichen": 3500},
+        {"titel_enthaelt": "FunkWX", "zeichen": 1500}
+      ],
+      "immer_titel": ["Aktuelle Conteste"],
+      "abruf": [
+        {
+          "typ": "html",
+          "url": "https://www.darc.de/nachrichten/meldungen/archiv-liste/archiv/{JJJJ}/{MONAT_EN}/",
+          "monatlich": true,
+          "seiten": ["", "?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=2"],
+          "link_muster": "/nachrichten/meldungen/(archiv-details|aktuelles-details)/news/",
+          "max_detail": 30,
+          "stopp_nach_alt": 4
+        }
+      ]
+    },
+    {
+      "id": "darc-s",
+      "name": "DARC Distrikt Sachsen",
+      "sprache": "de",
+      "rubriken": ["regional", "veranstaltung"],
+      "kern": true,
+      "auszug": 800,
+      "abruf": [
+        {
+          "typ": "html",
+          "url": "https://www.darc.de/der-club/distrikte/s/aktuell/",
+          "link_muster": "/distrikte/s/aktuell/detailansicht/news/",
+          "max_detail": 8,
+          "ohne_datumsfilter": true
+        }
+      ]
+    },
+    {
+      "id": "funkamateur",
+      "name": "Funkamateur Nachrichten",
+      "sprache": "de",
+      "rubriken": ["technik", "verband", "dx", "satellit", "veranstaltung"],
+      "kern": true,
+      "auszug": 600,
+      "abruf": [
+        {
+          "typ": "html",
+          "url": "https://www.funkamateur.de/nachrichtenarchiv.html?month={JJJJMM}",
+          "monatlich": true,
+          "link_muster": "/nachrichtendetails/items/",
+          "max_detail": 25,
+          "stopp_nach_alt": 4
+        }
+      ]
+    },
+    {
+      "id": "dx-world",
+      "name": "DX-World",
+      "sprache": "en",
+      "rubriken": ["dx"],
+      "kern": true,
+      "auszug": 700,
+      "abruf": [
+        {"typ": "rss", "url": "https://www.dx-world.net/feed/", "max": 30},
+        {
+          "typ": "html",
+          "url": "https://www.dx-world.net/",
+          "link_muster": "^https://www\\.dx-world\\.net/[a-z0-9-]+/$",
+          "max_detail": 15,
+          "stopp_nach_alt": 4
+        }
+      ]
+    },
+    {
+      "id": "ng3k",
+      "name": "NG3K Announced DX Operations",
+      "sprache": "en",
+      "rubriken": ["dx"],
+      "kern": true,
+      "auszug": 500,
+      "abruf": [
+        {"typ": "rss", "url": "http://www.ng3k.com/adxo.xml", "max": 60, "ohne_datumsfilter": true}
+      ]
+    },
+    {
+      "id": "amsat-na",
+      "name": "AMSAT-NA",
+      "sprache": "en",
+      "rubriken": ["satellit"],
+      "auszug": 800,
+      "auszug_sonder": [{"titel_enthaelt": "AMSAT News Service", "zeichen": 5000}],
+      "abruf": [
+        {"typ": "rss", "url": "https://www.amsat.org/feed/", "max": 15},
+        {
+          "typ": "html",
+          "url": "https://www.amsat.org/",
+          "link_muster": "^https://www\\.amsat\\.org/[a-z0-9-]+/$",
+          "max_detail": 8,
+          "stopp_nach_alt": 3
+        }
+      ]
+    },
+    {
+      "id": "amsat-dl",
+      "name": "AMSAT-DL",
+      "sprache": "de",
+      "rubriken": ["satellit"],
+      "auszug": 800,
+      "abruf": [
+        {"typ": "rss", "url": "https://amsat-dl.org/feed/", "max": 15},
+        {
+          "typ": "html",
+          "url": "https://amsat-dl.org/",
+          "link_muster": "^https://amsat-dl\\.org/(en/)?[a-z0-9-]{12,}/$",
+          "max_detail": 8,
+          "stopp_nach_alt": 3
+        }
+      ]
+    },
+    {
+      "id": "oevsv",
+      "name": "ÖVSV",
+      "sprache": "de",
+      "rubriken": ["verband", "regulatorik"],
+      "auszug": 600,
+      "abruf": [
+        {
+          "typ": "html",
+          "url": "https://www.oevsv.at/",
+          "link_muster": "/oevsv/aktuelles/[^/]+/?$",
+          "max_detail": 10,
+          "stopp_nach_alt": 3
+        }
+      ]
+    },
+    {
+      "id": "uska",
+      "name": "USKA",
+      "sprache": "de",
+      "rubriken": ["verband", "regulatorik", "technik"],
+      "auszug": 600,
+      "abruf": [
+        {
+          "typ": "html",
+          "url": "https://uska.ch/de/news/",
+          "link_muster": "^https://uska\\.ch/(de|en)/[a-z0-9-]{15,}/$",
+          "max_detail": 10,
+          "stopp_nach_alt": 3
+        }
+      ]
+    },
+    {
+      "id": "arrl",
+      "name": "ARRL News",
+      "sprache": "en",
+      "rubriken": ["verband", "technik"],
+      "auszug": 600,
+      "abruf": [
+        {
+          "typ": "html",
+          "url": "https://www.arrl.org/news",
+          "link_muster": "^https://www\\.arrl\\.org/news/[a-z0-9-]{10,}$",
+          "max_detail": 10,
+          "stopp_nach_alt": 3
+        }
+      ]
+    },
+    {
+      "id": "rtl-sdr",
+      "name": "RTL-SDR Blog",
+      "sprache": "en",
+      "rubriken": ["technik"],
+      "auszug": 500,
+      "abruf": [
+        {"typ": "rss", "url": "https://www.rtl-sdr.com/feed/", "max": 20}
+      ]
+    },
+    {
+      "id": "hackaday",
+      "name": "Hackaday, Radio",
+      "sprache": "en",
+      "rubriken": ["technik"],
+      "auszug": 500,
+      "abruf": [
+        {"typ": "rss", "url": "https://hackaday.com/category/radio-hacks/feed/", "max": 15}
+      ]
+    },
+    {
+      "id": "amateurradio-com",
+      "name": "AmateurRadio.com",
+      "sprache": "en",
+      "rubriken": ["technik", "verband"],
+      "auszug": 500,
+      "abruf": [
+        {"typ": "rss", "url": "https://www.amateurradio.com/feed", "max": 20}
+      ]
+    },
+    {
+      "id": "twiar",
+      "name": "This Week in Amateur Radio",
+      "sprache": "en",
+      "rubriken": ["verband", "dx", "technik", "satellit"],
+      "nur_hinweis": true,
+      "auszug": 800,
+      "abruf": [
+        {"typ": "rss", "url": "https://twiar.net/?feed=rss2", "max": 10}
+      ]
+    }
+  ]
+}
