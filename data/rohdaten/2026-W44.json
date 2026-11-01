@@ -4,7 +4,7 @@
   "von": "2026-10-26",
   "bis": "2026-11-01"
  },
- "abgerufen": "2026-11-01T11:01:35Z",
+ "abgerufen": "2026-11-01T11:04:53Z",
  "hinweis": "Rohdaten für den Wochen-Agenten. Datum aus 'meta' ist verlässlich, aus 'text' eine Schätzung. Der Agent löscht die Datei nach dem Erstellen der Wochendatei.",
  "bekannte_links_uebersprungen": 63,
  "quellen": [
@@ -331,11 +331,146 @@
    ],
    "kern": true,
    "nur_hinweis": false,
-   "status": "fehler",
-   "anzahl": 0,
-   "fehler": "RuntimeError: https://www.dx-world.net/feed/: ParseError: Feed nicht lesbar",
-   "hinweise": [],
-   "eintraege": []
+   "status": "ok",
+   "anzahl": 19,
+   "hinweise": [
+    "https://www.dx-world.net/feed/: 20 Einträge im Feed, 20 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "DXpedition Timeline – NOVEMBER",
+     "url": "https://www.dx-world.net/dxpedition-timeline-noveber-2026/",
+     "datum": "2026-11-01",
+     "datum_herkunft": "feed",
+     "auszug": "The Featured DXpedition Timeline is now updated and available for November – right side top. Note 1: This is already a second copy and will continue to be updated and changed often during the new month. Note 2: XR0Z has tentative dates. Click to enlarge. The post DXpedition Timeline – NOVEMBER first appeared on DX-World ."
+    },
+    {
+     "titel": "6W/I2YSB & 6W/IK2HKT Senegal",
+     "url": "https://www.dx-world.net/6w-i2ysb-6w-ik2hkt-senegal/",
+     "datum": "2026-11-01",
+     "datum_herkunft": "feed",
+     "auszug": "[NEWS UPDATE] – We have received some news from the team. All is going well with good conditions on 10 & 12m. The only problem so far is 80 & 160 rx. They hope to overcome this. During daylight hours they can use 200-210 volts but in the evening must reduce to 180v, so power […] The post 6W/I2YSB & 6W/IK2HKT Senegal first appeared on DX-World ."
+    },
+    {
+     "titel": "T8KT – Palau",
+     "url": "https://www.dx-world.net/t8kt-palau/",
+     "datum": "2026-11-01",
+     "datum_herkunft": "feed",
+     "auszug": "[UPDATE] – Japanese team consisting of 7K4TKB (T88YL), JA6FWJ (T88FW), JF3LGC (T88CC), JF3PLF (T88IL), JH3FHR (T88UJ), JH3QNH (T88QN), JH3TXR (T88XR), JI3NST (T88ES), JI6DUE (T88DU), JN3JBC (T88KL), JN3RAZ (T88AM) and JR3FOS (T88TC) will be active from Palau as T8KT during February 10-18, 2027. QRV on 160-6m; SSB, CW and Digi. This activity is to commemorate JARL […] The post T8KT – Palau first appeared on DX-World ."
+    },
+    {
+     "titel": "3X4U – Guinea DXpedition 2026",
+     "url": "https://www.dx-world.net/3x4u-guinea-dxpedition-2026/",
+     "datum": "2026-11-01",
+     "datum_herkunft": "feed",
+     "auszug": "[UPDATE] – by team. Today was the final day of packing all our equipment for the 3X4U DXpedition. Every suitcase was weighed and prepared for shipment. All PCs were reset to ensure that no QSOs remained in DXlog, and the MSHV logs were also cleared. Afterwards, the complete setup of our five stations was dismantled […] The post 3X4U – Guinea DXpedition 2026 first appeared on DX-World ."
+    },
+    {
+     "titel": "FW3GT – Wallis & Futuna",
+     "url": "https://www.dx-world.net/fw3gt-wallis-futuna/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "feed",
+     "auszug": "[UPDATE / PICS] – With now over 2000 QSOs in the log, Gav took some time out to send a few more pictures, this time mainly of his station and antennas. He mentions it’s been a struggle overnight with aurora but it should recover a bit tonight. Lots of flutter on EU sigs, and FT8 […] The post FW3GT – Wallis & Futuna first appeared on DX-World ."
+    },
+    {
+     "titel": "V5/G0RIB – Namibia",
+     "url": "https://www.dx-world.net/v5-g0rib-namibia/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "feed",
+     "auszug": "[INFO] by Allan, G0RIB. Until early December 2026, I shall be in Namibia supporting an exciting motoring event with my colleague Richard G8SVC. We will be located at Walvis Bay and in our spare time plan to operate an HF station running SSB, FT8. We will also have WSPR. We have shipped an FT1000, an […] The post V5/G0RIB – Namibia first appeared on DX-World ."
+    },
+    {
+     "titel": "Club Log & DX-World collaboration",
+     "url": "https://www.dx-world.net/club-log-dx-world-collaboration/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "feed",
+     "auszug": "[INFO] by Michael, G7VJR. DX-World is the first place to look for information about upcoming DXpeditions, while the new Club Log mobile app gives DXers visibility of what’s on the air now. With DX-World news integrated directly into the calendar tool of the app, it’s possible to see and study both in one place, making […] The post Club Log & DX-World collaboration first appeared on DX-World ."
+    },
+    {
+     "titel": "VP2VBB & VP2V/GU4YOX – British Virgin Islands",
+     "url": "https://www.dx-world.net/vp2vbb-vp2v-gu4yox-b-v-i/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "feed",
+     "auszug": "[UPDATE] by Bob, GU4YOX. I will be travelling from Guernsey to Tortola in November, with plans to be active as VP2V/GU4YOX ahead of the CQWW CW contest on 28–29 November 2026. For the contest, I will be using the special callsign VP2VBB, entering Single Operator, Single Band, High Power (SOSB HP) on 20 metres. The […] The post VP2VBB & VP2V/GU4YOX – British Virgin Islands first appeared on DX-World ."
+    },
+    {
+     "titel": "C21GD – Nauru",
+     "url": "https://www.dx-world.net/c21gd-nauru/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "feed",
+     "auszug": "Shinji, JM1GDA will be active from Nauru as C21GD during December 10-16,2026. QRV on 80-6m; CW, SSB, FT8. Also activity on LEO RS-44 (FT4 & CW). Grid: RI39LL. QSL via LoTW, Club Log OQRS. The post C21GD – Nauru first appeared on DX-World ."
+    },
+    {
+     "titel": "9X5KM – Rwanda",
+     "url": "https://www.dx-world.net/9x5km-rwanda/",
+     "datum": "2026-10-31",
+     "datum_herkunft": "feed",
+     "auszug": "[INFO] – by Al, F8FUA. **UPDATE – NOW QRV** Unfortunately, I cannot be QRV as expected. Antennas are fixed but there is a general electricity failure. Today is a national holiday so difficult to find somebody at work. Internet access also very limited. Just have to wait, sorry. [INITIAL NEWS] – Al, F8FUA announces that […] The post 9X5KM – Rwanda first appeared on DX-World ."
+    },
+    {
+     "titel": "5R8IC – Madagascar",
+     "url": "https://www.dx-world.net/5r8ic-saint-marie-isl-madagascar/",
+     "datum": "2026-10-30",
+     "datum_herkunft": "feed",
+     "auszug": "Eric, F6ICX is again active from Saint Marie island, AF-090 as 5R8IC until mid-December. QRV on 40-10m; mainly CW with some FT8 (f/h) & SSB. QSL via LoTW, H/c. The post 5R8IC – Madagascar first appeared on DX-World ."
+    },
+    {
+     "titel": "E51A – Cook Islands",
+     "url": "https://www.dx-world.net/e51a-cook-islands/",
+     "datum": "2026-10-30",
+     "datum_herkunft": "feed",
+     "auszug": "Hrane, YT5A (ex-YT1AD) will visit Rarotonga, Cook Islands during November 14-22, 2026. QRV as E51A holiday-style; CW and FT8. The goal of this activity is to prepare for a DXpedition to North Cook Islands (Manihiki) in the period September 25 to October 10, 2027. If anyone would like to join this activity, then contact Hrane […] The post E51A – Cook Islands first appeared on DX-World ."
+    },
+    {
+     "titel": "V26JJ – Antigua",
+     "url": "https://www.dx-world.net/v26jj-antigua/",
+     "datum": "2026-10-30",
+     "datum_herkunft": "feed",
+     "auszug": "Japanese operators JA3FHL, JA3PJL, JH3UHG, JJ2RCJ and JA0JHQ will be active from Antigua as V26JJ during October 30 to November 6, 2026. QRV on HF bands, various modes. QSL via Club Log OQRS. More info can be found here. The post V26JJ – Antigua first appeared on DX-World ."
+    },
+    {
+     "titel": "S9R – Sao Tome & Principe",
+     "url": "https://www.dx-world.net/s9r-sao-tome-principe/",
+     "datum": "2026-10-30",
+     "datum_herkunft": "feed",
+     "auszug": "[GOING QRT] – QO-100 operations have been QRT since yesterday. A big thank you to everyone who worked us. We logged over 2,000 QSOs with 32 DXCC entities. Part of the team left today to return to Angola, and the remaining team will cease operations tomorrow. [OCTOBER 24] – Logs up to approximately 05:00 UTC […] The post S9R – Sao Tome & Principe first appeared on DX-World ."
+    },
+    {
+     "titel": "3Y0L – Peter 1 Island DXpedition",
+     "url": "https://www.dx-world.net/peter-1-island-dxpedition-2027/",
+     "datum": "2026-10-30",
+     "datum_herkunft": "feed",
+     "auszug": "[CALL FOR DONATIONS] – The planning of the Peter I DXpedition started in 2023, and now three years later we are just a few months away from the DXpedition start. In 2023 we signed a financial contract that would secure the funding of an expedition to Peter I Island. Together with the large participation fee […] The post 3Y0L – Peter 1 Island DXpedition first appeared on DX-World ."
+    },
+    {
+     "titel": "VP2V/K6TOP – B.V.I",
+     "url": "https://www.dx-world.net/vp2v-k6top-british-virgin-islands/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "feed",
+     "auszug": "Kevin K6TOP is again active from Tortola, B.V.I as VP2V/K6TOP. He operates from the British Virgin Islands several times a year while vacationing there. QRV on 40-10m CW, spare time using an EFHW antenna. QSL via EA5GL, LoTW. The post VP2V/K6TOP – B.V.I first appeared on DX-World ."
+    },
+    {
+     "titel": "9T0MD – Democratic Republic of Congo",
+     "url": "https://www.dx-world.net/9t0md-democratic-republic-of-the-congo/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "feed",
+     "auszug": "[PRESENTATION / LIVE STREAMING] – It’s with great pleasure we announce the 9T0MD presentation where we’ll be sharing anecdotes, connections, and reliving the DXpedition’s history with you. The evening of November 3, 2026, starting at 2100Z, will be held within the ARI Ferrara IQ4FA section, in front of an audience in attendance; access is free […] The post 9T0MD – Democratic Republic of Congo first appeared on DX-World ."
+    },
+    {
+     "titel": "ZD7VJ & ZD7WP – Saint Helena",
+     "url": "https://www.dx-world.net/zd7vj-zd7wp-saint-helena/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "feed",
+     "auszug": "Fred, G4BWP and Andy, 5Z4VJ will be active from Saint Helena as ZD7WP & ZD7VJ during November 22 to December 5, 2026. Andy will run the CQWW CW contest (category tbc) as well as other bands/modes before and after the contest. Fred plans to QRV on QO100 and 60m, along with other bands; CW, SSB […] The post ZD7VJ & ZD7WP – Saint Helena first appeared on DX-World ."
+    },
+    {
+     "titel": "DX-WORLD Weekly Bulletin",
+     "url": "https://www.dx-world.net/dx-world-weekly-bulletin-191/",
+     "datum": "2026-10-29",
+     "datum_herkunft": "feed",
+     "auszug": "[#686] The latest FREE NON-SUBSCRIPTION DX-World Weekly Bulletin written by Bjorn ON9CFG is available to download. Click below to get the newest edition which this week runs to 20 pages. Previous bulletins can all be found here. Please contact Bjorn with any updates or errors. DOWNLOAD THE LATEST BULLETIN ﻿﻿ The post DX-WORLD Weekly Bulletin first appeared on DX-World ."
+    }
+   ]
   },
   {
    "id": "ng3k",
@@ -739,80 +874,87 @@
    "kern": false,
    "nur_hinweis": false,
    "status": "ok",
-   "anzahl": 10,
+   "anzahl": 11,
    "hinweise": [
     "https://uska.ch/de/news/: 20 Kandidaten, 1 davon schon bekannt"
    ],
    "eintraege": [
     {
-     "titel": "Feilschen, fachsimpeln, Freunde treffen Continue",
+     "titel": "Feilschen, fachsimpeln, Freunde treffen",
      "url": "https://uska.ch/de/feilschen-fachsimpeln-freunde-treffen/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "Feilschen, fachsimpeln, Freunde treffen Die SUPER PARTY 2026 vom 31. Oktober in Zofingen war ein grosser Erfolg. Die Anzeigetafel an der Hallenwand zeigte 8:59 Uhr, und in der Mehrzweckhalle Zofingen war schon kaum mehr ein Durchkommen. Eine knappe halbe Stunde nach Türöffnung schoben sich Hunderte Funkamateure durch die Gänge, beugten sich über Kisten voller Stecker, drehten Geräte in den Händen und verhandelten über Preise. Der grösste Amateurfunk-Flohmarkt der Schweiz lief auf vollen Touren. Basar-Stimmung Der Tag begann früh. Ab 7 Uhr durften die Aussteller mit Reservation einrichten, …"
+     "auszug": "Die SUPER PARTY 2026 vom 31. Oktober in Zofingen war ein grosser Erfolg. Die Anzeigetafel an der Hallenwand zeigte 8:59 Uhr, und in der Mehrzweckhalle Zofingen war schon kaum mehr ein Durchkommen. Eine knappe halbe Stunde nach Türöffnung schoben sich Hunderte Funkamateure durch die Gänge, beugten sich über Kisten voller Stecker, drehten Geräte in den Händen und verhandelten über Preise. Der grösste Amateurfunk-Flohmarkt der Schweiz lief auf vollen Touren. Basar-Stimmung Der Tag begann früh. Ab 7 Uhr durften die Aussteller mit Reservation einrichten, gleichzeitig öffnete im Eingangsbereich die …"
     },
     {
-     "titel": "Kurzbericht 8. EMC-Level 1 Videokonferenz 2026 Continue",
+     "titel": "Kurzbericht 8. EMC-Level 1 Videokonferenz 2026",
      "url": "https://uska.ch/de/kurzbericht-8-emc-level-1-videokonferenz-2026/",
      "datum": "2026-10-27",
      "datum_herkunft": "text",
-     "auszug": "Kurzbericht 8. EMC-Level 1 Videokonferenz 2026 Am Dienstag, 27. Oktober 2026 fand die 8. EMC-Level 1 Videokonferenz 2026 statt. Richard HB9ERB berichtete, wie er mit zwei unterschiedlichen Peilgeräten eine Störung von einem Rasenmäher Husqvarna und dessen Ladegerät peilen konnte. Er informierte über einen Aspekt, wenn der «Besitzer einer Störung» einen BAKOM-Messbericht in der Hand, wenn dieser mit einem Produktanbieter über die Störungsbehebung verhandelt. Der 38-seitige Foliensatz von Armin HB9MFL von seinen EMC-Vortrag bei den Kollegen in Solothurn liegt bei. Daraus kann jeder OM ohne …"
+     "auszug": "Am Dienstag, 27. Oktober 2026 fand die 8. EMC-Level 1 Videokonferenz 2026 statt. Richard HB9ERB berichtete, wie er mit zwei unterschiedlichen Peilgeräten eine Störung von einem Rasenmäher Husqvarna und dessen Ladegerät peilen konnte. Er informierte über einen Aspekt, wenn der «Besitzer einer Störung» einen BAKOM-Messbericht in der Hand, wenn dieser mit einem Produktanbieter über die Störungsbehebung verhandelt. Der 38-seitige Foliensatz von Armin HB9MFL von seinen EMC-Vortrag bei den Kollegen in Solothurn liegt bei. Daraus kann jeder OM ohne Tonspur von Armin wichtige Schritte oder Ideen bei …"
     },
     {
-     "titel": "SEC 2026 – Log-Software bereit zum Download Continue",
+     "titel": "SEC 2026 – Log-Software bereit zum Download",
      "url": "https://uska.ch/de/sec-2026-log-software-bereit-zum-download/",
      "datum": "2026-11-07",
      "datum_herkunft": "text",
-     "auszug": "SEC 2026 – Log-Software bereit zum Download Rechtzeitig vor dem Swiss Emergency Contest am 7. November 2026 ist die Log-Software ab sofort verfügbar. Der Swiss Emergency Contest (SEC) ist der jährliche Notfunk-Wettbewerb der USKA. Er dient dazu, die Einsatzbereitschaft der Schweizer Funkamateure für den Krisenfall zu üben. Gefunkt wird in SSB auf Kurzwelle und VHF/UHF, ergänzt durch CB-Funk. Für Amateur- und CB-Funk Die Log-Software für den SEC 2026 kann ab sofort heruntergeladen werden. Sie ist sowohl für Stationen im Amateurfunk als auch für CB-Funk ausgelegt. Wir empfehlen, die Software …"
+     "auszug": "Rechtzeitig vor dem Swiss Emergency Contest am 7. November 2026 ist die Log-Software ab sofort verfügbar. Der Swiss Emergency Contest (SEC) ist der jährliche Notfunk-Wettbewerb der USKA. Er dient dazu, die Einsatzbereitschaft der Schweizer Funkamateure für den Krisenfall zu üben. Gefunkt wird in SSB auf Kurzwelle und VHF/UHF, ergänzt durch CB-Funk. Für Amateur- und CB-Funk Die Log-Software für den SEC 2026 kann ab sofort heruntergeladen werden. Sie ist sowohl für Stationen im Amateurfunk als auch für CB-Funk ausgelegt. Wir empfehlen, die Software schon vor dem Contest zu installieren und …"
     },
     {
-     "titel": "Neue WhatsApp-Gruppe für blinde und sehbehinderte Funkamateure Continue",
+     "titel": "Neue WhatsApp-Gruppe für blinde und sehbehinderte Funkamateure",
      "url": "https://uska.ch/de/neue-whatsapp-gruppe-fuer-blinde-und-sehbehinderte-funkamateure/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "Neue WhatsApp-Gruppe für blinde und sehbehinderte Funkamateure Die IG Blind HAMs Switzerland hat eine WhatsApp-Gruppe gegründet. Sie soll blinde und sehbehinderte Funkamateurinnen und Funkamateure in der Schweiz vernetzen und steht allen Interessierten offen. Die Interessengemeinschaft Blind HAMs Switzerland bietet ab sofort eine eigene WhatsApp-Gruppe an. Sie dient dem Austausch unter blinden und sehbehinderten Funkamateur/-innen in der Schweiz. Willkommen sind ausdrücklich auch OM und YLs, die selbst nicht betroffen sind, sich aber für das Thema interessieren und etwas beitragen möchten. …"
+     "auszug": "Die IG Blind HAMs Switzerland hat eine WhatsApp-Gruppe gegründet. Sie soll blinde und sehbehinderte Funkamateurinnen und Funkamateure in der Schweiz vernetzen und steht allen Interessierten offen. Die Interessengemeinschaft Blind HAMs Switzerland bietet ab sofort eine eigene WhatsApp-Gruppe an. Sie dient dem Austausch unter blinden und sehbehinderten Funkamateur/-innen in der Schweiz. Willkommen sind ausdrücklich auch OM und YLs, die selbst nicht betroffen sind, sich aber für das Thema interessieren und etwas beitragen möchten. Spass am Hobby Ob Einsteiger/-in oder alter Hase, welche …"
     },
     {
-     "titel": "JTTY: Neuer Digimode im Praxistest Continue",
+     "titel": "JTTY: Neuer Digimode im Praxistest",
      "url": "https://uska.ch/de/jtty-neuer-digimode-von-joe-taylor-im-praxistest/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "JTTY: Neuer Digimode im Praxistest Das Team um Nobelpreisträger Joe Taylor hat mit WSJT-X 3.2.0-rc1 den neuen Digimode JTTY eingeführt. JTTY verbindet klassische RTTY-Tastaturkommunikation mit moderner Schwachsignal-Codierung. Daniel HB9HGH hat die Testversion eingerichtet. Die Installation der Software beanspruchte kaum fünf Minuten. Für einen erfolgreichen Start ist nach der Einrichtung allerdings ein wichtiger Schritt notwendig, sofern man bereits eine frühere Version von WSJT-X installiert hat: Im Frequenzfenster muss über einen Rechtsklick und die Reset-Funktion die Frequenztabelle …"
+     "auszug": "Das Team um Nobelpreisträger Joe Taylor hat mit WSJT-X 3.2.0-rc1 den neuen Digimode JTTY eingeführt. JTTY verbindet klassische RTTY-Tastaturkommunikation mit moderner Schwachsignal-Codierung. Daniel HB9HGH hat die Testversion eingerichtet. Die Installation der Software beanspruchte kaum fünf Minuten. Für einen erfolgreichen Start ist nach der Einrichtung allerdings ein wichtiger Schritt notwendig, sofern man bereits eine frühere Version von WSJT-X installiert hat: Im Frequenzfenster muss über einen Rechtsklick und die Reset-Funktion die Frequenztabelle aktualisiert werden. Texteingabe und …"
     },
     {
-     "titel": "HBradio 5/2026 ab sofort online Continue",
+     "titel": "HBradio 5/2026 ab sofort online",
      "url": "https://uska.ch/de/hbradio-5-2026-online/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "HBradio 5/2026 ab sofort online Die neue Ausgabe des HBradio steht zum Download bereit. Im Heft unter anderem: ein berührendes Interview mit einem blinden Funkamateur, Praxistipps für portable Antennen und alles zur neuen USKA-Website. Kein Stift, kein Papier! Wolfgang Fasser, HB9CCS, erblindete mit 22 Jahren und funkt heute mit Sprachausgabe, Begali-Taste und barrierefreien Contestprogrammen. Ein Interview über Amateurfunk ohne Sehkraft. Die neue USKA-Website: Andreas Spiess, HB9BLA, erklärt, was sich ändert: vier Sprachen, eine eigene Adresse «Rufzeichen@uska.ch» für jedes Mitglied und der …"
+     "auszug": "Die neue Ausgabe des HBradio steht zum Download bereit. Im Heft unter anderem: ein berührendes Interview mit einem blinden Funkamateur, Praxistipps für portable Antennen und alles zur neuen USKA-Website. Kein Stift, kein Papier! Wolfgang Fasser, HB9CCS, erblindete mit 22 Jahren und funkt heute mit Sprachausgabe, Begali-Taste und barrierefreien Contestprogrammen. Ein Interview über Amateurfunk ohne Sehkraft. Die neue USKA-Website: Andreas Spiess, HB9BLA, erklärt, was sich ändert: vier Sprachen, eine eigene Adresse «Rufzeichen@uska.ch» für jedes Mitglied und der Support-Bot «Uski». Erhöhte …"
     },
     {
-     "titel": "Generalkonferenz der IARU Region 1 beendet Continue",
+     "titel": "Reminder: Notfunk-Tagung am 10. Oktober 2026",
+     "url": "https://uska.ch/de/reminder-notfunk-tagung-am-samstag-10-oktober-2026/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Am nächsten Samstag ist es soweit: Die USKA lädt zur EmComm-Tagung 2026 nach Brütten ein. Erstmals richtet sich die Fachtagung gezielt auch an Vertreterinnen und Vertreter von Behörden und Rettungsorganisationen. Das erwartet dich: Behördenblock: Dominik Schwerzmann, HB3YQP, Leiter des Amts für Bevölkerungsschutz, Zivilschutz und Militär des Kantons Zug, berichtet aus der Praxis der Zusammenarbeit zwischen Behörden und Funkamateuren. Die «letzte Meile»: Vorgestellt wird ein speziell konzipiertes Notfunk-Rack, das Jedermannsfunk wie CB-Funk und PMR-446 in das Einsatzkonzept einbindet (siehe …"
+    },
+    {
+     "titel": "Generalkonferenz der IARU Region 1 beendet",
      "url": "https://uska.ch/de/generalkonferenz-der-iaru-region-1-beendet/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "Generalkonferenz der IARU Region 1 beendet Bildlegende: Auf dem Foto sind das neue Exekutivkomitee sowie einige Funktionäre der IARU-R1 abgebildet. Von links nach rechts, vordere Reihe: 9K2DB, OD5RI, 5B4APB, OE3FTA, PB2T, EI5IXB, HB9EYH, ZS4BS. Hintere Reihe: F6BEE, 3V9A, OE3MZC, OM3BH, 5B4AHZ, DL8GM, EA1JAY, G0DUB, HB9SSB, ON6TI. Gegen unkoordinierte nationale Eingriffe Vom 19. bis 23. September verhandelten die Delegierten der IARU Region 1 aus 38 Ländern im Parkhotel Schönbrunn in Wien unter anderem über Frequenzzuteilungen und die kommenden Leitlinien für den grenzüberschreitenden …"
+     "auszug": "Bildlegende: Auf dem Foto sind das neue Exekutivkomitee sowie einige Funktionäre der IARU-R1 abgebildet. Von links nach rechts, vordere Reihe: 9K2DB, OD5RI, 5B4APB, OE3FTA, PB2T, EI5IXB, HB9EYH, ZS4BS. Hintere Reihe: F6BEE, 3V9A, OE3MZC, OM3BH, 5B4AHZ, DL8GM, EA1JAY, G0DUB, HB9SSB, ON6TI. Gegen unkoordinierte nationale Eingriffe Vom 19. bis 23. September verhandelten die Delegierten der IARU Region 1 aus 38 Ländern im Parkhotel Schönbrunn in Wien unter anderem über Frequenzzuteilungen und die kommenden Leitlinien für den grenzüberschreitenden Funkverkehr. Denn: Frequenzen halten sich an keine …"
     },
     {
-     "titel": "Veranstaltungstipp: «Matrix trifft Smith Chart» Continue",
+     "titel": "Veranstaltungstipp: «Matrix trifft Smith Chart»",
      "url": "https://uska.ch/de/veranstaltungstipp-matrix-trifft-smith-chart/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "Veranstaltungstipp: «Matrix trifft Smith Chart» Tuner im Shack oder am Fusspunkt – was ändert sich wirklich? Wie viel Leistung verschwindet im Tuner, wie viel in der Speiseleitung? Welche Bauteile braucht es, um einen Ganzwellendipol sauber an 50 Ohm anzupassen? Wie lang muss ein Viertelwellentransformator aus einem bestimmten Koaxialkabel sein, damit er funktioniert – und was kostet das an Verlust? Solche Fragen stehen im Zentrum des Vortrags «Matrix trifft Smith Chart: Wie man HF-Netzwerke simuliert und anpasst (a fool with a tool is still a fool)». Mathias HB9FRV erklärt die nötige Theorie …"
+     "auszug": "Tuner im Shack oder am Fusspunkt – was ändert sich wirklich? Wie viel Leistung verschwindet im Tuner, wie viel in der Speiseleitung? Welche Bauteile braucht es, um einen Ganzwellendipol sauber an 50 Ohm anzupassen? Wie lang muss ein Viertelwellentransformator aus einem bestimmten Koaxialkabel sein, damit er funktioniert – und was kostet das an Verlust? Solche Fragen stehen im Zentrum des Vortrags «Matrix trifft Smith Chart: Wie man HF-Netzwerke simuliert und anpasst (a fool with a tool is still a fool)». Mathias HB9FRV erklärt die nötige Theorie kompakt und führt dann direkt in die Praxis: Er …"
     },
     {
-     "titel": "Neue Website der USKA online Continue",
+     "titel": "Neue Website der USKA online",
      "url": "https://uska.ch/de/neue-website-der-uska-online/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "Neue Website der USKA online Die USKA hat ihre Internetpräsenz unter www.uska.ch grundlegend erneuert. Andreas HB9BLA hat das gesamte Projekt während der letzten sechs Monate geleitet und umgesetzt. Nach dieser Entwicklungszeit ersetzt ein kompletter Neustart die alte, historisch gewachsene Plattform. Im Zentrum der Modernisierung stehen erhöhte Sicherheit, vereinfachte Abläufe und eine automatisiert erstellte Struktur. Die Website ist nun viersprachig in Deutsch, Französisch, Italienisch und Englisch verfügbar, wobei Übersetzungen für Fachtexte über DeepL eingebunden wurden. Personenbezogene …"
+     "auszug": "Die USKA hat ihre Internetpräsenz unter www.uska.ch grundlegend erneuert. Andreas HB9BLA hat das gesamte Projekt während der letzten sechs Monate geleitet und umgesetzt. Nach dieser Entwicklungszeit ersetzt ein kompletter Neustart die alte, historisch gewachsene Plattform. Im Zentrum der Modernisierung stehen erhöhte Sicherheit, vereinfachte Abläufe und eine automatisiert erstellte Struktur. Die Website ist nun viersprachig in Deutsch, Französisch, Italienisch und Englisch verfügbar, wobei Übersetzungen für Fachtexte über DeepL eingebunden wurden. Personenbezogene Daten sind zentral in …"
     },
     {
-     "titel": "Wichtig! Field Day 2026: Fristen und Spielregeln für die Logs Continue",
+     "titel": "Wichtig! Field Day 2026: Fristen und Spielregeln für die Logs",
      "url": "https://uska.ch/de/wichtig-field-day-2026-fristen-und-spielregeln-fuer-die-logs/",
      "datum": null,
      "datum_herkunft": "unbekannt",
-     "auszug": "Wichtig! Field Day 2026: Fristen und Spielregeln für die Logs Die Antennen sind abgebaut, die QSOs im Kasten. Aber Hand aufs Herz: Wer liest vor einem Contest schon das ganze Reglement von A bis Z? Genau deshalb haben wir für den SSB Field Day 2026 ein paar Punkte herausgepickt, die unbedingt zu beachten sind, damit es keine bösen Überraschungen gibt. 8 Tage – und die Uhr läuft Nach dem Field Day habt ihr 8 Tage Zeit, Euer Log einzureichen. Nicht 9, nicht «wenn ich am Wochenende dazu komme» und auch nicht «ich dachte, der Kollege macht das». Die Logs müssen zwingend über das webbasierte …"
+     "auszug": "Die Antennen sind abgebaut, die QSOs im Kasten. Aber Hand aufs Herz: Wer liest vor einem Contest schon das ganze Reglement von A bis Z? Genau deshalb haben wir für den SSB Field Day 2026 ein paar Punkte herausgepickt, die unbedingt zu beachten sind, damit es keine bösen Überraschungen gibt. 8 Tage – und die Uhr läuft Nach dem Field Day habt ihr 8 Tage Zeit, Euer Log einzureichen. Nicht 9, nicht «wenn ich am Wochenende dazu komme» und auch nicht «ich dachte, der Kollege macht das». Die Logs müssen zwingend über das webbasierte User-Interface der USKA eingereicht werden: …"
     }
    ]
   },
@@ -826,10 +968,12 @@
    ],
    "kern": false,
    "nur_hinweis": false,
-   "status": "fehler",
+   "status": "leer",
    "anzahl": 0,
-   "fehler": "RuntimeError: https://www.arrl.org/news: RuntimeError: Übersicht nicht lesbar: https://www.arrl.org/news: TimeoutError: The read operation timed out",
-   "hinweise": [],
+   "hinweise": [
+    "https://www.arrl.org/news: 8 Kandidaten, 1 davon schon bekannt",
+    "Nur ältere Meldungen gefunden, z. B.: 2026-10-23 (liste) The ARRL Solar Update; 2026-10-16 (liste) eBay Restricts Listings of Radio Equipment, but Ex; 2026-10-16 (liste) Florida Hams Provide Communications Support During"
+   ],
    "eintraege": []
   },
   {
