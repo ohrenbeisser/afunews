@@ -80,7 +80,7 @@ def hole(url):
     if not erlaubt(url):
         raise PermissionError("robots.txt untersagt den Abruf")
     letzter = None
-    for versuch in range(2):
+    for versuch in range(3):
         warte = PAUSE - (time.monotonic() - _letzter_abruf[0])
         if warte > 0:
             time.sleep(warte)
@@ -91,18 +91,18 @@ def hole(url):
                 "Accept": "text/html,application/xhtml+xml,application/xml,application/rss+xml;q=0.9,*/*;q=0.5",
                 "Accept-Language": "de,en;q=0.7",
             })
-            with urllib.request.urlopen(req, timeout=25) as r:
+            with urllib.request.urlopen(req, timeout=40) as r:
                 roh = r.read(MAX_BYTES)
                 cs = r.headers.get_content_charset() or "utf-8"
                 return roh.decode(cs, "replace"), r.geturl()
         except urllib.error.HTTPError as e:
             letzter = e
-            if e.code in (401, 403, 404, 410, 451):
+            if e.code in (401, 404, 410, 451):
                 break
-            time.sleep(3)
+            time.sleep(6 * (versuch + 1))
         except Exception as e:  # noqa: BLE001
             letzter = e
-            time.sleep(3)
+            time.sleep(6 * (versuch + 1))
     raise letzter
 
 
@@ -427,7 +427,7 @@ def sammle_quelle(q, tag, von, bekannt):
         if gefunden or not q.get("weiter_bei_leer", True):
             break
     if not eintraege and fehler:
-        raise RuntimeError("; ".join(fehler))
+        raise RuntimeError("; ".join(fehler + hinweise))
     hinweise.extend(f"Fehler bei Variante: {f}" for f in fehler)
     return eintraege, hinweise
 
@@ -548,7 +548,7 @@ def _variante(q, v, tag, von, bekannt, hinweise):
     return ergebnis
 
 
-ABSCHNITT = re.compile(r"^(Weiterlesen|Read more|Continue reading|Mehr lesen)\s*…?\s*", re.I)
+ABSCHNITT = re.compile(r"^(Weiterlesen|Read more|Continue reading|Mehr lesen)\s*…?\s*|\s+(Continue|Read more|Weiterlesen)\s*…?$", re.I)
 
 
 def waehle_titel(listentitel, seite):
