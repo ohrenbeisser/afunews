@@ -512,6 +512,61 @@
       ],
       "termin": null,
       "video": null
+    },
+    {
+      "id": "2026-W44-023",
+      "typ": "video",
+      "rubrik": "verband",
+      "titel": "DL2YMR: Amateurfunk News November 2026 als Video",
+      "zusammenfassung": "Laut Videobeschreibung fasst DL2YMR die Meldungen des Monats nach Stand 29. Oktober zusammen: das Venus-Echo, den neuen Digimode JTTY aus dem WSJT-X-Team, Wavelog 3.2.4, die Satelliten AO-129 und AO-130, das Funkwetter, die Jugend-DXpedition VK9XY und eine Phishing-Warnung.",
+      "quelle": {
+        "name": "DL2YMR",
+        "url": "https://www.youtube.com/watch?v=01W-4ufp10s",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Nachrichten",
+        "JTTY",
+        "Wavelog",
+        "VK9XY"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "DL2YMR",
+        "video_id": "01W-4ufp10s",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W44-024",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "AlpineRadioWaves: Alter CB- und Amateurfunk-Transceiver SS 7900 wird restauriert",
+      "zusammenfassung": "Laut Videobeschreibung sieht sich der Kanal einen alten CB- und Amateurfunk-Transceiver für AM, FM und SSB an, den er aus dem Nachlass von OE3RAS (SK) erworben hat. Der Titel nennt eine Instandsetzung des Geräts.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=bMsdhRaQ7pM",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "Restaurierung",
+        "CB-Funk",
+        "Transceiver"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "bMsdhRaQ7pM",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
     }
   ]
 }
