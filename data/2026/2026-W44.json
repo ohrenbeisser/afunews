@@ -567,6 +567,227 @@
         "dauer": null,
         "nur_beschreibung": true
       }
+    },
+    {
+      "id": "2026-W44-025",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "7P8GE: Lesotho-DXpedition des DL7DF-Teams endet mit dem 29. Oktober",
+      "zusammenfassung": "Der 29. Oktober war der letzte Aktivitätstag der Lesotho-DXpedition 7P8GE, am Folgetag erfolgte die Rückreise. Vor Ort waren DL7UFR, DL6SAK, DL7BO, DK1BT und DL4WK; DL7DF betreute die Aktion von zu Hause aus.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/7P8GE_29-Oktober.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-28",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "7P8GE",
+        "Lesotho",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-026",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "OX3LX: OZ1DJJ funkt in der Freizeit von Grönland",
+      "zusammenfassung": "Bo, OZ1DJJ, war bis voraussichtlich 29. Oktober beruflich auf der Insel Christian IV (NA-151, GP80KB) in Grönland und funkte in seiner Freizeit als OX3LX. Laut FUNKAMATEUR handelt es sich nicht um eine DXpedition, und er bediente nicht alle Bänder.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/OX3LX-Okt2026.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-26",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "OX3LX",
+        "Grönland",
+        "NA-151"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-027",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Halloween-Sondersendungen auf Mittel- und Kurzwelle",
+      "zusammenfassung": "Texas Radio Shortwave sendete am 31. Oktober über Shortwave Radio Gold von 15:00 bis 16:00 UTC auf 6,160 MHz und von 19:00 bis 21:00 UTC auf 3,975 MHz. Empfangsberichte bestätigt der Sender mit einer elektronischen QSL-Karte. Auch Radio Northern Europe International hatte eine Halloween-Sendung angekündigt.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/BC-Halloween-2026.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Rundfunk",
+        "Kurzwelle",
+        "QSL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-028",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Technik der Erdfunkstelle Raisting wird abgegeben",
+      "zusammenfassung": "Die Antenne 1 der Erdfunkstelle Raisting ist als Kulturdenkmal geschützt, lässt sich aber seit dem Orkanschaden am Radom nicht mehr drehen. Die dort verbaute Technik durfte nicht im Gebäude bleiben, weil der heutige Eigentümer sie nicht übernehmen wollte. Der Förderverein Industriedenkmal Radom Raisting gibt das Inventar ab.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/inventar-der-erdfunkstelle-raisting-abzugeben.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Raisting",
+        "Erdfunkstelle",
+        "Denkmal"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-029",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "Minisatellit der Libre Space Foundation startete mit kasachischen Schülern als Initiatoren",
+      "zusammenfassung": "FUNKAMATEUR berichtet über einen Satelliten von 5 x 5 x 5 cm, den die Libre Space Foundation in Athen entwickelt hat. Er startete Anfang Oktober mit einer SpaceX-Rakete von Vandenberg und wurde am Folgetag ausgesetzt. Laut Überschrift haben kasachische Schüler den Flug angestoßen.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/Minisatellit-Astana.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Satellit",
+        "CubeSat",
+        "Libre Space Foundation"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-030",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Funktionsträgerseminar beschließt das DARC-Seminarjahr in Baunatal",
+      "zusammenfassung": "Rund 40 Funkamateure aus dem ganzen Bundesgebiet nahmen vom 30. Oktober bis 1. November am Funktionsträgerseminar im Amateurfunkzentrum Baunatal teil. Es schließt das Seminarprogramm des Jahres ab, das Seminarzentrum besteht seit 20 Jahren. Der erste Seminartermin 2027 ist der 5. bis 7. März.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/darc-seminarzentrum-gewaehrt-einblicke-in-eine-erfolgsgeschichte/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Seminar",
+        "Baunatal",
+        "Ehrenamt"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-031",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Ulrich L. Rohde, DJ2LR/N1UL, erhält zwei wissenschaftliche Auszeichnungen",
+      "zusammenfassung": "Prof. Ulrich L. Rohde, DJ2LR/N1UL, wurde mit der Medaille Bene merenti der Bayerischen Akademie der Wissenschaften und der Distinguished Affiliate Professorship der Technischen Universität München ausgezeichnet. Der DARC würdigt damit die Leistungen des 86-jährigen Forschers und Unternehmers.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/wissenschaftliche-community-wuerdigt-lebensleistung-von-ulrich-l-rohde-dj2lrn1ul/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Ehrung",
+        "Rohde",
+        "TU München"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-032",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "S9R: QO-100-Betrieb aus São Tomé mit über 2.000 QSOs beendet",
+      "zusammenfassung": "Das Team von S9R hat den Betrieb über QO-100 eingestellt. Laut Meldung gelangen über 2.000 QSOs mit 32 DXCC-Gebieten. Ein Teil der Gruppe reiste zurück nach Angola, der Rest beendete die Aktivität am Folgetag.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/s9r-sao-tome-principe/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "S9R",
+        "São Tomé",
+        "QO-100"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-033",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "3Y0L Peter I: Aufruf zu Spenden für die DXpedition im Februar 2027",
+      "zusammenfassung": "Die Planung der Peter-I-DXpedition begann 2023 und steht nun wenige Monate vor dem Start. Das Team bittet um Spenden. Laut NG3K sind 19 Operatoren im Februar 2027 für zwei Wochen vorgesehen.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/peter-1-island-dxpedition-2027/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "3Y0L",
+        "Peter I",
+        "DXpedition",
+        "Spenden"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-034",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "USKA: Neuer Digimode JTTY aus WSJT-X 3.2.0-rc1 im Praxistest",
+      "zusammenfassung": "Mit WSJT-X 3.2.0-rc1 hat das Team um Joe Taylor den Digimode JTTY eingeführt, der RTTY-Tastaturbetrieb mit moderner Schwachsignal-Codierung verbindet. Daniel, HB9HGH, hat die Testversion eingerichtet. Wer eine ältere Version nutzt, muss im Frequenzfenster die Frequenztabelle über die Reset-Funktion aktualisieren.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/jtty-neuer-digimode-von-joe-taylor-im-praxistest/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "DACH",
+      "tags": [
+        "JTTY",
+        "WSJT-X",
+        "Digimode"
+      ],
+      "termin": null,
+      "video": null
     }
   ]
 }

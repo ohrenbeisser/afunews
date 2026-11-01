@@ -39,7 +39,7 @@ Bestimme zuerst das Datum in der Zeitzone Europe/Berlin.
 
 ## Umfang
 
-- Ziel: 18 bis 25 Meldungen pro Woche.
+- Ziel: 30 bis 35 Meldungen pro Woche. FUNKAMATEUR ist nach dem DARC die wichtigste Quelle: Alle Einträge der Rohdaten mit Bezug zum Amateurfunk prüfen und gut verwertbare aufnehmen.
 - Quellenmischung: Höchstens ein Drittel der Meldungen aus derselben Quelle. DARC-Nachrichten, Deutschland-Rundspruch, FunkWX und DARC-Distrikte zählen dabei zusammen als DARC; die Pflichtmeldungen aus Sachsen und dem Vogtland dürfen die Grenze überschreiten. Wird die Grenze sonst überschritten, zuerst weitere Zusatzquellen abarbeiten und Randmeldungen der stärksten Quelle weglassen.
 - Höchstens 3 Meldungen mit `wichtigkeit: 1`.
 - Höchstens 5 Videos.

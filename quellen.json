@@ -86,7 +86,7 @@
         "veranstaltung"
       ],
       "kern": true,
-      "auszug": 600,
+      "auszug": 1000,
       "abruf": [
         {
           "typ": "html",
