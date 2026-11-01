@@ -1,0 +1,404 @@
+{
+  "kw": "2026-W44",
+  "zeitraum": {
+    "von": "2026-10-26",
+    "bis": "2026-11-01"
+  },
+  "erstellt": "2026-11-01T06:30:00+01:00",
+  "ueberblick": "Die AMSAT-OSCAR-Statusseite zieht am 4. November auf status.amsat.org um, am 5. November folgt der letzte iROSA-Solargenerator der ISS. Der Deutschland-Rundspruch meldet 5.000 Nutzer bei Wavelog@DARC und ruft zum Log-Upload für die DX-Wertung auf; die DARC-Mitgliederversammlung ist am 14. November in Baunatal. Das HF-Referat weist auf drohende Leiterplatten-Engpässe in Europa und die neue EIBI-Liste für den Kurzwellen-Winter hin. Bei den DXpeditionen laufen KH8A, FW3GT, V26JJ und 6W, Aurora stört dabei zeitweise den Betrieb.",
+  "ausbreitung": "Laut DF5JL (28. Oktober) fiel der Sonnenfluss vom 21. bis 28. Oktober von etwa 115 auf 90, bis 4. November werden 80 bis 90 erwartet. Zum Wochenende rechnet das HF-Referat mit Kp 5 bis 6 durch einen Hochgeschwindigkeitsstrom; 20m, 30m und 40m bleiben überwiegend brauchbar, 15m ist die beständigste DX-Bande.",
+  "meldungen": [
+    {
+      "id": "2026-W44-001",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "AMSAT-Statusseite zieht um, ISS-Außeneinsatz am 5. November",
+      "zusammenfassung": "Die AMSAT-OSCAR-Statusseite wechselt am 4. November ab 14:00 UTC auf status.amsat.org; die Migration dauert laut IT-Team bis zu zwei Stunden, die alte Adresse leitet danach weiter. Am 5. November installieren Astronauten den achten und letzten iROSA-Solargenerator der ISS (NASA-Übertragung ab 11:45 UTC), während Außeneinsätzen sind die ARISS-Funkgeräte abgeschaltet. Die ARISS-SSTV-Serie 34 ist beendet, APRS läuft wieder auf 437,825 MHz.",
+      "quelle": {
+        "name": "AMSAT-NA (ANS-305)",
+        "url": "https://www.amsat.org/ans-305-amsat-news-service-weekly-bulletins/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-01",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "AMSAT",
+        "ARISS",
+        "ISS",
+        "Statusseite"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-002",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Wavelog@DARC zählt 5.000 Nutzer, Logs für DX-Wertung gesucht",
+      "zusammenfassung": "Laut Deutschland-Rundspruch 43/2026 hat Wavelog@DARC am 26. Oktober den 5.000. Nutzer registriert. Das DX-Referat ruft dazu auf, die ADIF-Logs 2026 bis Mitte Januar für die DX-Wertung und die Most-Wanted-Liste hochzuladen (toplist.darc.de); die Liste dient der German DX Foundation als Grundlage für die Förderung von DXpeditionen. Die DARC-Mitgliederversammlung findet am 14. November in Baunatal statt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-432026-44-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Wavelog",
+        "DX-Wertung",
+        "GDXF",
+        "Mitgliederversammlung",
+        "Rundspruch"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-003",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "FunkWX: Hochgeschwindigkeitsstrom bringt geomagnetische Unruhe",
+      "zusammenfassung": "Nach einer Verdichtungszone mit Kp 4 bis 5 in der Nacht zum 31. Oktober erwartet das HF-Referat durch einen Hochgeschwindigkeitsstrom aus einem koronalen Loch Kp 5 bis 6 (G1/G2); die Aktivität soll zum Wochenbeginn nachlassen. Die Sonne ist ruhig. Auf 20m, 30m und 40m bleiben die DX-Bedingungen überwiegend brauchbar, 15m und 10m öffnen gelegentlich.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/funkwx-am-wochenende-cir-kuendet-hss-an/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "FunkWX",
+        "Kp-Index",
+        "Ausbreitung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-004",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "DARC warnt vor knapper werdenden Leiterplatten in Europa",
+      "zusammenfassung": "Das HF-Referat verweist auf einen Bericht von heise.de, nach dem in Europa Lieferengpässe bei Leiterplatten drohen. Genannt werden die Abhängigkeit von asiatischen Herstellern, die durch den KI-Boom ausgelastet sind, sowie knappe Materialien und Probleme in den Lieferketten. Konkrete Folgen für Funkamateure nennt die Meldung nicht.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/leiterplatten-werden-knapp/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "Leiterplatten",
+        "Lieferkette",
+        "Selbstbau"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-005",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "FOSDEM 2027: Vorträge für den Amateurfunk-DevRoom bis 23. November einreichen",
+      "zusammenfassung": "Der Amateurfunk-DevRoom der FOSDEM findet am Sonntag, 31. Januar 2027, vormittags in Brüssel statt. Gesucht werden technische Vorträge von 25 Minuten zu freier Funksoftware und Open Hardware, Einreichungen laufen über pretalx.fosdem.org bis 23. November; die Benachrichtigung folgt am 1. Dezember.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vortraege-fuer-die-fosdem-2027-gesucht/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-27",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "FOSDEM",
+        "Call for Papers",
+        "IARU Region 1",
+        "Open Source"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-006",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "EIBI-Liste für den Kurzwellen-Winterfahrplan 2026/2027 erschienen",
+      "zusammenfassung": "Die EIBI-Frequenzliste für Rundfunk-, Utility- und weitere Aussendungen auf Kurzwelle liegt für den Winter 2026/2027 vor. Sie nennt Frequenz, UTC-Sendezeiten, Wochentage, Sprache, Zielgebiet und Senderstandort und hilft, unbekannte Signale zu bestimmen. Gepflegt wird sie von Eike Bierwirth, viele Empfängerprogramme und SDR-Anwendungen nutzen sie.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/die-eibi-liste-winterfahrplan-fuer-kurzwelle/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "EIBI",
+        "Kurzwelle",
+        "Frequenzliste"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-007",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "OV Annaberg erweitert Hamnet-Knoten DB0ANA für den Notfunk",
+      "zusammenfassung": "Der Ortsverband Annaberg hat den Hamnet-Knoten DB0ANA um Dienste wie Audio- und Videotelefonie, einen Dateiserver und eine Offline-Wikipedia erweitert, die ohne Internet laufen. Auf dem Pöhlberg wurde zudem eine netzunabhängige Stromversorgung installiert; der Knoten wird bei Bedarf eingeschaltet und läuft nicht dauernd.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/ov-annaberg-staerkt-seine-notfunkfaehigkeiten/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "Hamnet",
+        "Notfunk",
+        "Annaberg",
+        "DB0ANA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-008",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "FW3GT auf Wallis und Futuna: Aurora stört den Betrieb",
+      "zusammenfassung": "Das FW3GT-Team auf Wallis und Futuna meldet über 2.000 QSOs im Log. Nachts erschwert Aurora den Betrieb, Signale nach Europa zeigen starkes Flattern. Die Aktivität läuft laut NG3K bis 14. November, überwiegend auf 80m und 60m in CW und FT8.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/fw3gt-wallis-futuna/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "FW3GT",
+        "Wallis und Futuna",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-009",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "9X5KM aus Ruanda kann zunächst nicht QRV werden",
+      "zusammenfassung": "Al, F8FUA, konnte die für 31. Oktober bis 11. November geplante Aktivität als 9X5KM nicht wie vorgesehen beginnen: Die Antennen stehen, doch ein landesweiter Stromausfall und stark eingeschränktes Internet verhindern den Betrieb. Geplant sind CW, SSB und Digimodi, gegebenenfalls auf den tiefen Bändern.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/9x5km-rwanda/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "9X5KM",
+        "Ruanda",
+        "F8FUA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-010",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "V26JJ: Japanisches Team funkt bis 6. November von Antigua",
+      "zusammenfassung": "Fünf japanische Operatoren sind vom 30. Oktober bis 6. November als V26JJ von Antigua auf Kurzwelle aktiv. QSL ist über Club Log OQRS möglich.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/v26jj-antigua/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "V26JJ",
+        "Antigua",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-10-30T00:00:00Z",
+        "ende": "2026-11-06T23:59:00Z",
+        "rufzeichen": [
+          "V26JJ"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W44-011",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "5R8IC von Sainte-Marie in Madagaskar bis Mitte Dezember",
+      "zusammenfassung": "Eric, F6ICX, ist bis Mitte Dezember von Sainte-Marie (AF-090) als 5R8IC aktiv, hauptsächlich in CW, teils FT8 und SSB auf 40m bis 10m. QSL über LoTW und direkt.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/5r8ic-saint-marie-isl-madagascar/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "5R8IC",
+        "Madagaskar",
+        "IOTA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-012",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "VP2VBB und VP2V/GU4YOX: Aktivität von den Britischen Jungferninseln im November",
+      "zusammenfassung": "Bob, GU4YOX, reist im November nach Tortola und ist vor dem CQWW CW (28. und 29. November) als VP2V/GU4YOX aktiv. Während des Contests nutzt er das Sonderrufzeichen VP2VBB.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/vp2vbb-vp2v-gu4yox-b-v-i/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-31",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "VP2VBB",
+        "CQWW CW",
+        "Britische Jungferninseln"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-013",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "OrbitNight: Satellitenpässe im Browser mit Rotorsteuerung",
+      "zusammenfassung": "OrbitNight ist ein kostenloser Satellitenpass-Viewer im Browser, der über Web Serial auch Antennenrotoren mit GS-232- oder EasyComm-II-Protokoll steuern kann. Nötig ist Chrome oder Edge auf dem Desktop. Quelltext wurde nicht gefunden.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/orbitnight-a-free-browser-based-satellite-pass-viewer-with-antenna-rotator-control-via-web-serial/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-28",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Satellit",
+        "Rotor",
+        "Web Serial"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-014",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "FalconSDR: Open-Source-Scanner mit automatischer Whisper-Transkription",
+      "zusammenfassung": "FalconSDR scannt mit RTL-SDRs mehrere Bänder, speichert Aufnahmen durchsuchbar und transkribiert sie per Whisper. Bedient wird das Programm über eine Browseroberfläche; die Lizenz ist GPLv3.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/falconsdr-an-open-source-rtl-sdr-scanner-and-recorder-with-automatic-whisper-transcription/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "RTL-SDR",
+        "Scanner"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-015",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "OrcSDR 0.5.0: SSTV, ACARS und Offline-Karten für ESP32-P4",
+      "zusammenfassung": "Die Beta-Version 0.5.0 der Firmware, die einen RTL-SDR auf einem ESP32-P4-Tablet betreibt, bringt SSTV-Empfang, ein ACARS-Dashboard und Offline-Karten. Die Software steht unter AGPL-3.0.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/orcsdr-update-sstv-acars-and-offline-maps-come-to-the-standalone-esp32-p4-rtl-sdr-app/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "SSTV",
+        "ESP32"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-016",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "SimTX: Mehrspieler-Kurzwellensimulator mit rtl_tcp-Anbindung",
+      "zusammenfassung": "SimTX simuliert ein gemeinsames Kurzwellenband, auf dem Nutzer senden und empfangen; die Ausbreitung beruht auf Ionosphärenmodellen. Über eine lokale rtl_tcp-Brücke kann SDR++ das simulierte Band empfangen. Die Software ist nicht Open Source.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/simtx-a-multiplayer-shortwave-radio-simulator-with-realistic-propagation-and-rtl_tcp-support/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-10-29",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Simulator",
+        "Kurzwelle",
+        "SDR"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W44-017",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "USKA: Störungssuche mit zwei Peilgeräten bei der EMC-Level-1-Videokonferenz",
+      "zusammenfassung": "Bei der achten EMC-Level-1-Videokonferenz am 27. Oktober berichtete Richard, HB9ERB, wie er einer Störung mit zwei verschiedenen Peilgeräten nachging. Der Kurzbericht der USKA fasst den Vortrag zusammen.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/kurzbericht-8-emc-level-1-videokonferenz-2026/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-10-30",
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "EMV",
+        "Störungssuche",
+        "Peilung",
+        "USKA"
+      ],
+      "termin": null,
+      "video": null
+    }
+  ]
+}
