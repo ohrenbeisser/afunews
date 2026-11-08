@@ -650,6 +650,90 @@
       ],
       "termin": null,
       "video": null
+    },
+    {
+      "id": "2026-W45-028",
+      "typ": "video",
+      "rubrik": "regulatorik",
+      "titel": "Klasse N: Prüfung, Kosten und Befugnisse im Überblick",
+      "zusammenfassung": "Laut Videobeschreibung erklärt DL2YMR den Weg zur Einstiegslizenz Klasse N: 19 von 25 richtigen Antworten in jedem der drei Prüfungsteile, 68 Euro Prüfungsgebühr und 20 Euro für die Zulassung mit Rufzeichen (beginnt mit DN9). Behandelt werden außerdem die Befugnisse, darunter das 10m-Band mit SSB, CW und FT8, 2m und 70cm sowie Amateurfunksatelliten, und ein Lernplan mit 50Ohm.de. Die Angaben gelten nach Stand Oktober 2026 und ohne Gewähr.",
+      "quelle": {
+        "name": "DL2YMR",
+        "url": "https://www.youtube.com/watch?v=yFPyzRUj_Sk",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-06",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Klasse N",
+        "Prüfung",
+        "Einsteiger",
+        "Bundesnetzagentur"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "DL2YMR",
+        "video_id": "yFPyzRUj_Sk",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W45-029",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Erster Test des Xiegu G7250 (Kurzwelle und 50 MHz, SDR)",
+      "zusammenfassung": "Laut Videobeschreibung stellt AlpineRadioWaves den neuen SDR-Transceiver Xiegu G7250 für Kurzwelle und 50 MHz in einem ersten Test vor. Weitere Angaben zum Inhalt nennt die Beschreibung nicht; sie enthält einen Bestelllink zum Gerät.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=pVUxDCbO4lw",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-05",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Xiegu G7250",
+        "SDR",
+        "Transceiver",
+        "Test"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "pVUxDCbO4lw",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W45-030",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Xiegu G7250: Einrichtung von FT8 mit WSJT-X unter Windows",
+      "zusammenfassung": "Laut Videobeschreibung zeigt AlpineRadioWaves, wie sich Digimodes mit WSJT-X unter Windows einrichten lassen, und berichtet vom ersten FT8-QSO mit dem neuen Xiegu G7250. Die Beschreibung enthält einen Bestelllink zum Gerät.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=rXmODRB21EE",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-06",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Xiegu G7250",
+        "FT8",
+        "WSJT-X",
+        "Digimodes"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "rXmODRB21EE",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
     }
   ]
 }
