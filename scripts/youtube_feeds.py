@@ -76,13 +76,14 @@ def lies_feed(xml_bytes, kanal):
 def hole(url):
     anfrage = urllib.request.Request(url, headers={"User-Agent": "afunews-feedreader/1.0"})
     letzter_fehler = None
-    for versuch in range(2):
+    for versuch in range(4):
         try:
             with urllib.request.urlopen(anfrage, timeout=20) as r:
                 return r.read()
         except Exception as e:  # noqa: BLE001 – Fehlertext landet in der Ergebnisdatei
             letzter_fehler = e
-            time.sleep(3)
+            print(f"  Versuch {versuch + 1}/4 fehlgeschlagen: {type(e).__name__}: {e}", file=sys.stderr)
+            time.sleep(5 * (versuch + 1))
     raise letzter_fehler
 
 
@@ -111,6 +112,7 @@ def main():
             eintrag.update(ok=True, videos_im_feed=len(alle), videos_im_zeitraum=len(neu))
         except Exception as e:  # noqa: BLE001
             eintrag.update(ok=False, fehler=f"{type(e).__name__}: {e}")
+            print(f"{k['name']}: {eintrag['fehler']}", file=sys.stderr)
         status.append(eintrag)
 
     videos.sort(key=lambda v: v["veroeffentlicht"] or "", reverse=True)

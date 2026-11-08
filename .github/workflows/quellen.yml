@@ -3,10 +3,14 @@ name: Quellen sammeln
 # Läuft sonntags nach dem YouTube-Abruf und vor dem Wochen-Agenten und legt
 # die Rohdaten der Woche unter data/rohdaten/ ab. Der Agent ruft keine
 # Webseiten mehr selbst ab, sondern liest nur diese Datei.
-# 03:45 UTC = 04:45 MEZ bzw. 05:45 MESZ.
+# GitHub verzögert geplante Läufe zu Stoßzeiten (volle und halbe Stunden)
+# um Stunden oder lässt sie ausfallen. Darum zwei Termine zu ungeraden
+# Minuten, früh am Sonntag (UTC): 01:17 und als Ersatz 02:47. Der Ersatz
+# tut nichts, wenn die Rohdaten von heute schon da sind.
 on:
   schedule:
-    - cron: "45 3 * * 0"
+    - cron: "17 1 * * 0"
+    - cron: "47 2 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -22,13 +26,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prüfen, ob heute schon abgerufen wurde
+        id: guard
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import glob, json, datetime
+          heute = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+          fertig = False
+          for f in glob.glob("data/rohdaten/*.json"):
+              try:
+                  if json.load(open(f, encoding="utf-8")).get("abgerufen", "").startswith(heute):
+                      fertig = True
+              except Exception:
+                  pass
+          # Nur der Ersatztermin (schedule) überspringt; ein manueller Start läuft immer.
+          print("skip=" + ("true" if fertig else "false"))
+          PY
+        if: github.event_name == 'schedule'
+
       - name: Quellen abrufen
+        if: steps.guard.outputs.skip != 'true'
         run: python3 scripts/quellen_sammeln.py
 
       - name: Prüfung
+        if: steps.guard.outputs.skip != 'true'
         run: python3 scripts/pruefen.py
 
       - name: Committen und pushen
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

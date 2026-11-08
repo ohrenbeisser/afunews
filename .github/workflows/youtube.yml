@@ -1,10 +1,14 @@
 name: YouTube-Feeds abrufen
 
 # Läuft sonntags vor dem Wochen-Agenten und legt data/youtube.json ab.
-# 03:30 UTC = 04:30 MEZ bzw. 05:30 MESZ.
+# GitHub verzögert geplante Läufe zu Stoßzeiten (volle und halbe Stunden)
+# um Stunden oder lässt sie ausfallen. Darum zwei Termine zu ungeraden
+# Minuten, früh am Sonntag (UTC): 01:07 und als Ersatz 02:37. Der Ersatz
+# tut nichts, wenn data/youtube.json von heute schon da ist.
 on:
   schedule:
-    - cron: "30 3 * * 0"
+    - cron: "7 1 * * 0"
+    - cron: "37 2 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -20,13 +24,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prüfen, ob heute schon abgerufen wurde
+        id: guard
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import glob, json, datetime
+          heute = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+          fertig = False
+          for f in glob.glob("data/youtube.json"):
+              try:
+                  if json.load(open(f, encoding="utf-8")).get("abgerufen", "").startswith(heute):
+                      fertig = True
+              except Exception:
+                  pass
+          # Nur der Ersatztermin (schedule) überspringt; ein manueller Start läuft immer.
+          print("skip=" + ("true" if fertig else "false"))
+          PY
+        if: github.event_name == 'schedule'
+
       - name: Feeds abrufen
+        if: steps.guard.outputs.skip != 'true'
         run: python3 scripts/youtube_feeds.py --tage 8
 
       - name: Prüfung
+        if: steps.guard.outputs.skip != 'true'
         run: python3 scripts/pruefen.py
 
       - name: Committen und pushen
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
