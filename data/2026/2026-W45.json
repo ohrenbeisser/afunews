@@ -1,0 +1,655 @@
+{
+  "kw": "2026-W45",
+  "zeitraum": {
+    "von": "2026-11-02",
+    "bis": "2026-11-08"
+  },
+  "erstellt": "2026-11-08T08:25:44+01:00",
+  "ueberblick": "Die Bundesnetzagentur hat mit der Verfügung Nr. 77/2026 die Schnittstellenbeschreibung SSB SF 008 für Amateurfunkanlagen in Kraft gesetzt; für Funkamateure besteht laut DARC kein Handlungsbedarf. Der ÖVSV meldet höhere Amateurfunkgebühren in Österreich ab 1. Januar 2027. Am 14. November tagt die DARC-Mitgliederversammlung in Baunatal. Das Funkwetter wird am Wochenende von schnellem Sonnenwind geprägt, und die deutsche DXpedition KH8A meldet schwache Europaöffnungen. In der kommenden Woche sind die C8K-DXpedition in Mosambik, ein ARISS-SSTV-Event und die DARC-Mitgliederversammlung angekündigt; am 14. und 15. November stehen laut Deutschland-Rundspruch mehrere Conteste an.",
+  "ausbreitung": "Laut HF-Referat des DARC kann schneller Sonnenwind aus einem koronalen Loch bis einschließlich 9. November geomagnetische Aktivität von Kp 2 bis 4 bringen, zeitweise G1. Zuvor lag der solare Flux unter 100 Einheiten. Gute DX-Chancen bestehen nachts auf den unteren Bändern sowie tagsüber auf 20m und 17m; 15m öffnet brauchbar, 12m und 10m nur zeitweise.",
+  "meldungen": [
+    {
+      "id": "2026-W45-001",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "Neue Schnittstellenbeschreibung SSB SF 008 für Amateurfunkanlagen in Kraft",
+      "zusammenfassung": "Mit der Verfügung Nr. 77/2026 der Bundesnetzagentur gilt die Schnittstellenbeschreibung SSB SF 008 für kommerziell verfügbare Amateurfunkanlagen bis 275 GHz sofort. Sie ersetzt die SSB SF 006 von April 2018 und dient vor allem Herstellern und Anbietern als Grundlage für Konformitätsbewertung und Inverkehrbringen. Für Funkamateure, die ihre Geräte bestimmungsgemäß nutzen, besteht laut DARC kein unmittelbarer Handlungsbedarf; vorhandene Geräte müssen nicht ersetzt werden.",
+      "quelle": {
+        "name": "DARC (Deutschland-Rundspruch)",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-442026-45-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-05",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "Bundesnetzagentur",
+        "Verfügung 77/2026",
+        "SSB SF 008"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-002",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "Österreich: Gebühren für Amateurfunk steigen zum 1. Januar 2027",
+      "zusammenfassung": "Die Ankündigung des österreichischen Finanzministers, Gebühren nicht zu erhöhen, gilt laut ÖVSV nicht für die Gebühren nach dem Telekommunikationsgesetz. Aufgrund der Indexanpassung (BGBl. II Nr. 267/2026) steigt etwa die Gebühr nach § 15 Abs. 1 von 200 Euro auf 206,40 Euro und die nach Abs. 3 von 800 Euro auf 825,60 Euro. Die Änderungen gelten ab dem 1. Januar 2027.",
+      "quelle": {
+        "name": "ÖVSV",
+        "url": "https://www.oevsv.at/oevsv/aktuelles/Die-Gebuehren-fuer-den-Amateurfunk-steigen-am-1.1.2027/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "DACH",
+      "tags": [
+        "Österreich",
+        "Gebühren",
+        "TKG"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-003",
+      "typ": "termin",
+      "rubrik": "verband",
+      "titel": "DARC-Mitgliederversammlung am 14. November in Baunatal",
+      "zusammenfassung": "Die Mitgliederversammlung des DARC e.V. findet am Samstag, dem 14. November, im Hotel Stadt Baunatal statt. Ab 9 Uhr gibt es eine offene Diskussionsrunde zu den Anträgen, die eigentliche Versammlung beginnt um 11 Uhr und dauert bis etwa 18 Uhr. Die Unterlagen mit Tagesordnung und Anträgen liegen auf der DARC-Webseite.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/tagungsunterlagen-zur-darc-mitgliederversammlung-online/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-04",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Mitgliederversammlung",
+        "Baunatal"
+      ],
+      "termin": {
+        "beginn": "2026-11-14T08:00:00Z",
+        "ende": "2026-11-14T17:00:00Z",
+        "rufzeichen": [],
+        "baender": [],
+        "betriebsarten": []
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W45-004",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "Schneller Sonnenwind aus koronalem Loch bestimmt das Funkwetter am Wochenende",
+      "zusammenfassung": "Ein koronales Loch erzeugt schnellen Sonnenwind mit bis zu 650 km/s, der laut DARC voraussichtlich bis einschließlich 9. November anhält. Das HF-Referat erwartet überwiegend ruhige bis aktive geomagnetische Verhältnisse (Kp 2 bis 4), zeitweise G1 (Kp 5). Die Sonne ist gering bis mäßig aktiv; weitere M-Flares aus der Region AR4566 sind möglich (M 35 %, X 10 %), die DX-Bedingungen gelten als mäßig bis gut.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/funkwx-am-wochenende-15/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-07",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "FunkWX",
+        "Sonnenwind",
+        "koronales Loch",
+        "Kp-Index"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-005",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "DK0WCY und FunkWX nutzen neue Datenquellen für Sonnenaktivität",
+      "zusammenfassung": "Die DARC-Aurorabake DK0WCY bezieht die Sonnenfleckenrelativzahl jetzt als EISN von SILSO in Belgien. Der solare Flux kommt direkt vom Dominion Radio Astrophysical Observatory in Kanada und wird mit einer Nachkommastelle angezeigt. Die Änderungen gelten seit dem 4. November auch im täglichen Funkwetterbericht.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/dk0wcy-und-funkwx-setzen-auf-noch-bessere-weltraumwetterdaten/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-03",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DK0WCY",
+        "FunkWX",
+        "EISN",
+        "Solarflux"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-006",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "ARRL Solar Update: Sonnenfleckengruppe 4566 wächst schnell",
+      "zusammenfassung": "Laut ARRL erwartet das NOAA Space Weather Prediction Center geringe Sonnenaktivität, mit Chancen auf M-Flares und einer geringen Wahrscheinlichkeit für X-Flares aus der Region 4566. Diese Region wächst schnell in Größe und magnetischer Komplexität. Erdgerichtete koronale Massenauswürfe wurden nicht beobachtet, die Sonnenfleckenzahlen steigen nach einem Tiefstwert von null in der Vorwoche.",
+      "quelle": {
+        "name": "ARRL",
+        "url": "https://www.arrl.org/news/the-arrl-solar-update-49",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-06",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "ARRL",
+        "Sonnenaktivität",
+        "AR4566"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-007",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Wavelog@DARC auf Version 3.2.5 aktualisiert",
+      "zusammenfassung": "Das DARC-Logbuch unter log.darc.de läuft jetzt in Version 3.2.5. Die Version bringt laut DARC Verbesserungen bei Leistung und Stabilität der Logbuch-Schnittstellen, bei Diplomen, im Contest-Betrieb und in der API sowie kleinere Fehlerbehebungen.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/wavelogdarc-erhaelt-bugfixes-im-rahmen-der-versionspflege-8/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-07",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Wavelog",
+        "Logbuch",
+        "DARC"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-008",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "N1UL Ham Antenna Simulator: kostenlose Software von Ulrich Rohde",
+      "zusammenfassung": "Ulrich L. Rohde, N1UL/DJ2LR, stellt den „N1UL Ham Antenna Simulator“ Funkamateuren kostenlos zur Verfügung. Die Version 1.1 läuft unter Windows. Der Download erfolgt über den DARC-Server und setzt einen Login auf der DARC-Webseite voraus.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/kostenloser-antennensimulator-fuer-funkamateure-von-ulrich-l-rohde-n1uldj2lr/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-06",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "Antennen",
+        "Simulation",
+        "Software"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-009",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "YOTA Subregional Camp im Dezember in Belgien: Bewerbung läuft",
+      "zusammenfassung": "Das Camp für junge Funkamateure findet vom 19. bis 23. Dezember 2026 im Euro Space Center in Transinne statt und wird vom belgischen Verband UBA organisiert. 25 Teilnehmende aus Belgien, Deutschland, den Niederlanden, Luxemburg, Frankreich und Großbritannien sind vorgesehen. Die Bewerbung ist laut DARC eröffnet.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/yota-subregional-camp-2026-in-belgien-bewerbung-gestartet/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-02",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "YOTA",
+        "Jugend",
+        "UBA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-010",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Drei Sendemasten in Beidweiler (Luxemburg) wurden gesprengt",
+      "zusammenfassung": "Die drei Langwellen-Sendemasten bei Beidweiler (JN39DR) des Broadcasting Center Europe wurden laut Ankündigung am 6. November gegen 15 Uhr gesprengt. Sie sendeten von 1972 bis zum 2. Januar 2023 das französischsprachige RTL-Programm nach Frankreich. Die Meldung stammt vom luxemburgischen Verband RL.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/sendemasten-in-beidlerluxemburg-werden-gesprengt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-02",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "Luxemburg",
+        "Langwelle",
+        "RTL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-011",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "DATV-Relais DB0YZ erhält Streaming-Eingabe über das Hamnet",
+      "zusammenfassung": "Das DATV-Relais DB0YZ hat seit dem 28. Oktober zusätzlich zu den bisherigen Eingaben eine Streaming-Eingabe über das Hamnet. Zuschauen ist mit dem VLC-Player möglich, Streamen mit OBS Studio. Informationen stehen auf der Relais-Webseite unter den Reitern Streaming und DATV.",
+      "quelle": {
+        "name": "DB0YZ",
+        "url": "http://www.db0yz.de",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-05",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DATV",
+        "Hamnet",
+        "Relais"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-012",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "US-Amateurfunkprüfung beim 40C3 in Hamburg am 27. Dezember",
+      "zusammenfassung": "Beim 40. Chaos Communication Congress findet am Sonntag, dem 27. Dezember, um 19 Uhr bei Attraktor e.V. in Hamburg-Altona eine Vor-Ort-Prüfung für die US-Amateurfunklizenz statt. Nötig sind eine FRN der FCC, eine US-Adresse für den Postempfang, 15 US-Dollar Gebühr und ein Lichtbildausweis. Walk-ins sind erlaubt, Vorab-Registrierung wird erbeten.",
+      "quelle": {
+        "name": "ARRL VE Group DL Nord",
+        "url": "https://www.ham-exam.org/de/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-05",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "US-Lizenz",
+        "40C3",
+        "Prüfung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-013",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "KH8A: Halbzeitbilanz der deutschen DXpedition in Amerikanisch-Samoa",
+      "zusammenfassung": "Die deutsche DXpedition KH8A ist laut Funkamateur noch bis zum 12. November aktiv. Zur Halbzeit meldet das Team, die Bedingungen nach Mitteleuropa blieben hinter den Erwartungen zurück, Signale über die Polkappen kämen oft nur mit S3 an. In Deutschland war KH8A mittags zeitweise auf 17m in CW und auf 20m in SSB zu erreichen.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/KH8A-2.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-06",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "KH8A",
+        "Amerikanisch-Samoa",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-014",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "Türkische Sonderstationen TCnATA und TCnTR bis 11. November",
+      "zusammenfassung": "19 Teams der TRAC senden bis zum 11. November mit den Rufzeichen TCnATA und TCnTR zum Jahrestag der Republikgründung und zum Gedenken an Atatürk; TC7TR gibt es nicht. Betrieb ist in SSB, CW und digitalen Sendearten auf verschiedenen Bändern. Zertifikate sind über hamaward.cloud erhältlich.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/TCnATA-TCnTR.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-06",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "Türkei",
+        "Sonderrufzeichen",
+        "TRAC"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-015",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "DL5XL funkt als DP1POL von der Neumayer-Station III",
+      "zusammenfassung": "Felix, DL5XL, soll zwischen November 2026 und Februar 2027 wieder als DP1POL von der Neumayer-Station III in der Antarktis (IOTA AN-016) aktiv sein, möglicherweise schon ab Samstag. Er arbeitet überwiegend in CW auf Kurzwelle, außerdem sind SSB und Digimodes vorgesehen. Er funkt nur in der Freizeit, QSL über DL1ZBO.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/DL5XL-als-DP1POL.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-04",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "DP1POL",
+        "Antarktis",
+        "IOTA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-016",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "Leoniden: Meteorscatter-Maximum am 17. November erwartet",
+      "zusammenfassung": "Die Leoniden sind vom 6. bis 30. November aktiv, das Maximum wird für den 17. November um 23:45 UTC erwartet. Funkamateur rechnet mit höchstens etwa 25 Radio-Reflexionen pro Stunde, was für Meteorscatter auf 6m und 2m ausreicht. Wegen der hohen Eintrittsgeschwindigkeit von 71 km/s gelten längere Distanzen als aussichtsreich.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/Leonid26.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-03",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Leoniden",
+        "Meteorscatter",
+        "6m",
+        "2m"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-017",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "Spanische PocketQubes UNNE-1B und HADES-L: aktueller Status",
+      "zusammenfassung": "Beide PocketQubes der AMSAT-EA wurden am 1. Oktober zu früh aus dem Raumschlepper OSSIE-D ausgesetzt. UNNE-1B sendet seit dem 4. Oktober Telemetrie, die AMSAT-EA bereitet die Inbetriebnahme des FM-Repeaters vor (Uplink 145,925 MHz, Downlink 436,888 MHz). Zum Status von HADES-L liegen keine Angaben vor.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/status_unne-1b_hades-l.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-02",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "UNNE-1B",
+        "HADES-L",
+        "AMSAT-EA",
+        "PocketQube"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-018",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "Thementag „Rundfunkempfänger“ im Museum Funkerberg am 8. November",
+      "zusammenfassung": "Das Museum Funkerberg in Königs Wusterhausen zeigt am Sonntag, dem 8. November, ab 14 Uhr erstmals die neue Radiowand im Maschinensaal. Sie präsentiert Empfänger aus 80 Jahren, vom Detektorempfänger bis zum UKW-Automatikempfänger.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/welle370-thementag-rx.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-03",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Museum",
+        "Funkerberg",
+        "Empfänger"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-019",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "K4SWL gibt Tipps zur Ausrüstung für portablen Betrieb",
+      "zusammenfassung": "In einem englischsprachigen Online-Vortrag erläutert Thomas Witherspoon, K4SWL, wie er seine Ausrüstung für portable Aktivierungen zusammenstellt. Er geht auf Packstrategien für POTA, WWFF und SOTA ein und darauf, warum sich der Betrieb vom Berggipfel und aus einem Park unterscheidet. Ein Termin ist im Auszug nicht genannt.",
+      "quelle": {
+        "name": "Funkamateur",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/Tonight-at8-qrp-station.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-02",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "POTA",
+        "SOTA",
+        "portabel",
+        "QRP"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-020",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "C8K: tschechische DXpedition nach Mosambik vom 10. bis 20. November",
+      "zusammenfassung": "Das Czech DX Team reist am 9. November an und ist vom 12. bis 18. November voll aktiv, davor und danach nur eingeschränkt. Die Operatoren sind OK1BOA, OK1FCJ, OK1CRM, OK1GK und weitere. Laut NG3K ist Betrieb in SSB, CW, RTTY und digitalen Betriebsarten geplant, mit Schwerpunkt auf den tiefen Bändern.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/c8k-mozambique-dxpedition-2026/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-06",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "C8K",
+        "Mosambik",
+        "DXpedition"
+      ],
+      "termin": {
+        "beginn": "2026-11-10T00:00:00Z",
+        "ende": "2026-11-20T23:59:00Z",
+        "rufzeichen": [
+          "C8K"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "SSB",
+          "CW",
+          "RTTY",
+          "FT8",
+          "FT4",
+          "PSK"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W45-021",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "E51A: Betrieb von Rarotonga vom 14. bis 22. November",
+      "zusammenfassung": "Hrane, YT5A, ist vom 14. bis 22. November auf Rarotonga (Cookinseln) als E51A in CW und FT8 QRV. Es ist eine Urlaubsaktivität, die eine DXpedition zu den nördlichen Cookinseln (Manihiki) von Ende September bis Anfang Oktober 2027 vorbereiten soll.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/e51a-cook-islands/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-07",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "E51A",
+        "Cookinseln",
+        "Rarotonga"
+      ],
+      "termin": {
+        "beginn": "2026-11-14T00:00:00Z",
+        "ende": "2026-11-22T23:59:00Z",
+        "rufzeichen": [
+          "E51A"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W45-022",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "HB88YL: Sonderrufzeichen zu 55 Jahren Frauenstimmrecht in der Schweiz",
+      "zusammenfassung": "Vom 6. bis 20. November sind mehrere YLs unter dem Sonderrufzeichen HB88YL aktiv. Anlass ist das 55-jährige Jubiläum des eidgenössischen Stimm- und Wahlrechts für Frauen. Für lizenzierte Funkamateure und SWLs gibt es ein Jubiläumsdiplom, das nach Erfüllung der Bedingungen als PDF heruntergeladen werden kann.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/hb88yl-55-jahre-stimm-und-wahlrecht-fuer-frauen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "HB88YL",
+        "Sonderrufzeichen",
+        "Diplom"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-023",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "AMSAT News Service: Bulletin ANS-312 vom 8. November",
+      "zusammenfassung": "Das wöchentliche Bulletin der AMSAT-NA nennt unter anderem die Fortsetzung der NASA-Missionen der CubeSat Launch Initiative, die Wiederveröffentlichung der Android-Satellitenverfolgung AmsatDroid als kostenlose App und die November-Stände von DXCC und VUCC Satellite. Außerdem enthält es Änderungen bei der Verteilung der AMSAT-TLE-Daten, Ambassador-Termine und ARISS-Neuigkeiten.",
+      "quelle": {
+        "name": "AMSAT-NA",
+        "url": "https://www.amsat.org/ans-312-amsat-news-service-weekly-bulletins/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-08",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "AMSAT",
+        "ANS",
+        "TLE",
+        "AmsatDroid"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-024",
+      "typ": "termin",
+      "rubrik": "satellit",
+      "titel": "ARISS SSTV Series 35: Bilder von der ISS vom 9. bis 16. November",
+      "zusammenfassung": "Vom 9. bis 16. November sendet die Internationale Raumstation im Rahmen von ARISS SSTV Series 35 wieder Bilder. Frequenz ist 437,550 MHz, Modus Robot 36. Genaue Uhrzeiten nennt die Quelle nicht.",
+      "quelle": {
+        "name": "ARISS",
+        "url": "https://mastodon.hams.social/@ARISS_Intl/117552931489901017",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-07",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "ARISS",
+        "ISS",
+        "SSTV",
+        "Robot 36"
+      ],
+      "termin": {
+        "beginn": "2026-11-09T00:00:00Z",
+        "ende": "2026-11-16T23:59:00Z",
+        "rufzeichen": [],
+        "baender": [],
+        "betriebsarten": [
+          "SSTV"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W45-025",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Clever Quest Lab: kostenlose Decoder im Browser für RTTY, SSTV, APRS und mehr",
+      "zusammenfassung": "Ein Leser des RTL-SDR Blog hat eine Sammlung kostenloser Decoder vorgestellt, die vollständig im Browser laufen, darunter Morse, RTTY, PSK31, SSTV, Wetterfax, NAVTEX und APRS. Dazu kommt ein Signalidentifikator, der unbekannte Betriebsarten benennen und auf den passenden Decoder verweisen soll. Das Audio kann aus einem SDR-Programm über ein virtuelles Audiokabel, vom Mikrofon, aus einer Aufnahme oder von einem WebSDR stammen.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/clever-quest-lab-free-browser-based-decoders-for-rtty-weather-fax-sstv-navtex-aprs-and-more/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-05",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Decoder",
+        "RTTY",
+        "SSTV",
+        "APRS",
+        "Browser"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-026",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Mobile-Whip: aktive Empfangsantenne für einen einzelnen Li-Ion-Akku",
+      "zusammenfassung": "Die Mobile-Whip von skuep ist eine kompakte aktive Empfangsantenne, die mit einer einzelnen Lithium-Ionen-Zelle oder per USB betrieben wird. Sie soll mit deutlich kleinerer Baugröße als üblich brauchbaren Empfang liefern und ist für portable Geräte gedacht.",
+      "quelle": {
+        "name": "Hackaday",
+        "url": "https://hackaday.com/2026/11/07/active-antenna-runs-on-a-single-lithium-ion-cell/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-07",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Aktivantenne",
+        "Empfang",
+        "Selbstbau"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W45-027",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "ESPica32: eigenständiges ESP32-Radio für beliebige KiwiSDR-Server",
+      "zusammenfassung": "Ivan, LU8MIL, hat mit dem ESPica32 ein eigenständiges Radio auf Basis eines ESP32 vorgestellt, das ohne PC oder Smartphone öffentliche KiwiSDR-Server weltweit abstimmen kann. Der Aufbau kommt mit vier Bauteilen aus: ESP32-WROOM-32, SH1106-OLED, Drehgeber und I2S-Verstärker MAX98357A mit Lautsprecher.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/espica32-a-standalone-esp32-radio-for-tuning-any-kiwisdr-with-no-pc-or-phone/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-05",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "ESP32",
+        "KiwiSDR",
+        "Selbstbau"
+      ],
+      "termin": null,
+      "video": null
+    }
+  ]
+}
