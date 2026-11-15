@@ -1,0 +1,1249 @@
+{
+ "kw": "2026-W46",
+ "zeitraum": {
+  "von": "2026-11-09",
+  "bis": "2026-11-15"
+ },
+ "abgerufen": "2026-11-15T04:57:55Z",
+ "hinweis": "Rohdaten für den Wochen-Agenten. Datum aus 'meta' ist verlässlich, aus 'text' eine Schätzung. Der Agent löscht die Datei nach dem Erstellen der Wochendatei.",
+ "bekannte_links_uebersprungen": 105,
+ "quellen": [
+  {
+   "id": "darc",
+   "name": "DARC Nachrichten",
+   "sprache": "de",
+   "rubriken": [
+    "verband",
+    "regulatorik",
+    "dx",
+    "contest",
+    "ausbreitung",
+    "technik"
+   ],
+   "kern": true,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 14,
+   "hinweise": [
+    "https://www.darc.de/nachrichten/meldungen/archiv-liste/archi: 19 Kandidaten, 3 davon schon bekannt"
+   ],
+   "eintraege": [
+    {
+     "titel": "Weitere Ergebnisse von der DARC-Mitgliederversammlung",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/weitere-ergebnisse-von-der-darc-mitgliederversammlung/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Weitere Ergebnisse von der DARC-Mitgliederversammlung 14.11.2026 Erstellt von Redaktion Es war ein arbeitsreicher Tag für den Vorstand und die Amateurräte. Zahlreiche Tagesordnungspunkte waren zu bearbeiten. Über die erfolgreiche Wahl des DARC-Vorstandes haben wir bereits zuvor in einer Meldung berichtet berichtet. An dieser Stelle nun noch weitere Ergebnisse. Denn neben dem Vorstand gab es noch weitere Wahlen: Die Versammlung bestätigte Manfred Lauterborn, DK2PZ, als Amateurratssprecher und Peter Kern, DL1EIP, als seinen …"
+    },
+    {
+     "titel": "Vorstand wurde gewählt",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vorstand-wurde-gewaehlt/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Auf der Mitgliederversammlung des DARC e.V. am 14. November im Hotel Stadt Baunatal haben die Mitglieder den Vorstand gewählt: Mit Georg Westbeld, DL3YAT, bekommt das Gremium ein neues Mitglied. Der Vorsitzende Christian Entsfellner, DL3MBG, Ronny Jerke, DG2RON, und Ernst Steinhauser, DL3GBE, wurden in ihren Ämtern bestätigt. Der Vorstand bleibt damit in großen Teilen unverändert und bekommt zugleich neue Impulse. Foto: (v.l.) Ernst Steinhauser, DL3GBE, Georg Westbeld, DL3YAT, Vorsitzender Christian Entsfellner, DL3MBG, und Ronny Jerke, DG2RON. Zurück X"
+    },
+    {
+     "titel": "DARC-Mitgliederversammlung tagt in Baunatal",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/darc-mitgliederversammlung-tagt-in-baunatal/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht DARC-Mitgliederversammlung tagt in Baunatal 14.11.2026 Erstellt von Redaktion Am Samstag, dem 14. November, findet im Hotel Stadt Baunatal, Wilhelmshöher Str. 5 in 34225 Baunatal die Mitgliederversammlung des DARC e.V. statt. Der Tag beginnt um 9 Uhr mit einer offenen Diskussionsrunde für DARC-Mitglieder, in der bis etwa 10:30 Uhr ein Meinungsbild zu den vorliegenden Anträgen erarbeitet wird. Im Anschluss beginnt um 11 Uhr die eigentliche Mitgliederversammlung, die bis ungefähr 18 Uhr fortgeführt wird und ebenfalls öffentlich für …"
+    },
+    {
+     "titel": "FunkWX am Wochenende",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/funkwx-am-wochenende-16/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Die Sonnenwindgeschwindigkeiten sind auf Normalniveau gesunken. Es wird daher erwartet, dass die geomagnetischen Bedingungen überwiegend ruhig bleiben (Kp 0–2). Das Flarerisiko ist gering (M20% X05%). Brauchbare bis gute Bedingungen. | Zurück X"
+    },
+    {
+     "titel": "Voyager 1 am 18. November einen Lichttag von der Erde entfernt",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/voyager-1-am-18-november-einen-lichttag-von-der-erde-entfernt/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Voyager 1 am 18. November einen Lichttag von der Erde entfernt 13.11.2026 Erstellt von Redaktion Am Mittwoch, dem 18. November, erreicht die interstellare Raumsonde Voyager 1 der NASA einen besonderen Meilenstein: Sie wird sich dann in einer Entfernung von einem Lichttag zur Erde befinden. Ein Lichttag entspricht der Strecke, die das Licht innerhalb von 24 Stunden zurücklegt, also rund 25,9 Milliarden Kilometer. Der Zeitpunkt dieses Ereignisses wird voraussichtlich um 10:18 Uhr UTC beziehungsweise 11:18 Uhr deutscher Zeit …"
+    },
+    {
+     "titel": "Deutschland-Rundspruch 45/2026, 46. KW",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-452026-46-kw/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Deutschland-Rundspruch 45/2026, 46. KW 12.11.2026 Erstellt von Redaktion DARC e.V., Lindenallee 4, 34225 Baunatal, Telefon 0561 949880 Deutschland-Rundspruch 45/2026, 46. KW Redaktionsschluss: Mittwoch 10 Uhr, freigegeben für Rundspruchsendungen ab Donnerstag, den 12. November 2026, 17:30 UTC. Die aktuelle Audiofassung gibt es auch als RSS-Feed unter www.nord-ostsee-rundspruch.de/category/deutschland-rundspruch und als mp3 unter www.darc.de/uploads/media/dlrs.mp3. Die aktuelle PDF-Datei finden Sie im eingeloggten Zustand unter www.darc.de/nachrichten/deutschland-rundspruch/. (An die Rundspruchsprecher: Internet-Linkverweise nicht vorlesen, z.B. [X]; lediglich für die Schriftfassung werden diese am Ende des Rundspruches aufgelistet.) Hallo liebe SWLs, YLs und OMs, Sie hören den Deutschland-Rundspruch Nummer 45 des Deutschen Amateur-Radio-Clubs für die 46. Kalenderwoche 2026. Diesmal haben wir Meldungen zu folgenden Themen: - Kostenloser Antennensimulator für Funkamateure von Ulrich L. Rohde, N1UL/DJ2LR - Neue Web-App zum Steuern von Icom-Handfunkgeräten aus dem Browser - Versions-Update bei Wavelog@DARC - MINT-Sterne 2026 in Hessen und Baden-Württemberg verliehen - Gemeinsam Hürden beim Funken abbauen - Distriktsversammlung Oberbayern (C) bestätigt Vorstand im Amt - Mitgliedschaft Pro 2026 soll Amateurfunk an Schulen und Hochschulen fördern - DARC-Mitgliederversammlung am 14. November - Aktuelle Conteste und - Was gibt es Neues vom Funkwetter? Hier die Meldungen: Kostenloser Antennensimulator für Funkamateure von Ulrich L. Rohde, N1UL/DJ2LR Ulrich L. Rohde, N1UL/DJ2LR, hat den \"N1UL Ham Antenna Simulator\" entwickelt und stellt ihn für Funkamateure kostenlos zur Verfügung. Aktuell in der Version 1.1 vorliegend, ist die Software unter Windows lauffähig. Die Software können Interessierte vom DARC-Server herunterladen [1]. Mit dem umfangreichen Werkzeug steht Funkamateuren und Antennenentwicklern eine beeindruckende Möglichkeit zur Verfügung, unterschiedlichste Antennen präzise zu simulieren, zu analysieren und zu optimieren. Die zahlreichen Funktionen und umfassenden Validierungsprüfungen unterstreichen den hohen wissenschaftlichen und technischen Anspruch dieser Entwicklung. Der Software ist eine ausführliche Dokumentation in Form einer PDF-Datei beigefügt. Der DARC e.V. bedankt sich ganz herzlich bei OM Rohde, N1UL/DJ2LR, für die Entwicklung und Bereitstellung des leistungsfähigen N1UL-Amateurfunk-Antennensimulators. Neue Web-App zum Steuern von Icom-Handfunkgeräten aus dem Browser Georgi Chokov, LZ1ETB, hat sich mit folgendem Praxistipp an die Rundspruch-Redaktion gewandt: Er empfiehlt die Software Deck [2] - eine kostenlose Web-App, die Icom-Handfunkgeräte wie das ID-52 direkt aus den Browsern Chrome oder Edge über USB steuern kann, ganz ohne Installation. Deck decodiert APRS, SSTV und CW, zeigt Satellitenüberflüge mit Track & Tune an und importiert Speicherkanäle. Alles läuft lokal im Browser, ein Konto ist nicht nötig. Ohne Funkgerät lässt sich die Web-Anwendung im Demo-Modus ausprobieren [3]. Versions-Update bei Wavelog@DARC Die Wavelog-Instanz für DARC-Mitglieder hat wieder ein Versionsupdate erhalten. Sie trägt nun die Nummer 3.2.5. Neu sind unter anderem das übersichtlichere Clubstationsmenü bei vielen Clubstationen, mehrere Verbesserungen bei ClubLog, PSKReporter für QSOs, die nicht via API gekommen sind oder auch eine verbesserte Kartenansicht mit Grayline. Die Wavelog-Instanz ist unter der einfachen Adresse log.darc.de [4] zu erreichen. MINT-Sterne 2026 in Hessen und Baden-Württemberg verliehen Im November 2026 wurden in Hessen und Baden-Württemberg die MINT-Sterne 2026 verliehen. Mit der Auszeichnung würdigen das Kultusministerium sowie die Verbände VDE, DVGW und DARC e.V. das besondere Engagement von Lehrkräften und Ehrenamtlichen, die junge Menschen für Mathematik, Informatik, Naturwissenschaften und Technik begeistern. In Baden-Württemberg wurden am 5. November die Roboter-AG des Gymnasiums am Bildungszentrum Markdorf sowie das Schülerforschungszentrum phænovum am Hans-Thoma-Gymnasium Lörrach ausgezeichnet. Die Preisverleihung fand unter Beteiligung von Kultusminister Andreas Jung statt. Die DARC-Distrikte Baden (A) und Württemberg (P) unterstützen die Auszeichnung. Ihre Vorsitzenden Klaus Kuhnt, DF3GU, und Denis Mrsa, DL5SFC, wirkten auch in der Jury mit. Am 9. November folgte die Verleihung in Hessen im Kultusministerium in Wiesbaden. Ausgezeichnet wurden Matthias Haxel vom MINT-Zentrum Seeheim sowie das Team des Next Generation Space vom Gymnasium Johanneum Herborn, vertreten durch Dorit Betz und Thilo Zerbe. Die Jury hatte zuvor aus 50 Finalisten ausgewählt. Der DARC war ebenfalls an der Jury beteiligt; Jürgen Dutine hielt die Laudatio für das Herborner Projekt. Beide Kultusminister würdigten die Bedeutung des Engagements für die MINT-Förderung. Die ausgezeichneten Initiativen zeigen eindrucksvoll, wie innovative Projekte Neugier wecken, Talente fördern und jungen Menschen neue Perspektiven in Wissenschaft und Technik eröffnen. Der DARC freut sich, diese wertvolle Arbeit unterstützen und mitgestalten zu können. Gemeinsam Hürden beim Funken abbauen Unter dem Titel \"Kein Handicap beim Funken?! Gemeinsam Barrieren abbauen\" informierte Norbert Bruchmann, DA6NB, in der CQ DL 7/26 zum Thema und lud zu einer ersten Videokonferenz ein. Das Ergebnis übertraf die Erwartungen. Die Vielfalt der Beiträge und das spürbare Engagement aller Beteiligten führte zu vielversprechenden Gesprächen. Der Wille, die Situation für Menschen mit Einschränkungen im Amateurfunk nachhaltig zu verbessern, war unübersehbar. In der Zwischenzeit wurde der E-Mail-Verteiler barrierefrei@darc.de eingerichtet. Dahinter steht eine engagierte Gruppe aus dem ersten Treffen bestehend aus DL7UJM, DF9WM, LX1WJ, DO3LZ, DM4EAX und DA6NB. Individuelle Fragen oder Anregungen können hier diskutiert werden. Auch Ortsverbände, Distrikte und Organisationsteams von Veranstaltungen können sich im Vorfeld an das ehrenamtliche Team wenden, um Tipps für eine möglichst barrierearme Ausrichtung zu erhalten. Weiterhin sind regelmäßige Videokonferenzen geplant. Nächster Termin ist Montag, der 7. Dezember um 18 Uhr [5]. Distriktsversammlung Oberbayern (C) bestätigt Vorstand im Amt Bei der Distriktsversammlung Oberbayern (C) am 7. November stand die turnusgemäße Wahl auf dem Programm. In einzelnen Wahlgängen wurde der bisherige Vorstand im Amt bestätigt: Distriktsvorsitzender Manfred Lauterborn, DK2PZ, und als Vertreter Alfred Fröschl, DL8FA, und Rainer Englert, DF2NU. Darüber berichtet DL8FA. Mitgliedschaft Pro 2026 soll Amateurfunk an Schulen und Hochschulen fördern Mit der Mitgliedschaft Pro 2026 setzt der DARC-Vorstand ein klares Zeichen: Unser gemeinsames Ziel ist der gezielte Aufbau von Amateurfunkstationen an Schulen und Hochschulen in ganz Deutschland. Gemeinsam mit engagierten Ortsverbänden, Lehrkräften und Vertrauensdozenten stärken wir so nachhaltig die MINT-Bildung und begeistern junge Menschen für unser faszinierendes Hobby. Ob neue Funk-AG oder bestehende Projektgruppe: Nutzt die Chance auf wertvolle Geräte und Unterrichtsmaterialien! DARC-Ortsverbände können sich gemeinsam mit einer Schule oder Hochschule bewerben. Gefördert werden hochwertige Geräte, Antennen und praxisnahes Unterrichtsmaterial. Der Aufwand ist minimal - eine formlose E-Mail mit einer kurzen Projektbeschreibung genügt für die Bewerbung. Annahmeschluss ist der 28. Februar 2027. Alle Details und die offizielle Ausschreibung finden Sie auf der DARC-Webseite [6]. DARC-Mitgliederversammlung am 14. November Am Samstag, dem 14. November, findet im Hotel Stadt Baunatal, Wilhelmshöher Str. 5 in 34225 Baunatal die Mitgliederversammlung des DARC e.V. statt. Der Tag beginnt um 9 Uhr mit einer offenen Diskussionsrunde für DARC-Mitglieder, in der bis etwa 10:30 Uhr ein Meinungsbild zu den vorliegenden Anträgen erarbeitet wird. Im Anschluss beginnt um 11 Uhr die eigentliche Mitgliederversammlung, die bis ungefähr 18 Uhr fortgeführt wird und ebenfalls öffentlich für alle DARC-Mitglieder ist. Die Unterlagen zur Versammlung nebst Tagesordnung und der vorliegenden Anträge sind auf der DARC-Webseite abrufbar [7]. Aktuelle Conteste 14. November: Aktivitätswochenende Schleswig-Holstein 14. bis 15. November: WAE DX Contest, JA International DX Contest und OK/OM DX CW Contest 15. November: Aktivitätswochenende Schleswig-Holstein und HOT-Party 21. November: Herbstcontest Distrikt Köln-Aachen, All Austrian 160m-Contest und RSGB 1,8 MHz Contest 21. bis 22. November: LZ DX Contest und REF 160 m Contest 22. November: Herbstcontest Distrikt Köln-Aachen Die Ausschreibungen finden Sie auf der Webseite des Contest-Referates [dx] sowie mittels der Contest-Termintabelle in der CQ DL 11/26 auf S. 68. Der Funkwetterbericht vom 11. November, erstellt von Tom Kamp, DF5JL Zunächst der Rückblick vom 4. bis 11. November: In der vergangenen Woche zeigte sich die Sonne zunächst von ihrer ruhigen Seite. Die Sonnenaktivität bewegte sich überwiegend im unteren bis mittleren Bereich, starke M- oder X-Flares blieben aus. Dennoch beschleunigte ein koronales Loch am Wochenende den Sonnenwind, der wiederholt Geschwindigkeiten zwischen etwa 450 und 650 km/s erreichte. Das sind umgerechnet Geschwindigkeiten von 2,34 Millionen km/h und entspricht etwa dem 6,5-fachen der mittleren Entfernung Erde-Mond pro Stunde. Dadurch kam es phasenweise zu einer erhöhten geomagnetischen Aktivität, insgesamt überwogen jedoch ruhige bis allenfalls mäßig aktive Verhältnisse. Der planetare K-Index bewegte sich meist zwischen 2 und 4, von Samstag auf Sonntag wurden vereinzelt auch K-Werte von mehr als 5 erreicht. Auf den oberen Kurzwellenbändern wurden dennoch überwiegend stabile Ausbreitungsbedingungen beobachtet. 12 und 15 m öffneten tagsüber auf interkontinentalen Strecken, während 17 und 20 m weiterhin die zuverlässigsten DX-Bänder blieben. Die nächtliche Dämpfung auf den unteren Frequenzen fiel meist moderat aus, sodass 40 und 80 m während der Dunkelstunden gute Arbeitsbedingungen boten. Die MUF-Werte erreichten in Mitteleuropa tagsüber häufig Regionen oberhalb von 25 MHz und ermöglichten zeitweise auch Öffnungen des 10-m-Bandes über weite Distanzen. Aktuell wird das Erdmagnetfeld nur mäßig durch den schnellen Sonnenwindstrom beeinflusst. Die geomagnetische Aktivität ist überwiegend ruhig bis unbeständig, während die Sonnenwindgeschwindigkeit gegenüber den sehr ruhigen Phasen der Vorwoche erhöht bleibt. Vorhersage bis zum 18. November Die NOAA erwartet für die kommenden Tage überwiegend ruhige bis unbeständige geomagnetische Bedingungen, wobei einzelne Abschnitte mit leicht erhöhter Aktivität nicht ausgeschlossen werden können. Gleichzeitig besteht weiterhin eine bis zu rund 60-prozentige Wahrscheinlichkeit für kleinere Radio-Blackouts der Klasse R1 bis R2 durch M-Flares. Das heißt, für die nächsten Tage werden während ungestörten Phasen insgesamt gute bis sehr gute Kurzwellenbedingungen erwartet. Die hohen Bänder dürften tagsüber weiterhin von der fortgeschrittenen Phase des Sonnenzyklus 25 profitieren. Besonders auf 10, 12 und 15 m sind bei ausreichender Sonneneinstrahlung wieder gute DX-Öffnungen zu erwarten. Die unteren Bänder 40 und 80 m profitieren von der zunehmenden Länge der Nächte auf der Nordhalbkugel. Sollten die schnellen Sonnenwindströme am Ende des Vorhersagezeitraums etwas kräftiger ausfallen, können die maximal nutzbaren Frequenzen zwischenzeitlich zurückgehen und die Polarwege vorübergehend beeinträchtigen. Insgesamt bleiben die Aussichten jedoch freundlich. Das waren die Meldungen des DARC-Deutschland-Rundspruchs. Die Redaktion hatte Stefan Hüpper, DH5FFL, vom Amateurfunkmagazin CQ DL. Meldungen für den Rundspruch - mit bundesweiter Relevanz - schicken Sie bitte per Post oder Fax an die Redaktion CQ DL sowie per E-Mail ausschließlich an redaktion@darc.de. Diesen Rundspruch gibt es auch als PDF- und MP3-Datei auf der …"
+    },
+    {
+     "titel": "Neue OV-Info erschienen",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/neue-ov-info-erschienen-5/",
+     "datum": "2026-11-11",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Die neue Ausgabe der OV-Info mit wichtigen Informationen für die Mitglieder wurde an die Vorsitzenden und Kassierer aller DARC-Ortsverbände versandt. Themen dieser Ausgabe sind unter anderem der Datenschutz im OV, das erfolgreich abgeschlossene DARC-Solarprojekt und 50 Jahre HAM RADIO. Interessierte Mitglieder können die aktuelle OV-Info sowie frühere Ausgaben im geschützten Bereich im Internet unter www.darc.de/nachrichten/information-fuer-ortsverbaende herunterladen. Auch besteht dort für Mitglieder die Möglichkeit, die OV-Info zu abonnieren. X"
+    },
+    {
+     "titel": "DARC FT4-Contest 2026 beendet",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/darc-ft4-contest-2026-beendet/",
+     "datum": "2026-11-11",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Der DARC-FT4-Contest 2026 ist beendet. Zahlreiche Funkamateure waren in FT4 aktiv. Bereits am Tag nach dem Contest sind beim DARC-Contestreferat 52 Logs aus elf Ländern eingegangen. Sie dokumentieren 2180 QSOs. Aus DL sind bislang 34 Logs eingetroffen. Die meisten Logs kamen aus dem Distrikt Köln-Aachen (G) mit 5 Logs, gefolgt vom Distrikt Westfalen-Nord (N) mit 5 Logs und dem Distrikt Schleswig-Holstein (M) mit 4 Logs. Zurück X"
+    },
+    {
+     "titel": "MINT-Sterne Hessen verliehen",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/mint-sterne-hessen-verliehen/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Im Beisein von Armin Schwarz, dem Hessischen Minister für Kultus, Bildung und Chancen, wurden am 9. November 2026 im Kultusministerium in Wiesbaden die MINT-Sterne 2026 verliehen. Der vom VDE Südwest ausgelobte und vom DARC e. V. mit einem Preis unterstützte Wettbewerb richtet sich an Fach- und Lehrkräfte aus Hessen sowie Teams hessischer Bildungseinrichtungen, die mit besonderen Projekten und Formaten den MINT-Bereich an ihren Institutionen voranbringen und damit nachhaltige Bildungsimpulse setzen. Kulturminister Armin Schwarz unterstrich in seinem Grußwort: „Mit ihrem außergewöhnlichen …"
+    },
+    {
+     "titel": "Amateurfunk an Schulen: Wir investieren in die Zukunft",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/amateurfunk-an-schulen-wir-investieren-in-die-zukunft/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Amateurfunk an Schulen: Wir investieren in die Zukunft 10.11.2026 Erstellt von Presse- und Öffentlichkeitsarbeit Technik begreift man am besten durch eigenes Erleben! Von der Antenne bis zur digitalen Signalverarbeitung! Mit der Mitgliedschaft Pro setzt der DARC-Vorstand ein klares Zeichen: Unser gemeinsames Ziel ist der gezielte Aufbau von Amateurfunkstationen an Schulen und Hochschulen in ganz Deutschland. Gemeinsam mit engagierten Ortsverbänden, Lehrkräften und Vertrauensdozenten stärken wir so nachhaltig die MINT-Bildung und …"
+    },
+    {
+     "titel": "Distriktsversammlung Oberbayern (C) bestätigt Vorstand im Amt",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/distriktsversammlung-oberbayern-c-bestaetigt-vorstand-im-amt/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Distriktsversammlung Oberbayern (C) bestätigt Vorstand im Amt 10.11.2026 Erstellt von Redaktion Bei der Distriktsversammlung Oberbayern (C) am 7. November stand die turnusgemäße Wahl auf dem Programm. In einzelnen Wahlgängen wurde der bisherige Vorstand im Amt bestätigt: Distriktsvorsitzender Manfred Lauterborn, DK2PZ, und als Vertreter Alfred Fröschl, DL8FA, und Rainer Englert, DF2NU. Darüber berichtet DL8FA. (Foto: Frank Heidamke, DJ2FR) Zurück X"
+    },
+    {
+     "titel": "Gemeinsam Hürden beim Funken abbauen",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/gemeinsam-huerden-beim-funken-abbauen/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht Gemeinsam Hürden beim Funken abbauen 10.11.2026 Erstellt von Redaktion Der Amateurfunk verbindet Menschen über alle Grenzen hinweg – unabhängig von Herkunft, Alter oder Geschlecht. Das sollte selbstverständlich auch für Menschen mit Behinderung gelten. Doch jede Einschränkung ist individuell, und Universallösungen gibt es selten. Genau deshalb ist der direkte Austausch so wichtig. Unter dem Titel „Kein Handicap beim Funken?! Gemeinsam Barrieren abbauen“ hatten wir in der CQ DL 7/26 zu einer ersten Videokonferenz eingeladen. Das …"
+    },
+    {
+     "titel": "MINT-Stern Baden-Württemberg verliehen",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/mint-stern-baden-wuerttemberg-verliehen/",
+     "datum": "2026-11-09",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Archiv-Details Archiv Detailansicht Archiv Detailansicht MINT-Stern Baden-Württemberg verliehen 09.11.2026 Erstellt von Redaktion Zwei herausragende MINT-Initiativen aus Baden-Württemberg erhielten am 5.November den MINT-Stern 2026: die Roboter-AG am Gymnasium des Bildungszentrums Markdorf (BZM) sowie das Schülerforschungszentrum phænovum am Hans-Thoma-Gymnasium Lörrach. Mit der Auszeichnung würdigen das Kultusministerium und die Verbände VDE, DVGW und DARC das besondere Engagement von Lehrkräften und Ehrenamtlichen, die sich mit viel Einsatz und Leidenschaft für die Förderung junger …"
+    },
+    {
+     "titel": "Aktuelle Conteste KW 46/2026",
+     "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/aktuelle-conteste-kw-462026-1/",
+     "datum": "2026-11-09",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Erstellt von Referat Conteste / DF4ZL Conteste in der Kalenderwoche 45/2026 - 09.11.26 bis 15.11.26 ► Mo 09.11.26Di 10.11.26Mi 11.11.26Do 12.11.26Fr 13.11.26Sa 14.11.26So 15.11.26 [SSB] [160 - 10m] 18:00 - 22:00 SP Activity [CW/SSB/FM] [432MHz]20:00 - 21:30 RSGB Autumn [SSB] [80m]18:00 - 22:00 SP Activity Aktivitätswochenende Schleswig-Holstein [CW. SSB] [2m/70cm]06:00 - 15:00 Aktivitätswochenende Schleswig-Holstein xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 08:00 - 12:00 DUR-GHz-Aktivität [CW/SSB/FM][>1GHz] xxxxxxxxxxxxxxxxxxx13:00 - 17:00 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Zurück X"
+    }
+   ]
+  },
+  {
+   "id": "darc-s",
+   "name": "DARC Distrikt Sachsen",
+   "sprache": "de",
+   "rubriken": [
+    "regional",
+    "veranstaltung"
+   ],
+   "kern": true,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 7,
+   "hinweise": [
+    "Übersicht gelesen (99 Links), aber kein Link passt zu link_muster; Beispiele: https://www.darc.de/sie-sind-nicht-angemeldet/?redirect_url=%2Fder-club%2Fdistrikte%2Fs%2Faktuell%2F, https://www.darc.de/home, https://www.darc.de/der-club/, https://www.darc.de/der-club/distrikte/, https://www.darc.de/der-club/vo-ar/, https://www.darc.de/der-club/vo-ar/datenschutz/, https://www.darc.de/der-club/vo-ar/ar/, https://www.darc.de/der-club/vo-ar/vorstand/, https://www.darc.de/der-club/referate/, https://www.darc.de/der-club/referate/hf/, https://www.darc.de/der-club/referate/iaru/, https://www.darc.de/der-club/referate/intruder-monitoring/",
+    "https://www.darc.de/der-club/distrikte/s/: 10 Kandidaten, 3 davon schon bekannt"
+   ],
+   "eintraege": [
+    {
+     "titel": "Ben, DL4ZM, SK",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/ben-dl4zm-sk/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Mit großer Bestürzung haben wir zur Kenntnis nehmen müssen, das Ben, DL4ZM, nicht mehr unter uns weilt. Ben war u.a. viele Jahre der Redakteur und Sprecher des damaligen Sachsenrundspruchs im Distrikt. Nach fast 29 jähriger Tätigkeit beendete er mit dem 450. Rundspruch seine hochgeschätzte Arbeit unter DLØSAX. Ben war ein Funkamateur mit Herz und Seele. Seinem Hobby und der Mitarbeit im OV S36 war er bis zu Letzt eng verbunden. So war er auch ein erfolgreicher OP bei zahlreichen Aktivitäten mit verschiedenen Sonder-Rufzeichen und hatte auch schon für die bevorstehende große Aktion im nächsten Jahr aus Anlass 100 Jahre Motorsport auf dem Sachsenring seine Mitarbeit angekündigt. Ben wir vermissen Dich! Vorstand und Mitglieder des Distrikts Sachsen Wer mehr zu Ben erfahren möchte, hier …"
+    },
+    {
+     "titel": "Distrikt Sachsen auf der AREB 2026",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/distrikt-sachsen-auf-der-areb-2026/",
+     "datum": "2026-10-11",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Distrikt Sachsen auf der AREB 2026 11.10.2026 Erstellt von Wolf-Eckart Grüning, DL6JZ Die Amateurfunk-, Rundfunk- und Elektronikbörse AREB in Dresden hat sich in den mehr als 20 Jahren ihres Bestehens zu einer festen Institution entwickelt. Es überwiegt der Flohmarktcharakter, zunehmend kommen auch kommerzielle Aussteller wie Funktechnik-Dathe und Bonito Hamradio. Auch viele Funkamateure aus dem Dresdner Raum sowie von weiter her nutzen dieses Event als Treffpunkt zum Erfahrungs- und Meinungsaustausch. Nach Jahren der Abstinenz fasste unser Distriktsvorstand den Beschluss, mit einem kleinen Stand den DARC zu präsentieren. Motto: \"Der Distrikt Sachsen zum Anfassen\". Die Resonanz war ausgesprochen positiv. In den sechs …"
+    },
+    {
+     "titel": "S44 auf der \"Blaulichtmeile\"",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/s44-auf-der-blaulichtmeile/",
+     "datum": "2026-10-11",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Am 19. September feierte die Freiwillige Feuerwehr Hainichen ihr 160 jähriges Bestehen unter anderem mit einer großen Blaulichtmeile. Unter allerlei roten, weißen, blauen und grünen Fahrzeugen waren auch wir vom DARC OV Mittweida mit Stand vertreten. Es waren unsere Stationen für Kurzwelle, UKW und auch eine Station für Betrieb über QO-100 zu sehen. Als zentrales Thema bot sich hier natürlich der Not- und Katastrophenfunk an. Daher haben wir die Möglichkeit genutzt und unser MeshCOM Projekt vorgestellt, dass aktuell in Hainichen in Pilotphase durch die OMs Thomas DB6KT, Matthias DD6MS und Karsten DL1RUN aufgebaut wurde. Der von DB6KT ausgestellte, völlig autark versorgte Repeater stand symbolisch für die im Hainichener Stadtgebiet verteilten Stationen, die nicht nur die Stadt …"
+    },
+    {
+     "titel": "Der zweite Lauf zum Sachsenpokal",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/der-zweite-lauf-zum-sachsenpokal/",
+     "datum": "2026-10-07",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Der zweite Lauf zum Sachsenpokal 07.10.2026 Erstellt von Anja Am 3. Oktober fand in der Dresdner Heide der zweite Lauf zum Sachsenpokal im Amateurfunkpeilen statt. Es nahmen insgesamt 39 Wettkämpfer aus den Distrikten D, L, S, Y und Z sowie aus OK teil. Bei bestem Spätsommerwetter waren je vier bis fünf Sender vormittags auf UKW und nachmittags auf Kurzwelle zu suchen. Im relativ flachen Gelände waren dabei je nach Altersklasse Laufstrecken von 4,1 bis 5,2 km Luftlinie zu absolvieren. Alle Informationen hier Anja Hilbert, DGØYS Zurück X"
+    },
+    {
+     "titel": "Jährlicher Familien Fieldday des OV S44 Mittweida",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/jaehrlicher-familien-fieldday-des-ov-s44-mittweida/",
+     "datum": "2026-05-22",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Jährlicher Familien Fieldday des OV S44 Mittweida 22.05.2026 Am Wochenende um den 6. Juni 2026 begeht der OV S44 Mittweida seinen jährlichen Familien Fieldday. Veranstaltungsort ist das Gelände des Schützenvereins in Seifersbach (50.970410, 13.045299) Folgendes wird es zu sehen geben: Vorführung Lichtfunk Vorstellung Wavelog LoRa Experimente Natürlich wird die ganze Zeit Funkbetrieb auf KW und UKW möglich sein. Außerdem steht bei Bedarf ein Funkmessplatz zur Verfügung. Interessierte Gäste sind gern wilkommen. Robert Klemm, DO6BRT OVV S44 Mittweida Zurück X"
+    },
+    {
+     "titel": "Aktion \"50 Jahre deutsche Antarktisforschung\" - 50ANT",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/aktion-50-jahre-deutsche-antarktisforschung-50ant/",
+     "datum": "2026-05-13",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Detailansicht Zurück zur Distrikt-Seite Nachrichten Detailansicht Aktion \"50 Jahre deutsche Antarktisforschung\" - 50ANT 13.05.2026 Wie zu den früheren „Funkevent(s) und Historie“ (beispielsweise 90 Jahre Junkers Tante Ju1 und Deutsches Funk-Kartell 100FK2 reihte sich im Jahr 2026 auch dieses Projekt 50ANT ein. Uwe, DL2SWR, hat dazu eine umfangreiche und sehr interessante Zusammenfassung erstellt. >Zusammenfassung Zurück X"
+    },
+    {
+     "titel": "Wavelog - Schulung",
+     "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/wavelog-schulung/",
+     "datum": "2026-03-08",
+     "datum_herkunft": "meta",
+     "auszug": "DARC Wavelog ist ein leistungsstarkes plattformunabhängiges Programm und eignet sich herforragend für die individuelle Anwendung und insbesondere auch gemeinsame Aktionen. Gegenwärtig läuft noch bis Ende April 2026 die Aktion \"50 Jahre Deutsche Antarkisforschung\" https://50ant.hamaward.de/de/deutsche-antarktisforschung Bei allen SES-Rufzeichen dieser Aktion arbeiten die OP´s dabei erfolgreich mit Wavelog. Das komfortable Logging, automatische uploads auf den Diplomserver, zu eQSL ins DCL oder Clublog haben sich bestens bewährt. Hervorzuheben auch die unkomplizierte Verknüpfung mit anderen Anwendungen, z.B. WSJT oder JTDX, ebenso UCXlog usw. Nicht zu vergessen die tollen Analysemöglichkeiten oder die QSL-Verwaltung. Auch bei zukünftigen ähnlichen Aktionen wird Wavelog zum Einsatz kommen. …"
+    }
+   ]
+  },
+  {
+   "id": "funkamateur",
+   "name": "Funkamateur Nachrichten",
+   "sprache": "de",
+   "rubriken": [
+    "technik",
+    "verband",
+    "dx",
+    "satellit",
+    "veranstaltung"
+   ],
+   "kern": true,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 10,
+   "hinweise": [
+    "https://www.funkamateur.de/nachrichtenarchiv.html?month={JJJ: 26 Kandidaten, 8 davon schon bekannt"
+   ],
+   "eintraege": [
+    {
+     "titel": "Moderne Zeiten: Machen Soziale Medien einsam und bringt KI uns um?",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/moderne-zeiten-macht-sm-einsam-und-bringt-ki-uns-um.html",
+     "datum": "2026-11-15",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-15 Zum Vergrößern anklicken! Schon die Schüler schreiben heute nicht mehr beim Nachbarn ab, sondern lassen ihre Hausaufgaben von ChatGPT erledigen. Auch die Militärs überlegen, KI an den roten Knopf zu lassen. Allerdings kann dies, selbst wenn die KI nur Daten zuliefert, Kriege auslösen [spiegel.de]. Zwei deutsche und eine österreichische Dokumentation beschäftigen sich am Dienstag, dem 17.11.2026, ab 20.15 Uhr MEZ mit den Problemen des modernen Internets. Sie sind anschließend — auch ein bis drei Jahre — in der Arte Mediathek verfügbar. KI — Die letzte Erfindung der Menschheit? Arte TV, Dienstag 17.11.2026 um 20.15 Uhr, Montag 30.11.2026 um 08.50 Uhr Im Dokumentarfilm äußern sich die drei Wegbereiter der modernen KI, die „Godfathers of AI“ Geoffrey Hinton, Yoshua Bengio und Yann LeCun. Alle drei sind Gewinner des Turing Awards. So hält zwar LeCun die Risiken für beherrschbar. Dagegen gehören Hinton und Bengio heute zu den wichtigsten Warnern vor einer Technologie, die sie …"
+    },
+    {
+     "titel": "Ab 15. November: DA26IDPD",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/DA26IDPD.html",
+     "datum": "2026-11-14",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Das DARC-Team SES, dem derzeit 55 Mitglieder angehören, ist vom 15. November bis zum 15. Dezember unter dem Rufzeichen DA26IDPD aktiv. Das Suffix des Sonderrufzeichens steht für den International Day of Persons with Disabilities, auf Deutsch: Internationaler Tag der Menschen mit Behinderungen. Die jährliche Begehung am 3. Dezember wurde 1992 von der Generalversammlung der Vereinten Nationen — UNO — ausgerufen. QSL-Karten können über das OQRS von Club Log, via LoTW, per DARC Community Logbook oder via DK5ON [qrz.com] angefordert werden. Red. FA/-rd Tnx Info I1JQJ Zurück © 2026 Box 73 Amateurfunkservice GmbH"
+    },
+    {
+     "titel": "FUNKAMATEUR-Onlineshop offline",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/fa-shop-offline.html",
+     "datum": "2026-11-13",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-13 Aufgrund einer Cyberattacke wurde der Onlineshop des FUNKAMATEUR auf www.box73.de vorübergehend vom Netz genommen. Personenbezogene Daten waren von dem Angriff nicht betroffen. Die Sicherheitslücke konnte bereits geschlossen werden. Nach weiteren Sicherheitsvorkehrungen wird der Onlineshop in ein paar Tagen wieder online sein. Zurück © 2026 Box 73 Amateurfunkservice GmbH"
+    },
+    {
+     "titel": "Das sendende Plasmaschwert",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/das-sendende-plasmaschwert.html",
+     "datum": "2026-11-13",
+     "datum_herkunft": "liste",
+     "auszug": "ARRL Handbook 2025 (Softcover) 101. Edition FA-VA6 Vektorieller Antennenanalysator Zum Vergrößern anklicken! Die Laser-Lichtschwerter aus Star Wars sind technisch ebenso unmöglich wie das „Beamen“ aus Star Trek — sollte man meinen. Doch nun haben Forscher der North Carolina State University eine Antenne konstruiert, die aus einem laserinduzierten Plasma besteht. Sie leuchtet also nicht nur auf wie ein Star-Wars-Laserschwert, sondern ist zusätzlich elektrisch leitend und kann so eine normale metallische Antenne ersetzen. Das klingt freilich verlockend: Statt mühsam am Fieldday oder bei militärischen Manövern einen Antennenturm auszufahren und Drähte zu spannen, könnte man nur mal eben mit dem Laser eine Antenne in Wunschgröße in die Luft schießen? Ganz so einfach ist die Angelegenheit allerdings nicht: Zwar funktionierte eine Übertragung im Experiment bei 30 MHz, also knapp oberhalb des 10-m-Bands — aber bislang nur auf eine Entfernung von gerade einmal 5 cm, also im absoluten Nahfeld. …"
+    },
+    {
+     "titel": "Amazon Alexa: Big Jeff is watching you?",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/amazon-alexa-big-jeff-is-watching-you.html",
+     "datum": "2026-11-12",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-12 Zum Vergrößern anklicken! Smart Speaker sind praktisch, doch wegen der Gefahr des Mithörens durch Amazon oder Google umstritten (siehe Beitrag \"Sprachassistenten: Spielerei oder nützliche Helfer?\" im FUNKAMATEUR 12/2021). Eigentlich sollen sie nur bei Aktivierung durch ihre Schlüsselwörter zuhören, doch zumindest bei Amazon haben in der Vergangenheit Mitarbeiter auch mitgehört, ohne dass der Benutzer den Smart Speaker angesprochen hatte. Der neueste Amazon Echo Smart Speaker dürfte diese Bedenken noch vergrößern, denn er enthält nun auch noch eine 13-Megapixel-Kamera, was nur an einem zusätzlichen kleinen Loch neben denen für die Mikrofone erkennbar ist. Gedacht ist dies, um über den ohnehin vorhandenen Lautsprecher auch Kinder oder Haustiere beobachten zu können. Aber wer wird sich so ein Gerät freiwillig ins Schlafzimmer stellen — außer, um damit selbst Unfug anzustellen? Eine vorschiebbare Schutzklappe wie an Notebook-Kameras sucht man hier vergebens. Die Kamera kostet …"
+    },
+    {
+     "titel": "Conrad ebnet Geschäftskunden den Weg",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/Conrad-Geschku.html",
+     "datum": "2026-11-11",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-11 Unternehmen mit strengen Einkaufsrichtlinien und Freigabeprozessen mussten bisher bei Einkäufen über diese digitale Beschaffungsplattform eigene Lieferanten anlegen, diese prüfen und ggf. firmenintern abstimmen. Diese Hürde fällt nun weg. In Anwendung des Passus Alles auf eine Rechnung ist der Conrad Marketplace alleiniger Vertragspartner und Rechnungssteller. Dadurch spricht Conrad nun auch Unternehmen an, die wegen der schwierigen Verfahrensweise bisher den Elektronik-Giganten gemieden hatten. Darüber berichtet die Fachzeitschrift building&automation in ihrer Ausgabe 6/2026. Red. FA/-rd Zurück © 2026 Box 73 Amateurfunkservice GmbH"
+    },
+    {
+     "titel": "Ohne Knall: Funkmast Hamburg-Moorfleet abgebaut",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/ohne-knall-funkmast-hamburg-moorfleet-abgebaut.html",
+     "datum": "2026-11-10",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-10 Viel zu oft wurden Rundfunk-Sendemasten in den letzten Jahren gesprengt — zuletzt am Freitag, dem 6. November die Radio-Luxemburg-Sendemasten in Junglingster, wir berichteten über die Pläne dazu. Am seit 1934 genutzten Senderstandort Hamburg-Moorfleet im Hamburger Stadtteil Billwerder des Norddeutschen Rundfunks wurde der ehemalige UKW-, DAB- und TV-Sendemast nach nunmehr 60 Jahren durch ein neues Modell mit 303 m Höhe in 160 m Entfernung zum alten Sendemast ersetzt — wir berichteten. Die Sender, die 2,5 Mio. Leute versorgen, konnten im Mai 2026 ohne lange Unterbrechung innerhalb von zehn Minuten auf den neuen Sendemast umgeschaltet werden. Nun begann der Abbau des alten Masts. Dabei wurde nicht wie anderswo gesprengt, sondern man zerlegte den Mast segmentweise. Das oberste Segment nahm bereits ein Hubschrauber mit, wie der NDR in diesem Fernsehbeitrag zeigt. Die Gesamtkosten für das Projekt sollen nach Informationen des Senders bei etwa 6 Mio. Euro liegen. Der Amateurfunk …"
+    },
+    {
+     "titel": "Artemis-2-Mission schoss Loch in Ionosphäre",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/artemis-2-mission-schoss-loch-in-ionosphaere.html",
+     "datum": "2026-11-09",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-09 Am 1. April 2026 startete mit Artemis 2 die erste bemannte Mondmission seit 1972, wir berichteten. Der Start erzeugte jedoch unerwartete Abweichungen bei der GPS-Navigation, wie in einer vorab veröffentlichten Studie für das Fachjournal Geophysical Research Letters dokumentiert ist. Ein Forschungsteam der taiwanischen National Cheng Kung University untersuchte die Auswirkungen des Raketenflugs und wies anhand der Daten von rund 3500 wissenschaftlichen GPS-Bodenstationen in Nordamerika drei aufeinanderfolgende Störungswellen nach. Besonders problematisch waren zwei Zündungen der Raketenoberstufe in rund 185 km Höhe in der F-Schicht der Ionosphäre, um die Orion-Kapsel auf Kurs zum Mond zu bringen. Sie führten zu einer massiven Abnahme freier Elektronen und einem „Ionosphären-Loch“, das sich rund 5000 km quer über den nordamerikanischen Kontinent spannte. Die Störungen waren intensiver als bei allen bisherigen Raketenstarts. Die Störungen dürften sich auch auf den KW-Funk …"
+    },
+    {
+     "titel": "Radio Club Argentino 105 Jahre alt",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/RCA-100.html",
+     "datum": "2026-11-09",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-09 Dieser Tage jährte sich die Gründung des Radio Club Argentino, abgekürzt RCA, zum 105. Mal. Der nationale Verband der Funkamateure in Argentinien ist eine gemeinnützige Gesellschaft, die ihre Mitglieder fördert und deren Aktivitäten unterstützt. Nach dem ersten Weltkrieg begann sich die Funktechnik rasant zu entwickeln. Technikbegeisterte, auch in Argentinien, sammelten Bauteile und konstruierten erste Sender und Empfänger, um mit anderen ebenso Experimentierfreudigen drahtlos zu kommunizieren. Daraus erwuchs der Wunsch, sich in einer Gemeinschaft zu organisieren. So wurde der Radio Club Argentino ins Leben gerufen. Inzwischen ist der RCA auch Mitglied der IARU, Region 2. Das von Anfang an erscheinende Verbandsmagazin trägt den Titel Radio revista. Mehr zum RCA weiß die Wikipedia zu berichten. Red. FA/-rd Zurück © 2026 Box 73 Amateurfunkservice GmbH"
+    },
+    {
+     "titel": "ARISS-Funkkontakt am 10. November 2026 ab 1817 UTC",
+     "url": "https://www.funkamateur.de/nachrichtendetails/items/ariss_10november2026.html",
+     "datum": "2026-11-09",
+     "datum_herkunft": "liste",
+     "auszug": "2026-11-09 Dieser Live-Amateurfunkkontakt ist für Dienstag, den 10. November 2026, ab 1817 UTC geplant. Der Astronaut Luke Delaney, Amateurfunk-Rufzeichen KJ5PPF, wird die Amateurfunkstation mit dem Rufzeichen OR4ISS an Bord der ISS bedienen und die ARISS-Telebridge-Bodenstation mit dem Rufzeichen IK1SLD in Italien anrufen. Es handelt sich um einen ARISS-Telebridge-Kontakt mit der Pinecrest Academy of Northern Nevada in Sparks, NV, Vereinigte Staaten. Sie können Astronaut Luke Delaney an Bord der ISS live auf 145,800 MHz (±3 kHz Dopplerverschiebung) hören. Die Veranstaltung wird auch live auf Youtube übertragen. Die voraussichtliche Kommunikationssprache bei diesem Amateurfunkkontakt ist Englisch. Fragen (sofern es die Dauer des Funkkontakts zulässt): Warum haben Sie sich entschieden, Astronaut zu werden, und würden Sie das Universum bereisen, wenn Sie die Gelegenheit dazu hätten? Welche Ausbildung ist erforderlich, um sich auf eine Mission vorzubereiten? Wie lange hat es gedauert, …"
+    }
+   ]
+  },
+  {
+   "id": "dx-world",
+   "name": "DX-World",
+   "sprache": "en",
+   "rubriken": [
+    "dx"
+   ],
+   "kern": true,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 16,
+   "hinweise": [
+    "https://www.dx-world.net/feed/: 20 Einträge im Feed, 20 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "3X4U – Guinea DXpedition",
+     "url": "https://www.dx-world.net/3x4u-guinea-dxpedition-2026/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "[NEWS UPDATE / 2300Z] – We’re experiencing major power problems. Our main generator and both backup generators are having issues, so we’ve had to switch to battery power. For now, we’ll be QRV on 30m and 60m in FT8 only. With an RTTY contest this weekend, operating on 20m at low power isn’t practical. We’re […] The post 3X4U – Guinea DXpedition first appeared on DX-World ."
+    },
+    {
+     "titel": "VP0SG – South Georgia Island",
+     "url": "https://www.dx-world.net/vp0sg-south-georgia-island/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "[REFRESH] Several members of the VP0SG team recently gathered in Oslo to prepare and load our shipping container, now bound for Stanley in the Falkland Islands. Months of planning, equipment preparation, and coordination have come together as we take another major step towards our South Georgia DXpedition in March 2027. A big thank you to […] The post VP0SG – South Georgia Island first appeared on DX-World ."
+    },
+    {
+     "titel": "XX9TXN – Macau",
+     "url": "https://www.dx-world.net/xx9txn-macau/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "Giorgio, I2VXJ will be active from Macau as XX9TXN during November 24 to December 3, 2026. Focus on 30, 40, 80 and 160m. Participation in the CQWW CW contest (SOSB). QSL via IV3SKB and LoTW. The post XX9TXN – Macau first appeared on DX-World ."
+    },
+    {
+     "titel": "A31W, A31WW, A31AV & A31TD – Tonga",
+     "url": "https://www.dx-world.net/a31w-tonga/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "[UPDATE] by Oliver, W6NV. Thanks for previously posting our plans to be QRV from Vava’u, Tonga (IOTA OC-064) from 21 November, primarily to compete in the CQ WW CW Contest. The information contained on our A31W QRZ.com webpage remains current. This week, Alan, K0AV/A31AV; Terry, K7TD/A31TD; and Oliver, W6NV/A31WW are departing for Tonga to build […] The post A31W, A31WW, A31AV & A31TD – Tonga first appeared on DX-World ."
+    },
+    {
+     "titel": "PJ6/DL8DYL & PJ6/DL9DRA – Saba",
+     "url": "https://www.dx-world.net/pj6-dl8dyl-pj6-dl9dra-saba/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "[INFO] by Ralf, DL9DRA. I’m visiting the island of Saba with my wife Irina, DL8DYL. We only have very limited antenna and low power. But as the setup worked well last year in FS and VP2M, it seems receiving is not as good as we hoped for here in PJ6. Lot of noise on the […] The post PJ6/DL8DYL & PJ6/DL9DRA – Saba first appeared on DX-World ."
+    },
+    {
+     "titel": "HD4W – Cojimies Island, SA-056",
+     "url": "https://www.dx-world.net/hd4w-esmeraldas-province-group-sa-056/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "[UPCOMING] by Ren, PY8WW – I am very pleased to finally announce that the HD4W DXpedition to IOTA SA-056 – Esmeraldas Province Group, Ecuador, is now officially confirmed. This project has been in the planning since the beginning of this year. For many months, however, one essential piece was still missing: the operating license. Without […] The post HD4W – Cojimies Island, SA-056 first appeared on DX-World ."
+    },
+    {
+     "titel": "VK9NA – Norfolk Island",
+     "url": "https://www.dx-world.net/vk9na-norfolk-island/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "feed",
+     "auszug": "Alan, VK3XPD and David, VK3RU plan to visit Norfolk Island mid-November for a few days. QRV holiday-style 40-6m. Previously, VK9NA was active in 2010 and 2011 – both times on VHF, UHF as well as EME. QSL via VK3XPD. More info here The post VK9NA – Norfolk Island first appeared on DX-World ."
+    },
+    {
+     "titel": "5H3DX – Tanzania",
+     "url": "https://www.dx-world.net/5h3dx-tanzania/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "feed",
+     "auszug": "[NEWS] by Chas, NK8O / 5H3DX. We are here in Chihoni, and I have the station back up and running. The bands have been up and down, and a little odd at times, but they are working a good bit of the time. There have been a few good pile-ups on 10 meters, which is […] The post 5H3DX – Tanzania first appeared on DX-World ."
+    },
+    {
+     "titel": "PJ4K – Bonaire",
+     "url": "https://www.dx-world.net/pj4k-bonaire/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "feed",
+     "auszug": "Team consisting of K3CT,K5PI,K9VV,N2RC,N3RD,NG7M,W1MD,W4PA and WA3LRO will be active as PJ4K during the CQWW CW contest (Nov 28-29). Category: M/2. QSL via KU9C. Some ops may be QRV as PJ4K/homecall before / after the contest. ﻿ The post PJ4K – Bonaire first appeared on DX-World ."
+    },
+    {
+     "titel": "VK9XY – Christmas Island",
+     "url": "https://www.dx-world.net/vk9xy-christmas-island-2026/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "feed",
+     "auszug": "[UPCOMING] – On the way to Christmas Island for the upcoming VK9XY DXpedition. Here’s some of the team in Hong Kong today. [IOTA CREDITS] – QSOs made with members of the VK9XY on-island team will be eligible for IOTA credit. The on-island team consists of Max N4ML, Violetta KN2P, Tyler NT1S, Carter KN4DLY, Gregg W6IZT, […] The post VK9XY – Christmas Island first appeared on DX-World ."
+    },
+    {
+     "titel": "D44JB – Cape Verde",
+     "url": "https://www.dx-world.net/d44jb-cape-verde/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "Charlie, EI8JB will be active from Santo Antão island, Cape Verde as D44JB during November 13-20, 2026. QRV on 80-10m; SSB & FT8 using vertical antenna and fan dipole. QSL via LoTW, Club Log OQRS. More info here. The post D44JB – Cape Verde first appeared on DX-World ."
+    },
+    {
+     "titel": "E51RAR – Cook Islands",
+     "url": "https://www.dx-world.net/e51rar-cook-islands/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "Chris, WA7RAR will be active from Rarotonga, Cook Islands as E51RAR during April 12-22, 2027. QRV holiday-style on 20-10M, CW & SSB. He’ll be operating from a cottage located on the beach on the northern tip of the island as well as at least one POTA registered site nearby. Equipment will include a Yaesu FT-710 […] The post E51RAR – Cook Islands first appeared on DX-World ."
+    },
+    {
+     "titel": "9G – Ghana",
+     "url": "https://www.dx-world.net/9g-ghana/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "Nick, G3RWF plans to be active from Ghana during the CQWW CW contest (Nov 28-29). Callsign not yet known; it could be 9G5N or 9G5NH. QRV as SBLP (either 15 or 20m). Possibly some activity before the contest. QSL via LoTW. The post 9G – Ghana first appeared on DX-World ."
+    },
+    {
+     "titel": "V5/G0RIB – Namibia",
+     "url": "https://www.dx-world.net/v5-g0rib-namibia/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "[UPDATE] by Allan, G0RIB. Another week has passed and we have doubled the number of FT8 contacts to over 600 (not using any robots ) and now worked 65 countries. It has been hard going with far less propogation than we had last week on the bands. We are able to work only 15m to […] The post V5/G0RIB – Namibia first appeared on DX-World ."
+    },
+    {
+     "titel": "DX-WORLD Weekly Bulletin",
+     "url": "https://www.dx-world.net/dx-world-weekly-bulletin-193/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "[#688] The latest FREE NON-SUBSCRIPTION DX-World Weekly Bulletin written by Bjorn ON9CFG is available to download. Click below to get the newest edition which this week runs to 18 pages. Previous bulletins can all be found here. Please contact Bjorn with any updates or errors. DOWNLOAD THE LATEST BULLETIN ﻿﻿ The post DX-WORLD Weekly Bulletin first appeared on DX-World ."
+    },
+    {
+     "titel": "FW3GT – Wallis & Futuna",
+     "url": "https://www.dx-world.net/fw3gt-wallis-futuna/",
+     "datum": "2026-11-11",
+     "datum_herkunft": "feed",
+     "auszug": "[NEWS UPDATE] 80m is not going to happen, very low impedance which I matched with hairpin. Problem is it detuned other bands significantly, loosing 20 & 17m. Even with hairpin disconnected 20m was not usable. Cut my losses and removed 60/80 element, now have 30m again. 60m was successful with over 500 QSOs. Likely QRT […] The post FW3GT – Wallis & Futuna first appeared on DX-World ."
+    }
+   ]
+  },
+  {
+   "id": "ng3k",
+   "name": "NG3K Announced DX Operations",
+   "sprache": "en",
+   "rubriken": [
+    "dx"
+   ],
+   "kern": true,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 55,
+   "hinweise": [
+    "http://www.ng3k.com/adxo.xml: 65 Einträge im Feed, 65 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "Tanzania: Oct 19-Nov 19, 2026 -- 5H3MB -- QSL via: IK2GZU",
+     "url": "https://www.qrz.com/db/5H3MB",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 19-Nov 19, 2026 -- Tanzania -- 5H3MB -- QSL: IK2GZU -- Source: OPDX (Sep 23, 2026) -- By IK2GZU fm Ilembula; 80-10m; CW; QSL via IK2GZU (B/d)"
+    },
+    {
+     "titel": "Rodrigues I: Oct 20-Nov 28, 2026 -- 3B9 -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/3B9KW",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 20-Nov 28, 2026 -- Rodrigues I -- 3B9 -- QSL: LoTW -- Source: OPDX (Sep 23, 2026) -- By M0CFW as 3B9/M0CFW; 160-6m; CW SSB + digital; QRV for CQWW DX SSB using 3B9KW"
+    },
+    {
+     "titel": "Mali: Oct 22-Dec 2, 2026 -- TZ4AM -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/TZ4AM",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 22-Dec 2, 2026 -- Mali -- TZ4AM -- QSL: LoTW -- Source: 425DXN (Oct 9, 2026) -- By KX4R; 80-6m; CW SSB; QSL via KX4R direct; perhaps KX4R last trip to Mali"
+    },
+    {
+     "titel": "Madagascar: Oct 25-Dec 20, 2026 -- 5R8IC -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/5R8IC",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 25-Dec 20, 2026 -- Madagascar -- 5R8IC -- QSL: LoTW -- Source: TDDX (Oct 30, 2026) -- By F6ICX fm Ste Marie I (IOTA AF-090); HF; mainly CW, some FT8 (f/h) SSB; planned FT8 QRGs: 7056, 10131, 14090, 18095, 21090, 24911 28090"
+    },
+    {
+     "titel": "Lesotho: Oct 26-Nov 25, 2026 -- 7P8EA -- QSL via: HB9CCS",
+     "url": "https://www.qrz.com/db/7P8EA",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 26-Nov 25, 2026 -- Lesotho -- 7P8EA -- QSL: HB9CCS -- Source: OPDX (Oct 21, 2026) -- By HB9CCS fm Thaba-Tseka (KG0hl); 20-10m; CW SSB"
+    },
+    {
+     "titel": "Barbados: Oct 27-Nov 29, 2026 -- 8P -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 27-Nov 29, 2026 -- Barbados -- 8P -- QSL: LoTW -- Source: OPDX (Oct 27, 2026) -- By PZ5TW as 8P/PZ5TW fm Crab Hill; HF"
+    },
+    {
+     "titel": "Br Virgin Is: Oct 27-Nov 29, 2026 -- VP2V -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/NY9K",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 27-Nov 29, 2026 -- Br Virgin Is -- VP2V -- QSL: LoTW -- Source: OPDX (Oct 29, 2026) -- By NY9K as VP2V/NY9K fm Virgin Gorda and Tortola; 40-10m; FT8; POTA VG-0016; some operations have been maritime mobile"
+    },
+    {
+     "titel": "Wallis and Futuna: Oct 31-Nov 14, 2026 -- FW3GT -- QSL via: M0OXO",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Oct 31-Nov 14, 2026 -- Wallis and Futuna -- FW3GT -- QSL: M0OXO -- Source: MM0NDX (Sep 25, 2026) -- By GM0GAV fm Futuna I (IOTA OC-118); mainly 40-10m; CW FT8; 600w; vertical; good take-off to EU, poor to NA and SA"
+    },
+    {
+     "titel": "Montserrat: Nov 3-16, 2026 -- VP2MCV -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/VP2MCV",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 3-16, 2026 -- Montserrat -- VP2MCV -- QSL: LoTW -- Source: TDDX (Oct 19, 2026) -- By KG9N fm Gingerbread Hill; HF; QSL via KG9N (B/d)"
+    },
+    {
+     "titel": "Mozambique: Nov 8-21, 2026 -- C8K -- QSL via: LoTW",
+     "url": "https://www.cdxp.cz/",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 8-21, 2026 -- Mozambique -- C8K -- QSL: LoTW -- Source: TDDX (Apr 9, 2026) -- By OK1BOA OK1FCJ OK1CRM OK1GK OK2ZA OK2ZC OK2ZI OK6DJ; 160-6m, incl 60m, focus on low bands; SSB CW RTTY FT8 FT4 PSK; QSL via Club Log OQRS or OK6DJ"
+    },
+    {
+     "titel": "Uganda: Nov 8-Dec 29, 2026 -- 5X7W -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/5X7W",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 8-Dec 29, 2026 -- Uganda -- 5X7W -- QSL: LoTW -- Source: TDDX (Oct 26, 2026) -- By SM0HPL; also using 5X1Q when running QRP; 80-10m; slow CW FT8 FT4; QRV for CQWW DX CW; QSL via M0OXO or Club Log OQRS"
+    },
+    {
+     "titel": "Ceuta and Melilla: Nov 13-15, 2026 -- EG9MM -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/EG9MM",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 13-15, 2026 -- Ceuta and Melilla -- EG9MM -- QSL: LoTW -- Source: OPDX (Aug 27, 2026) -- By EA4GHH EA4HUK EA4IWX EA3JAQ fm Melilla; 80-10m; SSB + digital"
+    },
+    {
+     "titel": "Cape Verde Is: Nov 13-20, 2026 -- D44JB -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/D44JB",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 13-20, 2026 -- Cape Verde Is -- D44JB -- QSL: LoTW -- Source: OPDX (Oct 1, 2026) -- By EI8JB fm Santo Antao I (HK77le); 80-10m; focus on SSB FT8; vertical, fan dipole; holiday style operation; QSL via Club Log OQRS"
+    },
+    {
+     "titel": "Norfolk I: Nov 14-19, 2026 -- VK9NA -- QSL via: VK3XPD",
+     "url": "https://www.qrz.com/db/VK9NA",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 14-19, 2026 -- Norfolk I -- VK9NA -- QSL: VK3XPD -- Source: 425DXN (Nov 13, 2026) -- By VK3XPD VK3RU fm IOTA OC-005; 40-6m; CW SSB FT8; holiday style operation"
+    },
+    {
+     "titel": "South Cook Is: Nov 14-22, 2026 -- E51A -- QSL via: YT5A (B/d)",
+     "url": "https://www.yt1ad.info/dxped.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 14-22, 2026 -- South Cook Is -- E51A -- QSL: YT5A (B/d) -- Source: MM0NDX (Sep 29, 2026) -- By YT5A fm Rarotonga I; HF; CW SSB FT8; holiday style operation"
+    },
+    {
+     "titel": "Ecuador: Nov 15-22, 2026 -- HD4W -- QSL via: Club Log OQRS",
+     "url": "https://www.qrz.com/db/HD4W",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 15-22, 2026 -- Ecuador -- HD4W -- QSL: Club Log OQRS -- Source: OPDX (Sep 27, 2026) -- By PY8WW fm Cojimies I (IOTA SA-056); 40-6m; SSB CW FT8"
+    },
+    {
+     "titel": "Christmas I: Nov 16-Dec 4, 2026 -- VK9XY -- QSL via: M0OXO",
+     "url": "https://vk9xy2026.com/",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 16-Dec 4, 2026 -- Christmas I -- VK9XY -- QSL: M0OXO -- Source: MM0NDX (Jul 20, 2026) -- By 8 young ops, including KN4DLY KN2P VK4OTZ; 160-6m; CW SSB FT8 FT4; see Web for full QSL details; QRV for CQWW DX CW"
+    },
+    {
+     "titel": "Cocos (Keeling) I: Nov 20-27, 2026 -- VK9DS -- QSL via: ?",
+     "url": "https://www.qrz.com/db/VK9DS",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 20-27, 2026 -- Cocos (Keeling) I -- VK9DS -- QSL: ? -- Source: MM0NDX (Oct 9, 2026) -- By VK6DS; 80-6m; SSB CW FT8; logs will be uploaded to Club Log and QRZ upon his return home"
+    },
+    {
+     "titel": "Ecuador: Nov 20-22, 2026 -- HD4W -- QSL via: Club Log OQRS",
+     "url": "https://www.qrz.com/db/HD4W",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 20-22, 2026 -- Ecuador -- HD4W -- QSL: Club Log OQRS -- Source: OPDX (Sep 27, 2026) -- By PY8WW fm Cojimies I (IOTA SA-056); 40-6m; SSB CW FT8"
+    },
+    {
+     "titel": "Mauritius: Nov 20-Dec 3, 2026 -- 3B8 -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/E70A",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 20-Dec 3, 2026 -- Mauritius -- 3B8 -- QSL: LoTW -- Source: OPDX (Oct 22, 2026) -- By 3B8/E70A; HF; QSL via E70A (B/d)"
+    },
+    {
+     "titel": "Rodrigues I: Nov 22-Dec 2, 2026 -- 3B9 -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/3B9KW",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 22-Dec 2, 2026 -- Rodrigues I -- 3B9 -- QSL: LoTW -- Source: OPDX (Sep 23, 2026) -- By M0CFW as 3B9/M0CFW; 160-6m; CW SSB + digital; QRV for CQWW DX CW using 3B9KW"
+    },
+    {
+     "titel": "St Helena: Nov 22-Dec 5, 2026 -- ZD7 -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 22-Dec 5, 2026 -- St Helena -- ZD7 -- QSL: LoTW -- Source: MM0NDX (Oct 29, 2026) -- By G4BWP as ZD7WP and 5Z4VJ as ZD7VJ; HF, incl 60m; CW SSB FT8; QRV for CQWW DX CW"
+    },
+    {
+     "titel": "Honduras: Nov 23-30, 2026 -- HR5 -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/F2JD",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 23-30, 2026 -- Honduras -- HR5 -- QSL: LoTW -- Source: TDDX (Sep 24, 2026) -- By F2JD as HR5/F2JD; HF; all modes; QSL via F6AJA; QRV through Mar 15, 2027"
+    },
+    {
+     "titel": "Sint Maartin: Nov 23-30, 2026 -- PJ7WW -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 23-30, 2026 -- Sint Maartin -- PJ7WW -- QSL: LoTW -- Source: MM0NDX (Sep 2, 2026) -- By DL1MGB; 160-10m; CW; QSL via Club Log OQRS or DL1MGB (B/d)"
+    },
+    {
+     "titel": "Surinam: Nov 23-Dec 1, 2026 -- PZ5KW -- QSL via: PE1K",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 23-Dec 1, 2026 -- Surinam -- PZ5KW -- QSL: PE1K -- Source: MM0NDX (Oct 21, 2026) -- By PE1K fm Paramaibo; HF; FT8 SSB; holiday style operation"
+    },
+    {
+     "titel": "Honduras: Nov 25-Dec 5, 2026 -- HR9 -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/K6VHF/HR9",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 25-Dec 5, 2026 -- Honduras -- HR9 -- QSL: LoTW -- Source: TDDX (Oct 1, 2026) -- By K6VHF as K6VHF/HR9 fm Roatan I (IOTA NA-057); 160-6m; all modes; 100w; hexbeam, longwire, delta, beam; QSL OK via Club Log OQRS"
+    },
+    {
+     "titel": "Micronesia: Nov 26-Dec 1, 2026 -- V6AIU -- QSL via: Club Log OQRS",
+     "url": "https://www.qrz.com/db/V6AIU",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 26-Dec 1, 2026 -- Micronesia -- V6AIU -- QSL: Club Log OQRS -- Source: OPDX (Nov 7, 2026) -- By JH3AIU fm Truk, Weno I; 80-10m; C"
+    },
+    {
+     "titel": "Christmas I: Nov 28-Dec 4, 2026 -- VK9DS -- QSL via: ?",
+     "url": "https://www.qrz.com/db/VK9DS",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 28-Dec 4, 2026 -- Christmas I -- VK9DS -- QSL: ? -- Source: MM0NDX (Oct 9, 2026) -- By VK6DS; 80-6m; SSB CW FT8; logs will be uploaded to Club Log and QRZ upon his return home"
+    },
+    {
+     "titel": "Tonga: Nov 28-Dec 4, 2026 -- A35TV -- QSL via: Club Log OQRS",
+     "url": "https://a35tv.com/",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 28-Dec 4, 2026 -- Tonga -- A35TV -- QSL: Club Log OQRS -- Source: TDDX (Sep 17, 2026) -- By VK2IR VK3YP SV0EG SV1DAY SV1GE HB9EB ; 160-6m; FT8 CW SSB"
+    },
+    {
+     "titel": "Br Virgin Is: Nov 29-Dec 7, 2026 -- VP2V -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 29-Dec 7, 2026 -- Br Virgin Is -- VP2V -- QSL: LoTW -- Source: MM0NDX (Oct 8, 2026) -- By WE9G as VP2V/WE9G fm Tortola; 160-6m; QSL via WE9G direcct"
+    },
+    {
+     "titel": "St Martin: Nov 30-Dec 9, 2026 -- FS -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Nov 30-Dec 9, 2026 -- St Martin -- FS -- QSL: LoTW -- Source: MM0NDX (Sep 2, 2026) -- By DL1MGB; 160-10m; CW; QSL via Club Log OQRS or DL1MGB (B/d)"
+    },
+    {
+     "titel": "Nauru: Dec 10-16, 2026 -- C21GD -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/C21GD",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Dec 10-16, 2026 -- Nauru -- C21GD -- QSL: LoTW -- Source: MM0NDX (Oct 31, 2026) -- By JM1GDA fm RI39ll; 80-6m; CW SSB FT8 FT4; QSL via Club Log OQRS"
+    },
+    {
+     "titel": "Falkland Is: Dec 12, 2026-Jan 2, 2027 -- VP8THW -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/VP8THW",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Dec 12, 2026-Jan 2, 2027 -- Falkland Is -- VP8THW -- QSL: LoTW -- Source: TDDX (Nov 2, 2026) -- By DL7HW; 40 20 17 15 12 10m, focus on 40m; SSB FT8; QSL via DL7HW Buro"
+    },
+    {
+     "titel": "St Helena: Dec 14, 2026-Jan 1, 2027 -- ZD7LC -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/ZD7LC",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Dec 14, 2026-Jan 1, 2027 -- St Helena -- ZD7LC -- QSL: LoTW -- Source: TDDX (Oct 26, 2026) -- By ZR6LC; 40 20 17 15 12 10m; SSB CW; 5,100w; QSL via Club Log OQRS"
+    },
+    {
+     "titel": "Tanzania: Dec 23, 2026-Jan 6, 2027 -- 5H1RK -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/5H1RK",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Dec 23, 2026-Jan 6, 2027 -- Tanzania -- 5H1RK -- QSL: LoTW -- Source: MM0NDX (Sep 2, 2026) -- By SP3RK fm Bwejuu, Unguja I (IOTA AF-032) Zanzibar I; 20 17 15 12 10m; FT8 FT4 FT2, some CW; QRP; holiday style operation"
+    },
+    {
+     "titel": "Gambia: Dec 27, 2026-Jan 3, 2027 -- C5H -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Dec 27, 2026-Jan 3, 2027 -- Gambia -- C5H -- QSL: LoTW -- Source: OPDX (Aug 31, 2026) -- By F4GJE fm Kotu West (IK13ok); 40-6m; SSB FT4 FT8; 250-300w; vertical, EFHW"
+    },
+    {
+     "titel": "Seychelles: Dec 28, 2026-Jan 8, 2027 -- S79 -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Dec 28, 2026-Jan 8, 2027 -- Seychelles -- S79 -- QSL: LoTW -- Source: MM0NDX (Jun 29, 2026) -- By OK2ZA OK6DJ as S79/OL1T; HF; QSL via Club Log OQRS or OK6DJ (B/d)"
+    },
+    {
+     "titel": "Marianas: Dec 29, 2026-Jan 3, 2027 -- KH0 -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Dec 29, 2026-Jan 3, 2027 -- Marianas -- KH0 -- QSL: LoTW -- Source: OPDX (Jun 7, 2026) -- By AJ6VJ as KH0/AJ6VJ fm Saipan I; 40-10m, perhaps 80m; CW FT8; QSL via Club Log OQRS or eQSL"
+    },
+    {
+     "titel": "Palau: Jan 8-14, 2027 -- T88SM -- QSL via: JA6EGL",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Jan 8-14, 2027 -- Palau -- T88SM -- QSL: JA6EGL -- Source: MM0NDX (Jun 4, 2026) -- By JA6EGL fm Koror (VIP Guest Hotel); 160-6m; CW SSB AM FM"
+    },
+    {
+     "titel": "Barbados: Jan 9-21, 2027 -- 8P9CB -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Jan 9-21, 2027 -- Barbados -- 8P9CB -- QSL: LoTW -- Source: OPDX (Oct 27, 2026) -- By WA7RAR 20-10m; SSB CW; QSL: Chris Billings, PO Box 1383, Shady Cove, Oregon, 97539, USA; SASE/green stamps NOT required"
+    },
+    {
+     "titel": "Falkland Is: Jan 10-Oct 17, 2027 -- VP8TOG -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Jan 10-Oct 17, 2027 -- Falkland Is -- VP8TOG -- QSL: LoTW -- Source: OPDX (Sep 23, 2026) -- By LU2DUR fm East Falkland; 40 20 15 10m, peraps 80m; SSB, some FT8; QSL via Club Log OQRS"
+    },
+    {
+     "titel": "Micronesia: Jan 14-22, 2027 -- V6XG -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/V6XG",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Jan 14-22, 2027 -- Micronesia -- V6XG -- QSL: LoTW -- Source: MM0NDX (Sep 16, 2026) -- By JA1XGI fm Chuuk I (IOTA OC-011, QJ57wk); 160-6m, focus on 160m for EU NA SA; CW SSB + digital; 500w; verticals; holiday style operation; QSL via Club Log OQRS or JA1XGI (B/d)"
+    },
+    {
+     "titel": "Burkina Faso: Jan 17-24, 2027 -- XT2MAX -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/XT2MAX",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Jan 17-24, 2027 -- Burkina Faso -- XT2MAX -- QSL: LoTW -- Source: MM0NDX (Sep 8, 2026) -- By DK1MAX fm Ouagadougou; HF; CW SSB FT8; 100w; vertical, OCF dipole; QSL via DK1MAX"
+    },
+    {
+     "titel": "Sint Maarten: Jan 19-27, 2027 -- PJ7 -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/N4XTT",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Jan 19-27, 2027 -- Sint Maarten -- PJ7 -- QSL: LoTW -- Source: OPDX (Oct 12, 2026) -- By N4XTT as PJ7/N4XTT fm Simpson Bay; HF; holiday style operation; dates tentative"
+    },
+    {
+     "titel": "Peter I: Feb 1-28, 2027 -- 3Y0L -- QSL via: LoTW",
+     "url": "https://3y0l.com/",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Feb 1-28, 2027 -- Peter I -- 3Y0L -- QSL: LoTW -- Source: MM0NDX (Apr 9, 2026) -- By 19 ops for 2 weeks during February"
+    },
+    {
+     "titel": "St Kitts and Nevis: Feb 3-Mar 3, 2027 -- V4 -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Feb 3-Mar 3, 2027 -- St Kitts and Nevis -- V4 -- QSL: LoTW -- Source: TDDX (Aug 25, 2026) -- By K0YA as V47YA and W5RCX as V47RCX fm St Kitts I; 160-6m; CW SSB FT8, V47RCX FT8 only; QSL OK via home_call"
+    },
+    {
+     "titel": "Palau: Feb 10-18, 2027 -- T8KT -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Feb 10-18, 2027 -- Palau -- T8KT -- QSL: LoTW -- Source: JF3PLF (Oct 22, 2026) -- By 7K4TKB JA6FWJ JF3LGC JF3PLF JH3FHR JH3QNH JH3TXR JI3NST JI6DUE JN3JBC JN3RAZ JR3FOS; 160-6m; SSB CW + digital; QSL via Club Log OQRS or JA Buro; commemorating JARL Kyoto Club's 80th Anniversary"
+    },
+    {
+     "titel": "Somalia: Feb 15-27, 2027 -- 6O6X -- QSL via: TBA",
+     "url": "https://www.dx-adventure.com/en/home-eng/",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Feb 15-27, 2027 -- Somalia -- 6O6X -- QSL: TBA -- Source: MM0NDX (Jul 2, 2026) -- By ops fm Berbera (LK20mk); HF"
+    },
+    {
+     "titel": "Monaco: Mar 2-9, 2027 -- 3A -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/3A/WE9G",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Mar 2-9, 2027 -- Monaco -- 3A -- QSL: LoTW -- Source: MM0NDX (Oct 5, 2026) -- By WE9G as 3A/WE9G; 80-6m; FT8 FT4, some SSB CW; vertical, EFHW; QSL via Club Log OQRS or WE9G (B/d)"
+    },
+    {
+     "titel": "St Lucia: Mar 9-15, 2027 -- J6 -- QSL via: LoTW",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Mar 9-15, 2027 -- St Lucia -- J6 -- QSL: LoTW -- Source: TDDX (Jun 9, 2026) -- By KB4YKC as J6/KB4YKC and KB4PML as J6/KB4PML; @J68HZ; HF; SSB; holiday style operation"
+    },
+    {
+     "titel": "South Georgia I: Mar 12-26, 2027 -- VP0SG -- QSL via: M0OXO",
+     "url": "https://www.ardxpeditions.com/dxpeditions/vp0sg",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Mar 12-26, 2027 -- South Georgia I -- VP0SG -- QSL: M0OXO -- Source: F4HEC (Sep 19, 2026) -- By LA7THA LB1QI LB5GI W0ZB DL3ON EI5LA F4HEC G0VJG G4PVM IU2EFB KN2P LA3BO OE7PGI OK2WX UR8UQ UT5UY; 160-6m; CW SSB + digital and QO100; 6 stns, 24/24 hrs; dates tentative"
+    },
+    {
+     "titel": "Palau: Apr 8-14, 2027 -- T8 -- QSL via: See Info",
+     "url": "http://www.ng3k.com/Misc/adxo.html",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Apr 8-14, 2027 -- Palau -- T8 -- QSL: See Info -- Source: OPDX (Sep 17, 2026) -- By JM1LIG JO3LVG JG1LFF as T88FM T88MK T88XM fm Koror I (IOTA OC-009, PJ77fi); HF; QSL: T88FM via JM1LIG, T88MK via JO3LVG (B/d), T88XM via LoTW or JG1LFF (B/d)"
+    },
+    {
+     "titel": "South Cook Is: Apr 12-22, 2027 -- E51RAR -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/E51RAR",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "Apr 12-22, 2027 -- South Cook Is -- E51RAR -- QSL: LoTW -- Source: MM0NDX (Nov 13, 2026) -- By WA7RAR fm Rarotonga I; 20-10m; SSB CW; POTA activation; QSL via WA7RAR direct"
+    },
+    {
+     "titel": "French Polynesia: May 17-24, 2027 -- FO -- QSL via: LoTW",
+     "url": "https://www.qrz.com/db/FO/WE9G",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "May 17-24, 2027 -- French Polynesia -- FO -- QSL: LoTW -- Source: MM0NDX (Oct 26, 2026) -- By WE9G as FO/WE9G fm Mangareva I (IOTA OC-063); 80-6m; FT8 FT4, some SSB CW; QSL via Club Log OQRS"
+    },
+    {
+     "titel": "Lord Howe I: May 24-Jun 7, 2027 -- VK2LHW -- QSL via: LoTW",
+     "url": "https://lhi-2027.topdx.de/",
+     "datum": null,
+     "datum_herkunft": "feed",
+     "auszug": "May 24-Jun 7, 2027 -- Lord Howe I -- VK2LHW -- QSL: LoTW -- Source: DL2AWG (Aug 5, 2026) -- By DL2AWG DF4GV DL2AMD DL2SAX DL1KWK DL6RY DL4VK DJ7TO EA5GVH DL4SVA; HF + 6m; SSB CW + digital; 4 stns, 24/7; QSL via Club Log OQRS or DL2AWG"
+    }
+   ]
+  },
+  {
+   "id": "amsat-na",
+   "name": "AMSAT-NA",
+   "sprache": "en",
+   "rubriken": [
+    "satellit"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 1,
+   "hinweise": [
+    "https://www.amsat.org/feed/: 10 Einträge im Feed, 1 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "ANS-319 AMSAT News Service Weekly Bulletins",
+     "url": "https://www.amsat.org/ans-319-amsat-news-service-weekly-bulletins/",
+     "datum": "2026-11-15",
+     "datum_herkunft": "feed",
+     "auszug": "AMSAT News Service ANS-319 November 15, 2026 In this edition: * AMSAT Files FCC Comments on Proposed 2.4 and 5.8 GHz Satellite Use * UNNE-1B and HADES-L Receive OSCAR Designations SO-131 and SO-132 * September/October 2026 Issue of The AMSAT Journal Now Available * OSCAR Watch Tracker v1.1.7 Builds on Earth View with SSTV Enhancements * Houston AMSAT Net Ends After More Than Four Decades on the Air * GridMasterMap Satellite Top 100 Rovers November 2026 Rankings * Changes to AMSAT TLE Distribution for November 13, 2026 * ARISS News * AMSAT Ambassador Activities * Satellite Shorts from All Over The AMSAT® News Service bulletins are a free, weekly news and information service of AMSAT, The Radio Amateur Satellite Corporation. ANS publishes news related to Amateur Radio in Space including reports on the activities of a worldwide group of Amateur Radio operators who share an active interest in designing, building, launching and communicating through analog and digital Amateur Radio satellites. The news feed on https://www.amsat.org publishes news of Amateur Radio in Space as soon as our volunteers can post it. Please send any amateur satellite news or reports to: ans-editor [at] amsat.org You can sign up for free e-mail delivery of the AMSAT News Service Bulletins via the ANS List; to join this list see: https://mailman.amsat.org/postorius/lists/ans.amsat.org/ AMSAT Files FCC Comments on Proposed 2.4 and 5.8 GHz Satellite Use On November 9, AMSAT filed comments with the Federal Communications Commission (FCC) on a proposal to let unlicensed devices communicate directly with satellites in two bands shared with the amateur and amateur-satellite services. AMSAT asked the Commission to keep the new satellite uplinks out of the 2400-2450 MHz amateur-satellite segment and not to add a satellite downlink allocation in the 2.4 GHz band. The Notice of Proposed Rulemaking (NPRM), “Unleashing Unlicensed Spectrum for Direct-to-Device” (ET Docket No. 26-169, FCC 26-51), was adopted August 6 and released August 7. It would allow devices certified under Part 15 of the FCC’s rules, such as Wi-Fi and Bluetooth equipment, to transmit to authorized satellites in the 2400-2483.5 MHz and 5725-5850 MHz bands. A new footnote to the Table of Frequency Allocations, NG36, would permit mobile-satellite service uplinks in both bands on an unprotected, non-interference basis. Devices would remain within the existing Part 15 limits of up to 4 watts EIRP, although the FCC asks whether different limits are warranted for satellite links. The 902-928 MHz band, included in the draft released in July, was dropped before adoption. The NPRM proposes no rules for satellite downlinks, but it asks whether they should be permitted at 5725-5850 MHz and whether a downlink allocation should be added at 2400-2483.5 MHz. It also proposes to confirm that Part 15 devices may be used inside spacecraft, seeks comment on their use during spacewalks and for links between spacecraft, and asks whether limits are needed on unintended radio emissions from satellite electronics. In the United States, the amateur service is primary at 2400-2417 MHz and secondary at 2417-2450 MHz and across 5725-5850 MHz. The amateur-satellite service may operate at 2400-2450 MHz in both directions on a non-interference basis and has a secondary downlink allocation at 5830-5850 MHz. In its 20-page filing, AMSAT said it does not oppose innovation in direct-to-device connectivity, but noted that the 2400-2450 MHz segment has hosted amateur satellite links for decades, from the S-band downlinks of AO-40 and AO-51 to the 2400-2410 MHz uplink of the QO-100 geostationary transponder. It described the 5830-5850 MHz segment as an important option for higher-rate microwave downlinks. The comments explain that amateur satellite links are often weak-signal links with margins that may be only a few decibels. Terrestrial Part 15 emissions generally arrive from directions that a ground station’s antenna attenuates while tracking a satellite, but a co-frequency satellite in or near the antenna’s main beam may be received at high gain. For a reference ground station with a 60 cm dish, AMSAT’s technical appendix finds a difference of about 35 dB between the signal level an illustrative consumer downlink would need and the level that would protect the amateur receiver. AMSAT called this a serious warning about compatibility at 2400-2450 MHz rather than a complete sharing study, and said the whole 2400-2483.5 MHz band should be excluded from any downlink framework absent a convincing demonstration of compatibility. On the uplink side, AMSAT noted that links to orbit could favor outdoor, skyward transmissions, while many Wi-Fi and Bluetooth links today operate indoors or below maximum power. Its bounding calculations show that a single device at the maximum permitted power spectral density could approach the interference allowance of a narrowband transponder channel on a low Earth orbit amateur satellite …"
+    }
+   ]
+  },
+  {
+   "id": "amsat-dl",
+   "name": "AMSAT-DL",
+   "sprache": "de",
+   "rubriken": [
+    "satellit"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 1,
+   "hinweise": [
+    "https://amsat-dl.org/feed/: 10 Einträge im Feed, 1 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "Mitgliederversammlung JHV 2026",
+     "url": "https://amsat-dl.org/mitgliederversammlung-jhv-2026/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "Liebe Mitglieder, Zur Erinnerung: Die Mitgliederversammlung findet am Sonntag, 15. November 2026, von 11:00 bis 14:30 Uhr im Radom der Sternwarte Bochum statt. Veranstaltungsort Sternwarte Bochum Vereinssitz der AMSAT Deutschland Obernbaakstraße 6 44797 Bochum Tagesordnung 11:00 bis 12:30 Uhr Begrüßung und Feststellung der ordnungsgemäßen Einladung zur Mitgliederversammlung Wahl des Protokollführers Geschäftsbericht des Vorstandes Kassenbericht und Kassenprüfungsbericht Aussprache über die Berichte Entlastung des Vorstandes Verschiedenes 12:30 bis 13:30 Uhr Mittagspause mit Imbiss 13:30 bis 14:30 Uhr Weiterer Erfahrungsaustausch über anstehende Projekte im Radom Der Vorstand freut sich über ein zahlreiches Erscheinen und die Gelegenheit, gemeinsam mit den Mitgliedern auf die Aktivitäten …"
+    }
+   ]
+  },
+  {
+   "id": "oevsv",
+   "name": "ÖVSV",
+   "sprache": "de",
+   "rubriken": [
+    "verband",
+    "regulatorik"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 3,
+   "hinweise": [
+    "https://www.oevsv.at/: 5 Kandidaten, 2 davon schon bekannt"
+   ],
+   "eintraege": [
+    {
+     "titel": "MeshDay via OffGrid Messaging",
+     "url": "https://www.oevsv.at/oevsv/aktuelles/MeshDay-via-OffGrid-Messaging/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Was ist Amateurfunk? Wie werde ich Funkamateur? UKW-Referat (Bandpläne, Relais etc.) VHF/UHF/SHF Aktivitätscontests Jeden Monat am 13. läuft eine Aktivität über das MeshCom-Netz in Österreich und allen Ländern welche mit diesem Offf-Grid-Netz verbunden sind. Die Idee einmal im Monat das Netzwerk zu testen ist kein Wettbewerb sondern eine Aktivität welche das MeshCom-Netz in seiner Vielfalt darstellt und nutzt. DK0RZ-13 bietet eine sehr schön gestaltete QSL-Karte welche automatisch und als Sofortantwort versendet wird. …"
+    },
+    {
+     "titel": "IBT M17 Aktuell",
+     "url": "https://www.oevsv.at/oevsv/aktuelles/IBT-M17-Aktuell/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "QSP - Amateurfunkjournal des ÖVSV ÖVSV Amateurfunkzentrum Wiener Neudorf Was ist Amateurfunk? Wie werde ich Funkamateur? UKW-Referat (Bandpläne, Relais etc.) VHF/UHF/SHF Aktivitätscontests IBT Digitale Sprachen Aktuell M17 Für alle interessierten Zuhörer eine Aktualisierung der \"Digitalen Sprachbetriebsarten\" in Östrerreich. Die Betriebsarten M17 ist bei diesem Vortrag im Vordergrund gestanden. Der Vortrag soll die \"Kenner\" von M17 wieder näher an diese Technik bringen und ein wichtiger Teil dieses Vortrags wird die zahlreichen Newcomer an diese Betriebsarten heranfürhren. Vortragsthemen …"
+    },
+    {
+     "titel": "Mitgliederdatenbank auf SSO umgestellt",
+     "url": "https://www.oevsv.at/oevsv/aktuelles/OeVSV-Mitgliederdatenbank-Mitgliederdatenbank-auf-SSO-umgestellt/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Die Anmeldung zur ÖVSV Mitgliederdatenbank ist jetzt auf ein sogenanntes Single-Sign-on-Systems (SSO) System umgestellt worden. Damit können zukünftig diverse Online-Dienste des Vereins über einen zentrallen Login erreicht werden. Derzeit werden unterstützt: Mikrowellen-Auswertung sowie 🔗UKW-Auswertung Gleichzeitig dient die WebDB als zentrale Datenquelle für alle ÖVSV-Benutzerkonten, die in Keycloak, unserem SSO-System, eingerichtet sind. Damit ist auch die Grundlage geschaffen, weitere Anwendungen über denselben Login zugänglich zu machen. In den kommenden Monaten werden wir schrittweise …"
+    }
+   ]
+  },
+  {
+   "id": "uska",
+   "name": "USKA",
+   "sprache": "de",
+   "rubriken": [
+    "verband",
+    "regulatorik",
+    "technik"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 8,
+   "hinweise": [
+    "https://uska.ch/de/news/: 20 Kandidaten, 4 davon schon bekannt"
+   ],
+   "eintraege": [
+    {
+     "titel": "Einladung: Chlause-Hock im «Birch»",
+     "url": "https://uska.ch/de/einladung-chlause-hock-im-birch/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Wie letztes Jahr veranstaltet HB9FS wieder einen Chlause-Hock. Es soll wie üblich ein gemütlicher Nachmittag mit Gleichgesinnten werden. Der Kanonenofen wird alle schön warm halten, und dank Solar- oder Generatorstrom wird es auch hell sein. Selbstverständlich wird passend zum Thema Speis und Trank organisiert. Wenn jemand etwas Spezielles wünscht, kann sie/er es gerne mitbringen. Datum: Samstag, 28. November Zeit: 14 Uhr Ort: im «Birch» Das «Birch» ist leicht zu finden: Einfach «HB9FS» in Google Maps eingeben. Es befindet sich unterhalb der Verbindungsstrasse Füllinsdorf–Giebenach, an der …"
+    },
+    {
+     "titel": "Neue WhatsApp-Gruppe für blinde und sehbehinderte Funkamateure",
+     "url": "https://uska.ch/de/neue-whatsapp-gruppe-fuer-blinde-und-sehbehinderte-funkamateure/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Die IG Blind HAMs Switzerland hat eine WhatsApp-Gruppe gegründet. Sie soll blinde und sehbehinderte Funkamateurinnen und Funkamateure in der Schweiz vernetzen und steht allen Interessierten offen. Die Interessengemeinschaft Blind HAMs Switzerland bietet ab sofort eine eigene WhatsApp-Gruppe an. Sie dient dem Austausch unter blinden und sehbehinderten Funkamateur/-innen in der Schweiz. Willkommen sind ausdrücklich auch OM und YLs, die selbst nicht betroffen sind, sich aber für das Thema interessieren und etwas beitragen möchten. Spass am Hobby Ob Einsteiger/-in oder alter Hase, welche …"
+    },
+    {
+     "titel": "HBradio 5/2026 ab sofort online",
+     "url": "https://uska.ch/de/hbradio-5-2026-online/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Die neue Ausgabe des HBradio steht zum Download bereit. Im Heft unter anderem: ein berührendes Interview mit einem blinden Funkamateur, Praxistipps für portable Antennen und alles zur neuen USKA-Website. Kein Stift, kein Papier! Wolfgang Fasser, HB9CCS, erblindete mit 22 Jahren und funkt heute mit Sprachausgabe, Begali-Taste und barrierefreien Contestprogrammen. Ein Interview über Amateurfunk ohne Sehkraft. Die neue USKA-Website: Andreas Spiess, HB9BLA, erklärt, was sich ändert: vier Sprachen, eine eigene Adresse «Rufzeichen@uska.ch» für jedes Mitglied und der Support-Bot «Uski». Erhöhte …"
+    },
+    {
+     "titel": "Reminder: Notfunk-Tagung am 10. Oktober 2026",
+     "url": "https://uska.ch/de/reminder-notfunk-tagung-am-samstag-10-oktober-2026/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Am nächsten Samstag ist es soweit: Die USKA lädt zur EmComm-Tagung 2026 nach Brütten ein. Erstmals richtet sich die Fachtagung gezielt auch an Vertreterinnen und Vertreter von Behörden und Rettungsorganisationen. Das erwartet dich: Behördenblock: Dominik Schwerzmann, HB3YQP, Leiter des Amts für Bevölkerungsschutz, Zivilschutz und Militär des Kantons Zug, berichtet aus der Praxis der Zusammenarbeit zwischen Behörden und Funkamateuren. Die «letzte Meile»: Vorgestellt wird ein speziell konzipiertes Notfunk-Rack, das Jedermannsfunk wie CB-Funk und PMR-446 in das Einsatzkonzept einbindet (siehe …"
+    },
+    {
+     "titel": "Generalkonferenz der IARU Region 1 beendet",
+     "url": "https://uska.ch/de/generalkonferenz-der-iaru-region-1-beendet/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Bildlegende: Auf dem Foto sind das neue Exekutivkomitee sowie einige Funktionäre der IARU-R1 abgebildet. Von links nach rechts, vordere Reihe: 9K2DB, OD5RI, 5B4APB, OE3FTA, PB2T, EI5IXB, HB9EYH, ZS4BS. Hintere Reihe: F6BEE, 3V9A, OE3MZC, OM3BH, 5B4AHZ, DL8GM, EA1JAY, G0DUB, HB9SSB, ON6TI. Gegen unkoordinierte nationale Eingriffe Vom 19. bis 23. September verhandelten die Delegierten der IARU Region 1 aus 38 Ländern im Parkhotel Schönbrunn in Wien unter anderem über Frequenzzuteilungen und die kommenden Leitlinien für den grenzüberschreitenden Funkverkehr. Denn: Frequenzen halten sich an keine …"
+    },
+    {
+     "titel": "Veranstaltungstipp: «Matrix trifft Smith Chart»",
+     "url": "https://uska.ch/de/veranstaltungstipp-matrix-trifft-smith-chart/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Tuner im Shack oder am Fusspunkt – was ändert sich wirklich? Wie viel Leistung verschwindet im Tuner, wie viel in der Speiseleitung? Welche Bauteile braucht es, um einen Ganzwellendipol sauber an 50 Ohm anzupassen? Wie lang muss ein Viertelwellentransformator aus einem bestimmten Koaxialkabel sein, damit er funktioniert – und was kostet das an Verlust? Solche Fragen stehen im Zentrum des Vortrags «Matrix trifft Smith Chart: Wie man HF-Netzwerke simuliert und anpasst (a fool with a tool is still a fool)». Mathias HB9FRV erklärt die nötige Theorie kompakt und führt dann direkt in die Praxis: Er …"
+    },
+    {
+     "titel": "Neue Website der USKA online",
+     "url": "https://uska.ch/de/neue-website-der-uska-online/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Die USKA hat ihre Internetpräsenz unter www.uska.ch grundlegend erneuert. Andreas HB9BLA hat das gesamte Projekt während der letzten sechs Monate geleitet und umgesetzt. Nach dieser Entwicklungszeit ersetzt ein kompletter Neustart die alte, historisch gewachsene Plattform. Im Zentrum der Modernisierung stehen erhöhte Sicherheit, vereinfachte Abläufe und eine automatisiert erstellte Struktur. Die Website ist nun viersprachig in Deutsch, Französisch, Italienisch und Englisch verfügbar, wobei Übersetzungen für Fachtexte über DeepL eingebunden wurden. Personenbezogene Daten sind zentral in …"
+    },
+    {
+     "titel": "Wichtig! Field Day 2026: Fristen und Spielregeln für die Logs",
+     "url": "https://uska.ch/de/wichtig-field-day-2026-fristen-und-spielregeln-fuer-die-logs/",
+     "datum": null,
+     "datum_herkunft": "unbekannt",
+     "auszug": "Die Antennen sind abgebaut, die QSOs im Kasten. Aber Hand aufs Herz: Wer liest vor einem Contest schon das ganze Reglement von A bis Z? Genau deshalb haben wir für den SSB Field Day 2026 ein paar Punkte herausgepickt, die unbedingt zu beachten sind, damit es keine bösen Überraschungen gibt. 8 Tage – und die Uhr läuft Nach dem Field Day habt ihr 8 Tage Zeit, Euer Log einzureichen. Nicht 9, nicht «wenn ich am Wochenende dazu komme» und auch nicht «ich dachte, der Kollege macht das». Die Logs müssen zwingend über das webbasierte User-Interface der USKA eingereicht werden: …"
+    }
+   ]
+  },
+  {
+   "id": "arrl",
+   "name": "ARRL News",
+   "sprache": "en",
+   "rubriken": [
+    "verband",
+    "technik"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 2,
+   "hinweise": [
+    "https://www.arrl.org/news: 8 Kandidaten, 1 davon schon bekannt"
+   ],
+   "eintraege": [
+    {
+     "titel": "2026 Veterans Day - Amateur Radio Events. ARRL Closed Nov. 11",
+     "url": "https://www.arrl.org/news/2026-veterans-day-amateur-radio-events-arrl-closed-nov-11",
+     "datum": "2026-11-09",
+     "datum_herkunft": "liste",
+     "auszug": "11/09/2026 Many amateur radio clubs and organizations are planning on-air commemorations and special events for Veterans Day 2026. Visit the ARRL Special Events Stations database, and contact the following stations on-the-air: In Tampa, Florida, the American Victory Amateur Radio Club will be operating W4V, focusing on 14.265 MHz, on November 11 from 1500-2130 UTC. QSL via KE9VS. American Victory Amateur Radio Club is an ARRL Affiliated Club. The USS Orleck Amateur Radio Society will have W4JDD on the air from 1400-2100 UTC on November 11, on 7.190, 7.250, 14.250, and 14,.320 MHz. Certificate …"
+    },
+    {
+     "titel": "A Century-Plus of Radio Innovation: The 102nd ARRL Handbook is Now Available",
+     "url": "https://www.arrl.org/news/a-century-plus-of-radio-innovation-the-102nd-arrl-handbook-is-now-available",
+     "datum": "2026-11-09",
+     "datum_herkunft": "liste",
+     "auszug": "11/09/2026 First published in 1926, The ARRL Handbook has helped generations of radio amateurs turn curiosity into knowledge, ideas into circuits, and experiments into new discoveries. Over the past century, it has evolved alongside radio technology, reflecting new developments and inspiring hands-on learning and experimentation. Edited by Gregory D. Lapin, Ph.D., P.E., N9GL, the 102nd edition continues The ARRL Handbook’s long history of technical excellence, with updated coverage of radio electronics, circuit design, antennas, propagation, digital communications, testing, and …"
+    }
+   ]
+  },
+  {
+   "id": "rtl-sdr",
+   "name": "RTL-SDR Blog",
+   "sprache": "en",
+   "rubriken": [
+    "technik"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 8,
+   "hinweise": [
+    "https://www.rtl-sdr.com/feed/: 8 Einträge im Feed, 8 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "MultiPSK Will Become Free of Charge From January 2027",
+     "url": "https://www.rtl-sdr.com/multipsk-will-become-free-of-charge-from-january-2027/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "feed",
+     "auszug": "Recently we've seen that Patrick Lindecker (F6CTE), the author of the long-running MultiPSK decoding software, has updated the MultiPSK licence page to note that no more user keys will be sold from 1 January 2027, and that the software will be free of charge from then. Currently, a user key that unlocks the full version costs 35 Euros. MultiPSK is a Windows program famously known for being able to decode a huge range of amateur radio and utility signals, including PSK31, RTTY, FT8, ACARS, AIS, …"
+    },
+    {
+     "titel": "D325f-SDR LG Phone SDR Update: App 2.0, Meteor-M HRPT Reception and an SNR Comparison Against the RTL-SDR Blog V4",
+     "url": "https://www.rtl-sdr.com/d325f-sdr-lg-phone-sdr-update-app-2-0-meteor-m-hrpt-reception-and-an-snr-comparison-against-the-rtl-sdr-blog-v4/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "Back in October, we posted about D325f-SDR, a project from Logan Zarov that turns the Qualcomm cellular modem in an old LG D325 Android phone into an SDR, using the phone's own Bluetooth transmitter as a local oscillator to reach below 800 MHz. Logan has written in again about some updates to the software. Version 2.0 of the app adds scheduled recordings with the screen off, recovery after modem failures, an IQ inversion switch, and Bluetooth channel and power settings. Logan has also received …"
+    },
+    {
+     "titel": "MultiScan SDR: A Multi-Band Pseudo-Spectrum Scanner for RTL-SDR, HackRF, Airspy and SDRplay",
+     "url": "https://www.rtl-sdr.com/multiscan-sdr-a-multi-band-pseudo-spectrum-scanner-for-rtl-sdr-hackrf-airspy-and-sdrplay/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "Thanks to Mike for writing in and sharing his freeware program \" MultiScan SDR \". It's a fast, wideband scanner for Windows and macOS that sweeps several bands side by side and stops only on real transmissions. It supports the RTL-SDR, HackRF, Airspy, SDRplay RSP series, and Fobos SDR. The main feature is what Mike calls a \"pseudo-spectrum\", which doesn't display raw power. Instead, MultiScan sets the noise floor of every frequency to 0 dB, so each channel shows how far it rises above its own …"
+    },
+    {
+     "titel": "ATS Mini Controller: A Web App for the ATS Mini Receiver with an Experimental Browser-Based RTL-SDR Mode",
+     "url": "https://www.rtl-sdr.com/ats-mini-controller-a-web-app-for-the-ats-mini-receiver-with-an-experimental-browser-based-rtl-sdr-mode/",
+     "datum": "2026-11-12",
+     "datum_herkunft": "feed",
+     "auszug": "Thank you to Grzegorz Zajac for writing in and sharing ATS Mini Controller , a free web app for the ATS Mini. The ATS Mini is a low-cost pocket shortwave receiver based on an ESP32-S3 and the SI4732 broadcast radio receiver IC. The app connects to the radio over USB or Bluetooth LE from Chrome, Edge or Opera, with nothing to install. From the browser, you can tune the radio, manage its memory slots, tune straight from an offline copy of the EiBi shortwave schedule, run spectrum scans, and …"
+    },
+    {
+     "titel": "SatHunterSDR: An Open-Source Android App for Hunting CubeSats with an RTL-SDR",
+     "url": "https://www.rtl-sdr.com/sathuntersdr-an-open-source-android-app-for-hunting-cubesats-with-an-rtl-sdr/",
+     "datum": "2026-11-11",
+     "datum_herkunft": "feed",
+     "auszug": "Thank you to Zoltán Dóczi (HA7DCD) from Z2Labs for writing in and sharing ' SatHunterSDR ', a new satellite-hunting SDR receiver app for Android . You pick a satellite, the app tunes to it and follows its Doppler shift, and a sky radar turns with your phone to help point the antenna. Nearby satellites are also labeled on the waterfall at their Doppler-shifted frequencies. The app works with RTL-SDRs (tested with our RTL-SDR Blog V3) and ESP32-S3 ESP-SDR devices over USB OTG, and includes CW, …"
+    },
+    {
+     "titel": "ESP-WiFi-Jam-Detector: A Standalone 2.4 and 5 GHz Interference Detector Built on an ESP32-C5 Touchscreen Board",
+     "url": "https://www.rtl-sdr.com/esp-wifi-jam-detector-a-standalone-2-4-and-5-ghz-interference-detector-built-on-an-esp32-c5-touchscreen-board/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "feed",
+     "auszug": "Back in October, we posted that several projects found that ESP32 microcontrollers can capture raw I/Q samples and therefore be used as an SDR. Now Jordan has written in to share his ' ESP-WiFi-Jam-Detector ', a standalone, receive-only interference detector built on the ESPARGOS esp-sdr code and a Waveshare ESP32-C5-Touch-LCD-3.5 touchscreen board. Using the ESP32-C5's own Wi-Fi receiver, the device sweeps 2400 - 2483.5 MHz and 5150 - 5895 MHz at 80 MS/s, with no PC needed. It learns a …"
+    },
+    {
+     "titel": "SDR-Receiver: A Native macOS SDR App with 25+ Decoders, Now Including Loran-C / eLoran",
+     "url": "https://www.rtl-sdr.com/sdr-receiver-a-native-macos-sdr-app-with-25-decoders-now-including-loran-c-eloran/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "feed",
+     "auszug": "Thank you to Marcus Roskosch (DL8MRE), the developer of ' SDR-Receiver ', for writing in about its latest updates. SDR-Receiver is a native macOS app with 25+ decoders for USB SDRs such as the RTL-SDR, HackRF, Airspy and PlutoSDR. The app supports ADS-B, AIS, ACARS, APRS, POCSAG, RDS, CW, speech transcription, HFFAX, SSTV, WSPR, FT8, FT4, FT2, ALE, RTTY, NAVTEX/SITOR-B, DSC, Selcall, EFR and time signals. Version 1.15 adds a Loran-C / eLoran decoder for the 100 kHz long-wave navigation chains, …"
+    },
+    {
+     "titel": "Decoding TETRA Voice on a Retevis C62 Handheld with Custom OpenRTX Firmware",
+     "url": "https://www.rtl-sdr.com/decoding-tetra-voice-on-a-retevis-c62-handheld-with-custom-openrtx-firmware/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "feed",
+     "auszug": "Thank you to Wojciech Kaczmarski (SP5WWP) for sharing his recent blog post showing that a low-cost analog VHF/UHF US$50 Retevis C62 handheld radio can decode TETRA voice with some custom firmware. We note that the Retevis C62 uses the same BK4819 RF chip as the popular Quansheng UV-K5. Wojciech explains that because TETRA's pi/4-DQPSK encoding is differential, it can be treated as 4-level FSK after a plain FM demodulator, and a single register setting widens the BK4819 to 25 kHz channels. The …"
+    }
+   ]
+  },
+  {
+   "id": "hackaday",
+   "name": "Hackaday, Radio",
+   "sprache": "en",
+   "rubriken": [
+    "technik"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 1,
+   "hinweise": [
+    "https://hackaday.com/category/radio-hacks/feed/: 7 Einträge im Feed, 1 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "From Phone, To SDR, No Extra Hardware",
+     "url": "https://hackaday.com/2026/11/09/from-phone-to-sdr-no-extra-hardware/",
+     "datum": "2026-11-09",
+     "datum_herkunft": "feed",
+     "auszug": "One of the more exciting recent developments has been the discovery that many radio chips used in common and cheap wireless network interfaces, microcontrollers, LoRa interfaces and others can be persuaded to give access to their baseband data streams This gives them full SDR functionality, which on cheap devices is hugely interesting. Continuing that trend and taking it to a new height is [Logan Zarov], who’s converted an LG D325 Android phone into a wideband receiver with very minor …"
+    }
+   ]
+  },
+  {
+   "id": "amateurradio-com",
+   "name": "AmateurRadio.com",
+   "sprache": "en",
+   "rubriken": [
+    "technik",
+    "verband"
+   ],
+   "kern": false,
+   "nur_hinweis": false,
+   "status": "ok",
+   "anzahl": 4,
+   "hinweise": [
+    "https://www.amateurradio.com/feed: 25 Einträge im Feed, 4 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "AmateurLogic 223: It’s Friday 13th",
+     "url": "https://www.amateurradio.com/amateurlogic-223-its-friday-13th/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "AmateurLogic.TV Episode 223 is now available for download. Replacing a lead acid UPS battery with a LifePO4. HF Mobile Antenna installation surprises. The ultimate tool for quickly designing nice 3D printed boxes. Download YouTube This episode covers the following key segments: Battery Comparison: George conducts a performance comparison between a standard lead-acid battery and a … Continue reading AmateurLogic 223: It’s Friday 13th"
+    },
+    {
+     "titel": "AmateurLogic 223: It’s Friday 13th",
+     "url": "https://www.amateurradio.com/amateurlogic-223-its-friday-13th/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "AmateurLogic.TV Episode 223 is now available for download. Replacing a lead acid UPS battery with a LifePO4. HF Mobile Antenna installation surprises. The ultimate tool for quickly designing nice 3D printed boxes. Download YouTube This episode covers the following key segments: Battery Comparison: George conducts a performance comparison between a standard lead-acid battery and a … Continue reading AmateurLogic 223: It’s Friday 13th"
+    },
+    {
+     "titel": "Amateur Radio Weekly – Issue 447",
+     "url": "https://www.amateurradio.com/amateur-radio-weekly-issue-447/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "Hack the air: Amateur Radio in the 21st century An old hobby, seen through the eyes of someone who wants to open things up and see how they work. OK5VAS QRZBook Join the ultimate Ham Radio forum. Connect, share and discuss all things amateur radio with enthusiasts from around the world. M7JEX LinHT Rev C […]"
+    },
+    {
+     "titel": "LHS Episode #637: FieldQTH",
+     "url": "https://www.amateurradio.com/lhs-episode-637-fieldqth/",
+     "datum": "2026-11-10",
+     "datum_herkunft": "feed",
+     "auszug": "Hello and welcome back everyone! You're joining us for episode 637 of Linux in the Ham Shack, the most terrific amateur radio podcast on the internet! This week we're sharing news about what has been going on in our lives, as well as taking a look at FieldQTH and discuss the Asahi Linux drama."
+    }
+   ]
+  },
+  {
+   "id": "twiar",
+   "name": "This Week in Amateur Radio",
+   "sprache": "en",
+   "rubriken": [
+    "verband",
+    "dx",
+    "technik",
+    "satellit"
+   ],
+   "kern": false,
+   "nur_hinweis": true,
+   "status": "ok",
+   "anzahl": 10,
+   "hinweise": [
+    "https://twiar.net/?feed=rss2: 30 Einträge im Feed, 28 im Zeitraum"
+   ],
+   "eintraege": [
+    {
+     "titel": "Via AMSAT: ANS-319 AMSAT News Service Weekly Bulletins",
+     "url": "https://twiar.net/2026/11/14/via-amsat-ans-319-amsat-news-service-weekly-bulletins/",
+     "datum": "2026-11-15",
+     "datum_herkunft": "feed",
+     "auszug": "ANS is a weekly news service provided by AMSAT. Visit them at AMSAT.org"
+    },
+    {
+     "titel": "via Hackaday: Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+     "url": "https://twiar.net/2026/11/14/via-hackaday-artemis-ii-rocket-was-powerful-enough-to-disrupt-gps/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "Rockets certainly have a substantial impact if you ever see a launch in person. The..."
+    },
+    {
+     "titel": "College students, amateur radio operators on Central Coast team up to create emergency radio network (California)",
+     "url": "https://twiar.net/2026/11/14/college-students-amateur-radio-operators-on-central-coast-team-up-to-create-emergency-radio-network-california/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "Its network of mountaintop towers can relay internet and voice communications during a major outage,..."
+    },
+    {
+     "titel": "via Hackaday: Hacking a Marine Radio Dish",
+     "url": "https://twiar.net/2026/11/14/via-hackaday-hacking-a-marine-radio-dish/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "Having watched some fun videos on repurposed satellite dishes on YouTube, [Melan] wanted to get..."
+    },
+    {
+     "titel": "Preliminary NTSB report released on Mosquito Control District helicopter crash (Florida)",
+     "url": "https://twiar.net/2026/11/13/preliminary-ntsb-report-released-on-mosquito-control-district-helicopter-crash-florida/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "A Manatee County Mosquito Control District helicopter struck an unlit, 150-foot radio tower before crashing..."
+    },
+    {
+     "titel": "Voices from the front: Inside the Military Auxiliary Radio System (MARS) and its most famous mission (Florida)",
+     "url": "https://twiar.net/2026/11/13/voices-from-the-front-inside-the-military-auxiliary-radio-system-mars-and-its-most-famous-mission-florida/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "As Veterans Day approaches, it seems appropriate to honor MARS – the Military Auxiliary Radio..."
+    },
+    {
+     "titel": "via Amateur Radio Daily: Before a Station Becomes a Silent Key: Preserving the Knowledge Behind the Equipment",
+     "url": "https://twiar.net/2026/11/13/via-amateur-radio-daily-before-a-station-becomes-a-silent-key-preserving-the-knowledge-behind-the-equipment/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "By Robert B. Davidheiser, Sr., Ph.D. (W5RBD) A radio station is more than a collection..."
+    },
+    {
+     "titel": "Via the RSGB: GB2RS News Script for 15 November 2026",
+     "url": "https://twiar.net/2026/11/13/via-the-rsgb-gb2rs-news-script-for-15-november-2026/",
+     "datum": "2026-11-14",
+     "datum_herkunft": "feed",
+     "auszug": "Read more at RSGB.co.uk"
+    },
+    {
+     "titel": "via Hackaday: Active Antenna Runs on a Single Lithium-Ion Cell",
+     "url": "https://twiar.net/2026/11/13/via-hackaday-active-antenna-runs-on-a-single-lithium-ion-cell/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "feed",
+     "auszug": "[skuep]’s Mobile-Whip is a compact, active receive-only antenna that is optimized for operation from a..."
+    },
+    {
+     "titel": "During a once-in-centuries eclipse, CWRU radio club ran a cross-country experiment—and found a surprise overhead (Ohio)",
+     "url": "https://twiar.net/2026/11/13/during-a-once-in-centuries-eclipse-cwru-radio-club-ran-a-cross-country-experiment-and-found-a-surprise-overhead-ohio/",
+     "datum": "2026-11-13",
+     "datum_herkunft": "feed",
+     "auszug": "Minutes after totality swept past Cleveland on April 8, 2024, Laura Schwartz and Maris Usis..."
+    }
+   ]
+  }
+ ]
+}
