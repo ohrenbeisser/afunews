@@ -1,0 +1,641 @@
+{
+  "kw": "2026-W46",
+  "zeitraum": {
+    "von": "2026-11-09",
+    "bis": "2026-11-15"
+  },
+  "erstellt": "2026-11-15T06:04:54+01:00",
+  "ueberblick": "Die DARC-Mitgliederversammlung hat am 14. November in Baunatal den Vorstand gewählt; Georg Westbeld, DL3YAT, ist neu im Gremium, Manfred Lauterborn, DK2PZ, bleibt Amateurratssprecher. Der DARC fördert Amateurfunkstationen an Schulen und Hochschulen; Bewerbungen sind bis 28. Februar 2027 möglich. Bei den DXpeditionen laufen HD4W aus Ecuador, VK9XY von der Weihnachtsinsel und ab 21. November A31W aus Tonga, während 3X4U in Guinea mit Stromproblemen kämpft. MultiPSK wird ab Januar 2027 kostenlos. In der kommenden Woche stehen am 21. und 22. November mehrere Conteste an.",
+  "ausbreitung": "Laut DARC-Funkwetterbericht vom 11. November blieben Sonnenaktivität und Geomagnetik meist ruhig bis mäßig, ein koronales Loch brachte Sonnenwind mit 450 bis 650 km/s. Tagsüber öffneten 12m und 15m interkontinental, 17m und 20m blieben die zuverlässigsten DX-Bänder, 40m und 80m boten nachts gute Bedingungen. Das FunkWX vom Wochenende nennt ruhige geomagnetische Bedingungen (Kp 0 bis 2) und ein geringes Flarerisiko; die NOAA rechnet bis 18. November mit einer Wahrscheinlichkeit von bis zu 60 Prozent für kleinere Radio-Blackouts.",
+  "meldungen": [
+    {
+      "id": "2026-W46-001",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Mitgliederversammlung wählt Vorstand: Georg Westbeld, DL3YAT, neu im Gremium",
+      "zusammenfassung": "Die Mitgliederversammlung des DARC e.V. hat am 14. November in Baunatal den Vorstand gewählt. Neu im Gremium ist Georg Westbeld, DL3YAT; Christian Entsfellner, DL3MBG, Ronny Jerke, DG2RON, und Ernst Steinhauser, DL3GBE, wurden in ihren Ämtern bestätigt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vorstand-wurde-gewaehlt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Vorstandswahl",
+        "Mitgliederversammlung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-002",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Mitgliederversammlung: Amateurratssprecher bestätigt",
+      "zusammenfassung": "Neben dem Vorstand standen auf der Mitgliederversammlung am 14. November weitere Wahlen an. Manfred Lauterborn, DK2PZ, wurde als Amateurratssprecher bestätigt; weitere Ergebnisse der Versammlung nennt der DARC in seiner Meldung.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/weitere-ergebnisse-von-der-darc-mitgliederversammlung/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Amateurrat",
+        "Mitgliederversammlung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-003",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC fördert Amateurfunkstationen an Schulen und Hochschulen",
+      "zusammenfassung": "Mit der Mitgliedschaft Pro 2026 unterstützt der DARC den Aufbau von Amateurfunkstationen an Schulen und Hochschulen. Ortsverbände können sich gemeinsam mit einer Bildungseinrichtung per formloser E-Mail mit kurzer Projektbeschreibung bewerben; gefördert werden Geräte, Antennen und Unterrichtsmaterial. Annahmeschluss ist der 28. Februar 2027.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/amateurfunk-an-schulen-wir-investieren-in-die-zukunft/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-10",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Schulen",
+        "Förderung",
+        "MINT"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-004",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "MINT-Sterne 2026 in Hessen und Baden-Württemberg verliehen",
+      "zusammenfassung": "Die MINT-Sterne 2026 gingen in Baden-Württemberg am 5. November an die Roboter-AG des Bildungszentrums Markdorf und das Schülerforschungszentrum phænovum in Lörrach, in Hessen am 9. November an das MINT-Zentrum Seeheim und das Projekt Next Generation Space des Gymnasiums Johanneum Herborn. Der DARC unterstützt den Wettbewerb und war an den Jurys beteiligt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/mint-sterne-hessen-verliehen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-10",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "MINT",
+        "Schulen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-005",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Arbeitsgruppe für barrierefreien Amateurfunk gründet E-Mail-Verteiler",
+      "zusammenfassung": "Nach einer ersten Videokonferenz zum Thema Funken mit Behinderung hat eine Gruppe um Norbert Bruchmann, DA6NB, den Verteiler barrierefrei@darc.de eingerichtet. Ortsverbände, Distrikte und Veranstalter können sich dort Tipps für barrierearme Angebote holen. Die nächste Videokonferenz ist für Montag, den 7. Dezember, 18 Uhr angesetzt.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/gemeinsam-huerden-beim-funken-abbauen/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-10",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Barrierefreiheit",
+        "CQ DL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-006",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Sonderrufzeichen DA26IDPD zum Tag der Menschen mit Behinderungen",
+      "zusammenfassung": "Das DARC-Team SES mit derzeit 55 Mitgliedern ist vom 15. November bis zum 15. Dezember unter DA26IDPD aktiv. Das Suffix steht für den International Day of Persons with Disabilities am 3. Dezember. QSL-Karten gibt es über das OQRS von Club Log, LoTW, das DARC Community Logbook oder DK5ON.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/DA26IDPD.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Sonderrufzeichen",
+        "DA26IDPD",
+        "SES"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-007",
+      "typ": "artikel",
+      "rubrik": "contest",
+      "titel": "DARC-FT4-Contest 2026: 52 Logs aus elf Ländern am Folgetag",
+      "zusammenfassung": "Beim DARC-Contestreferat gingen einen Tag nach dem FT4-Contest 52 Logs aus elf Ländern mit zusammen 2180 QSOs ein, davon 34 aus Deutschland. Die meisten deutschen Logs kamen aus den Distrikten Köln-Aachen (G) und Westfalen-Nord (N) mit je 5, gefolgt von Schleswig-Holstein (M) mit 4.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/darc-ft4-contest-2026-beendet/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-11",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "FT4",
+        "DARC-Contest",
+        "Logs"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-008",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "Voyager 1 erreicht am 18. November eine Entfernung von einem Lichttag",
+      "zusammenfassung": "Die Raumsonde Voyager 1 der NASA soll am 18. November gegen 10:18 UTC einen Lichttag von der Erde entfernt sein, rund 25,9 Milliarden Kilometer. Der DARC weist auf das Ereignis hin.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/voyager-1-am-18-november-einen-lichttag-von-der-erde-entfernt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-13",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Voyager 1",
+        "Raumfahrt",
+        "NASA"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-009",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Distriktsversammlung Oberbayern bestätigt Vorstand",
+      "zusammenfassung": "Bei der Distriktsversammlung Oberbayern (C) am 7. November wurde der bisherige Vorstand im Amt bestätigt: Distriktsvorsitzender Manfred Lauterborn, DK2PZ, sowie die Vertreter Alfred Fröschl, DL8FA, und Rainer Englert, DF2NU.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/distriktsversammlung-oberbayern-c-bestaetigt-vorstand-im-amt/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-10",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Distrikt C",
+        "Wahl"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-010",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "Ben, DL4ZM, Silent Key: langjähriger Sprecher des Sachsenrundspruchs",
+      "zusammenfassung": "Der Distrikt Sachsen meldet den Tod von Ben, DL4ZM. Er war fast 29 Jahre Redakteur und Sprecher des Sachsenrundspruchs unter DL0SAX und endete mit dem 450. Rundspruch. Er war im OV S36 aktiv und hatte seine Mitarbeit an der Aktion zu 100 Jahren Motorsport auf dem Sachsenring im nächsten Jahr angekündigt.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/ben-dl4zm-sk/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-10",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "Sachsen",
+        "Silent Key",
+        "Sachsenrundspruch"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-011",
+      "typ": "termin",
+      "rubrik": "contest",
+      "titel": "Conteste am 21. und 22. November: Herbstcontest Köln-Aachen, LZ DX, REF 160 m",
+      "zusammenfassung": "Laut Deutschland-Rundspruch laufen am 21. November der Herbstcontest des Distrikts Köln-Aachen, der All Austrian 160m-Contest und der RSGB 1,8 MHz Contest. Am 21. und 22. November folgen der LZ DX Contest und der REF 160 m Contest; der Herbstcontest Köln-Aachen läuft am 22. November weiter.",
+      "quelle": {
+        "name": "DARC (Deutschland-Rundspruch)",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-452026-46-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-12",
+      "wichtigkeit": 2,
+      "region": "DACH",
+      "tags": [
+        "Contest",
+        "160m",
+        "LZ DX",
+        "REF"
+      ],
+      "termin": {
+        "beginn": "2026-11-21T00:00:00Z",
+        "ende": "2026-11-22T23:59:00Z",
+        "rufzeichen": [],
+        "baender": [
+          "160m"
+        ],
+        "betriebsarten": []
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W46-012",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Plasma-Antenne aus Laserstrahl übertrug 5 cm weit bei 30 MHz",
+      "zusammenfassung": "Forscher der North Carolina State University haben eine Antenne aus laserinduziertem Plasma gebaut, die elektrisch leitet und eine Metallantenne ersetzen kann. Im Experiment gelang eine Übertragung bei 30 MHz bisher nur über 5 cm im Nahfeld, ein praktischer Einsatz im Feld ist damit noch weit entfernt.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/das-sendende-plasmaschwert.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-13",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Antenne",
+        "Plasma",
+        "Forschung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-013",
+      "typ": "artikel",
+      "rubrik": "ausbreitung",
+      "titel": "Artemis-2-Start riss ein Loch in die Ionosphäre",
+      "zusammenfassung": "Laut einer Vorabveröffentlichung in Geophysical Research Letters löste der Start von Artemis 2 am 1. April drei Störungswellen in der Ionosphäre aus. Zwei Zündungen der Oberstufe in rund 185 km Höhe erzeugten ein Elektronenloch von etwa 5000 km Ausdehnung über Nordamerika und störten die GPS-Navigation. Der FUNKAMATEUR vermutet auch Auswirkungen auf den Kurzwellenfunk.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/artemis-2-mission-schoss-loch-in-ionosphaere.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-09",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Ionosphäre",
+        "Artemis 2",
+        "GPS"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-014",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "MultiPSK wird ab Januar 2027 kostenlos",
+      "zusammenfassung": "Der Autor von MultiPSK, Patrick Lindecker, F6CTE, verkauft ab dem 1. Januar 2027 keine Lizenzschlüssel mehr; die Windows-Software für zahlreiche Digitalmodi wird dann kostenlos. Bisher kostet der Schlüssel für die Vollversion 35 Euro.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/multipsk-will-become-free-of-charge-from-january-2027/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-13",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "MultiPSK",
+        "Software",
+        "Digitalmodi"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-015",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "SatHunterSDR: Android-App folgt Satelliten mit RTL-SDR",
+      "zusammenfassung": "Die quelloffene App SatHunterSDR von Zoltán Dóczi, HA7DCD, stimmt einen RTL-SDR oder ESP32-S3-Empfänger per USB-OTG auf den gewählten Satelliten ab und führt die Dopplerverschiebung nach. Ein Himmelsradar hilft beim Ausrichten der Antenne.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/sathuntersdr-an-open-source-android-app-for-hunting-cubesats-with-an-rtl-sdr/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-11",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Satelliten",
+        "SDR",
+        "Android"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-016",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "D325f-SDR: Altes LG-Handy als SDR, App in Version 2.0",
+      "zusammenfassung": "Das Projekt von Logan Zarov macht aus dem Mobilfunkmodem eines LG D325 einen SDR. Version 2.0 der App bringt geplante Aufnahmen bei ausgeschaltetem Bildschirm und Wiederherstellung nach Modemfehlern; zudem gibt es einen SNR-Vergleich mit dem RTL-SDR Blog V4 und Meteor-M-HRPT-Empfang.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/d325f-sdr-lg-phone-sdr-update-app-2-0-meteor-m-hrpt-reception-and-an-snr-comparison-against-the-rtl-sdr-blog-v4/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-12",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "Smartphone",
+        "Meteor-M"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-017",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "TETRA-Sprache auf Retevis-C62-Handfunkgerät mit OpenRTX-Firmware dekodiert",
+      "zusammenfassung": "SP5WWP zeigt, dass das rund 50 US-Dollar teure Retevis C62 mit angepasster OpenRTX-Firmware TETRA-Sprache dekodieren kann. Weil TETRA differenziell kodiert ist, lässt es sich nach dem FM-Demodulator wie 4-FSK behandeln; ein Registerwert weitet den BK4819-Chip auf 25-kHz-Kanäle.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/decoding-tetra-voice-on-a-retevis-c62-handheld-with-custom-openrtx-firmware/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-10",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "OpenRTX",
+        "TETRA",
+        "Handfunkgerät"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-018",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "MeshCom: monatlicher MeshDay am 13. über das Off-Grid-Netz",
+      "zusammenfassung": "Laut ÖVSV findet jeden Monat am 13. eine Aktivität über das MeshCom-Netz in Österreich und den angeschlossenen Ländern statt. Sie ist kein Wettbewerb, sondern ein Netztest; DK0RZ-13 versendet automatisch eine QSL-Karte als Sofortantwort.",
+      "quelle": {
+        "name": "ÖVSV",
+        "url": "https://www.oevsv.at/oevsv/aktuelles/MeshDay-via-OffGrid-Messaging/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "MeshCom",
+        "Off-Grid",
+        "ÖVSV"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-019",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "IARU-Region-1-Generalkonferenz in Wien beendet",
+      "zusammenfassung": "Die Delegierten aus 38 Ländern berieten vom 19. bis 23. September in Wien über Frequenzzuteilungen und Leitlinien für den grenzüberschreitenden Funkverkehr. Die USKA berichtet über die Ergebnisse und das neue Exekutivkomitee.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/generalkonferenz-der-iaru-region-1-beendet/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 2,
+      "region": "EU",
+      "tags": [
+        "IARU",
+        "Region 1",
+        "Frequenzen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-020",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "USKA-Zeitschrift HBradio 5/2026 erschienen",
+      "zusammenfassung": "Die neue Ausgabe bringt ein Interview mit dem blinden Funkamateur Wolfgang Fasser, HB9CCS, Praxistipps für portable Antennen und Informationen zur neuen USKA-Website.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/hbradio-5-2026-online/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "USKA",
+        "HBradio",
+        "Schweiz"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-021",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "AMSAT-News-Service ANS-319: OSCAR-Nummern SO-131 und SO-132, FCC-Stellungnahme",
+      "zusammenfassung": "Der AMSAT News Service vom 15. November meldet, dass UNNE-1B und HADES-L die OSCAR-Bezeichnungen SO-131 und SO-132 erhalten haben. AMSAT hat zudem bei der FCC Stellung zur geplanten Satellitennutzung bei 2,4 und 5,8 GHz bezogen.",
+      "quelle": {
+        "name": "AMSAT-NA",
+        "url": "https://www.amsat.org/ans-319-amsat-news-service-weekly-bulletins/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-15",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "AMSAT",
+        "OSCAR",
+        "FCC"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-022",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "3X4U Guinea: Stromausfall zwingt Team zu FT8 auf 30m und 60m",
+      "zusammenfassung": "Die DXpedition 3X4U meldet Probleme mit dem Hauptgenerator und beiden Ersatzgeneratoren und läuft auf Batterie. Vorerst ist das Team nur in FT8 auf 30m und 60m QRV, auf 20m mit niedriger Leistung wäre der Betrieb am RTTY-Contest-Wochenende nicht sinnvoll.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/3x4u-guinea-dxpedition-2026/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "3X4U",
+        "Guinea",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-023",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "VK9XY Weihnachtsinsel vom 16. November bis 4. Dezember",
+      "zusammenfassung": "Ein Team von acht jungen Funkamateuren ist laut NG3K vom 16. November bis 4. Dezember als VK9XY von der Weihnachtsinsel aktiv, auf 160m bis 6m in CW, SSB, FT8 und FT4, auch für den CQWW CW. QSOs mit dem Team zählen für IOTA; QSL über M0OXO.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/vk9xy-christmas-island-2026/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-13",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "VK9XY",
+        "Christmas Island",
+        "IOTA"
+      ],
+      "termin": {
+        "beginn": "2026-11-16T00:00:00Z",
+        "ende": "2026-12-04T23:59:00Z",
+        "rufzeichen": [
+          "VK9XY"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "CW",
+          "SSB",
+          "FT8",
+          "FT4"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W46-024",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "A31W Tonga: Team reist zum CQWW CW nach Vava'u",
+      "zusammenfassung": "K0AV, K7TD und W6NV reisen nach Tonga und sind ab dem 21. November von Vava'u (IOTA OC-064) als A31W, A31WW, A31AV und A31TD aktiv, vor allem im CQ WW CW Contest.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/a31w-tonga/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "A31W",
+        "Tonga",
+        "CQWW CW"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-025",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "HD4W Ecuador: DXpedition nach Lizenzerteilung bestätigt",
+      "zusammenfassung": "PY8WW hat die DXpedition HD4W nach der Lizenzerteilung bestätigt. Sie findet laut NG3K vom 15. bis 22. November von der Insel Cojimíes (IOTA SA-056) statt, auf 40m bis 6m in SSB, CW und FT8; QSL über Club Log OQRS.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/hd4w-esmeraldas-province-group-sa-056/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "HD4W",
+        "Ecuador",
+        "IOTA SA-056"
+      ],
+      "termin": {
+        "beginn": "2026-11-15T00:00:00Z",
+        "ende": "2026-11-22T23:59:00Z",
+        "rufzeichen": [
+          "HD4W"
+        ],
+        "baender": [],
+        "betriebsarten": [
+          "SSB",
+          "CW",
+          "FT8"
+        ]
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W46-026",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "VP0SG Südgeorgien: Container nach Stanley verschifft",
+      "zusammenfassung": "Mehrere Teammitglieder der DXpedition VP0SG haben in Oslo den Container für den Transport nach Stanley auf den Falklandinseln gepackt. Die DXpedition ist für März 2027 geplant.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/vp0sg-south-georgia-island/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "VP0SG",
+        "South Georgia",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W46-027",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "PJ6/DL8DYL und PJ6/DL9DRA von Saba mit eingeschränkter Station",
+      "zusammenfassung": "Ralf, DL9DRA, und Irina, DL8DYL, sind von Saba aktiv. Wegen begrenzter Antennen, geringer Leistung und Störgeräuschen ist der Empfang schlechter als erhofft.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/pj6-dl8dyl-pj6-dl9dra-saba/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-14",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "PJ6",
+        "Saba",
+        "DL"
+      ],
+      "termin": null,
+      "video": null
+    }
+  ]
+}

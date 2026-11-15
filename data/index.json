@@ -1,6 +1,12 @@
 {
-  "aktualisiert": "2026-11-08T09:54:38+01:00",
+  "aktualisiert": "2026-11-15T06:04:54+01:00",
   "wochen": [
+    {
+      "kw": "2026-W46",
+      "datei": "2026/2026-W46.json",
+      "erstellt": "2026-11-15T06:04:54+01:00",
+      "anzahl_meldungen": 27
+    },
     {
       "kw": "2026-W45",
       "datei": "2026/2026-W45.json",
