@@ -1,8 +1,8 @@
 {
-  "abgerufen": "2026-11-08T09:32:21Z",
+  "abgerufen": "2026-11-15T09:51:53Z",
   "zeitraum": {
-    "von": "2026-10-31T09:32:21Z",
-    "bis": "2026-11-08T09:32:21Z"
+    "von": "2026-11-07T09:51:53Z",
+    "bis": "2026-11-15T09:51:53Z"
   },
   "kanaele": [
     {
@@ -17,21 +17,21 @@
       "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
       "ok": true,
       "videos_im_feed": 15,
-      "videos_im_zeitraum": 2
+      "videos_im_zeitraum": 0
     },
     {
       "name": "Funkwelle",
       "channel_id": "UCQu_laGfjCpn_7IUe6yAKwA",
       "ok": true,
       "videos_im_feed": 15,
-      "videos_im_zeitraum": 0
+      "videos_im_zeitraum": 1
     },
     {
       "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
       "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
       "ok": true,
       "videos_im_feed": 15,
-      "videos_im_zeitraum": 6
+      "videos_im_zeitraum": 7
     },
     {
       "name": "DG2YCB",
@@ -59,10 +59,76 @@
       "channel_id": "UC_dDiEsZNbDYbrPDL-fkMxA",
       "ok": true,
       "videos_im_feed": 15,
-      "videos_im_zeitraum": 1
+      "videos_im_zeitraum": 0
     }
   ],
   "videos": [
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "WkPL16Nlj-0",
+      "titel": "G7250 SDR Tranceiver - Important info regarding Firmware update 1.0.1 - problem solved 👍👍",
+      "veroeffentlicht": "2026-11-14T19:48:52+00:00",
+      "url": "https://www.youtube.com/shorts/WkPL16Nlj-0",
+      "ist_short": true,
+      "beschreibung": "I have received important information from Radioddity regarding the firmware update.\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "EnKBrDKx7YM",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - How to update the firmware",
+      "veroeffentlicht": "2026-11-13T12:17:05+00:00",
+      "url": "https://www.youtube.com/watch?v=EnKBrDKx7YM",
+      "ist_short": false,
+      "beschreibung": "Radioddity / XIEGU released FW v1.0.1\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\n\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "H0AXlnnPOdg",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - Digimodes like FT4 & FT8 etc. via Bluetooth?",
+      "veroeffentlicht": "2026-11-11T19:05:32+00:00",
+      "url": "https://www.youtube.com/watch?v=H0AXlnnPOdg",
+      "ist_short": false,
+      "beschreibung": "Are CAT control and audio available when the radio is connected via BT?\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\n\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "wwhV90tSPAI",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - Does a Bluetooth Headset or Microphone work?",
+      "veroeffentlicht": "2026-11-11T17:33:45+00:00",
+      "url": "https://www.youtube.com/shorts/wwhV90tSPAI",
+      "ist_short": true,
+      "beschreibung": "🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "Funkwelle",
+      "channel_id": "UCQu_laGfjCpn_7IUe6yAKwA",
+      "sprache": "de",
+      "video_id": "k4Dzo26IUoI",
+      "titel": "160 Dekoder, null Euro: Die SDR Software, die alles ersetzt",
+      "veroeffentlicht": "2026-11-10T16:00:01+00:00",
+      "url": "https://www.youtube.com/watch?v=k4Dzo26IUoI",
+      "ist_short": false,
+      "beschreibung": "Für jeden Funkdienst eine eigene SDR Software? Damit ist jetzt Schluss. OnAir bündelt über 160 Dekoder unter einer Oberfläche, ich teste die Software mit dem HackRF One von der Kurzwelle bis zum Digitalfunk. Ob das Dekodieren von C4FM in Deutschland legal ist, erfährst du weiter unten.\n\nOnAir ist ein freies Open-Source-Programm für Windows, macOS, Linux und Android. Neben dem HackRF One laufen auch RTL-SDR, Airspy, SDRplay und viele weitere Software Defined Radios. Im Video zeige ich dir AM, SSB und CW auf Kurzwelle, den CW-Dekoder, FT8, UKW mit RDS, DAB+ Digitalradio, Fernsehen per DVB-T2, IoT-Signale wie Zigbee und 433-MHz-Sensoren, Meshtastic, APRS und ADS-B. Zum Schluss mache ich C4FM/System Fusion hörbar.\n\n🌍 LINKS aus dem VIDEO:\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n- OnAir Webseite: https://on-air.dev/\n- OnAir auf GitHub: https://github.com/adswill/OnAir\n- Anleitung zu den Codecs: https://github.com/adswill/OnAir/blob/main/docs/CODECS.md\n- MSYS2 Compiler: https://www.msys2.org/\n- mbelib (Quellcode): https://github.com/szechyjs/mbelib\n- OnAir Wiki: https://github.com/adswill/OnAir/wiki\n\n👕 SHIRTS aus dem VIDEO:\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n* Spreadshirt Shop: https://funkwelle.myspreadshop.de/\n* Amazon Shop: https://amzn.to/3cSMiw9\n\n👮‍♂️ INFOS zur RECHTSLAGE:\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\nDie patentierten Sprach-Codecs AMBE und IMBE liefert OnAir aus Lizenzgründen nicht mit. Die freie Bibliothek mbelib baust du selbst aus dem Quellcode. Für den privaten, nicht gewerblichen Gebra"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "cSqh1TZr6tg",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - can you use a (Heil) headset and how does it sound?",
+      "veroeffentlicht": "2026-11-08T18:11:50+00:00",
+      "url": "https://www.youtube.com/watch?v=cSqh1TZr6tg",
+      "ist_short": false,
+      "beschreibung": "Yes you can! If the mic connector pin-out is Icom compatible 👍\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n🛒 HEIL BM-17 Headset ➜ https://heilhamradio.com/product/bm-17-2/\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\nJuergen AH6UN / OE4JHW"
+    },
     {
       "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
       "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
@@ -84,83 +150,6 @@
       "url": "https://www.youtube.com/shorts/1vz8_f6dLAs",
       "ist_short": true,
       "beschreibung": ""
-    },
-    {
-      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
-      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
-      "sprache": "de",
-      "video_id": "rXmODRB21EE",
-      "titel": "My first FT8 QSO with the new XIEGU G7250 SDR Tranceiver",
-      "veroeffentlicht": "2026-11-06T20:48:27+00:00",
-      "url": "https://www.youtube.com/watch?v=rXmODRB21EE",
-      "ist_short": false,
-      "beschreibung": "Going digital using WSJT-X - Let me show you how to set up digi modes on Windows.\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\n\nJuergen AH6UN / OE4JHW"
-    },
-    {
-      "kanal": "DL2YMR",
-      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
-      "sprache": "de",
-      "video_id": "yFPyzRUj_Sk",
-      "titel": "Amateurfunk Klasse N: Prüfung, Kosten und was ihr danach dürft",
-      "veroeffentlicht": "2026-11-06T15:00:22+00:00",
-      "url": "https://www.youtube.com/watch?v=yFPyzRUj_Sk",
-      "ist_short": false,
-      "beschreibung": "Amateurfunk Klasse N: Wie läuft die Prüfung ab, was kostet sie und was dürft ihr danach? In diesem Video zeige ich euch den kompletten Weg zur Einstiegslizenz, vom Antrag bei der Bundesnetzagentur bis zum eigenen Rufzeichen.\n\nFür die Amateurfunkprüfung der Klasse N braucht ihr in jedem der drei Prüfungsteile Vorschriften, Betrieb und Technik 19 von 25 richtigen Antworten. Ich erkläre, wie ihr euch anmeldet, wie der Prüfungstag abläuft, wann eine mündliche Nachprüfung möglich ist und wie ihr einen einzelnen Teil wiederholt. Dazu kommen die Kosten der Amateurfunklizenz: 68 Euro für die Prüfung, 20 Euro für die Zulassung mit Rufzeichen und ein kleiner jährlicher Beitrag. Euer Rufzeichen beginnt mit DN9.\n\nDanach geht es um die Frage, was ihr mit der Klasse N wirklich machen dürft: das 10-Meter-Band auf der Kurzwelle mit SSB, Telegrafie und FT8, dazu 2 m und 70 cm mit Relais, Funkrunden und sogar Amateurfunksatelliten. Ich erkläre, was 10 W und 6,1 W ERP bedeuten und wo die Grenzen der Klasse N liegen, also wann sich die Zusatzprüfung zur Klasse E lohnt.\n\nZum Schluss bekommt ihr einen Lernplan für den Winter mit meinem kostenlosen Videokurs Amateurfunk Klasse N und der Lernplattform 50Ohm.de des DARC, einschließlich Prüfungssimulation und Ausbildungsfunkbetrieb im Ortsverband.\n\nAlle Angaben nach Stand Oktober 2026 und ohne Gewähr. Maßgeblich sind die Veröffentlichungen der Bundesnetzagentur.\n\nDen Videokurs habe ich in Zusammenarbeit mit 50Ohm.de, der Lernplattform des DARC, erstel"
-    },
-    {
-      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
-      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
-      "sprache": "de",
-      "video_id": "KXbnAF_kjvQ",
-      "titel": "Mom and Dad doing POTA (WV1MOM & WV1DAD) 😀",
-      "veroeffentlicht": "2026-11-06T14:59:41+00:00",
-      "url": "https://www.youtube.com/shorts/KXbnAF_kjvQ",
-      "ist_short": true,
-      "beschreibung": "Where are W1BOY & W1GRL ?"
-    },
-    {
-      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
-      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
-      "sprache": "de",
-      "video_id": "pVUxDCbO4lw",
-      "titel": "Erster Test des neuen XIEGU G7250 Kurzwelle/50 MHz SDR Tranceiver",
-      "veroeffentlicht": "2026-11-05T20:24:58+00:00",
-      "url": "https://www.youtube.com/watch?v=pVUxDCbO4lw",
-      "ist_short": false,
-      "beschreibung": "To my English-speaking friends: Please wait for the AI ​​translation - thank you!\n\nDen Tranceiver könnt ihr hier bestellen:\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 und Danke für's zusehen!\n73 and thanks for watching!\n\nJürgen OE4JHW / AH6UN"
-    },
-    {
-      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
-      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
-      "sprache": "de",
-      "video_id": "3BlOXI0FCsA",
-      "titel": "Christmas is coming early this year- the new XIEGU G7250",
-      "veroeffentlicht": "2026-11-05T16:22:30+00:00",
-      "url": "https://www.youtube.com/shorts/3BlOXI0FCsA",
-      "ist_short": true,
-      "beschreibung": ""
-    },
-    {
-      "kanal": "DL2YMR",
-      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
-      "sprache": "de",
-      "video_id": "bxykQQAHwQM",
-      "titel": "Amateurfunk Klasse N: Schafft ihr 19 von 25?",
-      "veroeffentlicht": "2026-11-04T18:22:03+00:00",
-      "url": "https://www.youtube.com/shorts/bxykQQAHwQM",
-      "ist_short": true,
-      "beschreibung": "19 von 25 Fragen pro Prüfungsteil, dazu überschaubare Kosten und am Ende euer eigenes Rufzeichen: Die Amateurfunklizenz Klasse N ist ein gutes Projekt für den Winter. Das ganze Video kommt demnächst hier auf den Kanal.\n\nWerbung in eigener Sache: Kanalmitglieder sehen das Video schon jetzt: https://www.youtube.com/@DL2YMR/join\n\n#Amateurfunk #KlasseN #Shorts"
-    },
-    {
-      "kanal": "FUNKFIEBER",
-      "channel_id": "UC_dDiEsZNbDYbrPDL-fkMxA",
-      "sprache": "de",
-      "video_id": "_-9cgGSPnew",
-      "titel": "Eiserne Reserve im Rucksack!? Diese Notfallriegel nutze ich!  NRG-5, CONVAR-7 & MSR-500",
-      "veroeffentlicht": "2026-11-01T08:00:35+00:00",
-      "url": "https://www.youtube.com/watch?v=_-9cgGSPnew",
-      "ist_short": false,
-      "beschreibung": "*Convar-7 Mix Pack: https://link.amazon/B08OttIrr\n*MSR-500: https://link.amazon/B0cOIUc2Y\n*NRG-5: https://link.amazon/B07Enz0bM\n*NRG-5 ZERO: https://link.amazon/B03H76Uyc\n\n#outdoor #krisenvorsorge #emergencyfood #notnahrung #treckingfood #trecking \n~~~~\n🛒 Mein Amazon-Shop\nEntdecke meine persönlich genutzte Technik & Ausrüstung:\n👉 https://www.amazon.de/shop/funkfieber\n\n💰 Unterstütze den Kanal\nMit einer kleinen Spende hilfst du, zukünftige Videos zu realisieren:\n👉 https://www.paypal.com/donate?hosted_button_id=4RAE2E8J9CPEA\n\n🧰 Bausätze & Zubehör\nFunkfieber-Bausätze exklusiv bei Alex' RadioShop:\n👉 https://alexsradioshop.de/product_brand/funkfieber/\n\n🎧 Rabatt bei TIDRADIO\nSpare mit dem Rabattcode FUNKFIEBER auf deinen Einkauf:\n👉 https://tidradio.com/?ref=9wo6m7cc\n\n👕 FUNKFIEBER Fanartikel\nZeig deine Unterstützung mit coolen Shirts, Tassen und mehr:\n👉 https://funkfieber.myspreadshop.de/\n\n🎥 Mein Video- & Aufnahme-Equipment (mit Affiliate-Links)\n– Sony ZV-1 Kamera: https://amzn.to/4cBPtmO\n– Insta360 GO 3: https://amzn.to/4czp212\n– K&F Concept Carbon-Stativ: https://amzn.to/4dTbSgO\n– K&F Concept XXL-Stativ: https://amzn.to/46W4e2P\n– AnkerWork M650 Funkmikros: https://amzn.to/40ZL1fu\n– Synco G2 A2 Funkmikros: https://amzn.to/4dsA1L6\n– RØDE Video-Richtmikrofon: https://amzn.to/4fSZoXZ\n\n⚠️ Hinweis: Bei mit * gekennzeichneten Links handelt es sich um Affiliate-Links. Wenn du darüber einkaufst, unterstützt du mich mit einer kleinen Provision – ohne Mehrkosten für dich. Vielen Dank!\n📢 Diese"
     }
   ]
 }
