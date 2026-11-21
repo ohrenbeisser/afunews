@@ -9,7 +9,7 @@ GitHub Actions holen sonntags früh die Quellen und YouTube-Feeds. Ein Agent (Cl
 | Datei / Ordner | Zweck |
 |---|---|
 | `ANWEISUNG.md` | Feste Arbeitsanweisung für jeden Lauf des Agenten |
-| `quellen.md` | Quellenliste: Kernquellen, Zusatzquellen, YouTube-Kanäle |
+| `quellen.md` | Quellenliste: Kernquellen und Zusatzquellen |
 | `schema.md` | Datenformat aller JSON-Dateien |
 | `data/index.json` | Übersicht aller Wochen |
 | `data/JJJJ/JJJJ-Www.json` | eine Datei pro Kalenderwoche |
