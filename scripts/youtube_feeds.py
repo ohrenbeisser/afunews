@@ -59,8 +59,10 @@ def main():
     jetzt = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     try:
         print(f"Erzeuge Datei über {ERZEUGEN} ...")
-        hole(ERZEUGEN, 2, timeout=300)
-        print("Erzeugung abgeschlossen.")
+        t0 = time.time()
+        antwort = hole(ERZEUGEN, 2, timeout=300)
+        text = antwort.decode("utf-8", errors="replace").strip().replace("\n", " ")
+        print(f"Erzeugung abgeschlossen nach {time.time() - t0:.1f} s, Antwort {len(antwort)} Bytes: {text[:300]}", flush=True)
     except Exception as e:  # noqa: BLE001
         print(f"Warnung: Erzeugung nicht bestätigt ({type(e).__name__}: {e}); versuche vorhandene Datei", file=sys.stderr)
     try:
