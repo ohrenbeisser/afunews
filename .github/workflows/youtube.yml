@@ -1,7 +1,8 @@
 name: YouTube-Feeds abrufen
 
-# Läuft sonntags vor dem Wochen-Agenten, holt die aufbereitete Datei von
-# ohrenbeisser.de (kein Abruf bei YouTube) und legt data/youtube.json ab.
+# Läuft sonntags vor dem Wochen-Agenten, führt scripts/afu-youtube.php
+# auf dem Runner aus (Rückfall: Datei von ohrenbeisser.de) und legt
+# data/youtube.json ab.
 # GitHub verzögert geplante Läufe zu Stoßzeiten (volle und halbe Stunden)
 # um Stunden oder lässt sie ausfallen. Darum zwei Termine zu ungeraden
 # Minuten, früh am Sonntag (UTC): 01:07 und als Ersatz 02:37. Der Ersatz

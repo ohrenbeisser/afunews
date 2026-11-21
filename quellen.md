@@ -44,7 +44,7 @@ Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026.
 
 ## YouTube-Kanäle
 
-Bei YouTube selbst wird nichts abgerufen. Die GitHub Action „YouTube-Feeds abrufen“ (`.github/workflows/youtube.yml`, Skript `scripts/youtube_feeds.py`) holt sonntags um 01:07 UTC (Ersatz 02:37 UTC) die vom Betreiber aufbereitete Datei `https://ohrenbeisser.de/tools/afu/afu-youtube.json` und legt sie als `data/youtube.json` ab. Vorher ruft das Skript `https://ohrenbeisser.de/tools/afu/afu-youtube.php` auf, das die Datei neu erzeugt (bis zu 300 Sekunden Wartezeit). Die Kanal-Infodatei (Schreibweise unklar) wird nur optional geholt. Welche Kanäle enthalten sind, bestimmt der Betreiber auf dem Server; die Tabelle ist nur eine Übersicht und wird nicht mehr ausgewertet.
+Bei YouTube selbst wird nichts abgerufen. Die GitHub Action „YouTube-Feeds abrufen“ (`.github/workflows/youtube.yml`, Skript `scripts/youtube_feeds.py`) läuft sonntags um 01:07 UTC (Ersatz 02:37 UTC). Sie führt `scripts/afu-youtube.php` (Kopie des Betreiber-Skripts) mit der PHP-CLI auf dem Runner aus; das Skript liest die RSS-Feeds der Kanäle und nutzt die Kanalliste `https://ohrenbeisser.de/tools/afu/afu-youtube-canel.json` (Kanäle bestimmt der Betreiber dort, Kopie in `data/youtube-kanaele.json`). Ergebnis ist `data/youtube.json`. Scheitert der lokale Lauf, ruft das Skript `https://ohrenbeisser.de/tools/afu/afu-youtube.php` auf dem Server auf (dort gilt ein Stunden-Cache) und holt `afu-youtube.json`. Die Tabelle ist nur eine Übersicht und wird nicht ausgewertet.
 
 | Kanal | Adresse | Kanal-ID | Sprache | Status |
 |---|---|---|---|---|
