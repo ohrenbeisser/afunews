@@ -149,71 +149,86 @@
     }
   ],
   "Statistik": {
-    "Stand": "2026-11-21T18:42:53+01:00",
+    "Stand": "2026-11-21T18:52:59+01:00",
     "Zeitraum_Tage": 7,
     "Gesamt": 21,
     "Kanaele": [
       {
         "Kanal": "DARC e.V. (DARCHAMRADIO)",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "DL2YMR",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "Funkwelle",
-        "Anzahl": 2
+        "Anzahl": 2,
+        "Status": "ok"
       },
       {
         "Kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
-        "Anzahl": 4
+        "Anzahl": 4,
+        "Status": "ok"
       },
       {
         "Kanal": "DG2YCB",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "DL2MAN",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "F74 Amateurfunk",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "FUNKFIEBER",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "SCHAU MAL EINER AN",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "Lutz-Electronics HB9NBG und HB9FZC",
-        "Anzahl": 2
+        "Anzahl": 2,
+        "Status": "ok"
       },
       {
         "Kanal": "WiMo",
-        "Anzahl": 0
+        "Anzahl": 0,
+        "Status": "ok"
       },
       {
         "Kanal": "Bildungskanal der Technik",
-        "Anzahl": 3
+        "Anzahl": 3,
+        "Status": "ok"
       },
       {
         "Kanal": "Ham Radio Crash Course",
-        "Anzahl": 5
+        "Anzahl": 5,
+        "Status": "ok"
       },
       {
         "Kanal": "KM4ACK",
-        "Anzahl": 4
+        "Anzahl": 4,
+        "Status": "ok"
       },
       {
         "Kanal": "Off-Grid Ham Radio OH8STN",
-        "Anzahl": 1
+        "Anzahl": 1,
+        "Status": "ok"
       }
     ]
   },
-  "abgerufen": "2026-11-21T17:42:51Z"
+  "abgerufen": "2026-11-21T17:52:54Z"
 }
