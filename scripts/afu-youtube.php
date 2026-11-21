@@ -19,6 +19,7 @@ const TAGE           = 7;
 const CACHE_SEKUNDEN = 3600;
 const KANAL_DATEI    = __DIR__ . '/afu-youtube-canel.json';
 const AUSGABE        = __DIR__ . '/afu-youtube.json';
+const USER_AGENT     = 'afu-youtube/1.0';
 
 date_default_timezone_set('Europe/Berlin');
 
@@ -27,25 +28,46 @@ function h(string $s): string
     return htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
 
-function holeUrl(string $url): ?string
+/**
+ * Holt eine URL, bis zu zwei Versuche (YouTube-Feeds melden gelegentlich kurzzeitig 404).
+ * @return array{0: ?string, 1: ?string} [Inhalt, Fehlergrund]
+ */
+function holeUrl(string $url, int $versuche = 2): array
 {
-    if (function_exists('curl_init')) {
-        $ch = curl_init($url);
-        curl_setopt_array($ch, [
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_TIMEOUT        => 15,
-            CURLOPT_USERAGENT      => 'afu-youtube/1.0',
-        ]);
-        $body = curl_exec($ch);
-        $code = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
-        curl_close($ch);
-        return ($body !== false && $code === 200) ? (string) $body : null;
-    }
+    $grund = 'unbekannt';
+    for ($i = 1; $i <= $versuche; $i++) {
+        if (function_exists('curl_init')) {
+            $ch = curl_init($url);
+            curl_setopt_array($ch, [
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_TIMEOUT        => 20,
+                CURLOPT_CONNECTTIMEOUT => 10,
+                CURLOPT_USERAGENT      => USER_AGENT,
+                CURLOPT_ENCODING       => '',
+            ]);
+            $body = curl_exec($ch);
+            $code = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+            $err  = curl_error($ch);
+            curl_close($ch);
 
-    $ctx  = stream_context_create(['http' => ['timeout' => 15, 'user_agent' => 'afu-youtube/1.0']]);
-    $body = @file_get_contents($url, false, $ctx);
-    return $body === false ? null : $body;
+            if ($body !== false && $code === 200) {
+                return [(string) $body, null];
+            }
+            $grund = $body === false ? 'keine Verbindung (' . ($err ?: 'Zeitüberschreitung') . ')' : "HTTP $code";
+        } else {
+            $ctx  = stream_context_create(['http' => ['timeout' => 20, 'user_agent' => USER_AGENT]]);
+            $body = @file_get_contents($url, false, $ctx);
+            if ($body !== false) {
+                return [$body, null];
+            }
+            $grund = 'keine Verbindung';
+        }
+        if ($i < $versuche) {
+            sleep(1);
+        }
+    }
+    return [null, $grund];
 }
 
 /** @return array{videos: list<array<string,string>>, statistik: list<array{Kanal:string,Anzahl:int,Fehler:bool}>, fehler: list<string>} */
@@ -61,20 +83,30 @@ function sammleVideos(): array
     $fehler = [];
     $stat   = [];
 
+    // Bei Ausfall eines Kanals den letzten bekannten Stand übernehmen, damit nichts verloren geht
+    $alt = leseCache()['Eintraege'] ?? [];
+    $ausfall = function (string $name, string $grund) use (&$videos, &$fehler, &$stat, $alt, $grenze): void {
+        $fehler[] = "$name: $grund";
+        $uebernommen = array_values(array_filter(
+            $alt,
+            fn ($e) => ($e['Kanal'] ?? '') === $name && strtotime($e['Datum'] ?? '') >= $grenze
+        ));
+        $videos = array_merge($videos, $uebernommen);
+        $stat[] = ['Kanal' => $name, 'Anzahl' => count($uebernommen), 'Fehler' => true, 'Fehlergrund' => $grund];
+    };
+
     foreach ($kanaele as $k) {
         $id   = (string) ($k['kanal_id'] ?? '');
         $name = (string) ($k['kanal'] ?? $id);
         if (!preg_match('/^[A-Za-z0-9_-]{20,30}$/', $id)) {
-            $fehler[] = "$name: ungültige Kanal-ID";
-            $stat[] = ['Kanal' => $name, 'Anzahl' => 0, 'Fehler' => true];
+            $ausfall($name, 'ungültige Kanal-ID');
             continue;
         }
 
-        $xml  = holeUrl('https://www.youtube.com/feeds/videos.xml?channel_id=' . $id);
+        [$xml, $grund] = holeUrl('https://www.youtube.com/feeds/videos.xml?channel_id=' . $id);
         $feed = $xml !== null ? @simplexml_load_string($xml) : false;
-        if ($feed === false) {
-            $fehler[] = "$name: Feed nicht abrufbar";
-            $stat[] = ['Kanal' => $name, 'Anzahl' => 0, 'Fehler' => true];
+        if ($feed === false || $feed === null) {
+            $ausfall($name, $grund ?? 'Antwort ist kein gültiger Feed');
             continue;
         }
 
@@ -111,7 +143,8 @@ function baueDaten(array $eintraege, array $statistik): array
             'Zeitraum_Tage' => TAGE,
             'Gesamt'       => count($eintraege),
             'Kanaele'      => array_map(
-                fn ($s) => ['Kanal' => $s['Kanal'], 'Anzahl' => $s['Anzahl']],
+                fn ($s) => ['Kanal' => $s['Kanal'], 'Anzahl' => $s['Anzahl'], 'Status' => ($s['Fehler'] ?? false) ? 'Fehler' : 'ok']
+                    + (($s['Fehler'] ?? false) ? ['Fehlergrund' => $s['Fehlergrund'] ?? ''] : []),
                 $statistik
             ),
         ],
@@ -142,11 +175,19 @@ $cache  = !$cli && is_file(AUSGABE) && (time() - filemtime(AUSGABE)) < CACHE_SEK
 
 if ($cache !== null) {
     $videos     = $cache['Eintraege'];
-    $statistik = $cache['Statistik']['Kanaele'];
+    $statistik = array_map(
+        fn ($s) => $s + ['Fehler' => ($s['Status'] ?? 'ok') === 'Fehler'],
+        $cache['Statistik']['Kanaele']
+    );
+    $fehler    = array_map(
+        fn ($s) => $s['Kanal'] . ': ' . ($s['Fehlergrund'] ?? 'Fehler'),
+        array_filter($statistik, fn ($s) => $s['Fehler'])
+    );
 } else {
     ['videos' => $videos, 'statistik' => $statistik, 'fehler' => $fehler] = sammleVideos();
-    // Nur schreiben, wenn kein Kanal ausgefallen ist, sonst gehen Einträge verloren
-    if ($fehler === [] && !schreibeJson(baueDaten($videos, $statistik))) {
+    // Auch bei ausgefallenen Kanälen schreiben (deren letzter Stand wurde übernommen);
+    // nur nicht, wenn die Kanalliste selbst unlesbar war
+    if ($statistik !== [] && !schreibeJson(baueDaten($videos, $statistik))) {
         $fehler[] = 'Schreiben von ' . basename(AUSGABE) . ' fehlgeschlagen';
     }
 }
@@ -160,7 +201,9 @@ if ($cli) {
     echo "\nStatistik der letzten ", TAGE, " Tage:\n";
     $breite = max(array_map(fn ($s) => mb_strlen($s['Kanal']), $statistik) ?: [0]);
     foreach ($statistik as $s) {
-        $anzahl = $s['Fehler'] ?? false ? 'Fehler' : (string) $s['Anzahl'];
+        $anzahl = ($s['Fehler'] ?? false)
+            ? 'NICHT ERREICHBAR – ' . ($s['Fehlergrund'] ?? 'Fehler') . ' (' . $s['Anzahl'] . ' aus letztem Stand)'
+            : (string) $s['Anzahl'];
         echo '  ', $s['Kanal'], str_repeat(' ', $breite - mb_strlen($s['Kanal'])), '  ', $anzahl, "\n";
     }
     echo '  Gesamt: ', count($videos), "\n";
@@ -189,6 +232,7 @@ if (isset($_GET['json'])) {
         h2 { font-size: 1.1rem; margin: 0 0 .25rem; }
         .meta { color: #666; font-size: .9rem; margin-bottom: .5rem; }
         .fehler { background: #fee; padding: .5rem 1rem; }
+        .warn { color: #b00; font-size: .9rem; }
         table { border-collapse: collapse; }
         td, th { padding: .2rem 1rem .2rem 0; text-align: left; }
     </style>
@@ -215,7 +259,7 @@ if (isset($_GET['json'])) {
     <h2>Statistik</h2>
     <table>
         <?php foreach ($statistik as $s): ?>
-            <tr><td><?= h($s['Kanal']) ?></td><td><?= ($s['Fehler'] ?? false) ? 'Fehler' : (int) $s['Anzahl'] ?></td></tr>
+            <tr><td><?= h($s['Kanal']) ?></td><td><?= (int) $s['Anzahl'] ?><?php if ($s['Fehler'] ?? false): ?> <span class="warn">nicht erreichbar: <?= h($s['Fehlergrund'] ?? '') ?> (letzter Stand)</span><?php endif; ?></td></tr>
         <?php endforeach; ?>
         <tr><th>Gesamt</th><th><?= count($videos) ?></th></tr>
     </table>

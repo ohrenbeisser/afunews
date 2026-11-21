@@ -42,24 +42,6 @@ Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026.
 | AmateurRadio.com | https://www.amateurradio.com/ (RSS: https://www.amateurradio.com/feed) | technik, verband | en | ok (geprüft 24.10.2026): Sammelblog aus Beiträgen und Podcasts vieler Autoren; Feed enthält Doppelungen. Podcast-Folgen nur mit konkretem Nachrichtenwert |
 | This Week in Amateur Radio (TWIAR) | https://twiar.net/ (RSS: https://twiar.net/?feed=rss2) | alle | en | ok (geprüft 24.10.2026): Sammeldienst, Einträge verweisen auf twiar.net statt auf das Original. Nur als Hinweisgeber nutzen, verlinkt wird die Originalquelle |
 
-## YouTube-Kanäle
-
-Bei YouTube selbst wird nichts abgerufen. Die GitHub Action „YouTube-Feeds abrufen“ (`.github/workflows/youtube.yml`, Skript `scripts/youtube_feeds.py`) läuft sonntags um 01:07 UTC (Ersatz 02:37 UTC). Sie führt `scripts/afu-youtube.php` (Kopie des Betreiber-Skripts) mit der PHP-CLI auf dem Runner aus; das Skript liest die RSS-Feeds der Kanäle und nutzt die Kanalliste `https://ohrenbeisser.de/tools/afu/afu-youtube-canel.json` (Kanäle bestimmt der Betreiber dort, Kopie in `data/youtube-kanaele.json`). Ergebnis ist `data/youtube.json`. Scheitert der lokale Lauf, ruft das Skript `https://ohrenbeisser.de/tools/afu/afu-youtube.php` auf dem Server auf (dort gilt ein Stunden-Cache) und holt `afu-youtube.json`. Die Tabelle ist nur eine Übersicht und wird nicht ausgewertet.
-
-| Kanal | Adresse | Kanal-ID | Sprache | Status |
-|---|---|---|---|---|
-| DARC e.V. (DARCHAMRADIO) | https://www.youtube.com/@DARCHAMRADIO | UCQrHHXcFmJkeCdO1UQ-DzAA | de | |
-| DL2YMR | https://www.youtube.com/@DL2YMR | UCPRdlnpaE9HA5sM3ffvnK7Q | de | |
-| Funkwelle | https://www.youtube.com/@Funkwelle | UCQu_laGfjCpn_7IUe6yAKwA | de | |
-| AlpineRadioWaves (AH6UN/OE4JHW) | https://www.youtube.com/@AH6UN_OE4JHW | UCYQ6jw5qyBF73aB8K57-AKw | de | |
-| DG2YCB | https://www.youtube.com/@dg2ycb | UCIoS4-DT0mmj79wlFOqqqkQ | de | |
-| DL2MAN | https://www.youtube.com/@dl2man | UCqabnQWUjwH4K3FJtxbmrlA | de | |
-| F74 Amateurfunk | https://www.youtube.com/@foxtrot74 | UCK5FG97UJEvGfSQv_QErtOQ | de | |
-| FUNKFIEBER | https://www.youtube.com/@FUNKFIEBER | UC_dDiEsZNbDYbrPDL-fkMxA | de | |
-| Ham Radio Crash Course | | offen | en | offen |
-| Ham Radio 2.0 | | offen | en | offen |
-| Dave Casler KE0OG | | offen | en | offen |
-
 ## Nicht verwenden
 
 - Foren und soziale Netzwerke (QRZ.com-Forum, Facebook-Gruppen, Reddit): viel Meinung, wenig gesicherte Information

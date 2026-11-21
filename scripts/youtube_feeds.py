@@ -77,19 +77,28 @@ def lokal_erzeugen():
             print(f"Kanalliste nicht ladbar: {type(e).__name__}: {e}", file=sys.stderr)
             return None
         ZIEL_KANAELE.write_bytes((arbeit / "afu-youtube-canel.json").read_bytes())
+        ergebnis = arbeit / "afu-youtube.json"
+        # Letzten Stand mitgeben: Das PHP-Skript übernimmt daraus die Videos
+        # von Kanälen, die gerade nicht erreichbar sind.
+        if ZIEL.exists():
+            shutil.copy(ZIEL, ergebnis)
+        vorher = ergebnis.stat().st_mtime_ns if ergebnis.exists() else None
         try:
             r = subprocess.run([php, str(arbeit / "afu-youtube.php")], cwd=arbeit,
                                capture_output=True, text=True, timeout=280)
         except Exception as e:  # noqa: BLE001
             print(f"PHP-Lauf gescheitert: {type(e).__name__}: {e}", file=sys.stderr)
             return None
-        print(r.stdout[-1500:], flush=True)
+        print(r.stdout[-2500:], flush=True)
         if r.stderr.strip():
             print(r.stderr.strip(), file=sys.stderr)
-        ergebnis = arbeit / "afu-youtube.json"
-        if r.returncode != 0 or not ergebnis.exists():
-            print(f"PHP-Lauf ohne gültiges Ergebnis (Rückgabe {r.returncode}).", file=sys.stderr)
+        # Das Skript schreibt auch bei ausgefallenen Kanälen (Rückgabe 1);
+        # entscheidend ist, dass die Datei neu geschrieben wurde.
+        if not ergebnis.exists() or ergebnis.stat().st_mtime_ns == vorher:
+            print(f"PHP-Lauf ohne neue Ergebnisdatei (Rückgabe {r.returncode}).", file=sys.stderr)
             return None
+        if r.returncode != 0:
+            print("Hinweis: Mindestens ein Kanal war nicht erreichbar, letzter Stand übernommen.", file=sys.stderr)
         return json.loads(ergebnis.read_text(encoding="utf-8"))
 
 
