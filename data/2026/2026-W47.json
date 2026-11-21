@@ -1,0 +1,663 @@
+{
+  "kw": "2026-W47",
+  "zeitraum": {
+    "von": "2026-11-16",
+    "bis": "2026-11-21"
+  },
+  "erstellt": "2026-11-21T19:05:35+01:00",
+  "ueberblick": "Der DARC kündigt für den 9. bis 15. August 2027 ein Sommercamp in Lichterfeld an; zur Mitgliederversammlung liegen jetzt die Ergebnisse der Anträge und die Goldene Ehrennadel für DL1VDL vor. Doreen Bogdan-Martin, KD2JTX, wurde als ITU-Generalsekretärin wiedergewählt, und der Radio Club de Honduras bittet wegen Überschwemmungen um freie Notfunkfrequenzen. Voyager 1 hatte nach Erreichen des Lichttags Funkprobleme. Bei den DXpeditionen verzögert sich XR0Z, VU4DX ist auf Januar 2027 verschoben, und am 28. und 29. November läuft der CQWW CW Contest.",
+  "ausbreitung": "Laut DARC-Funkwetterbericht vom 18. November lag der solare Flux bei 115 bis 125 Einheiten mit fallender Tendenz; 20m war rund um die Uhr zuverlässig, 17m und 15m boten tagsüber DX, 40m und 80m nachts. Bis 25. November erwartet das HF-Referat keine großen Änderungen, einzelne M-Flares und kurzzeitig aktive geomagnetische Phasen bis G1 sind möglich. Das FunkWX vom Wochenende nennt ruhige bis unbeständige Geomagnetik und ein geringes Flarerisiko (M10% X01%).",
+  "meldungen": [
+    {
+      "id": "2026-W47-001",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "DARC-Sommercamp vom 9. bis 15. August 2027 in Lichterfeld",
+      "zusammenfassung": "Der DARC plant für den 9. bis 15. August 2027 ein Sommercamp am Besucherbergwerk F60 in Lichterfeld (Brandenburg). Eine Zeltstadt soll Platz für bis zu 250 Funkamateurinnen und Funkamateure sowie Interessierte bieten; Thema ist Amateurfunk zum Anfassen und Ausprobieren.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/eine-woche-funk-zelt-und-sternschnuppen-das-darc-sommercamp-kommt-im-august-2027-in-die-lausitz/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-21",
+      "wichtigkeit": 1,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Sommercamp",
+        "Lausitz",
+        "2027"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-002",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "DARC-Mitgliederversammlung: Anträge entschieden, Goldene Ehrennadel für DL1VDL",
+      "zusammenfassung": "Laut Deutschland-Rundspruch nahm die Versammlung unter anderem den Nachtragshaushalt 2025 und den Haushalt 2027 an; drei Satzungsanträge zu Distriktsvorstand, OV-Einladung und Fristen wurden abgelehnt. Die Goldene Ehrennadel erhielt Hartmut Büttig, DL1VDL, der über drei Jahrzehnte den Funkwetterbericht im Rundspruch schrieb. Zudem wurde das Grobkonzept des Sommercamps 2027 vorgestellt.",
+      "quelle": {
+        "name": "DARC (Deutschland-Rundspruch)",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/deutschland-rundspruch-462026-47-kw/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-19",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "DARC",
+        "Mitgliederversammlung",
+        "Ehrennadel",
+        "Haushalt"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-003",
+      "typ": "artikel",
+      "rubrik": "veranstaltung",
+      "titel": "YOTA-Monat im Dezember: DQ0YOTA mit Sonder-DOK DYM26",
+      "zusammenfassung": "Vom 1. bis 31. Dezember findet weltweit der YOTA-Monat für Funkamateure unter 26 Jahren statt. In Deutschland ist das Rufzeichen DQ0YOTA mit dem Sonder-DOK DYM26 aktiv und kann über einen Online-Kalender reserviert werden; Ortsverbände und das YOTA-Team helfen bei der Stationssuche.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/dq0yota-sucht-dich-sei-beim-december-yota-month-2026-dabei/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-17",
+      "wichtigkeit": 2,
+      "region": "DL",
+      "tags": [
+        "YOTA",
+        "DQ0YOTA",
+        "Jugend",
+        "Sonderrufzeichen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-004",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Niederländischer Verband VRZA feiert 75 Jahre",
+      "zusammenfassung": "Die Vereniging van Radio Zend Amateurs, gegründet am 23. November 1951, begeht ihr Jubiläum mit einem Aktionsjahr von November 2026 bis November 2027. Der DARC meldet das Programm in seiner Nachrichtenseite.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/vrza-feiert-75-jaehriges-jubilaeum/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 3,
+      "region": "EU",
+      "tags": [
+        "VRZA",
+        "Niederlande",
+        "Jubiläum"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-005",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Neue Software-Projekte für Funkamateure, darunter QRZBook",
+      "zusammenfassung": "Die DARC-Redaktion hat mehrere neu gemeldete Softwareprojekte gesammelt, unter anderem das QRZBook von M7JEX. Sie weist darauf hin, dass viele Projekte gleichzeitig auftauchen, und überlässt die Bewertung den Lesern.",
+      "quelle": {
+        "name": "DARC",
+        "url": "https://www.darc.de/nachrichten/meldungen/archiv-details/news/software-und-projekte-zum-ausprobieren/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Software",
+        "QRZBook"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-006",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "Jugend-Contest-Hüttenwochenende des OV S20 in Zinnwald",
+      "zusammenfassung": "Der Ortsverband S20 hat zum vierten Mal vom 4. bis 6. September ein Contest-Wochenende für Jugendliche in der Skihütte Zinnwald organisiert. Ein Bericht liegt auf der Distriktseite Sachsen.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/jugend-contest-huettenwochenende-bei-s20/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-16",
+      "wichtigkeit": 3,
+      "region": "S",
+      "tags": [
+        "Sachsen",
+        "OV S20",
+        "Jugend",
+        "Contest"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-007",
+      "typ": "artikel",
+      "rubrik": "regional",
+      "titel": "Sonderstation DA125RH zum 125. Geburtstag von Rudolf Hell",
+      "zusammenfassung": "Vom 1. Oktober bis 31. Dezember ist die Sonderstation DA125RH mit dem S-DOK 125RH auf möglichst vielen Bändern und Betriebsarten aktiv, auch in Hellschreiber. Anlass ist der 125. Geburtstag des Erfinders Rudolf Hell am 19. Dezember.",
+      "quelle": {
+        "name": "DARC Distrikt Sachsen",
+        "url": "https://www.darc.de/der-club/distrikte/s/aktuell/detailansicht/news/da125rh-125-geburtstag-von-rudolf-hell/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-09-28",
+      "wichtigkeit": 2,
+      "region": "S",
+      "tags": [
+        "DA125RH",
+        "Hellschreiber",
+        "Sonderstation",
+        "Sachsen"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-008",
+      "typ": "artikel",
+      "rubrik": "satellit",
+      "titel": "Voyager 1: Funkprobleme nach Erreichen des Lichttags",
+      "zusammenfassung": "Voyager 1 ist seit dem 18. November einen Lichttag von der Erde entfernt. Laut FUNKAMATEUR kam bei einem Kontaktversuch der 70-m-Antenne in Canberra am 14. November statt Daten nur der unmodulierte Träger mit 23 W an; das JPL-Team versucht, das Problem zu lösen.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/voyager-1-funkprobleme.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-19",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "Voyager 1",
+        "JPL",
+        "Deep Space Network"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-009",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "HamDaily bündelt Ausbreitung, DX-, POTA- und SOTA-Meldungen",
+      "zusammenfassung": "Die Plattform HamDaily zeigt laut FUNKAMATEUR Ausbreitungsdaten, Weltraumwetter, Kp-Index sowie DX-, POTA- und SOTA-Meldungen auf einer Seite. Dazu kommen Meldungen aus über 16 Quellen, ein Morsetrainer, eine Relaisstellensuche und Satellitenüberflug-Vorhersagen.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/HamDaily.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-18",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "HamDaily",
+        "DX",
+        "Ausbreitung"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-010",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Bayerischer Rundfunk zeigt Funkamateure um DB8KN auf dem Zabelstein",
+      "zusammenfassung": "In der Sendung Frankenschau aktuell vom 17. November wird ab Minute 4:25 gut drei Minuten lang berichtet, wie eine Gruppe um Niels Koch, DB8KN, zum Zabelstein wandert und dort portabel funkt.",
+      "quelle": {
+        "name": "FUNKAMATEUR",
+        "url": "https://www.funkamateur.de/nachrichtendetails/items/br_frankenschau_aktuell_17november2026.html",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-18",
+      "wichtigkeit": 3,
+      "region": "DL",
+      "tags": [
+        "Fernsehen",
+        "Öffentlichkeitsarbeit",
+        "Portabel"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-011",
+      "typ": "artikel",
+      "rubrik": "regulatorik",
+      "titel": "ITU-Generalsekretärin Bogdan-Martin, KD2JTX, wiedergewählt",
+      "zusammenfassung": "Doreen Bogdan-Martin, KD2JTX, ist auf der ITU-Bevollmächtigtenkonferenz mit 164 von 173 Stimmen für eine zweite vierjährige Amtszeit gewählt worden. Die Konferenz PP-26 läuft vom 9. bis 27. November in Doha.",
+      "quelle": {
+        "name": "ARRL",
+        "url": "https://www.arrl.org/news/doreen-bogdan-martin-kd2jtx-re-elected-itu-secretary-general",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-18",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "ITU",
+        "PP-26",
+        "Funkamateur"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-012",
+      "typ": "artikel",
+      "rubrik": "verband",
+      "titel": "Honduras: Club bittet um freie Notfunkfrequenzen 7143 kHz und 147,300 MHz",
+      "zusammenfassung": "Wegen Überschwemmungen an der Karibikküste Honduras bittet der Radio Club de Honduras, 7143 kHz auf 40m und 147,300 MHz auf 2m (Ablage +600 kHz) für den Notfunk freizuhalten. Die Bitte wurde über den IARU-Region-2-Notfunkkoordinator weitergegeben.",
+      "quelle": {
+        "name": "ARRL",
+        "url": "https://www.arrl.org/news/radio-club-of-honduras-requests-protection-for-emergency-frequencies",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-19",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "Notfunk",
+        "Honduras",
+        "IARU Region 2"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-013",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Barrierefrei loggen: N3FJP-Programm für den USKA-Weihnachtscontest",
+      "zusammenfassung": "Wolfgang, HB9CCS, empfiehlt das EU-DX-Contestprogramm von N3FJP für blinde und sehbehinderte Funkamateure, da es sich mit Screenreader bedienen lässt. Ohne Registrierung lassen sich nur 30 Verbindungen loggen; die Registrierung kostet 8,99 US-Dollar. Eine Einrichtungsanleitung soll im nächsten HBradio folgen.",
+      "quelle": {
+        "name": "USKA",
+        "url": "https://uska.ch/de/barrierefrei-loggen-am-uska-weihnachtscontest/",
+        "sprache": "de"
+      },
+      "veroeffentlicht": null,
+      "wichtigkeit": 3,
+      "region": "DACH",
+      "tags": [
+        "USKA",
+        "Barrierefreiheit",
+        "Contest",
+        "N3FJP"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-014",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "SDR# VDK: Plugins für SDR# per KI-Coding-Agent erstellen",
+      "zusammenfassung": "Der SDR#-Entwickler hat das Vibe Development Kit veröffentlicht, mit dem sich SDR#-Plugins ohne Programmierkenntnisse über KI-Coding-Agenten wie Claude Code oder ChatGPT Codex erstellen lassen. Es enthält eine Plugin-Vorlage, die API-Dokumentation, DSP-Bausteine und Anweisungen für den Agenten.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/sdr-vdk-create-your-own-sdr-plugins-by-prompting-an-ai-coding-agent/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR#",
+        "Plugins",
+        "KI"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-015",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "VKVSkimmer: freier CW- und RTTY-Skimmer für RTL-SDR, SDRplay und IC-7610",
+      "zusammenfassung": "F5VKV hat den kostenlosen Windows-Skimmer VKVSkimmer veröffentlicht. Er arbeitet mit RTL-SDR über rtl_tcp, SDRplay RSP oder dem I/Q-Ausgang von IC-7610 und IC-7760; die CW-Dekodierung nutzt den neuronalen DeepCW-Dekoder von VE3NEA.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/vkvskimmer-a-free-cw-and-rtty-skimmer-for-rtl-sdr-sdrplay-and-icom-ic-7610-ic-7760/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-19",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "Skimmer",
+        "CW",
+        "RTTY",
+        "SDR"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-016",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "HaxaWave: Modem eines alten MSM8916-Handys als SDR-Empfänger",
+      "zusammenfassung": "Piotr Krysik zeigt mit HaxaWave, dass sich das Modem im Wileyfox Swift ohne Hardwareumbau als reiner SDR-Empfänger nutzen lässt. Er deckt 735 bis 995 MHz und 1195 bis 2700 MHz mit bis zu 14,8 MS/s ab.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/haxawave-turning-the-modem-in-an-old-qualcomm-msm8916-phone-into-a-14-8-ms-s-soapysdr-receiver/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-19",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "Smartphone",
+        "SoapySDR"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-017",
+      "typ": "artikel",
+      "rubrik": "technik",
+      "titel": "Live Mesh Map: eigene Karte für Meshtastic- und MeshCore-Netze",
+      "zusammenfassung": "F4GLD stellt Live Mesh Map vor, ein freies, selbst gehostetes Werkzeug, das Meshtastic- und MeshCore-Netze zusammen darstellt. Es liest Daten von einem lokalen Node oder einem MQTT-Broker und zeigt Knoten, Funkverbindungen mit SNR und RSSI sowie Traceroutes.",
+      "quelle": {
+        "name": "RTL-SDR Blog",
+        "url": "https://www.rtl-sdr.com/live-mesh-map-a-self-hosted-live-map-for-meshtastic-and-meshcore-lora-mesh-networks/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-19",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Meshtastic",
+        "MeshCore",
+        "LoRa"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-018",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "XR0Z Alexander-Selkirk-Insel: Anreise verzögert sich um 10 bis 12 Tage",
+      "zusammenfassung": "Die IOTA-DXpedition von CE3VTZ und XQ7IR findet weiter statt, startet aber wegen Wartungsarbeiten am Schiff etwa 10 bis 12 Tage später. Die Reederei hatte die Verzögerung mitgeteilt.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/xr0z-alexander-selkirk-island-sa-101/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-21",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "XR0Z",
+        "IOTA SA-101",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-019",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "VU4DX Andamanen: DXpedition auf 9. bis 17. Januar 2027 verschoben",
+      "zusammenfassung": "Die von der DX India Foundation organisierte DXpedition nach Port Blair (IOTA AS-001) war ursprünglich für Dezember 2026 geplant. Sie soll nun vom 9. bis 17. Januar 2027 stattfinden.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/vu4dx-andaman-islands/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "VU4DX",
+        "Andamanen",
+        "DXpedition"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-020",
+      "typ": "termin",
+      "rubrik": "dx",
+      "titel": "3B9KW und 3B9/M0CFW von Rodrigues zum CQWW CW",
+      "zusammenfassung": "M0CFW ist vom 22. November bis 2. Dezember von Rodrigues als 3B9/M0CFW und im CQ WW CW Contest (28. und 29. November) als 3B9KW in der Klasse SOAB HP aktiv. QSL über LoTW.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/3b9kw-rodrigues-island/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-21",
+      "wichtigkeit": 2,
+      "region": "INT",
+      "tags": [
+        "3B9KW",
+        "Rodrigues",
+        "CQWW CW"
+      ],
+      "termin": {
+        "beginn": "2026-11-22T00:00:00Z",
+        "ende": "2026-12-02T23:59:00Z",
+        "rufzeichen": [
+          "3B9/M0CFW",
+          "3B9KW"
+        ],
+        "baender": [],
+        "betriebsarten": []
+      },
+      "video": null
+    },
+    {
+      "id": "2026-W47-021",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "YB9/DL3KZA von Flores, OC-151, noch bis 22. November",
+      "zusammenfassung": "Burkhard, DL3KZA, funkt noch bis zum 22. November von Flores (OC-151) in FT8 auf den höheren Bändern mit FT-891 und Drahtantennen. Danach reist er nach Lombok (OC-150); ob er von dort QRV wird, ist offen.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/yb9-dl3kza-flores-island-oc-151/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "YB9",
+        "Flores",
+        "OC-151",
+        "DL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-022",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "8Q7XX Malediven: DK6AS seit 16. November aktiv",
+      "zusammenfassung": "Andreas, DK6AS, ist seit dem 16. November wieder von den Malediven als 8Q7XX in CW sowie FT8 und FT4 QRV, überwiegend auf 40m bis 10m, möglicherweise 6m. Die Aufenthaltsdauer ist unbekannt; frühere Reisen dauerten 7 bis 10 Tage.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/8q7xx-maldives/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-18",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "8Q7XX",
+        "Malediven",
+        "DL"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-023",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "RI1ANI in der Antarktis wegen Blizzard festgesetzt",
+      "zusammenfassung": "Alex, RI1ANI, ist laut DX-World zuletzt auf 20m in CW auf 14,043 MHz gehört worden. Sein Konvoi steckt seit 48 Stunden wegen schweren Wetters rund 450 km von der Station Progress entfernt fest.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/ri1ani-antarctica/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-18",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "RI1ANI",
+        "Antarktis"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-024",
+      "typ": "artikel",
+      "rubrik": "dx",
+      "titel": "D44LZ Kap Verde: bulgarisches Team bis 2. Dezember aktiv",
+      "zusammenfassung": "LZ5VV und LZ1GL sind von der Insel Sal (AF-086) als D44LZ QRV, bis zum 2. Dezember, mit Teilnahme an LZ DX Contest und CQWW CW. QSL über LZ1JZ.",
+      "quelle": {
+        "name": "DX-World",
+        "url": "https://www.dx-world.net/d44lz-cape-verde/",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "D44LZ",
+        "Kap Verde",
+        "Contest"
+      ],
+      "termin": null,
+      "video": null
+    },
+    {
+      "id": "2026-W47-025",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "SenseCAP MeshTracker X1 gegen T1000-E im Meshtastic-Vergleich",
+      "zusammenfassung": "Laut Videobeschreibung vergleicht Funkwelle den neuen MeshTracker X1 mit dem T1000-E: Größe, Gewicht, Gehäuse und Technik, darunter 57 Prozent mehr Akku, L5-GPS und der neue LR2021. Anschließend wird der X1 für Meshtastic eingerichtet und in einem ersten Praxistest erprobt.",
+      "quelle": {
+        "name": "Funkwelle",
+        "url": "https://www.youtube.com/watch?v=sm5CiYcD5Rw",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Meshtastic",
+        "LoRa",
+        "Test"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "Funkwelle",
+        "video_id": "sm5CiYcD5Rw",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W47-026",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Mercury-Gateways im Winlink-Verzeichnis finden",
+      "zusammenfassung": "Laut Videobeschreibung zeigt KM4ACK, wie sich im Winlink-Verzeichnis RMS-Gateways mit dem freien HF-Modem Mercury suchen lassen. Mercury stammt aus dem HERMES-Projekt von Rhizomatica, nutzt OFDM auf Basis von FreeDV-Datenmodi und bietet eine VARA-TCP-kompatible Schnittstelle.",
+      "quelle": {
+        "name": "KM4ACK",
+        "url": "https://www.youtube.com/watch?v=E2lttII9Rc8",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-20",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Winlink",
+        "Mercury",
+        "HF-Modem"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "KM4ACK",
+        "video_id": "E2lttII9Rc8",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W47-027",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "SharkRF M1KE im Test: Handfunk-Transceiver für digitale Netze über WLAN",
+      "zusammenfassung": "Laut Videobeschreibung testet KM4ACK den SharkRF M1KE, einen batteriebetriebenen WLAN-Transceiver, der ohne Hotspot oder Computer Verbindung zu Netzen wie AllStarLink, EchoLink, DMR und weiteren aufnimmt. Er fragt, ob das Gerät einen klassischen Hotspot ersetzen kann.",
+      "quelle": {
+        "name": "KM4ACK",
+        "url": "https://www.youtube.com/watch?v=S9_94D1QFHc",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-17",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SharkRF",
+        "Digitalfunk",
+        "Test"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "KM4ACK",
+        "video_id": "S9_94D1QFHc",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    },
+    {
+      "id": "2026-W47-028",
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Solar Node P1 als Zweiband-Repeater für 433 und 868/915 MHz",
+      "zusammenfassung": "Laut Videobeschreibung zeigt AlpineRadioWaves, wie sich der Seeedstudio Solar Node P1 zum Repeater für 433 MHz und 868/915 MHz umbauen lässt. Er kann dann gleichzeitig für MeshCore und Meshtastic sowie für LoRa-APRS oder MeshCom im Amateurfunk dienen.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=NwsX8S6MpxI",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-19",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "LoRa",
+        "MeshCom",
+        "Repeater"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "NwsX8S6MpxI",
+        "dauer": null,
+        "nur_beschreibung": true
+      }
+    }
+  ]
+}
