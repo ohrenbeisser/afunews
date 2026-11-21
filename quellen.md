@@ -2,7 +2,7 @@
 
 Diese Liste beschreibt die Quellen für Menschen. Abgerufen werden sie nicht vom Agenten, sondern von der GitHub Action „Quellen sammeln“ (`.github/workflows/quellen.yml`, Skript `scripts/quellen_sammeln.py`) sonntags um 03:45 UTC. Welche Adressen das Skript liest, steht maschinenlesbar in `quellen.json`; das Ergebnis liegt in `data/rohdaten/JJJJ-Www.json`, und der Agent liest nur diese Datei. Neue Quellen müssen also in `quellen.json` eingetragen werden, hier genügt die Beschreibung. Quellen ohne Eintrag in `quellen.json` (z. B. Bundesnetzagentur, IARU, ARISS, DK0WCY, Amateur Radio Newsline, 425 DX News) werden derzeit nicht gesammelt. Das Skript beachtet die robots.txt der Seiten.
 
-Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026. YouTube-Kanäle sind eingetragen, aber derzeit nicht abrufbar.
+Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026.
 
 ## Kernquellen
 
@@ -44,18 +44,18 @@ Status nach dem Probelauf am 15.10.2026 (KW 41), ergänzt am 24.10.2026. YouTube
 
 ## YouTube-Kanäle
 
-Die RSS-Feeds (`https://www.youtube.com/feeds/videos.xml?channel_id=…`) holt die GitHub Action „YouTube-Feeds abrufen“ (`.github/workflows/youtube.yml`, Skript `scripts/youtube_feeds.py`) sonntags um 03:30 UTC und schreibt die Videos der letzten acht Tage nach `data/youtube.json`. Der Agent liest nur diese Datei. Das Skript nimmt jeden Kanal dieser Tabelle mit gültiger Kanal-ID (beginnt mit `UC`); Kanäle ohne ID werden übersprungen. Neue Kanäle also hier mit Kanal-ID eintragen.
+Videos holt das Repository nicht mehr selbst. Der Agent liest die vom Betreiber gepflegte Datei `https://ohrenbeisser.de/tools/afu/afu-youtube.json` (Kanalinfos in `https://ohrenbeisser.de/tools/afu/afuyoutube-canel.json`); neu erzeugt wird sie über `https://ohrenbeisser.de/tools/afu/afu-youtube.php`. Welche Kanäle dort enthalten sind, bestimmt der Betreiber; die Tabelle ist nur eine Übersicht und wird nicht mehr abgerufen.
 
 | Kanal | Adresse | Kanal-ID | Sprache | Status |
 |---|---|---|---|---|
-| DARC e.V. (DARCHAMRADIO) | https://www.youtube.com/@DARCHAMRADIO | UCQrHHXcFmJkeCdO1UQ-DzAA | de | ok über Workflow |
-| DL2YMR | https://www.youtube.com/@DL2YMR | UCPRdlnpaE9HA5sM3ffvnK7Q | de | ok über Workflow |
-| Funkwelle | https://www.youtube.com/@Funkwelle | UCQu_laGfjCpn_7IUe6yAKwA | de | ok über Workflow |
-| AlpineRadioWaves (AH6UN/OE4JHW) | https://www.youtube.com/@AH6UN_OE4JHW | UCYQ6jw5qyBF73aB8K57-AKw | de | ok über Workflow |
-| DG2YCB | https://www.youtube.com/@dg2ycb | UCIoS4-DT0mmj79wlFOqqqkQ | de | ok über Workflow |
-| DL2MAN | https://www.youtube.com/@dl2man | UCqabnQWUjwH4K3FJtxbmrlA | de | ok über Workflow |
-| F74 Amateurfunk | https://www.youtube.com/@foxtrot74 | UCK5FG97UJEvGfSQv_QErtOQ | de | ok über Workflow |
-| FUNKFIEBER | https://www.youtube.com/@FUNKFIEBER | UC_dDiEsZNbDYbrPDL-fkMxA | de | ok über Workflow |
+| DARC e.V. (DARCHAMRADIO) | https://www.youtube.com/@DARCHAMRADIO | UCQrHHXcFmJkeCdO1UQ-DzAA | de | |
+| DL2YMR | https://www.youtube.com/@DL2YMR | UCPRdlnpaE9HA5sM3ffvnK7Q | de | |
+| Funkwelle | https://www.youtube.com/@Funkwelle | UCQu_laGfjCpn_7IUe6yAKwA | de | |
+| AlpineRadioWaves (AH6UN/OE4JHW) | https://www.youtube.com/@AH6UN_OE4JHW | UCYQ6jw5qyBF73aB8K57-AKw | de | |
+| DG2YCB | https://www.youtube.com/@dg2ycb | UCIoS4-DT0mmj79wlFOqqqkQ | de | |
+| DL2MAN | https://www.youtube.com/@dl2man | UCqabnQWUjwH4K3FJtxbmrlA | de | |
+| F74 Amateurfunk | https://www.youtube.com/@foxtrot74 | UCK5FG97UJEvGfSQv_QErtOQ | de | |
+| FUNKFIEBER | https://www.youtube.com/@FUNKFIEBER | UC_dDiEsZNbDYbrPDL-fkMxA | de | |
 | Ham Radio Crash Course | | offen | en | offen |
 | Ham Radio 2.0 | | offen | en | offen |
 | Dave Casler KE0OG | | offen | en | offen |
