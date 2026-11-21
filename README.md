@@ -15,8 +15,7 @@ GitHub Actions holen sonntags früh die Quellen und YouTube-Feeds. Ein Agent (Cl
 | `data/JJJJ/JJJJ-Www.json` | eine Datei pro Kalenderwoche |
 | `quellen.json` | maschinenlesbare Quellenliste für das Sammel-Skript |
 | `scripts/quellen_sammeln.py` | holt die Quellen (GitHub Action, sonntags) und legt Rohdaten in `data/rohdaten/` ab |
-| `scripts/youtube_feeds.py` | erzeugt `data/youtube.json`: führt `scripts/afu-youtube.php` aus, Rückfall ist die Datei vom Server ohrenbeisser.de |
-| `scripts/afu-youtube.php` | Kopie des Betreiber-Skripts: RSS-Feeds der YouTube-Kanäle der letzten 7 Tage |
+| `scripts/afu-youtube.php` | Betreiber-Skript: liest die RSS-Feeds der YouTube-Kanäle der letzten 7 Tage; der Workflow „YouTube-Feeds abrufen“ führt es aus und schreibt `data/youtube.json` |
 | `scripts/pruefen.py` | prüft alle Dateien gegen das Format |
 | `beispiel/` | Beispieldatei mit erfundenen Inhalten, nur zur Ansicht |
 

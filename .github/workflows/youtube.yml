@@ -1,8 +1,8 @@
 name: YouTube-Feeds abrufen
 
 # Läuft sonntags vor dem Wochen-Agenten, führt scripts/afu-youtube.php
-# auf dem Runner aus (Rückfall: Datei von ohrenbeisser.de) und legt
-# data/youtube.json ab.
+# mit der PHP-CLI auf dem Runner aus und legt data/youtube.json ab.
+# Die Kanalliste (afu-youtube-canel.json) kommt von ohrenbeisser.de.
 # GitHub verzögert geplante Läufe zu Stoßzeiten (volle und halbe Stunden)
 # um Stunden oder lässt sie ausfallen. Darum zwei Termine zu ungeraden
 # Minuten, früh am Sonntag (UTC): 01:07 und als Ersatz 02:37. Der Ersatz
@@ -30,23 +30,45 @@ jobs:
         id: guard
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
-          import glob, json, datetime
+          import json, datetime
           heute = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
           fertig = False
-          for f in glob.glob("data/youtube.json"):
-              try:
-                  if json.load(open(f, encoding="utf-8")).get("abgerufen", "").startswith(heute):
-                      fertig = True
-              except Exception:
-                  pass
+          try:
+              stand = json.load(open("data/youtube.json", encoding="utf-8"))["Statistik"]["Stand"]
+              tag = datetime.datetime.fromisoformat(stand).astimezone(datetime.timezone.utc).strftime("%Y-%m-%d")
+              fertig = tag == heute
+          except Exception:
+              pass
           # Nur der Ersatztermin (schedule) überspringt; ein manueller Start läuft immer.
           print("skip=" + ("true" if fertig else "false"))
           PY
         if: github.event_name == 'schedule'
 
-      - name: YouTube-Datei abrufen
+      - name: YouTube-Liste erzeugen (afu-youtube.php)
         if: steps.guard.outputs.skip != 'true'
-        run: python3 scripts/youtube_feeds.py
+        run: |
+          set -u
+          tmp="$(mktemp -d)"
+          cp scripts/afu-youtube.php "$tmp/"
+          curl -fsS --retry 3 --retry-delay 5 --max-time 60 \
+            -o "$tmp/afu-youtube-canel.json" \
+            https://ohrenbeisser.de/tools/afu/afu-youtube-canel.json
+          cp "$tmp/afu-youtube-canel.json" data/youtube-kanaele.json
+          # Letzten Stand mitgeben: Das Skript übernimmt daraus die Videos
+          # von Kanälen, die gerade nicht erreichbar sind.
+          if [ -f data/youtube.json ]; then cp data/youtube.json "$tmp/afu-youtube.json"; fi
+          vorher="$(stat -c %y "$tmp/afu-youtube.json" 2>/dev/null || echo keine)"
+          status=0
+          php "$tmp/afu-youtube.php" || status=$?
+          nachher="$(stat -c %y "$tmp/afu-youtube.json" 2>/dev/null || echo keine)"
+          if [ "$nachher" = "keine" ] || [ "$nachher" = "$vorher" ]; then
+            echo "::error::afu-youtube.php hat keine Ergebnisdatei geschrieben (Rückgabe $status)"
+            exit 1
+          fi
+          if [ "$status" -ne 0 ]; then
+            echo "::warning::Mindestens ein Kanal war nicht erreichbar, letzter Stand übernommen"
+          fi
+          cp "$tmp/afu-youtube.json" data/youtube.json
 
       - name: Prüfung
         if: steps.guard.outputs.skip != 'true'
