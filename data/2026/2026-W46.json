@@ -636,6 +636,88 @@
       ],
       "termin": null,
       "video": null
+    },
+    {
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "OnAir: freie SDR-Software mit über 160 Dekodern im Test",
+      "zusammenfassung": "Laut Videobeschreibung testet Funkwelle die freie Software OnAir, die über 160 Dekoder unter einer Oberfläche bündelt, mit dem HackRF One. Gezeigt werden unter anderem AM, SSB, CW, FT8, RDS, DAB+, APRS, ADS-B und C4FM; die Beschreibung geht auch auf die Rechtslage beim Dekodieren ein.",
+      "quelle": {
+        "name": "Funkwelle",
+        "url": "https://www.youtube.com/watch?v=k4Dzo26IUoI",
+        "sprache": "de"
+      },
+      "veroeffentlicht": "2026-11-10",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "SDR",
+        "OnAir",
+        "HackRF"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "Funkwelle",
+        "video_id": "k4Dzo26IUoI",
+        "dauer": null,
+        "nur_beschreibung": true
+      },
+      "id": "2026-W46-028"
+    },
+    {
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Xiegu G7250: Digimodi über Bluetooth, Frage-und-Antwort-Video",
+      "zusammenfassung": "Laut Videobeschreibung geht AlpineRadioWaves der Frage nach, ob beim Xiegu G7250 über Bluetooth sowohl CAT-Steuerung als auch Audio für Digimodi wie FT4 und FT8 verfügbar sind.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=H0AXlnnPOdg",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-11",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Xiegu G7250",
+        "Digimodi",
+        "Bluetooth"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "H0AXlnnPOdg",
+        "dauer": null,
+        "nur_beschreibung": true
+      },
+      "id": "2026-W46-029"
+    },
+    {
+      "typ": "video",
+      "rubrik": "technik",
+      "titel": "Xiegu G7250: Firmware-Update 1.0.1 und Vorgehen beim Aktualisieren",
+      "zusammenfassung": "Laut Videobeschreibung haben Radioddity und Xiegu die Firmware 1.0.1 für den G7250 veröffentlicht; das Video zeigt, wie das Update eingespielt wird.",
+      "quelle": {
+        "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "url": "https://www.youtube.com/watch?v=EnKBrDKx7YM",
+        "sprache": "en"
+      },
+      "veroeffentlicht": "2026-11-13",
+      "wichtigkeit": 3,
+      "region": "INT",
+      "tags": [
+        "Xiegu G7250",
+        "Firmware",
+        "Update"
+      ],
+      "termin": null,
+      "video": {
+        "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+        "video_id": "EnKBrDKx7YM",
+        "dauer": null,
+        "nur_beschreibung": true
+      },
+      "id": "2026-W46-030"
     }
-  ]
+  ],
+  "aktualisiert": "2026-11-21T18:07:26+01:00"
 }
