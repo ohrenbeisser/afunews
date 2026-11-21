@@ -2,10 +2,12 @@
 """Holt die vom Betreiber aufbereitete YouTube-Datei und legt sie als
 data/youtube.json ab. Es gibt keinen Abruf bei YouTube selbst.
 
-Quelle: https://ohrenbeisser.de/tools/afu/afu-youtube.json
-Ist die Datei nicht erreichbar, wird sie über
-https://ohrenbeisser.de/tools/afu/afu-youtube.php neu erzeugt und noch
-einmal geholt. Zusätzlich wird, falls vorhanden, die Kanal-Infodatei nach
+Ablauf: Zuerst wird https://ohrenbeisser.de/tools/afu/afu-youtube.php
+aufgerufen, das die JSON-Datei neu erzeugt (das dauert etwas, daher bis zu
+300 Sekunden Wartezeit). Danach wird
+https://ohrenbeisser.de/tools/afu/afu-youtube.json geholt. Scheitert der
+Aufruf des PHP-Skripts, wird trotzdem die vorhandene JSON-Datei geholt und
+die Warnung im Log vermerkt. Zusätzlich wird, falls vorhanden, die Kanal-Infodatei nach
 data/youtube-kanaele.json kopiert (Fehler dabei sind unkritisch).
 
 Läuft als GitHub Action vor dem Wochen-Agenten (siehe
@@ -35,12 +37,12 @@ KANAELE = [BASIS + urllib.parse.quote("afuyoutube-caneö.json"),
            BASIS + "afuyoutube-canel.json"]
 
 
-def hole(url, versuche=3):
+def hole(url, versuche=3, timeout=30):
     anfrage = urllib.request.Request(url, headers={"User-Agent": "afunews-feedreader/1.0"})
     letzter_fehler = None
     for versuch in range(versuche):
         try:
-            with urllib.request.urlopen(anfrage, timeout=30) as r:
+            with urllib.request.urlopen(anfrage, timeout=timeout) as r:
                 return r.read()
         except Exception as e:  # noqa: BLE001 – Fehlertext kommt ins Log
             letzter_fehler = e
@@ -56,21 +58,23 @@ def hole_json(url, versuche=3):
 def main():
     jetzt = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     try:
+        print(f"Erzeuge Datei über {ERZEUGEN} ...")
+        hole(ERZEUGEN, 2, timeout=300)
+        print("Erzeugung abgeschlossen.")
+    except Exception as e:  # noqa: BLE001
+        print(f"Warnung: Erzeugung nicht bestätigt ({type(e).__name__}: {e}); versuche vorhandene Datei", file=sys.stderr)
+    try:
         daten = hole_json(VIDEOS)
     except Exception as e:  # noqa: BLE001
-        print(f"Datei nicht lesbar ({type(e).__name__}: {e}); erzeuge sie über {ERZEUGEN}", file=sys.stderr)
-        try:
-            hole(ERZEUGEN, 2)
-            daten = hole_json(VIDEOS, 2)
-        except Exception as e2:  # noqa: BLE001
-            print(f"Abruf gescheitert: {type(e2).__name__}: {e2}", file=sys.stderr)
-            return 1
+        print(f"Abruf gescheitert: {type(e).__name__}: {e}", file=sys.stderr)
+        return 1
 
     if isinstance(daten, list):
         daten = {"videos": daten}
     daten.setdefault("abgerufen", jetzt)
     ZIEL.write_text(json.dumps(daten, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    anzahl = len(daten.get("videos", [])) if isinstance(daten.get("videos"), list) else "?"
+    liste = daten.get("Eintraege", daten.get("videos"))
+    anzahl = len(liste) if isinstance(liste, list) else "?"
     print(f"{ZIEL.name} geschrieben, Videos: {anzahl}")
 
     for url in KANAELE:
