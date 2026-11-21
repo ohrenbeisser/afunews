@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
-"""Holt die vom Betreiber aufbereitete YouTube-Datei und legt sie als
-data/youtube.json ab. Es gibt keinen Abruf bei YouTube selbst.
+"""Erzeugt die YouTube-Videoliste der Woche und legt sie als
+data/youtube.json ab.
 
-Ablauf: Zuerst wird https://ohrenbeisser.de/tools/afu/afu-youtube.php
-aufgerufen, das die JSON-Datei neu erzeugt (das dauert etwas, daher bis zu
-300 Sekunden Wartezeit). Danach wird
-https://ohrenbeisser.de/tools/afu/afu-youtube.json geholt. Scheitert der
-Aufruf des PHP-Skripts, wird trotzdem die vorhandene JSON-Datei geholt und
-die Warnung im Log vermerkt. Zusätzlich wird, falls vorhanden, die Kanal-Infodatei nach
-data/youtube-kanaele.json kopiert (Fehler dabei sind unkritisch).
+Ablauf:
+1. Bevorzugt wird scripts/afu-youtube.php (Kopie des Betreiber-Skripts)
+   auf dem GitHub-Runner mit der PHP-CLI ausgeführt. Es holt dann immer neu
+   (kein Cache). Die Kanalliste afu-youtube-canel.json wird dafür von
+   https://ohrenbeisser.de/tools/afu/ geladen. Das Skript schreibt nur,
+   wenn alle Kanäle erreichbar waren.
+2. Scheitert das (kein PHP, Kanal nicht erreichbar), wird
+   https://ohrenbeisser.de/tools/afu/afu-youtube.php auf dem Server
+   aufgerufen (bis 300 Sekunden Wartezeit, dort gilt ein Stunden-Cache) und
+   danach https://ohrenbeisser.de/tools/afu/afu-youtube.json geholt.
+Die Kanal-Infodatei wird zusätzlich nach data/youtube-kanaele.json kopiert.
 
 Läuft als GitHub Action vor dem Wochen-Agenten (siehe
 .github/workflows/youtube.yml). Der Agent liest nur die Ergebnisdatei.
@@ -20,7 +24,10 @@ Rückgabe 0 = Datei geholt und gültiges JSON, 1 = nicht erreichbar.
 Nur Standardbibliothek, keine Abhängigkeiten.
 """
 import json
+import shutil
+import subprocess
 import sys
+import tempfile
 import time
 import urllib.parse
 import urllib.request
@@ -33,8 +40,8 @@ ZIEL_KANAELE = ROOT / "data" / "youtube-kanaele.json"
 BASIS = "https://ohrenbeisser.de/tools/afu/"
 VIDEOS = BASIS + "afu-youtube.json"
 ERZEUGEN = BASIS + "afu-youtube.php"
-KANAELE = [BASIS + urllib.parse.quote("afuyoutube-caneö.json"),
-           BASIS + "afuyoutube-canel.json"]
+KANAL_URL = BASIS + "afu-youtube-canel.json"
+PHP_SKRIPT = ROOT / "scripts" / "afu-youtube.php"
 
 
 def hole(url, versuche=3, timeout=30):
@@ -55,21 +62,56 @@ def hole_json(url, versuche=3):
     return json.loads(hole(url, versuche).decode("utf-8"))
 
 
+def lokal_erzeugen():
+    """Führt das PHP-Skript auf dem Runner aus. Gibt die Daten zurück oder None."""
+    php = shutil.which("php")
+    if not php:
+        print("PHP-CLI nicht gefunden, überspringe lokale Erzeugung.", file=sys.stderr)
+        return None
+    with tempfile.TemporaryDirectory() as tmp:
+        arbeit = Path(tmp)
+        shutil.copy(PHP_SKRIPT, arbeit / "afu-youtube.php")
+        try:
+            (arbeit / "afu-youtube-canel.json").write_bytes(hole(KANAL_URL, 2))
+        except Exception as e:  # noqa: BLE001
+            print(f"Kanalliste nicht ladbar: {type(e).__name__}: {e}", file=sys.stderr)
+            return None
+        ZIEL_KANAELE.write_bytes((arbeit / "afu-youtube-canel.json").read_bytes())
+        try:
+            r = subprocess.run([php, str(arbeit / "afu-youtube.php")], cwd=arbeit,
+                               capture_output=True, text=True, timeout=280)
+        except Exception as e:  # noqa: BLE001
+            print(f"PHP-Lauf gescheitert: {type(e).__name__}: {e}", file=sys.stderr)
+            return None
+        print(r.stdout[-1500:], flush=True)
+        if r.stderr.strip():
+            print(r.stderr.strip(), file=sys.stderr)
+        ergebnis = arbeit / "afu-youtube.json"
+        if r.returncode != 0 or not ergebnis.exists():
+            print(f"PHP-Lauf ohne gültiges Ergebnis (Rückgabe {r.returncode}).", file=sys.stderr)
+            return None
+        return json.loads(ergebnis.read_text(encoding="utf-8"))
+
+
 def main():
     jetzt = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    try:
-        print(f"Erzeuge Datei über {ERZEUGEN} ...")
-        t0 = time.time()
-        antwort = hole(ERZEUGEN, 2, timeout=300)
-        text = antwort.decode("utf-8", errors="replace").strip().replace("\n", " ")
-        print(f"Erzeugung abgeschlossen nach {time.time() - t0:.1f} s, Antwort {len(antwort)} Bytes: {text[:300]}", flush=True)
-    except Exception as e:  # noqa: BLE001
-        print(f"Warnung: Erzeugung nicht bestätigt ({type(e).__name__}: {e}); versuche vorhandene Datei", file=sys.stderr)
-    try:
-        daten = hole_json(VIDEOS)
-    except Exception as e:  # noqa: BLE001
-        print(f"Abruf gescheitert: {type(e).__name__}: {e}", file=sys.stderr)
-        return 1
+    daten = lokal_erzeugen()
+    if daten is not None:
+        print("Videoliste lokal auf dem Runner erzeugt.")
+    else:
+        try:
+            print(f"Fallback: erzeuge Datei auf dem Server über {ERZEUGEN} ...")
+            t0 = time.time()
+            antwort = hole(ERZEUGEN, 2, timeout=300)
+            text = antwort.decode("utf-8", errors="replace").strip().replace("\n", " ")
+            print(f"Serveraufruf nach {time.time() - t0:.1f} s, Antwort {len(antwort)} Bytes: {text[:150]}", flush=True)
+        except Exception as e:  # noqa: BLE001
+            print(f"Warnung: Serveraufruf nicht bestätigt ({type(e).__name__}: {e})", file=sys.stderr)
+        try:
+            daten = hole_json(VIDEOS)
+        except Exception as e:  # noqa: BLE001
+            print(f"Abruf gescheitert: {type(e).__name__}: {e}", file=sys.stderr)
+            return 1
 
     if isinstance(daten, list):
         daten = {"videos": daten}
@@ -79,14 +121,6 @@ def main():
     anzahl = len(liste) if isinstance(liste, list) else "?"
     print(f"{ZIEL.name} geschrieben, Videos: {anzahl}")
 
-    for url in KANAELE:
-        try:
-            info = hole_json(url, 1)
-            ZIEL_KANAELE.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-            print(f"Kanalinfos aus {url} gespeichert")
-            break
-        except Exception as e:  # noqa: BLE001
-            print(f"Kanalinfos nicht lesbar ({url}): {type(e).__name__}: {e}", file=sys.stderr)
     return 0
 
 
