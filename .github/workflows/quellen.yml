@@ -1,6 +1,6 @@
 name: Quellen sammeln
 
-# Läuft sonntags vor dem Wochen-Agenten und legt
+# Läuft sonntags nach dem YouTube-Abruf und vor dem Wochen-Agenten und legt
 # die Rohdaten der Woche unter data/rohdaten/ ab. Der Agent ruft keine
 # Webseiten mehr selbst ab, sondern liest nur diese Datei.
 # GitHub verzögert geplante Läufe zu Stoßzeiten (volle und halbe Stunden)

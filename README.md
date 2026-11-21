@@ -2,19 +2,20 @@
 
 News aus dem Bereich des Amateurfunks, einmal pro Woche gesammelt, auf Deutsch zusammengefasst und als JSON abgelegt.
 
-Eine GitHub Action holt sonntags früh die Quellen; Videos liest der Agent aus einer extern gepflegten JSON-Datei. Ein Agent (Claude, als geplanter Task) läuft danach wöchentlich, liest diese Rohdaten und schreibt eine Datei pro Kalenderwoche nach `data/`. Eine Webseite liest diese Dateien und zeigt sie an.
+GitHub Actions holen sonntags früh die Quellen und YouTube-Feeds. Ein Agent (Claude, als geplanter Task) läuft danach wöchentlich, liest diese Rohdaten und schreibt eine Datei pro Kalenderwoche nach `data/`. Eine Webseite liest diese Dateien und zeigt sie an.
 
 ## Inhalt
 
 | Datei / Ordner | Zweck |
 |---|---|
 | `ANWEISUNG.md` | Feste Arbeitsanweisung für jeden Lauf des Agenten |
-| `quellen.md` | Quellenliste: Kernquellen, Zusatzquellen, YouTube-Kanäle (Übersicht) |
+| `quellen.md` | Quellenliste: Kernquellen, Zusatzquellen, YouTube-Kanäle |
 | `schema.md` | Datenformat aller JSON-Dateien |
 | `data/index.json` | Übersicht aller Wochen |
 | `data/JJJJ/JJJJ-Www.json` | eine Datei pro Kalenderwoche |
 | `quellen.json` | maschinenlesbare Quellenliste für das Sammel-Skript |
 | `scripts/quellen_sammeln.py` | holt die Quellen (GitHub Action, sonntags) und legt Rohdaten in `data/rohdaten/` ab |
+| `scripts/youtube_feeds.py` | holt die aufbereitete YouTube-Datei von ohrenbeisser.de nach `data/youtube.json` (kein Abruf bei YouTube) |
 | `scripts/pruefen.py` | prüft alle Dateien gegen das Format |
 | `beispiel/` | Beispieldatei mit erfundenen Inhalten, nur zur Ansicht |
 

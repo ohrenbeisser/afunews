@@ -1,0 +1,155 @@
+{
+  "abgerufen": "2026-11-15T09:51:53Z",
+  "zeitraum": {
+    "von": "2026-11-07T09:51:53Z",
+    "bis": "2026-11-15T09:51:53Z"
+  },
+  "kanaele": [
+    {
+      "name": "DARC e.V. (DARCHAMRADIO)",
+      "channel_id": "UCQrHHXcFmJkeCdO1UQ-DzAA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "DL2YMR",
+      "channel_id": "UCPRdlnpaE9HA5sM3ffvnK7Q",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "Funkwelle",
+      "channel_id": "UCQu_laGfjCpn_7IUe6yAKwA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 1
+    },
+    {
+      "name": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 7
+    },
+    {
+      "name": "DG2YCB",
+      "channel_id": "UCIoS4-DT0mmj79wlFOqqqkQ",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "DL2MAN",
+      "channel_id": "UCqabnQWUjwH4K3FJtxbmrlA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "F74 Amateurfunk",
+      "channel_id": "UCK5FG97UJEvGfSQv_QErtOQ",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    },
+    {
+      "name": "FUNKFIEBER",
+      "channel_id": "UC_dDiEsZNbDYbrPDL-fkMxA",
+      "ok": true,
+      "videos_im_feed": 15,
+      "videos_im_zeitraum": 0
+    }
+  ],
+  "videos": [
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "WkPL16Nlj-0",
+      "titel": "G7250 SDR Tranceiver - Important info regarding Firmware update 1.0.1 - problem solved 👍👍",
+      "veroeffentlicht": "2026-11-14T19:48:52+00:00",
+      "url": "https://www.youtube.com/shorts/WkPL16Nlj-0",
+      "ist_short": true,
+      "beschreibung": "I have received important information from Radioddity regarding the firmware update.\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "EnKBrDKx7YM",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - How to update the firmware",
+      "veroeffentlicht": "2026-11-13T12:17:05+00:00",
+      "url": "https://www.youtube.com/watch?v=EnKBrDKx7YM",
+      "ist_short": false,
+      "beschreibung": "Radioddity / XIEGU released FW v1.0.1\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\n\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "H0AXlnnPOdg",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - Digimodes like FT4 & FT8 etc. via Bluetooth?",
+      "veroeffentlicht": "2026-11-11T19:05:32+00:00",
+      "url": "https://www.youtube.com/watch?v=H0AXlnnPOdg",
+      "ist_short": false,
+      "beschreibung": "Are CAT control and audio available when the radio is connected via BT?\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\n\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "wwhV90tSPAI",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - Does a Bluetooth Headset or Microphone work?",
+      "veroeffentlicht": "2026-11-11T17:33:45+00:00",
+      "url": "https://www.youtube.com/shorts/wwhV90tSPAI",
+      "ist_short": true,
+      "beschreibung": "🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "Funkwelle",
+      "channel_id": "UCQu_laGfjCpn_7IUe6yAKwA",
+      "sprache": "de",
+      "video_id": "k4Dzo26IUoI",
+      "titel": "160 Dekoder, null Euro: Die SDR Software, die alles ersetzt",
+      "veroeffentlicht": "2026-11-10T16:00:01+00:00",
+      "url": "https://www.youtube.com/watch?v=k4Dzo26IUoI",
+      "ist_short": false,
+      "beschreibung": "Für jeden Funkdienst eine eigene SDR Software? Damit ist jetzt Schluss. OnAir bündelt über 160 Dekoder unter einer Oberfläche, ich teste die Software mit dem HackRF One von der Kurzwelle bis zum Digitalfunk. Ob das Dekodieren von C4FM in Deutschland legal ist, erfährst du weiter unten.\n\nOnAir ist ein freies Open-Source-Programm für Windows, macOS, Linux und Android. Neben dem HackRF One laufen auch RTL-SDR, Airspy, SDRplay und viele weitere Software Defined Radios. Im Video zeige ich dir AM, SSB und CW auf Kurzwelle, den CW-Dekoder, FT8, UKW mit RDS, DAB+ Digitalradio, Fernsehen per DVB-T2, IoT-Signale wie Zigbee und 433-MHz-Sensoren, Meshtastic, APRS und ADS-B. Zum Schluss mache ich C4FM/System Fusion hörbar.\n\n🌍 LINKS aus dem VIDEO:\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n- OnAir Webseite: https://on-air.dev/\n- OnAir auf GitHub: https://github.com/adswill/OnAir\n- Anleitung zu den Codecs: https://github.com/adswill/OnAir/blob/main/docs/CODECS.md\n- MSYS2 Compiler: https://www.msys2.org/\n- mbelib (Quellcode): https://github.com/szechyjs/mbelib\n- OnAir Wiki: https://github.com/adswill/OnAir/wiki\n\n👕 SHIRTS aus dem VIDEO:\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n* Spreadshirt Shop: https://funkwelle.myspreadshop.de/\n* Amazon Shop: https://amzn.to/3cSMiw9\n\n👮‍♂️ INFOS zur RECHTSLAGE:\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\nDie patentierten Sprach-Codecs AMBE und IMBE liefert OnAir aus Lizenzgründen nicht mit. Die freie Bibliothek mbelib baust du selbst aus dem Quellcode. Für den privaten, nicht gewerblichen Gebra"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "cSqh1TZr6tg",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - can you use a (Heil) headset and how does it sound?",
+      "veroeffentlicht": "2026-11-08T18:11:50+00:00",
+      "url": "https://www.youtube.com/watch?v=cSqh1TZr6tg",
+      "ist_short": false,
+      "beschreibung": "Yes you can! If the mic connector pin-out is Icom compatible 👍\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n🛒 HEIL BM-17 Headset ➜ https://heilhamradio.com/product/bm-17-2/\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "mXXiq9iz070",
+      "titel": "XIEGU G7250 SDR Tranceiver Q&A - How does the transmitted audio sound?",
+      "veroeffentlicht": "2026-11-07T17:49:13+00:00",
+      "url": "https://www.youtube.com/watch?v=mXXiq9iz070",
+      "ist_short": false,
+      "beschreibung": "A quick SSB modulation test.\n\n🛒 XIEGU G7250 Tranceiver ➜ https://www.radioddity.com/products/xiegu-g7250\n\n「 👍 Like,  🤡 Comment, ❤️ Subscribe 」\n\n73 and thanks for watching!\n\nJuergen AH6UN / OE4JHW"
+    },
+    {
+      "kanal": "AlpineRadioWaves (AH6UN/OE4JHW)",
+      "channel_id": "UCYQ6jw5qyBF73aB8K57-AKw",
+      "sprache": "de",
+      "video_id": "1vz8_f6dLAs",
+      "titel": "XIEGU G7250 Q&A: can Headphones be used with this rig?",
+      "veroeffentlicht": "2026-11-07T17:21:42+00:00",
+      "url": "https://www.youtube.com/shorts/1vz8_f6dLAs",
+      "ist_short": true,
+      "beschreibung": ""
+    }
+  ]
+}

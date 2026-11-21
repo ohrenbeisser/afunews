@@ -4,7 +4,7 @@ schreibt sie nach data/rohdaten/JJJJ-Www.json.
 
 Läuft als GitHub Action vor dem Wochen-Agenten (siehe
 .github/workflows/quellen.yml). Der Agent ruft keine Webseiten mehr ab,
-sondern liest nur diese Datei (Videos kommen aus einer extern gepflegten JSON-Datei).
+sondern liest nur diese Datei (und data/youtube.json).
 
 Ablauf je Quelle: Feed oder Übersichtsseite lesen, bei Übersichtsseiten die
 Detailseiten der Meldungen laden, Datum und Textauszug bestimmen, alles
